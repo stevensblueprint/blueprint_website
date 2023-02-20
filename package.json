@@ -21,7 +21,9 @@
     "eject": "react-scripts eject",
     "dev": "npx tailwindcss -i ./src/tailwind.css -o ./src/index.css --watch",
     "eslint": "eslint src --ext .js,.jsx",
-    "eslint:fix": "npm run eslint -- --fix"
+    "eslint:fix": "npm run eslint -- --fix",
+    "prettier": "prettier --write src/**/*.{js,jsx,css,scss,md,json}",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
