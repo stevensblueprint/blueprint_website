@@ -24,7 +24,7 @@ function App() {
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
