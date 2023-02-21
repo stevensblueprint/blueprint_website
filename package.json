@@ -57,7 +57,15 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run eslint:fix"
+      "pre-commit": "npx lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --quiet --cache --fix"
+    ],
+    "*.{json,js,js,jsx,html}": [
+      "prettier --write"
+    ]
   }
 }
