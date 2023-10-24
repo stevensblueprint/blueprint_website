@@ -10,3 +10,4 @@ Specials thanks to the members of Stevens Blueprint for collaborating on this pr
 - [Maya Patel](https://github.com/mpate154)
 - [Terrence Zhang](https://github.com/ZhangTerrence)
 - [Aidan Ouckama](https://github.com/ouckah)
+- [Diego Ramirez](https://github.com/diego-developed)
