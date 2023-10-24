@@ -9,3 +9,4 @@ Specials thanks to the members of Stevens Blueprint for collaborating on this pr
 - [Adi Kumaran](https://github.com/adikumaran)
 - [Maya Patel](https://github.com/mpate154)
 - [Terrence Zhang](https://github.com/ZhangTerrence)
+- [Aidan Ouckama](https://github.com/ouckah)
