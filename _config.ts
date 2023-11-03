@@ -7,6 +7,9 @@ const site = lume({
     src: "./src",
     dest: "./output",
     emptyDest: false,
+		watcher: {
+			debounce: 10
+		}
 });
 
 site
