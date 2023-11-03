@@ -7,6 +7,7 @@ const site = lume({
     src: "./src",
     dest: "./output",
     emptyDest: false,
+    location: new URL("https://sitblueprint.com"),
 });
 
 site
@@ -20,6 +21,5 @@ site
 .use(postcss())
 .loadAssets([".css", ".js"])
 .ignore("README.md");
-
 
 export default site;
