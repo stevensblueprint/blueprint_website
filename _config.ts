@@ -18,6 +18,7 @@ site
 	})
 )
 .use(postcss())
+.copy("assets/logos")
 .loadAssets([".css", ".js"])
 .ignore("README.md");
 
