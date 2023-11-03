@@ -20,7 +20,7 @@ site
 .use(postcss())
 .copy("assets/logos")
 .loadAssets([".css", ".js"])
-.ignore("README.md");
+.ignore("README.md", "CHANGELOG.md", "node_modules");
 
 
 export default site;
