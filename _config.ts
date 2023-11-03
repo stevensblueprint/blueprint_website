@@ -7,9 +7,10 @@ const site = lume({
     src: "./src",
     dest: "./output",
     emptyDest: false,
-		watcher: {
-			debounce: 10
-		}
+    location: new URL("https://sitblueprint.com"),
+	watcher: {
+		debounce: 10
+	}
 });
 
 site
@@ -24,6 +25,5 @@ site
 .copy("assets/logos")
 .loadAssets([".css", ".js"])
 .ignore("README.md", "CHANGELOG.md", "node_modules");
-
 
 export default site;
