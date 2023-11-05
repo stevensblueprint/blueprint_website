@@ -1,5 +1,5 @@
 ---
-layout: layouts/layout.njk
+layout: layouts/main.jsx
 title: Stevens Blueprint
 ---
 # Stevens Blueprint Website
