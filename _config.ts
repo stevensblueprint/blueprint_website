@@ -2,6 +2,7 @@ import lume from "lume/mod.ts";
 import tailwindcss from "lume/plugins/tailwindcss.ts";
 import postcss from "lume/plugins/postcss.ts";
 import typography from "npm:@tailwindcss/typography";
+import jsx from "lume/plugins/jsx.ts";
 
 const site = lume({
     src: "./src",
@@ -24,6 +25,7 @@ site
 .use(postcss())
 .copy("assets/logos")
 .loadAssets([".css", ".js"])
-.ignore("README.md", "CHANGELOG.md", "node_modules");
+.ignore("README.md", "CHANGELOG.md", "node_modules")
+.use(jsx());
 
 export default site;
