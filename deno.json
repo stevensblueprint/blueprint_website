@@ -12,6 +12,7 @@
       "exclude": ["no-unused-vars"]
     }
   },
+  "importMap": "import_map.json",
   "compilerOptions": {
     "allowJs": true,
     "lib": ["deno.window"],
