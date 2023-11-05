@@ -8,6 +8,9 @@ const site = lume({
     src: "./src",
     dest: "./output",
     emptyDest: false,
+    server: {
+    open: true,
+    },
     location: new URL("https://sitblueprint.com"),
 	watcher: {
 		debounce: 10
