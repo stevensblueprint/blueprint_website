@@ -21,8 +21,14 @@ site
 .use(tailwindcss({
 	extensions: [".html", ".js", ".njk"],
 	options: {
-		plugins: [typography]
-	}
+		colors: {
+			'primary': "#0078E8",
+			'secondary': "#93C9FE",
+			'text-color': "#333333",
+			'negative': "#ffffff",
+	},
+		plugins: [typography],
+	},
 	})
 )
 .use(postcss())
