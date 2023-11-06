@@ -1,5 +1,9 @@
-import React from "https://esm.sh/react"
+import React from "https://esm.sh/react";
 
-export default function Button({ text, redirect_url }) {
-    return <div></div>
+export default function Button({ style, text, redirect_url }) {
+  return (
+    <a className={style} href={redirect_url}>
+      {text}
+    </a>
+  );
 }
