@@ -1,6 +1,4 @@
-import React from "https://esm.sh/react"
-
-export default function Footer({ title, faq_url}) {
+export default function Footer({ title, faq_url, blueprint_url}) {
     return (
         <html>
           <footer className="bg-white dark:bg-gray-900">
@@ -9,8 +7,8 @@ export default function Footer({ title, faq_url}) {
                     <div className="mb-6 md:mb-0">
                     {/* change to BluePrint logo and possible link? */}
     
-                        <a href="https://flowbite.com/" className="flex items-center">
-                            <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="FlowBite Logo" />
+                        <a href={blueprint_url} className="flex items-center">
+                            <img src="logo.png" className="h-8 mr-3" alt="blueprint Logo" />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">blueprint</span>
                         </a>
                     </div>
