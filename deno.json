@@ -4,6 +4,22 @@
     "build": "deno task lume",
     "serve": "deno task lume -s"
   },
+  "lint": {
+    "include": ["src/"],
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-unused-vars"]
+    }
+  },
+  "importMap": "import_map.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm:react"
+  },
   "imports": {
     "lume/": "https://deno.land/x/lume@v1.19.2/"
   }
