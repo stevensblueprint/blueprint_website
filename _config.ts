@@ -22,6 +22,12 @@ site
     tailwindcss({
       extensions: [".html", ".js", ".njk"],
       options: {
+        colors: {
+          primary: "#0078E8",
+          secondary: "#93C9FE",
+          "text-color": "#333333",
+          negative: "#ffffff",
+        },
         plugins: [typography],
       },
     })
