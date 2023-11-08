@@ -2,8 +2,8 @@ import React from "https://esm.sh/react";
 
 export default function Carousel({ array_of_images }) {
   return (
-    <div className="w-screen max-h-[40rem] overflow-scroll relative">
-      <div className="flex gap-6 overflow-scroll px-32 py-4 max-sm:flex-col max-sm:px-4">
+    <div className="w-screen max-h-[40rem] overflow-y-scroll relative">
+      <div className="flex gap-6 overflow-scroll px-32 py-4 max-md:px-16 max-sm:flex-col max-sm:px-4">
         {array_of_images.map((image, i) => {
           return (
             <div

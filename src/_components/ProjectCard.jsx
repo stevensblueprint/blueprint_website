@@ -17,10 +17,10 @@ export default function ProjectCard({
       </div>
       <figcaption>
         <h1 className="font-bold my-2 text-2xl">{name_organization}</h1>
-        <p className="max-w-sm line-clamp-3 max-sm:max-w-full">{description}</p>
+        <p className="w-80 line-clamp-3 max-sm:w-full">{description}</p>
       </figcaption>
       <div className="mt-2">
-        <a className="text-blue-500 font-semibold text-lg" href={redirect_url}>
+        <a className="text-primary font-semibold text-lg" href={redirect_url}>
           Read More
         </a>
       </div>
