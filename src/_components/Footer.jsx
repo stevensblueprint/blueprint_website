@@ -8,7 +8,7 @@ export default function Footer({ title, faq_url, blueprint_url}) {
                     {/* change to BluePrint logo and possible link? */}
     
                         <a href={blueprint_url} className="flex items-center">
-                            <img src="logo.png" className="h-8 mr-3" alt="blueprint Logo" />
+                            <img src="src/assets/logos/logo.png" className="h-8 mr-3" alt="blueprint Logo" />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">blueprint</span>
                         </a>
                     </div>
