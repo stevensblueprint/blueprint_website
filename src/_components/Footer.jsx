@@ -45,7 +45,6 @@ export default function Footer({ title, blueprint_url,about_url,projects_url,con
                             </div>
                         </div>
                     </div>
-                    {/*find way to space grid according to figma*/}
                     <div className="grid grid-cols-2 gap-20 sm:gap-60 sm:grid-cols-3 ">
                         <div>
                             <h2 className="mb-6  text-md font-semibold font- poppins text-gray-900 uppercase dark:text-white">General</h2>
