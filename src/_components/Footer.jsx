@@ -11,9 +11,9 @@ export default function Footer({ title, blueprint_url,about_url,projects_url,con
                     <div className="mb-6 md:mb-0">
                         <a href={blueprint_url} className="flex items-center">
                             <img src="../assets/logos/logo_negative.png" className="h-8 mr-2" alt="blueprint Logo" />
-                            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">blueprint</span>
+                            <span className="self-center text-3xl font-semibold font-poppins whitespace-nowrap dark:text-white">blueprint</span>
                         </a>
-                        <h3 className="my-5 dark:text-white font-medium">Technology for Social Good 
+                        <h3 className="my-5 dark:text-white font-medium font-poppins">Technology for Social Good 
                         </h3>
                         <div class="sm:flex sm:items-center sm:justify-between">
                             <div class="flex mt-6 space-x-10 sm:justify-center sm:mt-4">
@@ -46,45 +46,45 @@ export default function Footer({ title, blueprint_url,about_url,projects_url,con
                         </div>
                     </div>
                     {/*find way to space grid according to figma*/}
-                    <div className="grid grid-cols-2 gap-20 sm:gap-50 sm:grid-cols-3 ">
+                    <div className="grid grid-cols-2 gap-20 sm:gap-60 sm:grid-cols-3 ">
                         <div>
-                            <h2 className="mb-6 text-md font-semibold text-gray-900 uppercase dark:text-white">General</h2>
+                            <h2 className="mb-6  text-md font-semibold font- poppins text-gray-900 uppercase dark:text-white">General</h2>
                             <ul className="text-gray-500 dark:text-gray-300 font-medium">
-                                <li className="mb-4">
+                                <li className="mb-4 font- poppins" >
                                     <a href={about_url} className="hover:underline">About</a>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-4 font- poppins">
                                     <a href={projects_url} className="hover:underline">Projects</a>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-4 font- poppins">
                                     <a href={contact_url} className="hover:underline">Contact</a>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-md font-semibold text-gray-900 uppercase dark:text-white">Students</h2>
+                            <h2 className="mb-6 text-md font-semibold font- poppins text-gray-900 uppercase dark:text-white">Students</h2>
                             <ul className="text-gray-500 dark:text-gray-300 font-medium">
-                                <li className="mb-4">
+                                <li className="mb-4 font- poppins">
                                     <a href={apply_url} className="hover:underline ">Apply</a>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-4 font- poppins">
                                     <a href={process_url} className="hover:underline">Process</a>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-4 font- poppins">
                                     <a href={faq_url} className="hover:underline">FAQ</a>
                                 </li>
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-md font-semibold text-gray-900 uppercase dark:text-white">Non-Profits</h2>
+                            <h2 className="mb-6 text-md font-semibold font- poppins text-gray-900 uppercase dark:text-white">Non-Profits</h2>
                             <ul className="text-gray-500 dark:text-gray-300 font-medium">
-                                <li className="mb-4">
+                                <li className="mb-4 font- poppins">
                                     <a href={apply2_url}className="hover:underline">Apply</a>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-4 font- poppins">
                                     <a href={process2_url} className="hover:underline">Process</a>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-4 font- poppins">
                                     <a href={faq2_url} className="hover:underline">FAQ</a>
                                 </li>
                             </ul>
@@ -93,7 +93,7 @@ export default function Footer({ title, blueprint_url,about_url,projects_url,con
                 </div>
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-300 lg:my-5" />
                     <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-300">© 2023 
-                    <a href={blueprint_url} class="hover:underline"> stevens blueprint</a>
+                    <a href={blueprint_url} class="hover:underline font- poppins"> stevens blueprint</a>
                     </span>
               </div>
           </footer>
