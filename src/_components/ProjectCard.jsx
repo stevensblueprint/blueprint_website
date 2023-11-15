@@ -7,7 +7,7 @@ export default function ProjectCard({
   redirect_url,
 }) {
   return (
-    <figure className="flex flex-col w-fit p-4 max-sm:w-full">
+    <figure className="flex flex-col w-fit border border-solid border-black p-4 max-sm:w-full">
       <div
         className={`bg-[url(${image_url})] bg-cover bg-center w-full h-80 rounded-xl relative`}
       >
@@ -17,7 +17,7 @@ export default function ProjectCard({
       </div>
       <figcaption>
         <h1 className="font-bold my-2 text-2xl">{name_organization}</h1>
-        <p className="w-80 line-clamp-3 max-sm:w-full">{description}</p>
+        <p className="line-clamp-3 max-sm:w-full">{description}</p>
       </figcaption>
       <div className="mt-2">
         <a className="text-primary font-semibold text-lg" href={redirect_url}>
