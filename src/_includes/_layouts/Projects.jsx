@@ -28,58 +28,58 @@ export default ({ comp }) => (
           </div>
         </section>
         <section className="grid place-content-center">
-          <div className="flex flex-col p-20 px-60 max-xl:px-16 max-lg:px-12 max-md:w-full max-md:px-4">
+          <div className="flex flex-col p-20 px-60 max-2xl:px-40 max-xl:px-20 max-md:px-8">
             <h1 className="text-4xl mb-12">
               <strong>Current Projects</strong>
             </h1>
-            <div className="w-full grid grid-cols-3 gap-6 max-md:flex max-md:flex-col">
+            <div className="w-full grid grid-cols-3 gap-6 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col">
               <comp.ProjectCard
-                name_organization={"Peninsula Humane Society & SPCA"}
+                name_organization={"Test"}
                 image_url={"../assets/logos/logo.png"}
                 description={
-                  "Peninsula Humane Society & SCPA is dedicated to animal welfare and is one of the largest humane organizations in the US. PHS/SPCA supports animal rescue, rehabilitation, and adoption. "
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
                 }
-                redirect_url={"phs"}
+                redirect_url={"test"}
               />
               <comp.ProjectCard
-                name_organization={"Peninsula Humane Society & SPCA"}
+                name_organization={"Test"}
                 image_url={"../assets/logos/logo.png"}
                 description={
-                  "Peninsula Humane Society & SCPA is dedicated to animal welfare and is one of the largest humane organizations in the US. PHS/SPCA supports animal rescue, rehabilitation, and adoption. "
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
                 }
-                redirect_url={"phs"}
+                redirect_url={"test"}
               />
               <comp.ProjectCard
-                name_organization={"Peninsula Humane Society & SPCA"}
+                name_organization={"Test"}
                 image_url={"../assets/logos/logo.png"}
                 description={
-                  "Peninsula Humane Society & SCPA is dedicated to animal welfare and is one of the largest humane organizations in the US. PHS/SPCA supports animal rescue, rehabilitation, and adoption. "
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
                 }
-                redirect_url={"phs"}
+                redirect_url={"test"}
               />
               <comp.ProjectCard
-                name_organization={"Peninsula Humane Society & SPCA"}
+                name_organization={"Test"}
                 image_url={"../assets/logos/logo.png"}
                 description={
-                  "Peninsula Humane Society & SCPA is dedicated to animal welfare and is one of the largest humane organizations in the US. PHS/SPCA supports animal rescue, rehabilitation, and adoption. "
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
                 }
-                redirect_url={"phs"}
+                redirect_url={"test"}
               />
               <comp.ProjectCard
-                name_organization={"Peninsula Humane Society & SPCA"}
+                name_organization={"Test"}
                 image_url={"../assets/logos/logo.png"}
                 description={
-                  "Peninsula Humane Society & SCPA is dedicated to animal welfare and is one of the largest humane organizations in the US. PHS/SPCA supports animal rescue, rehabilitation, and adoption. "
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
                 }
-                redirect_url={"phs"}
+                redirect_url={"test"}
               />
               <comp.ProjectCard
-                name_organization={"Peninsula Humane Society & SPCA"}
+                name_organization={"Test"}
                 image_url={"../assets/logos/logo.png"}
                 description={
-                  "Peninsula Humane Society & SCPA is dedicated to animal welfare and is one of the largest humane organizations in the US. PHS/SPCA supports animal rescue, rehabilitation, and adoption. "
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
                 }
-                redirect_url={"phs"}
+                redirect_url={"test"}
               />
             </div>
           </div>
