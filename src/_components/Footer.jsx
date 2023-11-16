@@ -1,7 +1,19 @@
 import React from "https://esm.sh/react"
 
-export default function Footer({ title, blueprint_url,about_url,projects_url,contact_url,
-    apply_url,process_url,faq_url,apply2_url,process2_url,faq2_url, facebook_url,twitter_url,youtube_url,linkedin_url}) {
+export default function Footer() {
+    // 
+    const blueprint_url = "https://sitblueprint.com/";
+    const about_url = "https:///sitblueprint.com/about";
+    const projects_url = "https:///sitblueprint.com/projects";
+    const contact_url = "https:///sitblueprint.com/contact";
+    const apply_url = "https:///sitblueprint.com/apply";
+    const process_url = "https:///sitblueprint.com/process";
+    const faq_url = "https:///sitblueprint.com/faq";
+    const facebook_url = "https://www.facebook.com/stevensblueprint";
+    const twitter_url = "https://twitter.com/stevensblueprint";
+    const youtube_url = "https://www.youtube.com/channel/UCZ3Z4Z6qZ3Z4Z6qZ3Z4Z6qQ";
+    const linkedin_url = "https://www.linkedin.com/company/stevens-blueprint/";
+
     return (
         <html>
           <footer className="bg-[#0078e8]">
@@ -78,13 +90,13 @@ export default function Footer({ title, blueprint_url,about_url,projects_url,con
                             <h2 className="mb-6 text-md font-semibold font- poppins text-gray-900 uppercase dark:text-white">Non-Profits</h2>
                             <ul className="text-gray-500 dark:text-gray-300 font-medium">
                                 <li className="mb-4 font- poppins">
-                                    <a href={apply2_url}className="hover:underline">Apply</a>
+                                    <a href={apply_url}className="hover:underline">Apply</a>
                                 </li>
                                 <li className="mb-4 font- poppins">
-                                    <a href={process2_url} className="hover:underline">Process</a>
+                                    <a href={process_url} className="hover:underline">Process</a>
                                 </li>
                                 <li className="mb-4 font- poppins">
-                                    <a href={faq2_url} className="hover:underline">FAQ</a>
+                                    <a href={faq_url} className="hover:underline">FAQ</a>
                                 </li>
                             </ul>
                         </div>
