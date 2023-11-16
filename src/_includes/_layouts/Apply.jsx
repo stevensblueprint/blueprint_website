@@ -1,10 +1,13 @@
-export default ({ title, children }) => (
+export default ({ comp }) => (
     <html>
       <head>
-        <title>{title}</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <title> Apply </title>
       </head>
       <body>
-        {children}
+        <>
+        <comp.Footer />
+        </>
       </body>
     </html>
   );
