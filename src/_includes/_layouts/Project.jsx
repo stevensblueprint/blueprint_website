@@ -13,7 +13,7 @@ export default ({
     </head>
     <body>
       <div className="flex flex-col items-center w-screen min-h-screen gap-y-12 px-80 py-20 max-xl:px-40 max-md:px-20 max-sm:w-full max-sm:px-12">
-        {/* Navbar */}
+        <comp.Navbar />
         <div className="flex flex-col gap-y-4">
           <h1 className="text-4xl">
             <strong>{project_title}</strong>

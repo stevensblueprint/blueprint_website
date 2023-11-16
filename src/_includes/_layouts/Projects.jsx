@@ -6,7 +6,7 @@ export default ({ comp }) => (
     </head>
     <body>
       <div>
-        {/* Navbar */}
+        <comp.Navbar />
         <section className="flex items-center h-[42rem] bg-primary">
           <div className="w-[60rem] px-60 text-negative max-lg:w-full max-lg:px-8">
             <h1 className="text-4xl mb-12">
