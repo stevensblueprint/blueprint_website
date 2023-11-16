@@ -7,7 +7,7 @@ export default ({ comp, title, children }) => {
       </head>
       <body>
         {children}
-        <comp.Footer title='Testing title' faq_url='[faq_url link here]' />
+        <comp.Footer />
       </body>
     </html>
   )

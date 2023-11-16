@@ -141,7 +141,7 @@ export default ({ comp }) => (
             </div>
           </div>
         </section>
-        {/* Footer */}
+        <comp.Footer />
       </div>
     </body>
   </html>

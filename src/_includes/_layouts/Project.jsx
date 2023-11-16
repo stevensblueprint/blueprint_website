@@ -36,8 +36,7 @@ export default ({
           </h2>
           <p className="text-xl">{children}</p>
         </div>
-
-        {/* Footer */}
+        <comp.Footer />
       </div>
     </body>
   </html>
