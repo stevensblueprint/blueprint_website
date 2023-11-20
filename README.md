@@ -3,10 +3,14 @@
 Stevens Blueprint, a student club organization dedicated to developing code for non-profit organizations.
 
 ## Table of Contents
-- [About](#about)
-- [Projects](#projects)
-- [Blog](#blog)
-- [Technologies Used](#technologies-used)
+- [Stevens Blueprint Website](#stevens-blueprint-website)
+	- [Table of Contents](#table-of-contents)
+	- [About](#about)
+	- [Projects](#projects)
+	- [Blog](#blog)
+	- [Technologies Used](#technologies-used)
+- [Contributors](#contributors)
+	- [Setup for contributors](#setup-for-contributors)
 
 ## About
 Stevens Blueprint is a community of passionate students at Stevens Institute of Technology who are committed to making a positive impact by developing software solutions for non-profit organizations. Our club members work on real-world projects, gaining valuable experience while giving back to the community.
@@ -34,6 +38,25 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
 	- OR you can use the curl command:
 	
 		`curl -fsSL https://deno.land/x/install/install.sh | sh`
+
+		After running this command you may see a warning asking you to manually set your environment variables.
+
+		If you are using a bash terminal, open your .bashrc file in a text editor/IDE of your choice:
+
+		`code $HOME/.bashrc` to open in VSCode
+
+		If you are using a zsh terminal open your .zshrc file in a text editor/IDE of your choice:
+
+		`code $HOME/.zshrc` to open in VSCode
+
+		Add the following to your respective rc file
+
+		```
+		export DENO_INSTALL="/home/REPLACE_WITH_YOUR_USER/.deno"
+		export PATH="$DENO_INSTALL/bin:$PATH"
+		```
+
+		Re-run the curl command.
 
 	Restart your terminal or enter a new one. To confirm deno was installed, check the version by running `deno --version`, should see something like `deno 1.37.2`
 
