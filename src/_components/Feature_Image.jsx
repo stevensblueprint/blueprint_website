@@ -1,5 +1,5 @@
-import React from "https://esm.sh/react"
+import React from "https://esm.sh/react";
 
 export default function Feature_Image({ title, description, image_url }) {
-    return <div></div>
+  return <div></div>;
 }
