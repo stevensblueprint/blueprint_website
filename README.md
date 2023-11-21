@@ -82,3 +82,9 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
    `deno task serve`
 
 4. You did it! You should see the project running on `http://localhost:3000`
+
+5. After editing the code, run prettier write in the terminal to make the code formatted correctly.
+
+`npm run format:write`
+
+Note: make sure npm is installed on your machine
