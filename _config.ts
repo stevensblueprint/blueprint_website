@@ -34,7 +34,7 @@ site
         },
         plugins: [typography],
       },
-    })
+    }),
   )
   .use(postcss())
   .copy("assets/logos")
