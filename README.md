@@ -4,10 +4,14 @@ Stevens Blueprint, a student club organization dedicated to developing code for 
 
 ## Table of Contents
 
-- [About](#about)
-- [Projects](#projects)
-- [Blog](#blog)
-- [Technologies Used](#technologies-used)
+- [Stevens Blueprint Website](#stevens-blueprint-website)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+  - [Projects](#projects)
+  - [Blog](#blog)
+  - [Technologies Used](#technologies-used)
+- [Contributors](#contributors)
+  - [Setup for contributors](#setup-for-contributors)
 
 ## About
 
@@ -33,13 +37,28 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
 
 1. Ensure that you have Deno installed. You can skip this step if you do. If you don't or are unsure, you can use the following command to install it.
 
-   - If you have homebrew installed run this in your terminal:
+   **Homebrew users:**
 
      `brew install deno`
 
-   - OR you can use the curl command:
+   **Linux/Non-Homebrew Users:**
 
-     `curl -fsSL https://deno.land/x/install/install.sh | sh`
+   Run the following in your terminal:
+
+   `curl -fsSL https://deno.land/x/install/install.sh | sh`
+
+   If you are using bash run `code $HOME/.bashrc` to open your bash configuration file in VSCode.
+   
+   If you are using zsh run `code $HOME/.zshrc` to open your zsh configuration file in VSCode.
+
+   In your respective file add the following:
+
+   ```
+   export DENO_INSTALL="/home/REPLACE_WITH_YOUR_USER/.deno"
+   export PATH="$DENO_INSTALL/bin:$PATH"
+   ```
+
+   Re-run the curl command.
 
    Restart your terminal or enter a new one. To confirm deno was installed, check the version by running `deno --version`, should see something like `deno 1.37.2`
 
