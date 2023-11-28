@@ -41,9 +41,28 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
 
      `curl -fsSL https://deno.land/x/install/install.sh | sh`
 
-   Restart your terminal or enter a new one. To confirm deno was installed, check the version by running `deno --version`, should see something like `deno 1.37.2`
+		After running this command you may see a warning asking you to manually set your environment variables.
 
-   You can find more information on the [Deno Docs](https://docs.deno.com/runtime/manual/getting_started/installation)
+		If you are using a bash terminal, open your .bashrc file in a text editor/IDE of your choice:
+
+		`code $HOME/.bashrc` to open in VSCode
+
+		If you are using a zsh terminal open your .zshrc file in a text editor/IDE of your choice:
+
+		`code $HOME/.zshrc` to open in VSCode
+
+	Add the following to your respective rc file
+
+	```
+	export DENO_INSTALL="/home/REPLACE_WITH_YOUR_USER/.deno"
+	export PATH="$DENO_INSTALL/bin:$PATH"
+	```
+
+	Re-run the curl command.
+
+	Restart your terminal or enter a new one. To confirm deno was installed, check the version by running `deno --version`, should see something like `deno 1.37.2`
+
+  You can find more information on the [Deno Docs](https://docs.deno.com/runtime/manual/getting_started/installation)
 
 2. We need to clone the repository, which can be done with the following command:
 
