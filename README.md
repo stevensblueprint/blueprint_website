@@ -39,7 +39,7 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
 
    **Homebrew users:**
 
-     `brew install deno`
+   `brew install deno`
 
    **Linux/Non-Homebrew Users:**
 
@@ -48,7 +48,7 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
    `curl -fsSL https://deno.land/x/install/install.sh | sh`
 
    If you are using bash run `code $HOME/.bashrc` to open your bash configuration file in VSCode.
-   
+
    If you are using zsh run `code $HOME/.zshrc` to open your zsh configuration file in VSCode.
 
    In your respective file add the following:
