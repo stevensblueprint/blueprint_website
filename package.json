@@ -6,5 +6,8 @@
   "devDependencies": {
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.23.4"
   }
 }
