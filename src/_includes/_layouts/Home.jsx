@@ -6,8 +6,8 @@ export default ({ comp, title }) => {
         <title>{title}</title>
       </head>
       <body>
+        <comp.Navbar />
         <div className="h-screen flex flex-col">
-          <comp.Navbar />
           <section className="grow flex items-center">
             <div className="px-60 max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:items-center">
               <div className="flex items-center mb-6">
@@ -64,7 +64,7 @@ export default ({ comp, title }) => {
             redirect_url={"about"}
           />
         </section>
-        <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 max-lg:h-fit">
+        <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-4 max-lg:h-fit">
           <h1 className="text-5xl">
             <strong>Projects</strong>
           </h1>
@@ -104,34 +104,6 @@ export default ({ comp, title }) => {
             text={"See More"}
             redirect_url={"projects"}
           />
-        </section>
-        <section className="h-[25rem] bg-primary text-negative flex flex-col justify-evenly items-center justify-center py-8 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
-          <h1 className="text-5xl max-lg:text-4xl max-md:text-3xl">
-            <strong>Sponsors and Partners</strong>
-          </h1>
-          <div className="flex gap-x-6 px-32 max-lg:px-16 max-md:px-8">
-            {/* Filler images */}
-            <img
-              className="w-1/5 mr-4"
-              src="../assets/logos/logo_banner_negative.png"
-            />
-            <img
-              className="w-1/5 mr-4"
-              src="../assets/logos/logo_banner_negative.png"
-            />
-            <img
-              className="w-1/5 mr-4"
-              src="../assets/logos/logo_banner_negative.png"
-            />
-            <img
-              className="w-1/5 mr-4"
-              src="../assets/logos/logo_banner_negative.png"
-            />
-            <img
-              className="w-1/5 mr-4"
-              src="../assets/logos/logo_banner_negative.png"
-            />
-          </div>
         </section>
         <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 max-lg:h-fit">
           <h1 className="text-5xl">
