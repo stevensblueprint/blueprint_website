@@ -14,9 +14,8 @@ export default function Footer() {
   const instagram_url = "https://instagram.com/stevensblueprint";
 
   return (
-    <html>
+        <html>
           <footer className="bg-[#0078e8]">
-            {/*get background images*/}
               <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
                   <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0 ">
@@ -106,6 +105,7 @@ export default function Footer() {
                     </span>
               </div>
           </footer>
-      </html>
-  );
+        </html>
+      );
+
 }
