@@ -127,17 +127,70 @@ export default ({ comp }) => (
               <strong>Our Team</strong>
             </h1>
             <div className="grid grid-cols-5 gap-8 max-lg:grid-cols-3 max-lg:px-4">
-              {/* Filler images */}
-              {[...Array(20)].map((i) => {
-                return (
-                  <comp.MemberCard
-                    key={i}
-                    name={"Terrence Zhang"}
-                    role={"Developer"}
-                    image_url={"../assets/logos/logo.png"}
-                  />
-                );
-              })}
+              {
+                <comp.MemberCard
+                  key={1}
+                  name={"Katie Nguyen"}
+                  role={"President"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={2}
+                  name={"Shawn Aviles"}
+                  role={"VP Projects"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={3}
+                  name={"Christian Apostol"}
+                  role={"VP Projects"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={4}
+                  name={"Daniel Kim"}
+                  role={"VP Recruitment"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={5}
+                  name={"Christa Ruiz"}
+                  role={"VP Internal"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={6}
+                  name={"Andrew Krasinski"}
+                  role={"VP External"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={7}
+                  name={"Miguel Merlin"}
+                  role={"VP Technology"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={8}
+                  name={"Eric Zhu"}
+                  role={"VP Technology"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
             </div>
           </div>
         </section>
