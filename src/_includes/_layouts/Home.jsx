@@ -73,30 +73,26 @@ export default ({ comp, title }) => {
             Blueprint's work is open source. We believe in building technology
             that makes our community more open and connected.
           </p>
-          <div className="w-full grid grid-cols-3 gap-6 px-40 max-lg:flex max-lg:flex-col max-lg:px-8">
+          <div className="w-full grid grid-cols-2 gap-6 px-40 max-lg:flex max-lg:flex-col max-lg:px-8">
             <comp.ProjectCard
-              name_organization={"Test"}
-              image_url={"../assets/logos/logo.png"}
+              name_organization={"Asian American Dream"}
+              image_url={"../assets/logos/aad_logo.png"}
               description={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
+                "Asian American Dream is a New York City based organization aiming to empower and assist underserved AAPI undergraduates in their career goals. We are developing a platform that will help them manage their rapidly-growing Kin Mentorship Program."
               }
-              redirect_url={"test"}
+              redirect_url={"https://github.com/stevensblueprint/aad-admin"}
+              project_tag={"Volunteer Management"}
             />
             <comp.ProjectCard
-              name_organization={"Test"}
-              image_url={"../assets/logos/logo.png"}
+              name_organization={"NYC Mesh"}
+              image_url={"../assets/logos/nycmesh_logo.png"}
               description={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
+                "NYC Mesh is committed to providing reliable, high-speed, and affordable internet to communities throughout New York City. We are developing an interactive map that will help them their wireless sectors used to transport data across city blocks."
               }
-              redirect_url={"test"}
-            />
-            <comp.ProjectCard
-              name_organization={"Test"}
-              image_url={"../assets/logos/logo.png"}
-              description={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
+              redirect_url={
+                "https://github.com/stevensblueprint/nycmesh-node-visualizer"
               }
-              redirect_url={"test"}
+              project_tag={"Affordable Internet"}
             />
           </div>
           <comp.Button
