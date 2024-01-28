@@ -97,26 +97,14 @@ export default ({ comp, title }) => {
           <h1 className="text-5xl max-lg:text-4xl max-md:text-3xl">
             <strong>Sponsors and Partners</strong>
           </h1>
-          <div className="flex gap-x-6 px-32 max-lg:px-16 max-md:px-8">
+          <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
             {/* Filler images */}
             <img
-              className="w-1/5 mr-4"
+              className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]"
               src="../assets/logos/logo_banner_negative.png"
             />
             <img
-              className="w-1/5 mr-4"
-              src="../assets/logos/logo_banner_negative.png"
-            />
-            <img
-              className="w-1/5 mr-4"
-              src="../assets/logos/logo_banner_negative.png"
-            />
-            <img
-              className="w-1/5 mr-4"
-              src="../assets/logos/logo_banner_negative.png"
-            />
-            <img
-              className="w-1/5 mr-4"
+              className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]"
               src="../assets/logos/logo_banner_negative.png"
             />
           </div>
