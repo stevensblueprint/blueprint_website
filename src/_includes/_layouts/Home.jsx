@@ -99,8 +99,14 @@ export default ({ comp, title }) => {
           </h1>
           <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
             {/* Filler images */}
-            <img className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]" src="../assets/logos/logo_banner_negative.png" />
-            <img className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]" src="../assets/logos/logo_banner_negative.png" />
+            <img
+              className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]"
+              src="../assets/logos/logo_banner_negative.png"
+            />
+            <img
+              className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]"
+              src="../assets/logos/logo_banner_negative.png"
+            />
           </div>
         </section>
         <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 max-lg:h-fit">
