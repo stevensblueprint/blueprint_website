@@ -5,6 +5,7 @@ export default function ProjectCard({
   image_url,
   description,
   redirect_url,
+  project_tag,
 }) {
   return (
     <figure className="flex flex-col w-full max-sm:w-full">
@@ -12,8 +13,7 @@ export default function ProjectCard({
         className={`bg-[url(${image_url})] bg-contain bg-no-repeat bg-center h-40 rounded-xl relative`}
       >
         <div className="absolute top-0 right-0 m-4 bg-black/60 backdrop-blur-4xl text-white rounded-lg px-6 py-1 max-sm:left-0 max-sm:right-auto">
-          {/* This may not be needed. If it is, there should probably be an additional prop. */}
-          Placeholder info
+          {project_tag}
         </div>
       </div>
       <div className="p-4">
