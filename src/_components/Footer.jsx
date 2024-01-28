@@ -162,7 +162,7 @@ export default function Footer() {
             © 2023
             <a href={blueprint_url} class="hover:underline font- poppins">
               {" "}
-              stevens blueprint
+              Stevens Blueprint
             </a>
           </span>
         </div>
