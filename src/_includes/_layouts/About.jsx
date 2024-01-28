@@ -106,6 +106,7 @@ export default ({ comp }) => (
           array_of_images={[
             "../assets/events/google_event.jpg",
             "../assets/events/google_event_1.jpg",
+            "../assets/events/ebm.jpeg",
           ]}
         />
         <section className="grid place-content-center">
