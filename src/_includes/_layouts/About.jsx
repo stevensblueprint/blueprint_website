@@ -132,7 +132,7 @@ export default ({ comp }) => (
                   key={1}
                   name={"Katie Nguyen"}
                   role={"President"}
-                  image_url={"../assets/logos/logo.png"}
+                  image_url={"../assets/eboard/president.jpg"}
                 />
               }
               {
@@ -140,7 +140,7 @@ export default ({ comp }) => (
                   key={2}
                   name={"Shawn Aviles"}
                   role={"VP Projects"}
-                  image_url={"../assets/logos/logo.png"}
+                  image_url={"../assets/eboard/vp_projects.jpg"}
                 />
               }
               {
@@ -148,7 +148,7 @@ export default ({ comp }) => (
                   key={3}
                   name={"Christian Apostol"}
                   role={"VP Projects"}
-                  image_url={"../assets/logos/logo.png"}
+                  image_url={"../assets/eboard/vp_projects_1.png"}
                 />
               }
               {
@@ -156,7 +156,7 @@ export default ({ comp }) => (
                   key={4}
                   name={"Daniel Kim"}
                   role={"VP Recruitment"}
-                  image_url={"../assets/logos/logo.png"}
+                  image_url={"../assets/eboard/vp_recruiting.png"}
                 />
               }
               {
@@ -164,7 +164,7 @@ export default ({ comp }) => (
                   key={5}
                   name={"Christa Ruiz"}
                   role={"VP Internal"}
-                  image_url={"../assets/logos/logo.png"}
+                  image_url={"../assets/eboard/vp_internal.png"}
                 />
               }
               {
@@ -172,7 +172,7 @@ export default ({ comp }) => (
                   key={6}
                   name={"Andrew Krasinski"}
                   role={"VP External"}
-                  image_url={"../assets/logos/logo.png"}
+                  image_url={"../assets/eboard/vp_external.jpg"}
                 />
               }
               {
@@ -180,13 +180,13 @@ export default ({ comp }) => (
                   key={7}
                   name={"Miguel Merlin"}
                   role={"VP Technology"}
-                  image_url={"../assets/logos/logo.png"}
+                  image_url={"../assets/eboard/vp_tech.jpg"}
                 />
               }
               {
                 <comp.MemberCard
                   key={8}
-                  name={"Eric Zhu"}
+                  name={"Ezri Zhu"}
                   role={"VP Technology"}
                   image_url={"../assets/logos/logo.png"}
                 />
