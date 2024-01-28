@@ -104,21 +104,8 @@ export default ({ comp }) => (
         </section>
         <comp.Carousel
           array_of_images={[
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
+            "../assets/events/google_event.jpg",
+            "../assets/events/google_event_1.jpg",
           ]}
         />
         <section className="grid place-content-center">

@@ -41,21 +41,9 @@ export default ({ comp, title }) => {
           </p>
           <comp.Carousel
             array_of_images={[
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
-              "../assets/logos/logo.png",
+              "../assets/events/google_event.jpg",
+              "../assets/events/google_event_1.jpg",
+              "../assets/events/ebm.jpeg",
             ]}
           />
           <comp.Button
