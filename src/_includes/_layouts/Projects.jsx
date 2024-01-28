@@ -13,7 +13,9 @@ export default ({ comp }) => (
               <strong>Our Projects</strong>
             </h1>
             <p className="text-xl mb-12">
-              All of our work is open source to increase transparency and support our mission of providing accessible technology for Social Good.
+              All of our work is open source to increase transparency and
+              support our mission of providing accessible technology for Social
+              Good.
             </p>
             <comp.Button
               style={"p-4 rounded-sm bg-white text-text-color font-bold"}
