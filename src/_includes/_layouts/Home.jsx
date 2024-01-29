@@ -94,14 +94,13 @@ export default ({ comp, title }) => {
             <strong>Sponsors and Partners</strong>
           </h1>
           <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
-            {/* Filler images */}
             <img
               className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]"
-              src="../assets/logos/logo_banner_negative.png"
+              src="../assets/logos/github.png"
             />
             <img
               className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]"
-              src="../assets/logos/logo_banner_negative.png"
+              src="../assets/logos/notion.png"
             />
           </div>
         </section>
