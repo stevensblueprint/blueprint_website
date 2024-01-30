@@ -95,11 +95,11 @@ export default ({ comp, title }) => {
           </h1>
           <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
             <img
-              className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]"
+              className="w-full max-w-[10%] mr-4 max-md:max-w-[20%] max-sm:max-w-[40%]"
               src="../assets/logos/github.png"
             />
             <img
-              className="w-full max-w-[20%] mr-4 max-md:max-w-[40%] max-sm:max-w-[80%]"
+              className="w-full max-w-[10%] mr-4 max-md:max-w-[20%] max-sm:max-w-[40%]"
               src="../assets/logos/notion.png"
             />
           </div>
