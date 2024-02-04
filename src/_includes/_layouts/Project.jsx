@@ -1,10 +1,8 @@
 export default ({
   comp,
   project_title,
-  about_project,
-  redirect_url,
   project_logo_url,
-  children,
+  children, // This prop does not need to be scpecified in the markdown header, think of it as the markdown content
 }) => (
   <html>
     <head>
@@ -18,12 +16,6 @@ export default ({
           <h1 className="text-4xl">
             <strong>{project_title}</strong>
           </h1>
-          <p className="text-xl">{about_project}</p>
-          <comp.Button
-            style={"rounded-sm bg-white text-xl text-primary font-bold"}
-            redirect_url={redirect_url}
-            text={"Learn More"}
-          />
         </div>
         <img
           className="max-w-[40rem]"
