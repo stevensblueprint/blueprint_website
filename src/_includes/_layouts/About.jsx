@@ -157,7 +157,7 @@ export default ({ comp }) => (
               }
             </div>
             <div className="flex flex-wrap justify-center gap-8 mt-8">
-            {
+              {
                 <comp.MemberCard
                   key={6}
                   name={"Andrew Krasinski"}
