@@ -85,3 +85,20 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
 `npm run format:write`
 
 Note: make sure npm is installed on your machine
+
+## For Project Teams Updating their Project Page
+
+The content of the project description is all contained within a markdown file
+
+**To update the content:**
+
+- Create a branch called projectUpdate/{REPLACE_WITH_PROJECT_NAME}
+- In your branch, access your project's respective markdown file in `src/projects` and make your respective edits
+- Submit a pull request for review
+
+**To add a new project:**
+
+- Create a branch called newProject/{REPLACE_WITH_PROJECT_NAME}
+- In `src/projects` create a new markdown file with the non-profit's name. Make the file name all lowercase and use hyphens "-" instead of spaces or underscores
+- Add the following fields to your project: (title, layout, url, project_title, project_logo_url, github_repository_url)
+- Fill in the above fields (refer to current projects for help)

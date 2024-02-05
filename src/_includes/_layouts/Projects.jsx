@@ -38,7 +38,7 @@ export default ({ comp }) => (
                 description={
                   "Asian American Dream is a New York City based organization aiming to empower and assist underserved AAPI undergraduates in their career goals. We are developing a platform that will help them manage their rapidly-growing Kin Mentorship Program."
                 }
-                redirect_url={"https://github.com/stevensblueprint/aad-admin"}
+                redirect_url={"/projects/asian-american-dream"}
                 project_tag={"Volunteer Management"}
               />
               <comp.ProjectCard
@@ -47,9 +47,7 @@ export default ({ comp }) => (
                 description={
                   "NYC Mesh is committed to providing reliable, high-speed, and affordable internet to communities throughout New York City. We are developing an interactive map that will help them their wireless sectors used to transport data across city blocks."
                 }
-                redirect_url={
-                  "https://github.com/stevensblueprint/nycmesh-node-visualizer"
-                }
+                redirect_url={"/projects/nyc-mesh"}
                 project_tag={"Affordable Internet"}
               />
             </div>
