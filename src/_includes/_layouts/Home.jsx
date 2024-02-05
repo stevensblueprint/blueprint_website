@@ -16,7 +16,11 @@ export default ({ comp, title }) => {
                   blueprint
                 </span>
                 <div className="w-50 h-50">
-                  <img src="../assets/vector/main_banner.svg" alt="Blueprint Vector" className="w-full h-full"/>
+                  <img
+                    src="../assets/vector/main_banner.svg"
+                    alt="Blueprint Vector"
+                    className="w-full h-full"
+                  />
                 </div>
               </div>
               <p className="text-lg w-[28rem] mb-10 max-lg:w-full max-lg:px-20 max-sm:px-0">
