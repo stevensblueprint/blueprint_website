@@ -24,8 +24,8 @@ export default ({ comp, title }) => {
                 style={
                   "px-6 py-4 rounded-lg bg-primary text-negative font-bold w-fit"
                 }
-                text={"Get Started"}
-                redirect_url={""}
+                text={"Read More"}
+                redirect_url={"projects"}
               />
             </div>
           </section>
