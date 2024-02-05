@@ -40,6 +40,7 @@ site
   .copy("assets/logos")
   .copy("assets/eboard")
   .copy("assets/events")
+  .copy("assets/vector")
   .loadAssets([".css", ".js"])
   .ignore("README.md", "CHANGELOG.md", "node_modules")
   .use(jsx());
