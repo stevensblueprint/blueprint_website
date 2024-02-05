@@ -1,1 +1,7 @@
 /output
+/node_modules
+
+# Ignore .DS_Store files
+.DS_Store
+src/.DS_Store
+src/assets/.DS_Store

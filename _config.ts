@@ -38,6 +38,8 @@ site
   )
   .use(postcss())
   .copy("assets/logos")
+  .copy("assets/eboard")
+  .copy("assets/events")
   .loadAssets([".css", ".js"])
   .ignore("README.md", "CHANGELOG.md", "node_modules")
   .use(jsx());

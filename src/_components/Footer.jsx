@@ -26,11 +26,11 @@ export default function Footer() {
                   className="h-8 mr-2"
                   alt="blueprint Logo"
                 />
-                <span className="self-center text-3xl font-semibold font-poppins whitespace-nowrap dark:text-white">
+                <span className="self-center text-3xl font-semibold font-poppins whitespace-nowrap text-white">
                   blueprint
                 </span>
               </a>
-              <h3 className="my-5 dark:text-white font-medium font-poppins">
+              <h3 className="my-5 text-white font-medium font-poppins">
                 Technology for Social Good
               </h3>
               <div class="sm:flex sm:items-center sm:justify-between">
@@ -90,10 +90,10 @@ export default function Footer() {
             </div>
             <div className="grid grid-cols-2 gap-20 sm:gap-60 sm:grid-cols-3 ">
               <div>
-                <h2 className="mb-6  text-md font-semibold font- poppins text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6  text-md font-semibold font- poppins text-white uppercase ">
                   General
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-300 font-medium">
+                <ul className="text-gray-300  font-medium">
                   <li className="mb-4 font- poppins">
                     <a href={about_url} className="hover:underline">
                       About
@@ -112,10 +112,10 @@ export default function Footer() {
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-md font-semibold font- poppins text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-md font-semibold font- Poppins uppercase text-white">
                   Students
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-300 font-medium">
+                <ul className="text-gray-300 font-medium">
                   <li className="mb-4 font- poppins">
                     <a href={apply_url} className="hover:underline ">
                       Apply
@@ -134,10 +134,10 @@ export default function Footer() {
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-md font-semibold font- poppins text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-md font-semibold font- poppins text-white uppercase">
                   Non-Profits
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-300 font-medium">
+                <ul className="text-gray-300 font-medium">
                   <li className="mb-4 font- poppins">
                     <a href={apply_url} className="hover:underline">
                       Apply
@@ -158,11 +158,11 @@ export default function Footer() {
             </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-300 lg:my-5" />
-          <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-300">
+          <span class="block text-sm text-gray-300 sm:text-center">
             © 2023
             <a href={blueprint_url} class="hover:underline font- poppins">
               {" "}
-              stevens blueprint
+              Stevens Blueprint
             </a>
           </span>
         </div>

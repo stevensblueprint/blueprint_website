@@ -104,21 +104,9 @@ export default ({ comp }) => (
         </section>
         <comp.Carousel
           array_of_images={[
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
-            "../assets/logos/logo.png",
+            "../assets/events/google_event.jpg",
+            "../assets/events/google_event_1.jpg",
+            "../assets/events/ebm.jpeg",
           ]}
         />
         <section className="grid place-content-center">
@@ -127,17 +115,70 @@ export default ({ comp }) => (
               <strong>Our Team</strong>
             </h1>
             <div className="grid grid-cols-5 gap-8 max-lg:grid-cols-3 max-lg:px-4">
-              {/* Filler images */}
-              {[...Array(20)].map((i) => {
-                return (
-                  <comp.MemberCard
-                    key={i}
-                    name={"Terrence Zhang"}
-                    role={"Developer"}
-                    image_url={"../assets/logos/logo.png"}
-                  />
-                );
-              })}
+              {
+                <comp.MemberCard
+                  key={1}
+                  name={"Katie Nguyen"}
+                  role={"President"}
+                  image_url={"../assets/eboard/president.jpg"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={2}
+                  name={"Shawn Aviles"}
+                  role={"VP Projects"}
+                  image_url={"../assets/eboard/vp_projects.jpg"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={3}
+                  name={"Christian Apostol"}
+                  role={"VP Projects"}
+                  image_url={"../assets/eboard/vp_projects_1.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={4}
+                  name={"Daniel Kim"}
+                  role={"VP Recruitment"}
+                  image_url={"../assets/eboard/vp_recruiting.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={5}
+                  name={"Christa Ruiz"}
+                  role={"VP Internal"}
+                  image_url={"../assets/eboard/vp_internal.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={6}
+                  name={"Andrew Krasinski"}
+                  role={"VP External"}
+                  image_url={"../assets/eboard/vp_external.jpg"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={7}
+                  name={"Miguel Merlin"}
+                  role={"VP Technology"}
+                  image_url={"../assets/eboard/vp_tech.jpg"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={8}
+                  name={"Ezri Zhu"}
+                  role={"VP Technology"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
             </div>
           </div>
         </section>
