@@ -1043,5 +1043,13 @@
     "https://esm.sh/v5/react-router-dom@6.18.0": "7a0a750778d659de48ae40f5dd6be7c250fc5c37c1dea8877ae488b83b22a3e7",
     "https://esm.sh/v5/react-router-dom@6.18.0/denonext/react-router-dom.mjs": "61928ed94a8a1c031490deb8d286dd51a80db970874414d2ed5a8e8c8782712b",
     "https://esm.sh/v5/react-router@6.18.0/denonext/react-router.mjs": "013539d33c7759a9c2e4de08a27f0b327a68d2d9da6a49c5061746f0ff20b86a"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:prettier-plugin-tailwindcss@^0.5.11",
+        "npm:prettier@^3.2.5"
+      ]
+    }
   }
 }
