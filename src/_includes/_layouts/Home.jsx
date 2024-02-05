@@ -100,12 +100,14 @@ export default ({ comp, title }) => {
           </h1>
           <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
             <img
-              className="w-full max-w-[10%] mr-4 max-md:max-w-[20%] max-sm:max-w-[40%]"
+              className="object-contain h-20 max-w-none mr-4"
               src="../assets/logos/github.png"
+              alt="GitHub logo"
             />
             <img
-              className="w-full max-w-[10%] mr-4 max-md:max-w-[20%] max-sm:max-w-[40%]"
+              className="object-contain h-20 max-w-none mr-4"
               src="../assets/logos/notion.png"
+              alt="Notion logo"
             />
           </div>
         </section>
@@ -119,17 +121,17 @@ export default ({ comp, title }) => {
             that makes our community more open and connected.
           </p>
           <div className="w-full grid grid-cols-2 gap-6 px-40 max-lg:flex max-lg:flex-col max-lg:px-8">
-            <comp.ProjectCard
-              name_organization={"Students"}
-              image_url={"../assets/logos/logo.png"}
+            <comp.ApplyCard
+              card_title={"Students"}
+              image_url={"../assets/events/google_event_2.jpg"}
               description={
                 "Join Blueprint to gain hands on experience and give back to the community."
               }
               redirect_url={"apply"}
             />
-            <comp.ProjectCard
-              name_organization={"Nonprofits"}
-              image_url={"../assets/logos/logo.png"}
+            <comp.ApplyCard
+              card_title={"Nonprofits"}
+              image_url={"../assets/events/git_workshop.jpg"}
               description={
                 "Partner with Blueprint to meet your technology needs."
               }
