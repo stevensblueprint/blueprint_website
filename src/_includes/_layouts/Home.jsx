@@ -100,12 +100,14 @@ export default ({ comp, title }) => {
           </h1>
           <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
             <img
-              className="w-full max-w-[10%] mr-4 max-md:max-w-[20%] max-sm:max-w-[40%]"
+              className="object-contain h-20 max-w-none mr-4"
               src="../assets/logos/github.png"
+              alt="GitHub logo"
             />
             <img
-              className="w-full max-w-[10%] mr-4 max-md:max-w-[20%] max-sm:max-w-[40%]"
+              className="object-contain h-20 max-w-none mr-4"
               src="../assets/logos/notion.png"
+              alt="Notion logo"
             />
           </div>
         </section>
