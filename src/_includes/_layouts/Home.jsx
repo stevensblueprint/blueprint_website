@@ -9,19 +9,12 @@ export default ({ comp, title }) => {
         <div className="h-screen flex flex-col">
           <comp.Navbar />
           <section className="grow flex items-center">
-            <div className="px-20 max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:items-center">
+            <div className="px-20 max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:items-center z-20">
               <div className="flex items-center">
                 <img className="w-20 mr-4" src="../assets/logos/logo.png" />
                 <span className="font-bold text-6xl tracking-wide h-fit">
                   blueprint
                 </span>
-                <div className="w-50 h-50">
-                  <img
-                    src="../assets/vector/main_banner.svg"
-                    alt="Blueprint Vector"
-                    className="w-full h-full"
-                  />
-                </div>
               </div>
               <p className="text-lg w-[28rem] mb-10 max-lg:w-full max-lg:px-20 max-sm:px-0">
                 We're a team of Stevens students that develops software pro bono
@@ -35,7 +28,18 @@ export default ({ comp, title }) => {
                 redirect_url={"projects"}
               />
             </div>
+            <div className="absolute flex inset-0 justify-end items-end max-lg:justify-center">
+              <img
+                src="../assets/vector/main_banner.svg"
+                alt="Blueprint Vector"
+                className="w-3/5 object-cover max-lg:w-80 z-10"
+              />
+            </div>
           </section>
+          <img
+            className="absolute bottom-0 right-0 z-0 w-3/5 max-lg:hidden"
+            src="../assets/vector/hero_blob.svg"
+          />
         </div>
         <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 bg-gray-50 max-lg:h-fit">
           <h1 className="text-5xl">
