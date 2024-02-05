@@ -68,7 +68,7 @@ export default ({ comp, title }) => {
               description={
                 "Asian American Dream is a New York City based organization aiming to empower and assist underserved AAPI undergraduates in their career goals. We are developing a platform that will help them manage their rapidly-growing Kin Mentorship Program."
               }
-              redirect_url={"https://github.com/stevensblueprint/aad-admin"}
+              redirect_url={"/projects/asian-american-dream"}
               project_tag={"Volunteer Management"}
             />
             <comp.ProjectCard
@@ -77,9 +77,7 @@ export default ({ comp, title }) => {
               description={
                 "NYC Mesh is committed to providing reliable, high-speed, and affordable internet to communities throughout New York City. We are developing an interactive map that will help them their wireless sectors used to transport data across city blocks."
               }
-              redirect_url={
-                "https://github.com/stevensblueprint/nycmesh-node-visualizer"
-              }
+              redirect_url={"/projects/nyc-mesh"}
               project_tag={"Affordable Internet"}
             />
           </div>
@@ -95,12 +93,14 @@ export default ({ comp, title }) => {
           </h1>
           <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
             <img
-              className="w-full max-w-[10%] mr-4 max-md:max-w-[20%] max-sm:max-w-[40%]"
+              className="object-contain h-20 max-w-none mr-4"
               src="../assets/logos/github.png"
+              alt="GitHub logo"
             />
             <img
-              className="w-full max-w-[10%] mr-4 max-md:max-w-[20%] max-sm:max-w-[40%]"
+              className="object-contain h-20 max-w-none mr-4"
               src="../assets/logos/notion.png"
+              alt="Notion logo"
             />
           </div>
         </section>
@@ -114,17 +114,17 @@ export default ({ comp, title }) => {
             that makes our community more open and connected.
           </p>
           <div className="w-full grid grid-cols-2 gap-6 px-40 max-lg:flex max-lg:flex-col max-lg:px-8">
-            <comp.ProjectCard
-              name_organization={"Students"}
-              image_url={"../assets/logos/logo.png"}
+            <comp.ApplyCard
+              card_title={"Students"}
+              image_url={"../assets/events/google_event_2.jpg"}
               description={
                 "Join Blueprint to gain hands on experience and give back to the community."
               }
               redirect_url={"apply"}
             />
-            <comp.ProjectCard
-              name_organization={"Nonprofits"}
-              image_url={"../assets/logos/logo.png"}
+            <comp.ApplyCard
+              card_title={"Nonprofits"}
+              image_url={"../assets/events/git_workshop.jpg"}
               description={
                 "Partner with Blueprint to meet your technology needs."
               }

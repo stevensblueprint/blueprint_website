@@ -109,7 +109,7 @@ export default ({ comp }) => (
             "../assets/events/ebm.jpeg",
           ]}
         />
-        <section className="grid place-content-center">
+        <section>
           <div className="flex flex-col items-center py-20">
             <h1 className="text-4xl mb-12">
               <strong>Our Team</strong>
@@ -155,6 +155,8 @@ export default ({ comp }) => (
                   image_url={"../assets/eboard/vp_internal.png"}
                 />
               }
+            </div>
+            <div className="flex flex-wrap justify-center gap-8 mt-8">
               {
                 <comp.MemberCard
                   key={6}

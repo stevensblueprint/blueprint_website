@@ -7,7 +7,7 @@ import jsx from "lume/plugins/jsx.ts";
 const site = lume({
   src: "./src",
   dest: "./output",
-  emptyDest: false,
+  // emptyDest: false,
   server: {
     open: true,
   },
