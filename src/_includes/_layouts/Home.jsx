@@ -121,17 +121,17 @@ export default ({ comp, title }) => {
             that makes our community more open and connected.
           </p>
           <div className="w-full grid grid-cols-2 gap-6 px-40 max-lg:flex max-lg:flex-col max-lg:px-8">
-            <comp.ProjectCard
-              name_organization={"Students"}
-              image_url={"../assets/logos/logo.png"}
+            <comp.ApplyCard
+              card_title={"Students"}
+              image_url={"../assets/events/google_event_2.jpg"}
               description={
                 "Join Blueprint to gain hands on experience and give back to the community."
               }
               redirect_url={"apply"}
             />
-            <comp.ProjectCard
-              name_organization={"Nonprofits"}
-              image_url={"../assets/logos/logo.png"}
+            <comp.ApplyCard
+              card_title={"Nonprofits"}
+              image_url={"../assets/events/git_workshop.jpg"}
               description={
                 "Partner with Blueprint to meet your technology needs."
               }
