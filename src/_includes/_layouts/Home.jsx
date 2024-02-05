@@ -9,12 +9,15 @@ export default ({ comp, title }) => {
         <div className="h-screen flex flex-col">
           <comp.Navbar />
           <section className="grow flex items-center">
-            <div className="px-60 max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:items-center">
-              <div className="flex items-center mb-6">
+            <div className="px-20 max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:items-center">
+              <div className="flex items-center">
                 <img className="w-20 mr-4" src="../assets/logos/logo.png" />
                 <span className="font-bold text-6xl tracking-wide h-fit">
                   blueprint
                 </span>
+                <div className="w-50 h-50">
+                  <img src="../assets/vector/main_banner.svg" alt="Blueprint Vector" className="w-full h-full"/>
+                </div>
               </div>
               <p className="text-lg w-[28rem] mb-10 max-lg:w-full max-lg:px-20 max-sm:px-0">
                 We're a team of Stevens students that develops software pro bono
