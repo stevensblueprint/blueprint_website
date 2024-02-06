@@ -1,7 +1,6 @@
 ---
 title: NYC Mesh
-layout: _layouts/Project.jsx
-url: /projects/nyc-mesh
+layout: /_layouts/ProjectPage.jsx
 project_title: Node Visualizer
 project_logo_url: ../assets/logos/nycmesh_logo.png
 github_repository_url: https://github.com/stevensblueprint/nycmesh-node-visualizer
