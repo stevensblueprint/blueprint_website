@@ -11,18 +11,21 @@ export default ({ comp, title }) => {
           <section className="grow flex items-center">
             <div className="px-20 max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:items-center z-20">
               <div className="flex items-center">
-                <img className="w-20 mr-4" src="../assets/logos/logo.png" />
-                <span className="font-bold text-6xl tracking-wide h-fit">
+                <img
+                  className="lg:w-20 w-32 mr-4"
+                  src="../assets/logos/logo.png"
+                />
+                <span className="font-bold lg:text-6xl text-8xl tracking-wide h-fit">
                   blueprint
                 </span>
               </div>
-              <p className="text-lg w-[28rem] mb-10 max-lg:w-full max-lg:px-20 max-sm:px-0">
+              <p className="lg:text-xl text-5xl w-[28rem] mb-10 max-lg:w-full max-lg:px-20 max-sm:px-0 lg:pt-4 pt-10 lg:pb-0 pb-8 font-light lg:text-left text-center">
                 We're a team of Stevens students that develops software pro bono
                 for nonprofits and promotes technology for social good.
               </p>
               <comp.Button
                 style={
-                  "px-6 py-4 rounded-lg bg-primary text-negative font-bold w-fit"
+                  "lg:px-6 px-10 lg:py-4 py-6 lg:rounded-lg rounded-2xl bg-primary text-negative font-bold w-fit lg:text-base text-4xl"
                 }
                 text={"Read More"}
                 redirect_url={"projects"}
@@ -32,20 +35,24 @@ export default ({ comp, title }) => {
               <img
                 src="../assets/vector/main_banner.svg"
                 alt="Blueprint Vector"
-                className="w-3/5 object-cover max-lg:w-80 z-10"
+                className="lg:w-3/5 lg:max-lg:w-80 w-4/5 z-10"
               />
             </div>
           </section>
           <img
-            className="absolute bottom-0 right-0 z-0 w-3/5 max-lg:hidden"
+            className="absolute bottom-0 right-0 z-0 lg:w-3/5"
             src="../assets/vector/hero_blob.svg"
+          />
+          <img
+            className="absolute top-0 left-0 z-0 lg:w-3/5"
+            src="../assets/vector/hero_lines.svg"
           />
         </div>
         <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 bg-gray-50 max-lg:h-fit">
-          <h1 className="text-5xl">
+          <h1 className="lg:text-5xl pt-16 text-7xl">
             <strong>About Us</strong>
           </h1>
-          <p className="w-[50rem] text-center text-lg mb-4 max-lg:w-full max-lg:px-8">
+          <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
             We are a group of students at Stevens Institute of Technology who
             have a passion technology and want to apply our talents towards
             social causes that can use our help.
@@ -58,16 +65,18 @@ export default ({ comp, title }) => {
             ]}
           />
           <comp.Button
-            style={"px-6 py-4 rounded-lg bg-primary text-negative font-bold"}
+            style={
+              "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl bg-primary text-negative font-bold w-fit lg:text-base text-4xl"
+            }
             text={"Learn More"}
             redirect_url={"about"}
           />
         </section>
         <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 max-lg:h-fit">
-          <h1 className="text-5xl">
+          <h1 className="lg:text-5xl pt-16 text-7xl">
             <strong>Projects</strong>
           </h1>
-          <p className="w-[50rem] text-center text-lg mb-12 max-lg:w-full max-lg:px-8">
+          <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
             With transparency and accessibility always top-of-mind, all of
             Blueprint's work is open source. We believe in building technology
             that makes our community more open and connected.
@@ -93,13 +102,15 @@ export default ({ comp, title }) => {
             />
           </div>
           <comp.Button
-            style={"px-6 py-4 rounded-lg bg-primary text-negative font-bold"}
+            style={
+              "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl bg-primary text-negative font-bold w-fit lg:text-base text-4xl"
+            }
             text={"See More"}
             redirect_url={"projects"}
           />
         </section>
         <section className="h-[25rem] bg-primary text-negative flex flex-col justify-evenly items-center justify-center py-8 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
-          <h1 className="text-5xl max-lg:text-4xl max-md:text-3xl">
+          <h1 className="lg:text-5xl text-6xl">
             <strong>Sponsors and Partners</strong>
           </h1>
           <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
@@ -116,10 +127,10 @@ export default ({ comp, title }) => {
           </div>
         </section>
         <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 max-lg:h-fit">
-          <h1 className="text-5xl">
+          <h1 className="lg:text-5xl pt-16 text-7xl">
             <strong>Apply</strong>
           </h1>
-          <p className="w-[50rem] text-center text-lg mb-12 max-lg:w-full max-lg:px-8">
+          <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
             With transparency and accessibility always top-of-mind, all of
             Blueprint's work is open source. We believe in building technology
             that makes our community more open and connected.

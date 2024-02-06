@@ -10,6 +10,7 @@ const site = lume({
   // emptyDest: false,
   server: {
     open: true,
+    page404: "./custom404/index.html",
   },
   location: new URL("https://sitblueprint.com"),
   watcher: {
@@ -30,6 +31,10 @@ site
               "text-color": "#333333",
               negative: "#ffffff",
             },
+            // fontFamily: {
+            //   sans: ["Helvetica", "sans-serif"],
+            //   serif: ["Mirador", "serif"],
+            // }
           },
         },
         plugins: [typography],
