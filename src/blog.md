@@ -1,6 +1,6 @@
 ---
 title: Stevens Blueprint
-layout: _layouts/Blogs.jsx
+layout: _layouts/Blog.jsx
 ---
 
 # Stevens Blueprint Website
