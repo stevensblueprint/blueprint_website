@@ -13,9 +13,11 @@ export default ({ comp }) => (
               <strong>About The Club</strong>
             </h1>
             <p className="text-xl mb-12">
-              Stevens Blueprint is a community of passionate students at Stevens Institute of Technology who are 
-              committed to making a positive impact by developing software solutions for non-profit organizations.
-              Our club members work on real-world projects, gaining valuable experience while giving back to the community.
+              Stevens Blueprint is a community of passionate students at Stevens
+              Institute of Technology who are committed to making a positive
+              impact by developing software solutions for non-profit
+              organizations. Our club members work on real-world projects,
+              gaining valuable experience while giving back to the community.
             </p>
             <comp.Button
               style={"p-4 rounded-sm bg-white text-text-color font-bold"}
@@ -30,7 +32,8 @@ export default ({ comp }) => (
               <strong>Our Mission</strong>
             </h1>
             <p className="text-2xl">
-            To make custom software that is accessible and beneficial to those dedicated to community building and advancing public welfare.
+              To make custom software that is accessible and beneficial to those
+              dedicated to community building and advancing public welfare.
             </p>
           </div>
         </section>
@@ -45,8 +48,10 @@ export default ({ comp }) => (
                   Impact First
                 </h2>
                 <p>
-                As Blueprint members, we come together to build something for others. We succeed when the people and partners we serve succeed. The positive impact 
-                we create through our collective efforts is the main interest of Blueprint. 
+                  As Blueprint members, we come together to build something for
+                  others. We succeed when the people and partners we serve
+                  succeed. The positive impact we create through our collective
+                  efforts is the main interest of Blueprint.
                 </p>
               </div>
               <div className="basis-1/4 flex flex-col items-center m-4 p-4 max-md:items-start max-md:p-0">
@@ -54,9 +59,11 @@ export default ({ comp }) => (
                   Pursuing Growth
                 </h2>
                 <p>
-                  As Blueprint members, we seek to start and perpetuate cycles of learning and teaching between peers. 
-                  We value the academic, social, and personal growth in all our members. We strive to offer help to those
-                  in need and push each other towards success. 
+                  As Blueprint members, we seek to start and perpetuate cycles
+                  of learning and teaching between peers. We value the academic,
+                  social, and personal growth in all our members. We strive to
+                  offer help to those in need and push each other towards
+                  success.
                 </p>
               </div>
               <div className="basis-1/4 flex flex-col items-center m-4 p-4 max-md:items-start max-md:p-0">
@@ -64,9 +71,10 @@ export default ({ comp }) => (
                   Cherish Each Other
                 </h2>
                 <p>
-                As Blueprint members, we want to cherish our time spent together. 
-                We develop meaningful relationships that extend well beyond the scope of the organization. 
-                We value each other as individuals and appreciate our differences. 
+                  As Blueprint members, we want to cherish our time spent
+                  together. We develop meaningful relationships that extend well
+                  beyond the scope of the organization. We value each other as
+                  individuals and appreciate our differences.
                 </p>
               </div>
               <div className="basis-1/4 flex flex-col items-center m-4 p-4 max-md:items-start max-md:p-0">
@@ -74,18 +82,22 @@ export default ({ comp }) => (
                   Seek Innovation
                 </h2>
                 <p>
-                  As Blueprint members, we recognize that change is both inevitable and necessary.
-                 We are committed to innovate and emphasize effective solutions as needed in order to remain relevant - nothing is sacred.
-                  We welcome new ideas and diverse thinking. 
+                  As Blueprint members, we recognize that change is both
+                  inevitable and necessary. We are committed to innovate and
+                  emphasize effective solutions as needed in order to remain
+                  relevant - nothing is sacred. We welcome new ideas and diverse
+                  thinking.
                 </p>
               </div>
               <div className="basis-1/4 flex flex-col items-center m-4 p-4 max-md:items-start max-md:p-0">
                 <h2 className="font-bold text-xl text-primary mb-2">
-                Be Humble
+                  Be Humble
                 </h2>
                 <p>
-                As Blueprint members strive to remain humble, accept our imperfections, and be receptive to feedback.
-                 We approach challenges with an open mind and remember that anyone can pursue social good, not just Blueprint. 
+                  As Blueprint members strive to remain humble, accept our
+                  imperfections, and be receptive to feedback. We approach
+                  challenges with an open mind and remember that anyone can
+                  pursue social good, not just Blueprint.
                 </p>
               </div>
             </div>
