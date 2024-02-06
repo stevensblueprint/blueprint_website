@@ -6,6 +6,7 @@ export default ({ comp }) => (
     </head>
     <body>
       <>
+        <comp.Navbar />
         <comp.Footer />
       </>
     </body>

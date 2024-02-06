@@ -1,11 +1,12 @@
-export default ({ comp }) => (
+export default ({ title, comp }) => (
   <html>
     <head>
       <link rel="stylesheet" href="/styles.css" />
-      <title>Blogs</title>
+      <title>{title}</title>
     </head>
     <body>
       <>
+        <comp.Navbar />
         <comp.Footer />
       </>
     </body>
