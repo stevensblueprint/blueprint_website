@@ -1,4 +1,4 @@
-export default ({ headline, description }) => {
+export default ({ comp, headline, description }) => {
   const logo = "../assets/logos/logo.png";
   return (
     <html>
@@ -7,7 +7,8 @@ export default ({ headline, description }) => {
         <title>Stevens Blueprint</title>
       </head>
       <body>
-        <div className="flex lg:flex-row flex-col justify-center items-center h-screen w-screen p-2">
+        <comp.Navbar />
+        <div className="flex absolute top-0 left-0 lg:flex-row flex-col justify-center items-center h-screen w-screen p-2">
           <div className="flex flex-col pr-2">
             <h1 className="text-4xl font-bold">blueprint</h1>
             <div className="text-xl">
