@@ -1,4 +1,4 @@
-export default () => {
+export default ({ headline, description }) => {
   const logo = "../assets/logos/logo.png";
   return (
     <html>
@@ -8,17 +8,17 @@ export default () => {
       </head>
       <body>
         <div className="flex lg:flex-row flex-col justify-center items-center h-screen w-screen p-2">
-          <div className="flex flex-col">
+          <div className="flex flex-col pr-2">
             <h1 className="text-4xl font-bold">blueprint</h1>
             <div className="text-xl">
               <div className="flex">
-                <p className="font-bold pr-2">Construction.</p>
-                <a href="/" className="text-sky-600 pr-2">
+                <p className="font-bold pr-2">{headline}</p>
+                <a href="/" className="text-sky-600">
                   {" "}
                   Click here to go to the homepage.
                 </a>
               </div>
-              <p> This page is under construction, come back soon!</p>
+              <p>{description}</p>
             </div>
           </div>
           <a href="/" className="flex flex-col text-xl">
