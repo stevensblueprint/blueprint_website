@@ -3,7 +3,7 @@ import React from "https://esm.sh/react";
 export default function Navbar() {
   const logo = "../assets/logos/logo_negative.png";
   return (
-    <nav className="flex items-center justify-center space-x-64 p-6 bg-primary">
+    <nav className="flex items-center justify-around space-x-64 p-6 bg-primary z-50">
       <a href="/" className="flex items-center text-white mr-60">
         <img src={logo} alt="Logo" className="mr-2 w-10 h-10" />
         <span className="self-center text-3xl font-semibold font-poppins whitespace-nowrap dark:text-white">

@@ -13,10 +13,9 @@ export default ({ comp }) => (
               <strong>Our Projects</strong>
             </h1>
             <p className="text-xl mb-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim adminim veniam, quis nostrud exercitation ullamco laboris
-              nisi utaliquip ex ea commodo consequat.
+              All of our work is open source to increase transparency and
+              support our mission of providing accessible technology for Social
+              Good.
             </p>
             <comp.Button
               style={"p-4 rounded-sm bg-white text-text-color font-bold"}
@@ -32,54 +31,24 @@ export default ({ comp }) => (
             <h1 className="text-4xl mb-12">
               <strong>Current Projects</strong>
             </h1>
-            <div className="w-full grid grid-cols-3 gap-6 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col">
+            <div className="w-full grid grid-cols-2 gap-6 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col">
               <comp.ProjectCard
-                name_organization={"Test"}
-                image_url={"../assets/logos/logo.png"}
+                name_organization={"Asian American Dream"}
+                image_url={"../assets/logos/aad_logo.png"}
                 description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
+                  "Asian American Dream is a New York City based organization aiming to empower and assist underserved AAPI undergraduates in their career goals. We are developing a platform that will help them manage their rapidly-growing Kin Mentorship Program."
                 }
-                redirect_url={"test"}
+                redirect_url={"/projects/asian-american-dream"}
+                project_tag={"Volunteer Management"}
               />
               <comp.ProjectCard
-                name_organization={"Test"}
-                image_url={"../assets/logos/logo.png"}
+                name_organization={"NYC Mesh"}
+                image_url={"../assets/logos/nycmesh_logo.png"}
                 description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
+                  "NYC Mesh is committed to providing reliable, high-speed, and affordable internet to communities throughout New York City. We are developing an interactive map that will help them their wireless sectors used to transport data across city blocks."
                 }
-                redirect_url={"test"}
-              />
-              <comp.ProjectCard
-                name_organization={"Test"}
-                image_url={"../assets/logos/logo.png"}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
-                }
-                redirect_url={"test"}
-              />
-              <comp.ProjectCard
-                name_organization={"Test"}
-                image_url={"../assets/logos/logo.png"}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
-                }
-                redirect_url={"test"}
-              />
-              <comp.ProjectCard
-                name_organization={"Test"}
-                image_url={"../assets/logos/logo.png"}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
-                }
-                redirect_url={"test"}
-              />
-              <comp.ProjectCard
-                name_organization={"Test"}
-                image_url={"../assets/logos/logo.png"}
-                description={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi utaliquip ex ea commodo consequat."
-                }
-                redirect_url={"test"}
+                redirect_url={"/projects/nyc-mesh"}
+                project_tag={"Affordable Internet"}
               />
             </div>
           </div>

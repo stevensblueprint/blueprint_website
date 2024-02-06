@@ -7,9 +7,10 @@ import jsx from "lume/plugins/jsx.ts";
 const site = lume({
   src: "./src",
   dest: "./output",
-  emptyDest: false,
+  // emptyDest: false,
   server: {
     open: true,
+    page404: "./custom404/index.html",
   },
   location: new URL("https://sitblueprint.com"),
   watcher: {
@@ -30,6 +31,10 @@ site
               "text-color": "#333333",
               negative: "#ffffff",
             },
+            // fontFamily: {
+            //   sans: ["Helvetica", "sans-serif"],
+            //   serif: ["Mirador", "serif"],
+            // }
           },
         },
         plugins: [typography],
@@ -38,6 +43,9 @@ site
   )
   .use(postcss())
   .copy("assets/logos")
+  .copy("assets/eboard")
+  .copy("assets/events")
+  .copy("assets/vector")
   .loadAssets([".css", ".js"])
   .ignore("README.md", "CHANGELOG.md", "node_modules")
   .use(jsx());
