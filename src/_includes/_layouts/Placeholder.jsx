@@ -6,7 +6,7 @@ export default ({ comp, headline, description }) => {
         <link rel="stylesheet" href="/styles.css" />
         <title>Stevens Blueprint</title>
       </head>
-      <body>
+      <body className="flex flex-col">
         <comp.Navbar />
         <div className="flex absolute top-0 left-0 lg:flex-row flex-col justify-center items-center h-screen w-screen p-2">
           <div className="flex flex-col pr-2">
