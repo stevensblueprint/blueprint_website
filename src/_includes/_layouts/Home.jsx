@@ -19,7 +19,7 @@ export default ({ comp, title }) => {
                   blueprint
                 </span>
               </div>
-              <p className="lg:text-xl text-4xl w-[28rem] mb-10 max-lg:w-full max-lg:px-20 max-sm:px-0 lg:pt-4 pt-10 lg:pb-0 pb-8 font-light lg:text-left text-center">
+              <p className="lg:text-xl text-5xl w-[28rem] mb-10 max-lg:w-full max-lg:px-20 max-sm:px-0 lg:pt-4 pt-10 lg:pb-0 pb-8 font-light lg:text-left text-center">
                 We're a team of Stevens students that develops software pro bono
                 for nonprofits and promotes technology for social good.
               </p>
@@ -35,12 +35,12 @@ export default ({ comp, title }) => {
               <img
                 src="../assets/vector/main_banner.svg"
                 alt="Blueprint Vector"
-                className="lg:w-3/5 lg:max-lg:w-80 w-3/5 z-10"
+                className="lg:w-3/5 lg:max-lg:w-80 w-4/5 z-10"
               />
             </div>
           </section>
           <img
-            className="absolute bottom-0 right-0 z-0 lg:w-3/5 w-4/5"
+            className="absolute bottom-0 right-0 z-0 lg:w-3/5"
             src="../assets/vector/hero_blob.svg"
           />
           <img
