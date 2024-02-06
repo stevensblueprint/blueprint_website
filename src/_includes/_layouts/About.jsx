@@ -13,10 +13,11 @@ export default ({ comp }) => (
               <strong>About The Club</strong>
             </h1>
             <p className="text-xl mb-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim adminim veniam, quis nostrud exercitation ullamco laboris
-              nisi utaliquip ex ea commodo consequat.
+              Stevens Blueprint is a community of passionate students at Stevens
+              Institute of Technology who are committed to making a positive
+              impact by developing software solutions for non-profit
+              organizations. Our club members work on real-world projects,
+              gaining valuable experience while giving back to the community.
             </p>
             <comp.Button
               style={"p-4 rounded-sm bg-white text-text-color font-bold"}
@@ -31,10 +32,8 @@ export default ({ comp }) => (
               <strong>Our Mission</strong>
             </h1>
             <p className="text-2xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim adminim veniam, quis nostrud exercitation ullamco laboris
-              nisi utaliquip ex ea commodo consequat.
+              To make custom software that is accessible and beneficial to those
+              dedicated to community building and advancing public welfare.
             </p>
           </div>
         </section>
@@ -46,57 +45,59 @@ export default ({ comp }) => (
             <div className="w-full flex flex-wrap justify-evenly max-md:flex-nowrap max-md:flex-col">
               <div className="basis-1/4 flex flex-col items-center m-4 p-4 max-md:items-start max-md:p-0">
                 <h2 className="font-bold text-xl text-primary mb-2">
-                  Value One
+                  Impact First
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim adminim veniam, quis nostrud exercitation ullamco
-                  laboris nisi utaliquip ex ea commodo consequat.
+                  As Blueprint members, we come together to build something for
+                  others. We succeed when the people and partners we serve
+                  succeed. The positive impact we create through our collective
+                  efforts is the main interest of Blueprint.
                 </p>
               </div>
               <div className="basis-1/4 flex flex-col items-center m-4 p-4 max-md:items-start max-md:p-0">
                 <h2 className="font-bold text-xl text-primary mb-2">
-                  Value Two
+                  Pursuing Growth
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim adminim veniam, quis nostrud exercitation ullamco
-                  laboris nisi utaliquip ex ea commodo consequat.
+                  As Blueprint members, we seek to start and perpetuate cycles
+                  of learning and teaching between peers. We value the academic,
+                  social, and personal growth in all our members. We strive to
+                  offer help to those in need and push each other towards
+                  success.
                 </p>
               </div>
               <div className="basis-1/4 flex flex-col items-center m-4 p-4 max-md:items-start max-md:p-0">
                 <h2 className="font-bold text-xl text-primary mb-2">
-                  Value Three
+                  Cherish Each Other
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim adminim veniam, quis nostrud exercitation ullamco
-                  laboris nisi utaliquip ex ea commodo consequat.
+                  As Blueprint members, we want to cherish our time spent
+                  together. We develop meaningful relationships that extend well
+                  beyond the scope of the organization. We value each other as
+                  individuals and appreciate our differences.
                 </p>
               </div>
               <div className="basis-1/4 flex flex-col items-center m-4 p-4 max-md:items-start max-md:p-0">
                 <h2 className="font-bold text-xl text-primary mb-2">
-                  Value Four
+                  Seek Innovation
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim adminim veniam, quis nostrud exercitation ullamco
-                  laboris nisi utaliquip ex ea commodo consequat.
+                  As Blueprint members, we recognize that change is both
+                  inevitable and necessary. We are committed to innovate and
+                  emphasize effective solutions as needed in order to remain
+                  relevant - nothing is sacred. We welcome new ideas and diverse
+                  thinking.
                 </p>
               </div>
               <div className="basis-1/4 flex flex-col items-center m-4 p-4 max-md:items-start max-md:p-0">
                 <h2 className="font-bold text-xl text-primary mb-2">
-                  Value Five
+                  Be Humble
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim adminim veniam, quis nostrud exercitation ullamco
-                  laboris nisi utaliquip ex ea commodo consequat.
+                  As Blueprint members strive to remain humble, accept our
+                  imperfections, and be receptive to feedback. We approach
+                  challenges with an open mind and remember that anyone can
+                  pursue social good, not just Blueprint.
                 </p>
               </div>
             </div>

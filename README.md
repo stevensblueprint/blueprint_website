@@ -1,5 +1,7 @@
 # Stevens Blueprint Website
 
+![Blueprint](/src/assets/logos/logo_banner.png)
+
 Stevens Blueprint, a student club organization dedicated to developing code for non-profit organizations.
 
 ## Table of Contents
