@@ -1,5 +1,5 @@
 export function url(page) {
   return (
-    page.src.path + ".html" // this seems to be necessary even with the new get date from folders functionality
+    page.src.path + ".html" // without this, markdown folders are compiled to jsx but not given extension
   );
 }
