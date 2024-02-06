@@ -10,6 +10,7 @@ const site = lume({
   // emptyDest: false,
   server: {
     open: true,
+    page404: "./custom404/index.html",
   },
   location: new URL("https://sitblueprint.com"),
   watcher: {
