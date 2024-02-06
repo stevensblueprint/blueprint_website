@@ -7,19 +7,25 @@ export default () => {
         <title>Stevens Blueprint</title>
       </head>
       <body>
-        <div className="flex absolute p-2 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="flex lg:flex-row flex-col justify-center items-center h-screen w-screen p-2">
           <div className="flex flex-col">
-            <h1 className="text-4xl">blueprint</h1>
+            <h1 className="text-4xl font-bold">blueprint</h1>
             <div className="text-xl">
               <div className="flex">
                 <p className="font-bold pr-2">404 Error.</p>
-                <a href="/"> Click here to go to the homepage.</a>
+                <a href="/" className="text-sky-600">
+                  {" "}
+                  Click here to go to the homepage.
+                </a>
               </div>
-              <p> Unfortunately the page you tried to access does not exist.</p>
+              <p>
+                {" "}
+                Unfortunately, the page you are trying to access does not exist.
+              </p>
             </div>
           </div>
           <a href="/" className="flex flex-col text-xl">
-            <img src={logo} alt="Logo" className="w-24 h-24" />
+            <img src={logo} alt="Logo" className="w-24 h-24 object-cover" />
           </a>
         </div>
       </body>
