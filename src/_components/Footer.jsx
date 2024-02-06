@@ -2,13 +2,12 @@ import React from "https://esm.sh/react";
 
 export default function Footer() {
   //
-  const blueprint_url = "https://sitblueprint.com/";
-  const about_url = "https:///sitblueprint.com/about";
-  const projects_url = "https:///sitblueprint.com/projects";
-  const contact_url = "https:///sitblueprint.com/contact";
-  const apply_url = "https:///sitblueprint.com/apply";
-  const process_url = "https:///sitblueprint.com/process";
-  const faq_url = "https:///sitblueprint.com/faq";
+  const blueprint_url = "/";
+  const about_url = "/about";
+  const projects_url = "/projects";
+  const apply_url = "/apply";
+  const process_url = "/process";
+  const faq_url = "/faq";
   const linkedin_url = "https://www.linkedin.com/company/stevens-blueprint/";
   const github_url = "https://github.com/stevensblueprint";
   const instagram_url = "https://instagram.com/stevensblueprint";
@@ -105,9 +104,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li className="mb-4 font- poppins">
-                    <a href={contact_url} className="hover:underline">
-                      Contact
-                    </a>
+                    <a href="mailto:sit.blueprint@gmail.com">Contact</a>
                   </li>
                 </ul>
               </div>
