@@ -5,7 +5,6 @@ export default function Footer() {
   const blueprint_url = "/";
   const about_url = "/about";
   const projects_url = "/projects";
-  const contact_url = "/contact";
   const apply_url = "/apply";
   const process_url = "/process";
   const faq_url = "/faq";
@@ -105,9 +104,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li className="mb-4 font- poppins">
-                    <a href={contact_url} className="hover:underline">
-                      Contact
-                    </a>
+                    <a href="mailto:sit.blueprint@gmail.com">Contact</a>
                   </li>
                 </ul>
               </div>
