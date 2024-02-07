@@ -20,7 +20,9 @@ export default ({ comp }) => (
               gaining valuable experience while giving back to the community.
             </p>
             <comp.Button
-              style={"lg:p-4 lg:m-0 p-5 m-10 lg:rounded-sm rounded-xl bg-white text-text-color font-bold lg:text-base text-4xl"}
+              style={
+                "lg:p-4 lg:m-0 p-5 m-10 lg:rounded-sm rounded-xl bg-white text-text-color font-bold lg:text-base text-4xl"
+              }
               redirect_url={""}
               text={"Read More"}
             />
