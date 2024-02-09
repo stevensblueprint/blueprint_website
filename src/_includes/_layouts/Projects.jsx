@@ -33,7 +33,7 @@ export default ({ comp }) => (
             <h1 className="lg:text-4xl text-6xl mb-12">
               <strong>Current Projects</strong>
             </h1>
-            <div className="w-full grid grid-cols-2 gap-6 max-lg:grid-cols-2 max-sm:flex max-sm:flex-col">
+            <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col">
               <comp.ProjectCard
                 name_organization={"Asian American Dream"}
                 image_url={"../assets/logos/aad_logo.png"}

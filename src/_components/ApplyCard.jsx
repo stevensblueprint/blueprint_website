@@ -23,7 +23,7 @@ export default function ApplyCard({
           <h1 className="font-bold lg:my-2 my-4 lg:text-3xl text-5xl">
             {card_title}
           </h1>
-          <p className="line-clamp-6 lg:text-base text-2xl">{description}</p>
+          <p className="line-clamp-6 lg:text-base text-3xl">{description}</p>
         </figcaption>
         <div className="mt-4">
           <a

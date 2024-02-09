@@ -21,7 +21,7 @@ export default function ProjectCard({
           <h1 className="font-bold lg:my-2 my-4 lg:text-2xl text-5xl">
             {name_organization}
           </h1>
-          <p className="line-clamp-6 max-sm:w-full lg:text-base text-2xl">
+          <p className="line-clamp-6 max-sm:w-full lg:text-base text-3xl">
             {description}
           </p>
         </figcaption>
