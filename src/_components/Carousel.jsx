@@ -2,13 +2,13 @@ import React from "https://esm.sh/react";
 
 export default function Carousel({ array_of_images }) {
   return (
-    <div className="w-screen max-h-[40rem] overflow-y-scroll relative">
-      <div className="flex gap-6 overflow-scroll px-32 py-4 max-md:px-16 max-sm:flex-col max-sm:px-4">
+    <div className="w-screen lg:max-h-[40rem] overflow-y-scroll relative">
+      <div className="flex gap-6 overflow-scroll lg:px-32 px-12 py-4 max-md:px-16 max-sm:flex-col max-sm:px-4">
         {array_of_images.map((image, i) => {
           return (
             <div
               key={i}
-              className="flex justify-center shrink-0 w-[35rem] h-auto max-sm:w-full"
+              className="flex justify-center shrink-0 lg:w-[35rem] w-[55rem] h-auto max-sm:w-full"
             >
               <img className="rounded-lg" src={image} alt="carousel image" />
             </div>

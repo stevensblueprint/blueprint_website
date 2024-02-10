@@ -48,8 +48,8 @@ export default ({ comp, title }) => {
             src="../assets/vector/hero_lines.svg"
           />
         </div>
-        <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 bg-gray-50 max-lg:h-fit">
-          <h1 className="lg:text-5xl pt-16 text-7xl">
+        <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-6 bg-gray-50 max-lg:h-fit">
+          <h1 className="lg:text-5xl text-7xl">
             <strong>About Us</strong>
           </h1>
           <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
@@ -72,8 +72,8 @@ export default ({ comp, title }) => {
             redirect_url={"about"}
           />
         </section>
-        <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 max-lg:h-fit">
-          <h1 className="lg:text-5xl pt-16 text-7xl">
+        <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-6 max-lg:h-fit">
+          <h1 className="lg:text-5xl text-7xl">
             <strong>Projects</strong>
           </h1>
           <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
@@ -81,7 +81,7 @@ export default ({ comp, title }) => {
             Blueprint's work is open source. We believe in building technology
             that makes our community more open and connected.
           </p>
-          <div className="w-full grid grid-cols-2 gap-6 px-40 max-lg:flex max-lg:flex-col max-lg:px-8">
+          <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col">
             <comp.ProjectCard
               name_organization={"Asian American Dream"}
               image_url={"../assets/logos/aad_logo.png"}
@@ -109,7 +109,7 @@ export default ({ comp, title }) => {
             redirect_url={"projects"}
           />
         </section>
-        <section className="h-[25rem] bg-primary text-negative flex flex-col justify-evenly items-center justify-center py-8 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
+        <section className="h-[25rem] bg-primary text-negative flex flex-col justify-evenly items-center justify-center py-16 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
           <h1 className="lg:text-5xl text-6xl">
             <strong>Sponsors and Partners</strong>
           </h1>
@@ -126,8 +126,8 @@ export default ({ comp, title }) => {
             />
           </div>
         </section>
-        <section className="h-screen flex flex-col items-center justify-center py-8 gap-y-6 max-lg:h-fit">
-          <h1 className="lg:text-5xl pt-16 text-7xl">
+        <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-6 max-lg:h-fit">
+          <h1 className="lg:text-5xl text-7xl">
             <strong>Apply</strong>
           </h1>
           <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
@@ -135,7 +135,7 @@ export default ({ comp, title }) => {
             Blueprint's work is open source. We believe in building technology
             that makes our community more open and connected.
           </p>
-          <div className="w-full grid grid-cols-2 gap-6 px-40 max-lg:flex max-lg:flex-col max-lg:px-8">
+          <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col">
             <comp.ApplyCard
               card_title={"Students"}
               image_url={"../assets/events/google_event_2.jpg"}
