@@ -8,9 +8,9 @@ export default function ApplyCard({
   project_tag,
 }) {
   return (
-    <figure className="flex flex-col w-full border border-black rounded-xl overflow-hidden">
+    <figure className="flex flex-col w-full border rounded-xl overflow-hidden">
       <div
-        className={`bg-[url(${image_url})] bg-cover bg-no-repeat bg-center h-64 w-full rounded-t-xl border border-black relative`}
+        className={`bg-[url(${image_url})] bg-cover bg-no-repeat bg-center h-64 w-full rounded-t-xl border relative`}
       >
         <div
           className={`${project_tag ? "" : "hidden"} absolute top-0 right-0 m-4 bg-black/60 backdrop-blur-md text-white rounded-lg px-6 py-1`}
