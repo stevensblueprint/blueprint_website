@@ -2,12 +2,22 @@ export default ({ comp }) => (
     <html>
       <head>
         <link rel="stylesheet" href="/styles.css" />
-        <title> Apply </title>
+        <title> For Students </title>
       </head>
       <body>
         <>
           <comp.Navbar />
+          <div class="flex flex-col items-center px-4 lg:px-8">
+            <h1 class="text-4xl">
+              <strong>For Students</strong>
+            </h1>
+          </div>
+
           <section className="grid place-content-center">
+            <div>
+              
+            </div>
+
             <div className="flex flex-col items-center p-20 max-lg:px-12 max-md:w-full max-md:px-4">
               <div className="w-full flex flex-wrap justify-evenly max-md:flex-nowrap max-md:flex-col">
                 <ol class="flex flex-col p-10 md:flex-row md:divide-x md:divide-charcoal-500 space-y-5 md:space-y-0">
@@ -42,13 +52,12 @@ export default ({ comp }) => (
                     <div class="relative w-16 h-16 mb-3">
                       <h1 class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">3</h1>
                     </div>
-                    <h2 className="font-bold text-xl text-primary mb-2">
+                    <h2 className="font-bold text-xl text-primary">
                       Coffee Chat with Us
                     </h2>
                     <p>
-                      Let's talk! Invites will be sent out by Mar 24 to schedule a time to connect with a member of our recruitment team.
-                      During these chats, you'll have an opportunity to share more about how your values connect to Blueprint, and our team members
-                      will also be available to answer any of your questions. Final decisions will be released by Apr 05!
+                    Let's talk! Invites will be sent out by Mar 24 to connect. Before meeting, a small technical problem will be sent out for you to 
+                    complete. During these chats, you'll have an opportunity to share more about how your values and any questions you may have!
                     </p>
                   </li>
                 </ol>

@@ -121,7 +121,7 @@ export default ({ comp }) => (
               {
                 <comp.MemberCard
                   key={1}
-                  name={"Katie Nguyen"}
+                  name={"Katie Ng"}
                   role={"President"}
                   image_url={"../assets/eboard/president.jpg"}
                 />
