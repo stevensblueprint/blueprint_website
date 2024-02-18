@@ -1,8 +1,12 @@
 ---
 title: Stevens Blueprint
-layout: _layouts/Placeholder.jsx
-headline: Under Construction.
-description: We appreciate your patience, come back soon!
+layout: _layouts/Blog.jsx
+headline: Stevens Blueprint Blog
+description: Keep up with our student run organization's latest accomplishments and mishaps.
 ---
 
-# Stevens Blueprint Website
+Blog page to learn more about Stevens Blueprint and what we do
+
+## Section
+
+Learn more about us!

@@ -48,7 +48,7 @@ export default ({ comp, title }) => {
             src="../assets/vector/hero_lines.svg"
           />
         </div>
-        <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-6 bg-gray-50 max-lg:h-fit">
+        <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-gray-50">
           <h1 className="lg:text-5xl text-7xl">
             <strong>About Us</strong>
           </h1>

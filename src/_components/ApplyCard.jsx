@@ -13,7 +13,9 @@ export default function ApplyCard({
         className={`bg-[url(${image_url})] bg-cover bg-no-repeat bg-center h-64 w-full rounded-t-xl border relative`}
       >
         <div
-          className={`${project_tag ? "" : "hidden"} absolute top-0 right-0 m-4 bg-black/60 backdrop-blur-md text-white rounded-lg px-6 py-1`}
+          className={`${
+            project_tag ? "" : "hidden"
+          } absolute top-0 right-0 m-4 bg-black/60 backdrop-blur-md text-white rounded-lg px-6 py-1`}
         >
           {project_tag}
         </div>
