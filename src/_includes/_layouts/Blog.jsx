@@ -1,4 +1,4 @@
-export default ({ comp }) => (
+export default ({ comp, description, children }) => (
   <html>
     <head>
       <link rel="stylesheet" href="/styles.css" />
@@ -7,6 +7,8 @@ export default ({ comp }) => (
     <body>
       <>
         <comp.Navbar />
+        {description}
+        {children}
         <comp.Footer />
       </>
     </body>
