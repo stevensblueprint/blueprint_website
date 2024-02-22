@@ -20,9 +20,11 @@ const site = lume({
 });
 
 site
-  .use(favicon({
-  input: "assets/logos/logo.png"
-  }))
+  .use(
+    favicon({
+      input: "assets/logos/logo.png",
+    }),
+  )
   .use(
     tailwindcss({
       extensions: [".html", ".js", ".njk", ".jsx"],
@@ -52,6 +54,6 @@ site
   .copy("assets/vector")
   .loadAssets([".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".svg"])
   .ignore("README.md", "CHANGELOG.md", "node_modules")
-  .use(jsx())
+  .use(jsx());
 
 export default site;
