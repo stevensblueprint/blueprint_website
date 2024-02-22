@@ -3,6 +3,7 @@ import tailwindcss from "lume/plugins/tailwindcss.ts";
 import postcss from "lume/plugins/postcss.ts";
 import typography from "npm:@tailwindcss/typography";
 import jsx from "lume/plugins/jsx.ts";
+import favicon from "lume/plugins/favicon.ts";
 
 const site = lume({
   src: "./src",
@@ -19,6 +20,9 @@ const site = lume({
 });
 
 site
+  .use(favicon({
+  input: "assets/logos/logo.png"
+  }))
   .use(
     tailwindcss({
       extensions: [".html", ".js", ".njk", ".jsx"],
@@ -46,8 +50,8 @@ site
   .copy("assets/eboard")
   .copy("assets/events")
   .copy("assets/vector")
-  .loadAssets([".css", ".js"])
+  .loadAssets([".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".svg"])
   .ignore("README.md", "CHANGELOG.md", "node_modules")
-  .use(jsx());
+  .use(jsx())
 
 export default site;
