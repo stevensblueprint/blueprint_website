@@ -7,8 +7,8 @@ export default ({ comp }) => (
     <body>
       <>
         <comp.Navbar />
-        <div class="flex flex-col items-center px-4 lg:px-8">
-          <h1 class="text-4xl">
+        <div className="flex flex-col items-center px-4 lg:px-8">
+          <h1 className="text-4xl">
             <strong>For Students</strong>
           </h1>
         </div>
@@ -18,10 +18,10 @@ export default ({ comp }) => (
 
           <div className="flex flex-col items-center p-20 max-lg:px-12 max-md:w-full max-md:px-4">
             <div className="w-full flex flex-wrap justify-evenly max-md:flex-nowrap max-md:flex-col">
-              <ol class="flex flex-col p-10 md:flex-row md:divide-x md:divide-charcoal-500 space-y-5 md:space-y-0">
-                <li class="flex-1 flex flex-col p-6 space-y-4 md:pr-6">
-                  <div class="relative w-16 h-16 mb-3">
-                    <h1 class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">
+              <ol className="flex flex-col p-10 md:flex-row md:divide-x md:divide-charcoal-500 space-y-5 md:space-y-0">
+                <li className="flex-1 flex flex-col p-6 space-y-4 md:pr-6">
+                  <div className="relative w-16 h-16 mb-3">
+                    <h1 className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">
                       1
                     </h1>
                   </div>
@@ -39,9 +39,9 @@ export default ({ comp }) => (
                   </p>
                 </li>
 
-                <li class="flex-1 flex flex-col p-6 space-y-4 md:pr-6">
-                  <div class="relative w-16 h-16 mb-3">
-                    <h1 class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">
+                <li className="flex-1 flex flex-col p-6 space-y-4 md:pr-6">
+                  <div className="relative w-16 h-16 mb-3">
+                    <h1 className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">
                       2
                     </h1>
                   </div>
@@ -56,9 +56,9 @@ export default ({ comp }) => (
                   </p>
                 </li>
 
-                <li class="flex-1 flex flex-col p-6 space-y-4 md:pr-6">
-                  <div class="relative w-16 h-16 mb-3">
-                    <h1 class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">
+                <li className="flex-1 flex flex-col p-6 space-y-4 md:pr-6">
+                  <div className="relative w-16 h-16 mb-3">
+                    <h1 className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">
                       3
                     </h1>
                   </div>

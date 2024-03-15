@@ -1,17 +1,18 @@
 ---
-url: /blogPostExample.html
-title: Stevens Blueprint
+url: /blog/example2.html
+title: Second Post
 layout: _layouts/Post.jsx
-headline: Stevens Blueprint Blog
+headline: Blog Headline 2
 description: Learn more about Blueprint's History!
-date: 2024-02-16
+author: Shawn Aviles
+date: 2024-02-10
 tags:
   - projects
-  - npo
-  - progress
+  - learn
+  - blog
 ---
 
-Wow this is the first ever blog post. Very Exciting
+Wow this is the SECOND ever blog post. Very Exciting
 
 ## Setion Header
 
@@ -29,3 +30,7 @@ function myCommand() {
 // Test with a line break above this line.
 console.log("Test");
 ```
+
+Loved getting to talk about javascript and pit it in this sample blog post.
+
+Goodbye!
