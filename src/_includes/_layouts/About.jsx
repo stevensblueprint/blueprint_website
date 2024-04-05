@@ -28,7 +28,7 @@ export default ({ comp }) => (
             />
           </div>
         </section>
-        <section className="grid place-content-center" class="info">
+        <section className="grid place-content-center" id="info">
           <div className="flex flex-col items-center py-20 px-40 max-lg:px-20 max-md:w-full max-md:px-8">
             <h1 className="lg:text-4xl text-6xl mb-12">
               <strong>Our Mission</strong>
