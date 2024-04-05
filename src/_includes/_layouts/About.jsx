@@ -1,8 +1,11 @@
 export default ({ comp }) => (
   <html>
     <head>
+      <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
-      <title>Stevens Blueprint</title>
+      <title>About Stevens Blueprint</title>
+      <meta property="og:title" content="About Stevens Blueprint" />
+      <meta property="og:url" content="https://sitblueprint.com/about/" />
     </head>
     <body>
       <div>
