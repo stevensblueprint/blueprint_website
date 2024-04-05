@@ -1,9 +1,9 @@
 export default ({ comp, description, posts, children }) => (
   <html>
     <head>
-	<comp.OpenGraphCommon />
-	<meta property="og:title" content="Stevens Blueprint Blog" />
-	<meta property="og:url" content="https://sitblueprint.com/blog/" />
+      <comp.OpenGraphCommon />
+      <meta property="og:title" content="Stevens Blueprint Blog" />
+      <meta property="og:url" content="https://sitblueprint.com/blog/" />
       <link rel="stylesheet" href="/styles.css" />
       <title>Stevens Blueprint Blog</title>
     </head>

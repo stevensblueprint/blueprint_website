@@ -2,9 +2,9 @@ export default ({ comp, title }) => {
   return (
     <html>
       <head>
-	  <comp.OpenGraphCommon />
-	  <meta property="og:title" content="Stevens Blueprint" />
-	  <meta property="og:url" content="https://sitblueprint.com/" />
+        <comp.OpenGraphCommon />
+        <meta property="og:title" content="Stevens Blueprint" />
+        <meta property="og:url" content="https://sitblueprint.com/" />
         <link rel="stylesheet" href="styles.css" />
         <title>{title}</title>
       </head>

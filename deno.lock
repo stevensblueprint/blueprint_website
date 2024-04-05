@@ -12,6 +12,7 @@
       "npm:postcss-import@15.1.0": "npm:postcss-import@15.1.0_postcss@8.4.31",
       "npm:postcss-nesting@12.0.1": "npm:postcss-nesting@12.0.1_postcss@8.4.31_postcss-selector-parser@6.0.13",
       "npm:postcss@8.4.31": "npm:postcss@8.4.31",
+      "npm:prettier@3.2.5": "npm:prettier@3.2.5",
       "npm:react": "npm:react@18.2.0",
       "npm:react-dom@18.2.0": "npm:react-dom@18.2.0_react@18.2.0",
       "npm:react@18.2.0": "npm:react@18.2.0",
@@ -541,6 +542,10 @@
           "source-map-js": "source-map-js@1.0.2"
         }
       },
+      "prettier@3.2.5": {
+        "integrity": "sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==",
+        "dependencies": {}
+      },
       "queue-microtask@1.2.3": {
         "integrity": "sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==",
         "dependencies": {}
@@ -1047,7 +1052,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:prettier-plugin-tailwindcss@^0.5.11",
+        "npm:prettier-plugin-tailwindcss@^0.5.12",
         "npm:prettier@^3.2.5"
       ]
     }

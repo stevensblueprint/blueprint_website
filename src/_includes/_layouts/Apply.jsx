@@ -1,9 +1,9 @@
 export default ({ comp }) => (
   <html>
     <head>
-	<comp.OpenGraphCommon />
-	<meta property="og:title" content="Apply to Stevens Blueprint" />
-	<meta property="og:url" content="https://sitblueprint.com/apply/" />
+      <comp.OpenGraphCommon />
+      <meta property="og:title" content="Apply to Stevens Blueprint" />
+      <meta property="og:url" content="https://sitblueprint.com/apply/" />
       <link rel="stylesheet" href="/styles.css" />
       <title>Apply to Stevens Blueprint</title>
     </head>
