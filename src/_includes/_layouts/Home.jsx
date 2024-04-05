@@ -3,6 +3,7 @@ export default ({ comp, title }) => {
     <html>
       <head>
         <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="assets/logos/logo.png" type="image/png"></link>
         <title>{title}</title>
       </head>
       <body>
