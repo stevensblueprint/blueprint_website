@@ -4,7 +4,7 @@
     "format:write": "prettier --write ."
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.0",
     "prettier-plugin-tailwindcss": "^0.5.13"
   }
 }
