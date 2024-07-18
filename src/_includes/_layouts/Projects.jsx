@@ -56,6 +56,24 @@ export default ({ comp }) => (
                 project_tag={"Affordable Internet"}
               />
             </div>
+            <comp.InformationCard
+                image_url={"../assets/events/google_event_1.jpg"}
+                card_header={"Students"}
+                description={
+                  "We invite you to join our Blueprint family as a student volunteer who will contribute to the design, development, or management of our projects based on your interests and skills!"
+                }
+                redirect_url={"/apply"}
+                redirect_url_text={"Learn More"}
+              />
+            <comp.ProjectCard
+                name_organization={"Asian American Dream"}
+                image_url={"../assets/logos/aad_logo.png"}
+                description={
+                  "Asian American Dream is a New York City based organization aiming to empower and assist underserved AAPI undergraduates in their career goals. We are developing a platform that will help them manage their rapidly-growing Kin Mentorship Program."
+                }
+                redirect_url={"/projects/asian-american-dream"}
+                project_tag={"Volunteer Management"}
+              />
           </div>
         </section>
         <comp.Footer />

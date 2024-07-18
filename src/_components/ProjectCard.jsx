@@ -4,36 +4,24 @@ export default function ProjectCard({
   name_organization,
   image_url,
   description,
-  redirect_url,
   project_tag,
 }) {
   return (
-    <figure className="flex flex-col w-full max-sm:w-full">
-      <div
-        className={`bg-[url(${image_url})] bg-contain bg-no-repeat bg-center h-40 rounded-xl relative`}
-      >
-        <div className="absolute top-0 right-0 m-4 bg-black/60 backdrop-blur-4xl text-white rounded-lg px-6 py-1 max-sm:left-0 max-sm:right-auto">
-          {project_tag}
-        </div>
+    <figure className="flex-col flex w-full border border-black rounded-lg lg:p-5 p-8 lg:max-w-[445px]">
+      <div className="h-36 flex justify-center items-center w-full">
+        <img src={image_url} alt={`${name_organization} Image`} className="h-full object-contain lg:max-w-[315px]" />
       </div>
-      <div className="p-4">
         <figcaption>
-          <h1 className="font-bold lg:my-2 my-4 lg:text-2xl text-5xl">
+          <h1 className="font-semibold lg:text-2xl text-5xl mt-4 lg:my-3">
             {name_organization}
           </h1>
-          <p className="line-clamp-6 max-sm:w-full lg:text-base text-3xl">
+          <p className="bg-primary px-2 py-1 max-w-max my-3 rounded-md text-white lg:text-xs text-lg">
+            {project_tag}
+          </p>
+          <p className="line-clamp-6 max-sm:w-full lg:text-xl text-3xl lg:leading-6">
             {description}
           </p>
         </figcaption>
-        <div className="mt-2">
-          <a
-            className="text-primary font-semibold lg:text-lg text-3xl"
-            href={redirect_url}
-          >
-            Read More
-          </a>
-        </div>
-      </div>
     </figure>
   );
 }
