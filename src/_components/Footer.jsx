@@ -3,9 +3,9 @@ import React from "https://esm.sh/react";
 export default function Footer() {
   //
   const blueprint_url = "/";
-  const about_url = "/about";
+  const mission_url = "/mission";
   const projects_url = "/projects";
-  const apply_url = "/apply";
+  const community_url = "/community";
   const process_url = "/process";
   const faq_url = "/faq";
   const linkedin_url = "https://www.linkedin.com/company/stevens-blueprint/";
@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="mb-6 md:mb-0">
               <a href={blueprint_url} className="flex items-center">
                 <img
-                  src="../assets/logos/logo_negative.png"
+                  src="/assets/logos/logo_negative.png"
                   className="h-8 mr-2"
                   alt="blueprint Logo"
                 />
@@ -94,8 +94,8 @@ export default function Footer() {
                 </h2>
                 <ul className="text-gray-300  font-medium">
                   <li className="mb-4 font- poppins">
-                    <a href={about_url} className="hover:underline">
-                      About
+                    <a href={mission_url} className="hover:underline">
+                      Mission
                     </a>
                   </li>
                   <li className="mb-4 font- poppins">
@@ -114,8 +114,8 @@ export default function Footer() {
                 </h2>
                 <ul className="text-gray-300 font-medium">
                   <li className="mb-4 font- poppins">
-                    <a href={apply_url} className="hover:underline ">
-                      Apply
+                    <a href={community_url} className="hover:underline ">
+                      Get Involved
                     </a>
                   </li>
                   <li className="mb-4 font- poppins">
@@ -136,8 +136,8 @@ export default function Footer() {
                 </h2>
                 <ul className="text-gray-300 font-medium">
                   <li className="mb-4 font- poppins">
-                    <a href={apply_url} className="hover:underline">
-                      Apply
+                    <a href={community_url} className="hover:underline">
+                      Get Involved
                     </a>
                   </li>
                   <li className="mb-4 font- poppins">
