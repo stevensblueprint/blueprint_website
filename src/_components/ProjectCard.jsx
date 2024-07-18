@@ -19,7 +19,7 @@ export default function ProjectCard({
         <h1 className="font-semibold lg:text-2xl text-5xl mt-4 lg:my-3">
           {name_organization}
         </h1>
-        <p className="bg-primary px-2 py-1 max-w-max my-3 rounded-md text-white lg:text-xs text-lg">
+        <p className="bg-primary px-2 py-1 max-w-max my-3 rounded-md text-white lg:text-xs text-lg font-medium">
           {project_tag}
         </p>
         <p className="line-clamp-6 max-sm:w-full lg:text-xl text-3xl lg:leading-6">
