@@ -1,4 +1,4 @@
 ---
-title: Stevens Blueprint
+title: Mission
 layout: _layouts/Mission.jsx
 ---
