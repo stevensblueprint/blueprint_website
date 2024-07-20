@@ -1,6 +1,5 @@
 import React from "https://esm.sh/react";
 
-
 // Global navigation links array
 const navigationLinks = [
   { href: "/mission", text: "Mission" },
