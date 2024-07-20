@@ -1,7 +1,7 @@
 import React from "https://esm.sh/react";
 
 export default function Navbar() {
-  const logo = "../assets/logos/logo_negative.png";
+  const logo = "/assets/logos/logo_negative.png";
   return (
     <nav className="flex items-center justify-around space-x-64 p-6 bg-primary z-50">
       <a href="/" className="flex items-center text-white mr-60">
@@ -11,14 +11,14 @@ export default function Navbar() {
         </span>
       </a>
       <div>
-        <a href="/about" className="mr-4 text-xl text-white">
-          About
+        <a href="/mission" className="mr-4 text-xl text-white">
+          Mission
         </a>
         <a href="/projects" className="mr-4 text-xl text-white">
           Projects
         </a>
-        <a href="/apply" className="mr-4 text-xl text-white">
-          Apply
+        <a href="/community" className="mr-4 text-xl text-white">
+          Get Involved
         </a>
         <a href="/blog" className="text-xl text-white">
           Blog

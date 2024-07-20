@@ -1,5 +1,5 @@
 export default ({ comp, headline, description }) => {
-  const logo = "../assets/logos/logo.png";
+  const logo = "/assets/logos/logo.png";
   return (
     <html>
       <head>
