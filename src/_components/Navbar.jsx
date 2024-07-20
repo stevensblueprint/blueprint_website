@@ -15,7 +15,9 @@ export default function NavigationBar() {
       {/* Logo and Brand Name Section */}
       <a href="/" className="flex items-center text-white">
         <img src={logo} alt="Blueprint Logo" className="mr-2 w-10 h-10" />
-        <span className="text-3xl font-poppins font-semibold hover:font-bold">blueprint</span>
+        <span className="text-3xl font-poppins font-semibold hover:font-bold">
+          blueprint
+        </span>
       </a>
       {/* Desktop Navigation Menu - Visible only on large screens */}
       <div className="hidden lg:flex space-x-6">
@@ -53,9 +55,9 @@ export default function NavigationBar() {
 function renderDesktopNavigationLinks() {
   // Map through the links to render them
   return navigationLinks.map((link, index) => (
-    <a 
-      key={index} 
-      href={link.href} 
+    <a
+      key={index}
+      href={link.href}
       className="text-white text-xl relative group transition-all duration-300 ease-in-out"
     >
       <span className="group-hover:font-bold group-hover:text-yellow-100">
