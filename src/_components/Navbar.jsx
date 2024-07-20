@@ -1,22 +1,21 @@
 import React from "https://esm.sh/react";
 
 // Global navigation links array
-//! href for "about" and "apply" may need to be changed
 const navigationLinks = [
-  { href: "/about", text: "Mission" },
+  { href: "/mission", text: "Mission" },
   { href: "/projects", text: "Projects" },
-  { href: "/apply", text: "Get Involved" },
+  { href: "/community", text: "Get Involved" },
   { href: "/blog", text: "Blog" },
 ];
 
 export default function NavigationBar() {
   const logo = "../assets/logos/logo_negative.png";
   return (
-    <nav className="relative flex items-center justify-between p-4 bg-primary z-50">
+    <nav className="relative flex items-center justify-between p-6 bg-primary z-50">
       {/* Logo and Brand Name Section */}
       <a href="/" className="flex items-center text-white">
-        <img src={logo} alt="Blueprint Logo" className="mr-2 w-8 h-8" />
-        <span className="text-2xl font-semibold">blueprint</span>
+        <img src={logo} alt="Blueprint Logo" className="mr-2 w-10 h-10" />
+        <span className="text-3xl font-poppins font-semibold hover:font-bold">blueprint</span>
       </a>
       {/* Desktop Navigation Menu - Visible only on large screens */}
       <div className="hidden lg:flex space-x-6">
@@ -52,14 +51,20 @@ export default function NavigationBar() {
 
 // Function to render desktop navigation links
 function renderDesktopNavigationLinks() {
-  //Map through the links to render them
+  // Map through the links to render them
   return navigationLinks.map((link, index) => (
-    <a key={index} href={link.href} className="text-white">
-      {link.text}
+    <a 
+      key={index} 
+      href={link.href} 
+      className="text-white text-xl relative group transition-all duration-300 ease-in-out"
+    >
+      <span className="group-hover:font-bold group-hover:text-yellow-100">
+        {link.text}
+      </span>
+      <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-100 transition-all group-hover:w-full"></span>
     </a>
   ));
 }
-
 // Function to render mobile navigation links
 function renderMobileNavigationLinks() {
   //Map through the links to render them
@@ -69,7 +74,7 @@ function renderMobileNavigationLinks() {
       href={link.href}
       className={`
         block text-white p-3 text-sm 
-        hover:bg-white hover:bg-opacity-10
+        hover:bg-white hover:bg-opacity-10 hover:font-bold
         ${
           // Add a bottom border to all items except the last one
           index !== navigationLinks.length - 1 ? "border-b border-white" : ""
