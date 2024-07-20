@@ -1,5 +1,6 @@
 import React from "https://esm.sh/react";
 
+
 // Global navigation links array
 const navigationLinks = [
   { href: "/mission", text: "Mission" },
@@ -9,7 +10,7 @@ const navigationLinks = [
 ];
 
 export default function NavigationBar() {
-  const logo = "../assets/logos/logo_negative.png";
+  const logo = "/assets/logos/logo_negative.png";
   return (
     <nav className="relative flex items-center justify-between p-6 bg-primary z-50">
       {/* Logo and Brand Name Section */}

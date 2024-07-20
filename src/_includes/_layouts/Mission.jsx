@@ -3,9 +3,9 @@ export default ({ comp }) => (
     <head>
       <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
-      <title>About Stevens Blueprint</title>
-      <meta property="og:title" content="About Stevens Blueprint" />
-      <meta property="og:url" content="https://sitblueprint.com/about/" />
+      <title>Stevens Blueprint Mission</title>
+      <meta property="og:title" content="Stevens Blueprint Mission" />
+      <meta property="og:url" content="https://sitblueprint.com/mission/" />
     </head>
     <body>
       <div>

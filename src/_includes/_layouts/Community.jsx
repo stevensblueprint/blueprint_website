@@ -2,10 +2,10 @@ export default ({ comp }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
-      <meta property="og:title" content="Apply to Stevens Blueprint" />
-      <meta property="og:url" content="https://sitblueprint.com/apply/" />
+      <meta property="og:title" content="Stevens Blueprint Community" />
+      <meta property="og:url" content="https://sitblueprint.com/community/" />
       <link rel="stylesheet" href="/styles.css" />
-      <title>Apply to Stevens Blueprint</title>
+      <title>Get Involved with Stevens Blueprint</title>
     </head>
     <body>
       <>
@@ -25,7 +25,7 @@ export default ({ comp }) => (
                 </p>
                 <a
                   className="text-primary font-semibold mt-2"
-                  href="/apply/students"
+                  href="/community/students"
                 >
                   Learn More
                 </a>
@@ -42,7 +42,7 @@ export default ({ comp }) => (
                 </p>
                 <a
                   className="text-primary font-semibold mt-2"
-                  href="/apply/nonprofits"
+                  href="/community/organizations"
                 >
                   Learn More
                 </a>

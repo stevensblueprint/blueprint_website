@@ -1176,9 +1176,8 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
-        "npm:prettier-plugin-tailwindcss@^0.5.11",
-        "npm:prettier@^3.2.5",
-        "npm:react-helmet@^6.1.0"
+        "npm:prettier-plugin-tailwindcss@^0.5.13",
+        "npm:prettier@^3.2.5"
       ]
     }
   }
