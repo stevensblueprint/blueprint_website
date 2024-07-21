@@ -86,7 +86,6 @@ export default function Footer() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-0 sm:gap-x-1 lg:gap-x-2">
-
               <div>
                 <h2 className="mb-6 text-md font-semibold font-poppins text-white uppercase">
                   General
