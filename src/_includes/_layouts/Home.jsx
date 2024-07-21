@@ -76,16 +76,19 @@ export default ({ comp, title }) => {
             redirect_url={"about"}
           />
         </section>
-        <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-6 max-lg:h-fit">
+        <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
-            <strong>Projects</strong>
+            <strong>What We Do</strong>
           </h1>
-          <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
-            With transparency and accessibility always top-of-mind, all of
-            Blueprint's work is open source. We believe in building technology
-            that makes our community more open and connected.
+          <p className="text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14 px-24 py-8">
+            We collaborate with non-profit organizations and offer <br /> our
+            expertise in software development , web design, <br /> and product
+            management to bring ideas to life
           </p>
-          <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col">
+          <p className="text-center text-xl mb-8">
+            Our most recent projects include...
+          </p>
+          <div className="w-full grid grid-cols-2 gap-6 lg:px-60 max-lg:flex max-lg:flex-col tems-center justify-center">
             <comp.ProjectCard
               name_organization={"Asian American Dream"}
               image_url={"../assets/logos/aad_logo.png"}
@@ -107,9 +110,9 @@ export default ({ comp, title }) => {
           </div>
           <comp.Button
             style={
-              "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl bg-primary text-negative font-bold w-fit lg:text-base text-4xl"
+              "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl border-2 border-black mt-8 text-black font-bold w-fit lg:text-base text-4xl"
             }
-            text={"See More"}
+            text={"View all projects"}
             redirect_url={"projects"}
           />
         </section>
