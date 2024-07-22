@@ -12,7 +12,6 @@ export default function NavigationBar() {
   const logo = "/assets/logos/logo_negative.png";
   return (
     <nav className="relative flex items-center justify-between p-6 bg-primary z-50">
-      {/* Logo and Brand Name Section */}
       <a href="/" className="flex items-center text-white">
         <img src={logo} alt="Blueprint Logo" className="mr-2 w-10 h-10" />
         <span className="text-3xl font-poppins font-semibold hover:font-bold">
@@ -38,7 +37,7 @@ export default function NavigationBar() {
 
         {/* Mobile Navigation Menu - Expands and shows when hamburger icon is clicked*/}
 
-        {/* Change background color for dropdwon menu here if desired */}
+        {/* Change background color for dropdown menu here if desired */}
         {/* current dropdown menu css:
         - 16px from top
         - 2px from right 
@@ -51,9 +50,7 @@ export default function NavigationBar() {
   );
 }
 
-// Function to render desktop navigation links
 function renderDesktopNavigationLinks() {
-  // Map through the links to render them
   return navigationLinks.map((link, index) => (
     <a
       key={index}
@@ -67,9 +64,7 @@ function renderDesktopNavigationLinks() {
     </a>
   ));
 }
-// Function to render mobile navigation links
 function renderMobileNavigationLinks() {
-  //Map through the links to render them
   return navigationLinks.map((link, index) => (
     <a
       key={index}
