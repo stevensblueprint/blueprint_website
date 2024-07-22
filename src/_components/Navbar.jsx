@@ -11,10 +11,10 @@ const navigationLinks = [
 export default function NavigationBar() {
   const logo = "/assets/logos/logo_negative.png";
   return (
-    <nav className="relative flex items-center justify-between p-6 bg-primary z-50">
+    <nav className="relative flex items-center justify-between lg:p-6 p-10 bg-primary z-50">
       <a href="/" className="flex items-center text-white">
-        <img src={logo} alt="Blueprint Logo" className="mr-2 w-10 h-10" />
-        <span className="text-3xl font-poppins font-semibold hover:font-bold">
+        <img src={logo} alt="Blueprint Logo" className="mr-2 lg:w-10 lg:h-10 w-16 h-16" />
+        <span className="lg:text-3xl text-5xl font-poppins font-semibold hover:font-bold">
           blueprint
         </span>
       </a>
@@ -34,15 +34,8 @@ export default function NavigationBar() {
         <label htmlFor="mobileMenuToggle" className="block cursor-pointer p-2">
           {renderHamburgerIcon()}
         </label>
-
         {/* Mobile Navigation Menu - Expands and shows when hamburger icon is clicked*/}
-
-        {/* Change background color for dropdown menu here if desired */}
-        {/* current dropdown menu css:
-        - 16px from top
-        - 2px from right 
-        - bg color = primary */}
-        <div className="absolute top-[calc(100%+1rem)] right-2 bg-primary transition-all duration-300 max-h-0 overflow-hidden peer-checked:max-h-screen peer-checked:border peer-checked:border-white peer-checked:rounded-lg peer-checked:shadow-lg w-48">
+        <div className="absolute top-[calc(100%+1rem)] right-2 bg-primary transition-all duration-300 max-h-0 overflow-hidden peer-checked:max-h-screen peer-checked:border peer-checked:border-white peer-checked:rounded-lg peer-checked:shadow-lg w-80">
           {renderMobileNavigationLinks()}
         </div>
       </div>
@@ -64,13 +57,14 @@ function renderDesktopNavigationLinks() {
     </a>
   ));
 }
+
 function renderMobileNavigationLinks() {
   return navigationLinks.map((link, index) => (
     <a
       key={index}
       href={link.href}
       className={`
-        block text-white p-3 text-sm 
+        block text-white p-8 text-4xl 
         hover:bg-white hover:bg-opacity-10 hover:font-bold
         ${
           // Add a bottom border to all items except the last one
@@ -87,7 +81,7 @@ function renderMobileNavigationLinks() {
 function renderHamburgerIcon() {
   return (
     <svg
-      className="w-6 h-6 text-white"
+      className="w-12 h-12 text-white"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
