@@ -13,7 +13,11 @@ export default function NavigationBar() {
   return (
     <nav className="relative flex items-center justify-between lg:p-6 p-10 bg-primary z-50">
       <a href="/" className="flex items-center text-white">
-        <img src={logo} alt="Blueprint Logo" className="mr-2 lg:w-10 lg:h-10 w-16 h-16" />
+        <img
+          src={logo}
+          alt="Blueprint Logo"
+          className="mr-2 lg:w-10 lg:h-10 w-16 h-16"
+        />
         <span className="lg:text-3xl text-5xl font-poppins font-semibold hover:font-bold">
           blueprint
         </span>
