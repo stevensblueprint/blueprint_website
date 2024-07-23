@@ -112,27 +112,31 @@ export default ({ comp, title }) => {
             text={"See More"}
             redirect_url={"projects"}
           />
-        </section >
+        </section>
         <section className="h-screen flex flex-col items-center justify-center py-16 gap-y-20 max-lg:h-fit ">
-            <h1 className="lg:text-5xl text-7xl">
-              <strong>How We Do It</strong>
-            </h1>
-            <div className=" grid grid-cols-2 gap-16 lg:px-40 px-20 max-lg:flex max-lg:flex-col place-items-center ">
-              <comp.InformationCard 
-                image_url={"../assets/events/google_event_1.jpg"}
-                card_header={"Students"}
-                description={"We invite you to join our Blueprint family as a student volunteer who will contribute to the design, development, or management of our projects based on your interests and skills!"}
-                redirect_url={"/community/students"}
-                redirect_url_text={"Learn More"}
-              />
-              <comp.InformationCard 
-                image_url={"../assets/events/google_event.jpg"}
-                card_header={"Organizations"}
-                description={"We can help you grow your organization with innovative software solutions, whether you have a specific project in mind or a curiosity of how Blueprint can support you!"}
-                redirect_url={"/community/organizations"}
-                redirect_url_text={"Learn More"}
-              />
-            </div>
+          <h1 className="lg:text-5xl text-7xl">
+            <strong>How We Do It</strong>
+          </h1>
+          <div className=" grid grid-cols-2 gap-16 lg:px-40 px-20 max-lg:flex max-lg:flex-col place-items-center ">
+            <comp.InformationCard
+              image_url={"../assets/events/google_event_1.jpg"}
+              card_header={"Students"}
+              description={
+                "We invite you to join our Blueprint family as a student volunteer who will contribute to the design, development, or management of our projects based on your interests and skills!"
+              }
+              redirect_url={"/community/students"}
+              redirect_url_text={"Learn More"}
+            />
+            <comp.InformationCard
+              image_url={"../assets/events/google_event.jpg"}
+              card_header={"Organizations"}
+              description={
+                "We can help you grow your organization with innovative software solutions, whether you have a specific project in mind or a curiosity of how Blueprint can support you!"
+              }
+              redirect_url={"/community/organizations"}
+              redirect_url_text={"Learn More"}
+            />
+          </div>
         </section>
         <section className="h-[17rem] bg-primary text-negative flex flex-col justify-evenly items-center justify-center py-16 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
           <h1 className="lg:text-5xl text-6xl mb-12">
