@@ -6,13 +6,14 @@ export default ({ comp }) => (
       <meta property="og:url" content="https://sitblueprint.com/apply/" />
       <link rel="stylesheet" href="/styles.css" />
       <title>Apply to Stevens Blueprint</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
       <>
         <comp.Navbar />
         <section className="grid place-content-center">
-          <div className="flex flex-col items-center p-20 max-lg:px-12 max-md:w-full max-md:px-4">
-            <h1 className="text-5xl mb-8">
+          <div className="max-w-screen-xl mx-auto flex flex-col items-center min-h-screen p-20 max-lg:px-12 max-md:w-full max-md:px-4">
+            <h1 className="text-5xl mb-8 text-center">
               Become part of our Blueprint community!
             </h1>
             <p className="text-xl mb-16 text-center max-w-3xl">
@@ -37,7 +38,7 @@ export default ({ comp }) => (
                   Application Details
                 </a>
               </div>
-              <div className="basis-1/3 flex flex-col m-2 p-4 max-md:items-start max-md:p-0 border border-black rounded-lg max-w-xl">
+              <div className="basis-1/3 flex flex-col m-2 p-4 max-md:items-start max-md:p-0s border border-black rounded-lg max-w-xl">
                 <h2 className="text-2xl mb-3 mt-4">For Non-Profits</h2>
                 <p className="text-[1.1rem] mb-4 flex-grow">
                   We’re looking for end-to-end projects that are feasible in a
