@@ -10,11 +10,11 @@ export default function InformationCard({
   return (
     <figure className="flex-col flex w-full border border-black rounded-lg lg:p-5 p-8 lg:max-w-[445px]">
       {image_url && (
-        <div className="h-36 flex justify-center items-center w-full">
+        <div className="h-40 w-full flex justify-center items-center  max-lg:h-80">
           <img
             src={image_url}
             alt={`${card_header} Image`}
-            className="h-full w-full object-cover rounded-xl lg:max-w-[315px]"
+            className="h-full w-full -mx-96  object-cover rounded-xl lg:max-w-[315px]"
           />
         </div>
       )}
