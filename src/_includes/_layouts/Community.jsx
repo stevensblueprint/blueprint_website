@@ -23,7 +23,9 @@ export default ({ comp }) => (
             </p>
             <div className="w-full flex flex-col mb-20 lg:mt-0 lg:mb-0 lg:flex-row lg:justify-center lg:space-x-10 space-y-8 lg:space-y-0">
               <div className="flex flex-col mb-8 lg:mb-0 max-w-3xl w-full mx-auto p-10 lg:mx-0 lg:p-6 border border-black rounded-lg lg:w-1/3 lg:max-w-xl">
-                <h2 className="text-6xl text-center mb-8 lg:text-left lg:text-2xl lg:mb-3">Students</h2>
+                <h2 className="text-6xl text-center mb-8 lg:text-left lg:text-2xl lg:mb-3">
+                  Students
+                </h2>
                 <p className="text-4xl mb-8 text-center lg:text-left lg:text-lg lg:mb-4 flex-grow">
                   Our application cycle to join projects begins at the beginning
                   of each semester. We also have internal opportunities in the
@@ -38,7 +40,9 @@ export default ({ comp }) => (
                 </a>
               </div>
               <div className="flex flex-col lg:mb-0 max-w-3xl w-full mx-auto p-10 lg:mx-0 lg:p-6 border border-black rounded-lg lg:w-1/3 lg:max-w-xl">
-                <h2 className="text-6xl text-center mb-8 lg:text-left lg:text-2xl lg:mb-3">For Non-Profits</h2>
+                <h2 className="text-6xl text-center mb-8 lg:text-left lg:text-2xl lg:mb-3">
+                  For Non-Profits
+                </h2>
                 <p className="text-4xl mb-8 text-center lg:text-left lg:text-lg lg:mb-4 flex-grow">
                   We're looking for end-to-end projects that are feasible in a
                   one year time frame. We want to ensure our projects are
@@ -55,7 +59,7 @@ export default ({ comp }) => (
             </div>
           </div>
         </section>
-        <comp.Footer/>
+        <comp.Footer />
       </>
     </body>
   </html>
