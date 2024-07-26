@@ -13,51 +13,50 @@ export default ({ comp, title }) => {
         <div className="h-[90vh] flex flex-col bg-[#D4EAFF] relative">
           <comp.Navbar />
           {/* start of hero */}
-          <div class="relative">
+          <div className="relative">
             <img
-              class="absolute top-1/2 right-1/4 w-16 "
+              className="absolute top-1/2 right-1/4 w-16 "
               src="../assets/vector/lamp.svg"
               alt="Lamp"
             />
           </div>
-          <section className="grow flex items-center relative overflow-hidden">
-            <div className="w-1/2 px-20 max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:items-center z-20">
-              <h1 className="font-bold text-4xl tracking-wide mb-6">
+          <section className="grow flex flex-col lg:flex-row lg:items-center relative overflow-hidden">
+            <div className="w-1/2 px-20 max-lg:w-full max-lg:flex-1 max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:pt-16 z-20">
+              <h1 className="font-bold text-4xl tracking-wide mb-6 max-lg:text-5xl max-lg:text-center max-lg:mb-8">
                 Tech for Social Good
               </h1>
-              <p className="text-xl w-[28rem] mb-10 max-lg:w-full max-lg:text-center font-weight:400">
+              <p className="text-xl w-[28rem] mb-10 max-lg:w-full max-lg:text-center max-lg:text-4xl max-lg:mb-12 font-weight:400">
                 We're a team of students from Stevens
                 <br />
                 Institute of Technology that develops software
                 <br />
                 solutions for non-profit organizations.
               </p>
-              <div className="flex space-x-6">
+              <div className="flex space-x-6 max-lg:flex-col max-lg:space-x-0 max-lg:space-y-8 max-lg:w-full max-lg:items-center">
                 <comp.Button
-                  style="px-6 py-3 rounded-lg bg-transparent border border-[#00070E] text-[#00070E] font-semibold"
+                  style="px-8 py-4 rounded-lg bg-transparent border-2 border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-12 max-lg:py-6 max-lg:text-4xl"
                   text="See our work"
                   redirect_url="projects"
                 />
                 <comp.Button
-                  style="px-6 py-3 rounded-lg bg-transparent border border-[#00070E] text-[#00070E] font-semibold"
+                  style="px-8 py-4 rounded-lg bg-transparent border-2 border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-12 max-lg:py-6 max-lg:text-4xl"
                   text="Join our team"
                   redirect_url="community"
                 />
               </div>
             </div>
-
-            <div className="absolute bottom-0 right-0 full max-w-[695px] flex items-end">
+            <div className="lg:absolute lg:bottom-0 lg:right-0 lg:full lg:max-w-[695px] flex items-end max-lg:flex-1">
               <img
                 src="../assets/vector/new_hero_background.svg"
                 alt="Background"
-                className="w-full h-auto object-bottom"
+                className="w-full h-full object-cover lg:object-bottom"
               />
             </div>
-            <div className="absolute bottom-0 right-10 w-5/12">
+            <div className="lg:absolute lg:bottom-0 lg:right-10 lg:w-5/12 max-lg:absolute max-lg:bottom-0 max-lg:left-0 max-lg:right-0">
               <img
                 src="../assets/vector/new_hero_banner.svg"
                 alt="Blueprint Persons"
-                className="w-full h-auto max-h-[80%]"
+                className="w-full h-full object-contain lg:object-bottom"
               />
             </div>
           </section>
