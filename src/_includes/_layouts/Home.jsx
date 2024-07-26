@@ -10,48 +10,59 @@ export default ({ comp, title }) => {
         <title>{title}</title>
       </head>
       <body>
-        <div className="h-screen flex flex-col">
+        <div className="h-[90vh] flex flex-col bg-[#D4EAFF] relative">
           <comp.Navbar />
-          <section className="grow flex items-center">
-            <div className="px-20 max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:items-center z-20">
-              <div className="flex items-center">
-                <img
-                  className="lg:w-20 w-32 mr-4"
-                  src="../assets/logos/logo.png"
-                />
-                <span className="font-bold lg:text-6xl text-8xl tracking-wide h-fit">
-                  blueprint
-                </span>
-              </div>
-              <p className="lg:text-xl text-4xl w-[28rem] mb-10 max-lg:w-full max-lg:px-20 max-sm:px-0 lg:pt-4 pt-10 lg:pb-0 pb-8 font-light lg:text-left text-center">
-                We're a team of Stevens students that develops software pro bono
-                for nonprofits and promotes technology for social good.
+          {/* start of hero */}
+          <div class="relative">
+            <img
+              class="absolute top-1/2 right-1/4 w-16 "
+              src="../assets/vector/lamp.svg"
+              alt="Lamp"
+            />
+          </div>
+          <section className="grow flex items-center relative overflow-hidden">
+            <div className="w-1/2 px-20 max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:items-center z-20">
+              <h1 className="font-bold text-4xl tracking-wide mb-6">
+                Tech for Social Good
+              </h1>
+              <p className="text-xl w-[28rem] mb-10 max-lg:w-full max-lg:text-center font-weight:400">
+                We're a team of students from Stevens
+                <br />
+                Institute of Technology that develops software
+                <br />
+                solutions for non-profit organizations.
               </p>
-              <comp.Button
-                style={
-                  "lg:px-6 px-10 lg:py-4 py-6 lg:rounded-lg rounded-2xl bg-primary text-negative font-bold w-fit lg:text-base text-4xl"
-                }
-                text={"Read More"}
-                redirect_url={"projects"}
+              <div className="flex space-x-6">
+                <comp.Button
+                  style="px-6 py-3 rounded-lg bg-transparent border border-[#00070E] text-[#00070E] font-semibold"
+                  text="See our work"
+                  redirect_url="projects"
+                />
+                <comp.Button
+                  style="px-6 py-3 rounded-lg bg-transparent border border-[#00070E] text-[#00070E] font-semibold"
+                  text="Join our team"
+                  redirect_url="community"
+                />
+              </div>
+            </div>
+
+            <div className="absolute bottom-0 right-0 full max-w-[695px] flex items-end">
+              <img
+                src="../assets/vector/new_hero_background.svg"
+                alt="Background"
+                className="w-full h-auto object-bottom"
               />
             </div>
-            <div className="absolute flex inset-0 justify-end items-end max-lg:justify-center">
+            <div className="absolute bottom-0 right-10 w-5/12">
               <img
-                src="../assets/vector/main_banner.svg"
-                alt="Blueprint Vector"
-                className="lg:w-3/5 lg:max-lg:w-80 w-3/5 z-10"
+                src="../assets/vector/new_hero_banner.svg"
+                alt="Blueprint Persons"
+                className="w-full h-auto max-h-[80%]"
               />
             </div>
           </section>
-          <img
-            className="absolute bottom-0 right-0 z-0 lg:w-3/5 w-4/5"
-            src="../assets/vector/hero_blob.svg"
-          />
-          <img
-            className="absolute top-0 left-0 z-0 lg:w-3/5"
-            src="../assets/vector/hero_lines.svg"
-          />
         </div>
+        {/* end of hero */}
         <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-gray-50">
           <h1 className="lg:text-5xl text-7xl">
             <strong>About Us</strong>
