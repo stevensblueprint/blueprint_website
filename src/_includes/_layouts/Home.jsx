@@ -22,7 +22,7 @@ export default ({ comp, title }) => {
           </div>
           <section className="grow flex flex-col lg:flex-row lg:items-center relative overflow-hidden">
             <div className="w-1/2 px-20 max-lg:w-full max-lg:flex-1 max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:pt-16 z-20">
-              <h1 className="font-bold text-4xl tracking-wide mb-6 max-lg:text-5xl max-lg:text-center max-lg:mb-8">
+              <h1 className="font-bold text-[2.35rem]  tracking-wide mb-1 max-lg:text-5xl max-lg:text-center max-lg:mb-8">
                 Tech for Social Good
               </h1>
               <p className="text-xl w-[28rem] mb-10 max-lg:w-full max-lg:text-center max-lg:text-4xl max-lg:mb-12 font-weight:400">
