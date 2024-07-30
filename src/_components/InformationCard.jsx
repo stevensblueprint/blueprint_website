@@ -14,7 +14,7 @@ export default function InformationCard({
           <img
             src={image_url}
             alt={`${card_header} Image`}
-            className="h-full w-5/6 -mx-96  object-cover rounded-xl max-lg:w-full"
+            className="h-full w-5/6  object-cover rounded-xl max-lg:w-full"
           />
         </div>
       )}

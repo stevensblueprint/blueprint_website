@@ -113,7 +113,7 @@ export default ({ comp, title }) => {
             redirect_url={"projects"}
           />
         </section>
-        <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-20 max-lg:h-fit ">
+        <section className=" h-screen flex flex-col items-center justify-center pt-32 pb-16 gap-y-20 max-lg:h-fit ">
           <h1 className="lg:text-5xl text-7xl">
             <strong>How We Do It</strong>
           </h1>
@@ -138,8 +138,8 @@ export default ({ comp, title }) => {
             />
           </div>
         </section>
-        <section className="h-[17rem] bg-primary text-negative flex flex-col justify-evenly items-center justify-center py-32 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
-          <h1 className="lg:text-5xl text-6xl mb-12">
+        <section className="h-[17rem] bg-primary text-negative flex flex-col justify-evenly items-center justify-center py-16 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
+          <h1 className="lg:text-5xl text-6xl mb-12 ">
             <strong>Sponsors and Partners</strong>
           </h1>
           <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
