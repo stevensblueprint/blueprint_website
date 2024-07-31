@@ -2,7 +2,7 @@ export default ({ comp }) => (
   <html>
     <head>
       <link rel="stylesheet" href="/styles.css" />
-      <title> For Students </title>
+      <title>For Students</title>
     </head>
     <body>
       <>

@@ -1,8 +1,11 @@
 export default ({ comp }) => (
   <html>
     <head>
+      <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
-      <title>Stevens Blueprint</title>
+      <title>Stevens Blueprint Mission</title>
+      <meta property="og:title" content="Stevens Blueprint Mission" />
+      <meta property="og:url" content="https://sitblueprint.com/mission/" />
     </head>
     <body>
       <div>
@@ -23,12 +26,12 @@ export default ({ comp }) => (
               style={
                 "lg:p-4 lg:m-0 p-5 m-10 lg:rounded-sm rounded-xl bg-white text-text-color font-bold lg:text-base text-4xl"
               }
-              redirect_url={""}
+              redirect_url={"#info"}
               text={"Read More"}
             />
           </div>
         </section>
-        <section className="grid place-content-center">
+        <section className="grid place-content-center" id="info">
           <div className="flex flex-col items-center py-20 px-40 max-lg:px-20 max-md:w-full max-md:px-8">
             <h1 className="lg:text-4xl text-6xl mb-12">
               <strong>Our Mission</strong>
