@@ -1,5 +1,5 @@
 export default ({ comp, headline, description }) => {
-  const logo = "/assets/logos/logo.png";
+  const logo = "/assets/logos/logo_banner.png";
   return (
     <html>
       <head>
@@ -10,7 +10,9 @@ export default ({ comp, headline, description }) => {
         <comp.Navbar />
         <div className="flex absolute top-0 left-0 lg:flex-row flex-col justify-center items-center h-screen w-screen p-2">
           <div className="flex flex-col pr-2">
-            <h1 className="text-4xl font-bold">blueprint</h1>
+            <a href="/">
+              <img src={logo} alt="Logo" className="object-fill w-48 h-14" />
+            </a>
             <div className="text-xl">
               <div className="flex">
                 <p className="font-bold pr-2">{headline}</p>
@@ -22,9 +24,6 @@ export default ({ comp, headline, description }) => {
               <p>{description}</p>
             </div>
           </div>
-          <a href="/" className="flex flex-col text-xl">
-            <img src={logo} alt="Logo" className="w-24 h-24 object-cover" />
-          </a>
         </div>
       </body>
     </html>
