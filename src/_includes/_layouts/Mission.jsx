@@ -36,12 +36,10 @@ export default ({ comp, values }) => (
             <h1 className="leading-10 lg:text-[40px] mb-14 text-6xl">
               <strong>Our Values</strong>
             </h1>
-            <div className="flex flex-col items-center w-full space-y-12">
-              {
-                values.map((value, index) => (
-                  <comp.ValueCard key={index} value={value} />
-                ))
-              }
+            <div className="flex flex-col items-center w-full lg:space-y-12 space-y-20">
+              {values.map((value, index) => (
+                <comp.ValueCard key={index} value={value} />
+              ))}
             </div>
           </div>
         </section>
