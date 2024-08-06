@@ -1,4 +1,4 @@
-export default ({ comp }) => (
+export default ({ comp, values }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
@@ -31,80 +31,15 @@ export default ({ comp }) => (
             />
           </div>
         </section>
-        <section className="grid place-content-center" id="info">
-          <div className="flex flex-col items-center py-20 px-40 max-lg:px-20 max-md:w-full max-md:px-8">
-            <h1 className="lg:text-4xl text-6xl mb-12">
-              <strong>Our Mission</strong>
-            </h1>
-            <p className="lg:text-2xl text-4xl">
-              To make custom software that is accessible and beneficial to those
-              dedicated to community building and advancing public welfare.
-            </p>
-          </div>
-        </section>
-        <section className="flex place-content-center">
-          <div className="flex flex-col items-center p-20 max-lg:px-12 max-md:w-full max-md:px-4">
-            <h1 className="lg:text-4xl text-6xl mb-12">
+        <section className="flex place-content-center" id="info">
+          <div className="flex flex-col items-center p-20 max-lg:px-12 w-full max-md:px-4">
+            <h1 className="leading-10 md:text-[40px] mb-14 text-6xl">
               <strong>Our Values</strong>
             </h1>
-            <div className="flex flex-wrap gap-4 my-12 justify-center">
-              <div className="flex flex-col items-center lg:w-1/4 m-4 p-4">
-                <h2 className="font-bold lg:text-xl text-4xl text-primary mb-2">
-                  Impact First
-                </h2>
-                <p className="lg:text-base text-3xl">
-                  As Blueprint members, we come together to build something for
-                  others. We succeed when the people and partners we serve
-                  succeed. The positive impact we create through our collective
-                  efforts is the main interest of Blueprint.
-                </p>
-              </div>
-              <div className="flex flex-col items-center lg:w-1/4 m-4 p-4">
-                <h2 className="font-bold lg:text-xl text-4xl text-primary mb-2">
-                  Pursuing Growth
-                </h2>
-                <p className="lg:text-base text-3xl">
-                  As Blueprint members, we seek to start and perpetuate cycles
-                  of learning and teaching between peers. We value the academic,
-                  social, and personal growth in all our members. We strive to
-                  offer help to those in need and push each other towards
-                  success.
-                </p>
-              </div>
-              <div className="flex flex-col items-center lg:w-1/4 m-4 p-4">
-                <h2 className="font-bold lg:text-xl text-4xl text-primary mb-2">
-                  Cherish Each Other
-                </h2>
-                <p className="lg:text-base text-3xl">
-                  As Blueprint members, we want to cherish our time spent
-                  together. We develop meaningful relationships that extend well
-                  beyond the scope of the organization. We value each other as
-                  individuals and appreciate our differences.
-                </p>
-              </div>
-              <div className="flex flex-col items-center lg:w-1/4 m-4 p-4">
-                <h2 className="font-bold lg:text-xl text-4xl text-primary mb-2">
-                  Seek Innovation
-                </h2>
-                <p className="lg:text-base text-3xl">
-                  As Blueprint members, we recognize that change is both
-                  inevitable and necessary. We are committed to innovate and
-                  emphasize effective solutions as needed in order to remain
-                  relevant - nothing is sacred. We welcome new ideas and diverse
-                  thinking.
-                </p>
-              </div>
-              <div className="flex flex-col items-center lg:w-1/4 m-4 p-4">
-                <h2 className="font-bold lg:text-xl text-4xl text-primary mb-2">
-                  Be Humble
-                </h2>
-                <p className="lg:text-base text-3xl">
-                  As Blueprint members strive to remain humble, accept our
-                  imperfections, and be receptive to feedback. We approach
-                  challenges with an open mind and remember that anyone can
-                  pursue social good, not just Blueprint.
-                </p>
-              </div>
+            <div className="flex flex-col items-center w-full md:space-y-12 space-y-20">
+              {values.map((value, index) => (
+                <comp.ValueCard key={index} value={value} />
+              ))}
             </div>
           </div>
         </section>
