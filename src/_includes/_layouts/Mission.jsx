@@ -16,7 +16,7 @@ export default ({ comp, values }) => (
         >
           <div className="flex flex-col lg:flex-row w-full h-full">
             <div className="w-full lg:w-1/2 px-6 lg:px-12 text-black text-center lg:text-left flex flex-col justify-center">
-              <h1 className="text-4xl lg:text-5xl leading-tight lg:leading-[60px] font-bold mb-4 lg:mb-6">
+              <h1 className="text-4xl lg:text-5xl leading-tight lg:leading-[60px] font-bold mb-4 lg:mb-3">
                 About Us
               </h1>
               <p className="text-2xl lg:text-2xl mb-8 lg:mb-0 max-w-prose mx-auto lg:mx-0 lg:w-full w-2/3">
@@ -29,7 +29,7 @@ export default ({ comp, values }) => (
               <img
                 src="../assets/events/ebm.jpeg"
                 alt="About Us"
-                className="w-2/3 lg:w-4/5 h-64 lg:h-full max-h-[30rem] object-cover rounded-lg"
+                className="w-2/3 lg:w-4/5 h-64 lg:h-full max-h-[30rem] object-cover rounded-lg border-[1px] border-black"
               />
             </div>
           </div>
