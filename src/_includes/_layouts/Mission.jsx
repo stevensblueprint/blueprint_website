@@ -10,25 +10,28 @@ export default ({ comp, values }) => (
     <body>
       <div>
         <comp.Navbar />
-        <section className="flex items-center h-[42rem] bg-primary">
-          <div className="w-[60rem] px-60 text-negative max-lg:w-full max-lg:px-8">
-            <h1 className="lg:text-4xl text-7xl mb-12 lg:px-0 px-10">
-              <strong>About The Club</strong>
-            </h1>
-            <p className="lg:text-xl text-4xl mb-12 lg:px-0 px-10">
-              Stevens Blueprint is a community of passionate students at Stevens
-              Institute of Technology who are committed to making a positive
-              impact by developing software solutions for non-profit
-              organizations. Our club members work on real-world projects,
-              gaining valuable experience while giving back to the community.
-            </p>
-            <comp.Button
-              style={
-                "lg:p-4 lg:m-0 p-5 m-10 lg:rounded-sm rounded-xl bg-white text-text-color font-bold lg:text-base text-4xl"
-              }
-              redirect_url={"#info"}
-              text={"Read More"}
-            />
+        <section
+          className="flex flex-col lg:flex-row items-stretch min-h-[30rem] bg-[#D4EAFF] py-8 lg:py-0"
+          id="about-us"
+        >
+          <div className="flex flex-col lg:flex-row w-full h-full">
+            <div className="w-full lg:w-1/2 px-6 lg:px-12 text-black text-center lg:text-left flex flex-col justify-center">
+              <h1 className="text-4xl lg:text-5xl leading-tight lg:leading-[60px] font-bold mb-4 lg:mb-3">
+                About Us
+              </h1>
+              <p className="text-2xl lg:text-2xl mb-8 lg:mb-0 max-w-prose mx-auto lg:mx-0 lg:w-full w-2/3">
+                We believe in the importance of accessible technology and
+                community engagement, which we strive to achieve through our
+                partnership with organizations that promote public welfare.
+              </p>
+            </div>
+            <div className="w-full lg:w-1/2 flex items-center justify-center py-8 lg:py-12">
+              <img
+                src="../assets/events/ebm.jpeg"
+                alt="About Us"
+                className="w-2/3 lg:w-4/5 h-64 lg:h-full max-h-[30rem] object-cover rounded-lg border-[1px] border-black"
+              />
+            </div>
           </div>
         </section>
         <section className="flex place-content-center" id="info">
