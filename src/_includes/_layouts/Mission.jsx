@@ -10,32 +10,30 @@ export default ({ comp, values }) => (
     <body>
       <div>
         <comp.Navbar />
-        {/* start of about us  */}
-        <section className="flex items-center h-[30rem] bg-[#D4EAFF]">
-          <div className="flex w-full">
-            {/* Left half */}
-            <div className="w-1/2 px-12 text-black max-lg:px-8">
-              <h1 className="lg:text-4xl text-7xl mb-1 mt-12">
-                <strong>About Us</strong>
+        <section
+          className="flex flex-col lg:flex-row items-stretch min-h-[30rem] bg-[#D4EAFF] py-8 lg:py-0"
+          id="about-us"
+        >
+          <div className="flex flex-col lg:flex-row w-full h-full">
+            <div className="w-full lg:w-1/2 px-6 lg:px-12 text-black text-center lg:text-left flex flex-col justify-center">
+              <h1 className="text-4xl lg:text-5xl leading-tight lg:leading-[60px] font-bold mb-4 lg:mb-6">
+                About Us
               </h1>
-              <p className="lg:text-xl text-4xl mb-12">
-                We believe in the importance of accessible <br/>
-                technology and community engagement, which <br/>
-                we strive to achieve through our partnership <br/>
-                with organizations that promote public welfare.
+              <p className="text-2xl lg:text-2xl mb-8 lg:mb-0 max-w-prose mx-auto lg:mx-0 lg:w-full w-2/3">
+                We believe in the importance of accessible technology and
+                community engagement, which we strive to achieve through our
+                partnership with organizations that promote public welfare.
               </p>
             </div>
-            {/* Right/Picture half */}
-            <div className="w-1/2 flex items-center justify-center">
+            <div className="w-full lg:w-1/2 flex items-center justify-center py-8 lg:py-12">
               <img
                 src="../assets/events/ebm.jpeg"
                 alt="About Us"
-                className="w-5/6 h-3/4 object-cover"
+                className="w-2/3 lg:w-4/5 h-64 lg:h-full max-h-[30rem] object-cover rounded-lg"
               />
             </div>
           </div>
         </section>
-        {/* end of about us */}
         <section className="flex place-content-center" id="info">
           <div className="flex flex-col items-center p-20 max-lg:px-12 w-full max-md:px-4">
             <h1 className="leading-10 md:text-[40px] mb-14 text-6xl">
