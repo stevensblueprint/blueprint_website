@@ -10,27 +10,32 @@ export default ({ comp, values }) => (
     <body>
       <div>
         <comp.Navbar />
-        <section className="flex items-center h-[42rem] bg-primary">
-          <div className="w-[60rem] px-60 text-negative max-lg:w-full max-lg:px-8">
-            <h1 className="lg:text-4xl text-7xl mb-12 lg:px-0 px-10">
-              <strong>About The Club</strong>
-            </h1>
-            <p className="lg:text-xl text-4xl mb-12 lg:px-0 px-10">
-              Stevens Blueprint is a community of passionate students at Stevens
-              Institute of Technology who are committed to making a positive
-              impact by developing software solutions for non-profit
-              organizations. Our club members work on real-world projects,
-              gaining valuable experience while giving back to the community.
-            </p>
-            <comp.Button
-              style={
-                "lg:p-4 lg:m-0 p-5 m-10 lg:rounded-sm rounded-xl bg-white text-text-color font-bold lg:text-base text-4xl"
-              }
-              redirect_url={"#info"}
-              text={"Read More"}
-            />
+        {/* start of about us  */}
+        <section className="flex items-center h-[30rem] bg-[#D4EAFF]">
+          <div className="flex w-full">
+            {/* Left half */}
+            <div className="w-1/2 px-12 text-black max-lg:px-8">
+              <h1 className="lg:text-4xl text-7xl mb-1 mt-12">
+                <strong>About Us</strong>
+              </h1>
+              <p className="lg:text-xl text-4xl mb-12">
+                We believe in the importance of accessible <br/>
+                technology and community engagement, which <br/>
+                we strive to achieve through our partnership <br/>
+                with organizations that promote public welfare.
+              </p>
+            </div>
+            {/* Right/Picture half */}
+            <div className="w-1/2 flex items-center justify-center">
+              <img
+                src="../assets/events/ebm.jpeg"
+                alt="About Us"
+                className="w-5/6 h-3/4 object-cover"
+              />
+            </div>
           </div>
         </section>
+        {/* end of about us */}
         <section className="flex place-content-center" id="info">
           <div className="flex flex-col items-center p-20 max-lg:px-12 w-full max-md:px-4">
             <h1 className="leading-10 md:text-[40px] mb-14 text-6xl">
