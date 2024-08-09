@@ -121,19 +121,27 @@ export default ({ comp, title }) => {
             redirect_url={"projects"}
           />
         </section>
-        <section className="h-[17rem] bg-primary text-negative flex flex-col justify-evenly items-center justify-center py-16 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
-          <h1 className="lg:text-5xl text-6xl mb-12">
-            <strong>Sponsors and Partners</strong>
+        {/* TODO: address div separation */}
+        <section
+          className="h-[17rem] bg-negative text-negative flex flex-col justify-evenly  py-16 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16"
+          id="sponsors"
+        >
+          <h1 className="lg:text-5xl text-6xl mt-10 mb-2 ml-5 text-black text-left">
+            <strong>Our Sponsors</strong>
           </h1>
-          <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
+          <p className="text-black text-left text-2xl ml-5 mb-10">
+            We are grateful to our sponsors who provide us with the resources
+            and support we need at Blueprint!
+          </p>
+          <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2 mb-10">
             <img
               className="object-contain h-20 max-w-none mr-4"
-              src="../assets/logos/github.png"
+              src="../assets/logos/notion.png"
               alt="GitHub logo"
             />
             <img
               className="object-contain h-20 max-w-none mr-4"
-              src="../assets/logos/notion.png"
+              src="../assets/logos/github.png"
               alt="Notion logo"
             />
           </div>
