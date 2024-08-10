@@ -166,6 +166,7 @@ export default ({ comp, title }) => {
             />
           </div>
         </section>
+        <comp.ContactUs />
         <comp.Footer />
       </body>
     </html>
