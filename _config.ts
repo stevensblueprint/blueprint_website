@@ -23,7 +23,7 @@ site
   .use(
     favicon({
       input: "assets/logos/logo.png",
-    })
+    }),
   )
   .use(
     tailwindcss({
@@ -46,7 +46,7 @@ site
         },
         plugins: [typography],
       },
-    })
+    }),
   )
   .use(postcss())
   .copy("assets/logos")
