@@ -14,6 +14,7 @@ Specials thanks to the members of Stevens Blueprint for collaborating on this pr
 - [Diego Ramirez](https://github.com/diego-developed)
 - [Joanne Wang](https://https://github.com/joanne1229)
 - [Lucas Ha](https://github.com/Lucasha11)
+- [Vinayak Ranjan](https://github.com/vinrran)
 - [Yite Zheng](https://github.com/bieben)
 - [Erik Bobinski](https://github.com/erik-bobinski)
 - [Roland Aranas](https://github.com/R0l4nd101)
