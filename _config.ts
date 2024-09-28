@@ -29,6 +29,7 @@ site
     tailwindcss({
       extensions: [".html", ".js", ".njk", ".jsx"],
       options: {
+        content: ["./src/**/*.html", "./src/**/*.njk", "./src/**/*.jsx"],
         theme: {
           extend: {
             colors: {
