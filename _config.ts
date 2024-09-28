@@ -23,12 +23,13 @@ site
   .use(
     favicon({
       input: "assets/logos/logo.png",
-    }),
+    })
   )
   .use(
     tailwindcss({
       extensions: [".html", ".js", ".njk", ".jsx"],
       options: {
+        content: ["./src/**/*.html", "./src/**/*.njk", "./src/**/*.jsx"],
         theme: {
           extend: {
             colors: {
@@ -45,7 +46,7 @@ site
         },
         plugins: [typography],
       },
-    }),
+    })
   )
   .use(postcss())
   .copy("assets/logos")
