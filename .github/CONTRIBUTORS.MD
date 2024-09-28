@@ -21,5 +21,5 @@ Specials thanks to the members of Stevens Blueprint for collaborating on this pr
 - [Roland Aranas](https://github.com/R0l4nd101)
 - [Alexis Emerson](https://github.com/aemerson1)
 - [Rais Hills-Mahmood](https://github.com/raisHills)
-- [Shreesh BK](https://github.com/shreeshbkkb) 
+- [Shreesh BK](https://github.com/shreeshbkkb)
 - [Chinli Ong](https://github.com/co16661666)
