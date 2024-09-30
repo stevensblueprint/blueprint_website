@@ -13,7 +13,7 @@ Specials thanks to the members of Stevens Blueprint for collaborating on this pr
 - [Aidan Ouckama](https://github.com/ouckah)
 - [Diego Ramirez](https://github.com/diego-developed)
 - [Joanne Wang](https://https://github.com/joanne1229)
-- [Lucas Ha](https://github.com/Lucasha11)
+- [Lucas Ha](https://github.com/Lucasha11)  
 - [Shiven Pandya](https://github.com/shivenp14)
 - [Vinayak Ranjan](https://github.com/vinrran)
 - [Yite Zheng](https://github.com/bieben)
@@ -23,3 +23,4 @@ Specials thanks to the members of Stevens Blueprint for collaborating on this pr
 - [Rais Hills-Mahmood](https://github.com/raisHills)
 - [Shreesh BK](https://github.com/shreeshbkkb)
 - [Chinli Ong](https://github.com/co16661666)
+- [Derrick Sual](https://github.com/dersual)
