@@ -107,7 +107,9 @@ export default ({ comp, values }) => (
                   name={"Andrew Krasinski"}
                   role={"VP External"}
                   image_url={"../assets/eboard/vp_external.jpg"}
-                  linkedin={"https://www.linkedin.com/in/andrew-krasinski-407a43224/"}
+                  linkedin={
+                    "https://www.linkedin.com/in/andrew-krasinski-407a43224/"
+                  }
                 />
               }
               {
@@ -116,7 +118,9 @@ export default ({ comp, values }) => (
                   name={"Miguel Merlin"}
                   role={"VP Technology"}
                   image_url={"../assets/eboard/vp_tech.jpg"}
-                  linkedin={"https://www.linkedin.com/in/miguel-angel-merlin-arriola/"}
+                  linkedin={
+                    "https://www.linkedin.com/in/miguel-angel-merlin-arriola/"
+                  }
                 />
               }
               {

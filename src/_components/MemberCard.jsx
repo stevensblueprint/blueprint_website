@@ -13,12 +13,12 @@ export default function MemberCard({ name, role, image_url, linkedin }) {
         <div className="lg:text-base text-3xl">{role}</div>
       </figcaption>
       <a href={linkedin}>
-          <img
-            className="mb-4 object-cover object-center lg:w-8 lg:h-8 w-12 h-12"
-            src="../assets/logos/linkedin.png"
-            alt="LinkedIn Logo"
-          />
-        </a>
+        <img
+          className="mb-4 object-cover object-center lg:w-8 lg:h-8 w-12 h-12"
+          src="../assets/logos/linkedin.png"
+          alt="LinkedIn Logo"
+        />
+      </a>
     </figure>
   );
 }
