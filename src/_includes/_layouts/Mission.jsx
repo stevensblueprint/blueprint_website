@@ -51,7 +51,7 @@ export default ({ comp, values }) => (
           ]}
         />
         <section>
-          <div className="flex flex-col items-center py-20">
+          <div className="flex flex-col items-center py-20 bg-[#D4EAFF]">
             <h1 className="lg:text-4xl text-6xl mb-12">
               <strong>Our Team</strong>
             </h1>
