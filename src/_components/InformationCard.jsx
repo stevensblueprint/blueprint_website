@@ -8,13 +8,13 @@ export default function InformationCard({
   redirect_url_text,
 }) {
   return (
-    <figure className="flex-col flex w-full border border-black rounded-lg lg:p-5 p-8 lg:max-w-[445px]">
+    <figure className="flex-col flex border border-black rounded-lg lg:p-5 lg:max-w-[445px] p-8 ">
       {image_url && (
-        <div className="h-36 flex justify-center items-center w-full">
+        <div className="h-36 w-full flex justify-center items-center max-lg:h-80">
           <img
             src={image_url}
             alt={`${card_header} Image`}
-            className="h-full w-full object-cover rounded-xl lg:max-w-[315px]"
+            className="h-full w-full object-cover rounded-xl max-lg:w-full lg:max-w-[315px]"
           />
         </div>
       )}
@@ -22,12 +22,12 @@ export default function InformationCard({
         <h1 className="font-semibold lg:text-2xl text-5xl my-4 lg:my-3">
           {card_header}
         </h1>
-        <p className="line-clamp-6 max-sm:w-full lg:text-xl text-3xl lg:leading-6">
+        <p className="line-clamp-6 max-sm:w-full pb-3 lg:text-2xl text-3xl lg:leading-6">
           {description}
         </p>
         <div className="lg:mt-5 mt-4 flex justify-center items-center">
           <a
-            className="text-primary font-semibold lg:text-2xl text-4xl"
+            className="text-primary font-semibold lg:text-3xl text-4xl"
             href={redirect_url}
           >
             {redirect_url_text}
