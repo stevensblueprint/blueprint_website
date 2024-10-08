@@ -43,14 +43,14 @@ export default ({ comp, title }) => {
                 />
               </div>
             </div>
-            <div className="lg:absolute lg:bottom-0 lg:right-0 lg:full lg:max-w-[695px] flex items-end max-lg:flex-1">
+            <div className="max-lg:hidden lg:absolute lg:bottom-0 lg:right-0 lg:full lg:max-w-[695px] flex items-end max-lg:flex-1">
               <img
                 src="../assets/vector/new_hero_background.svg"
                 alt="Background"
                 className="w-full h-full object-cover lg:object-bottom"
               />
             </div>
-            <div className="lg:absolute lg:bottom-0 lg:right-10 lg:w-5/12 max-lg:absolute max-lg:bottom-0 max-lg:left-0 max-lg:right-0">
+            <div className="max-lg:hidden lg:absolute lg:bottom-0 lg:right-10 lg:w-5/12 max-lg:absolute max-lg:bottom-0 max-lg:left-0 max-lg:right-0">
               <img
                 src="../assets/vector/new_hero_banner.svg"
                 alt="Blueprint Persons"
