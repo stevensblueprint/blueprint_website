@@ -93,7 +93,7 @@ export default ({ comp, title }) => {
             Blueprint's work is open source. We believe in building technology
             that makes our community more open and connected.
           </p>
-          <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col">
+          <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col justify-items-center">
             <comp.ProjectCard
               name_organization={"Asian American Dream"}
               image_url={"../assets/logos/aad_logo.png"}
