@@ -1,6 +1,6 @@
 import React from "https://esm.sh/react";
 
-export default function MemberCard({ name, role, image_url }) {
+export default function MemberCard({ name, role, image_url, linkedin }) {
   return (
     <figure className="flex flex-col items-center p-4">
       <img
@@ -12,6 +12,13 @@ export default function MemberCard({ name, role, image_url }) {
         <div className="font-semibold lg:text-base text-3xl">{name}</div>
         <div className="lg:text-base text-3xl">{role}</div>
       </figcaption>
+      <a href={linkedin}>
+        <img
+          className="mb-4 object-cover object-center lg:w-8 lg:h-8 w-12 h-12"
+          src="../assets/logos/linkedin.png"
+          alt="LinkedIn Logo"
+        />
+      </a>
     </figure>
   );
 }
