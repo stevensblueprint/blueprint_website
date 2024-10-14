@@ -10,12 +10,12 @@ export default ({ comp, values }) => (
     <body>
       <div>
         <comp.Navbar />
-        <section className="flex items-center h-[42rem] bg-primary">
-          <div className="w-[60rem] px-60 text-negative max-lg:w-full max-lg:px-8">
-            <h1 className="lg:text-4xl text-7xl mb-12 lg:px-0 px-10">
+        <section className="grow flex flex-col lg:flex-row lg:items-center lg:min-h-[42rem] bg-primary relative overflow-hidden">
+          <div className="lg:w-7/12 lg:px-40 text-negative max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-large:items-center">
+            <h1 className="lg:text-4xl text-7xl mb-12 lg:px-0 px-10 tracking-wide max-lg:text-center">
               <strong>About The Club</strong>
             </h1>
-            <p className="lg:text-xl text-4xl mb-12 lg:px-0 px-10">
+            <p className="lg:text-xl text-4xl mb-12 lg:px-0 px-10 tracking-wide max-lg:text-center">
               Stevens Blueprint is a community of passionate students at Stevens
               Institute of Technology who are committed to making a positive
               impact by developing software solutions for non-profit
@@ -24,11 +24,20 @@ export default ({ comp, values }) => (
             </p>
             <comp.Button
               style={
-                "lg:p-4 lg:m-0 p-5 m-10 lg:rounded-sm rounded-xl bg-white text-text-color font-bold lg:text-base text-4xl"
+                "lg:p-4 lg:m-0 p-5 m-10 lg:rounded-sm rounded-xl bg-white text-text-color font-bold lg:text-base text-4xl tracking-wide max-lg:text-center"
               }
               redirect_url={"#info"}
               text={"Read More"}
             />
+          </div>
+          <div className="lg:w-5/12 lg:absolute lg:right-20 lg:full flex items-end max-lg:flex-1 max-lg:px-10">
+            <div className="max-lg:p-8">
+              <image
+                src="../assets/events/google_event_1.jpg"
+                alt="A photo of Blueprint members at a Google Event in New York City"
+                className="w-full h-auto object-contain lg:object-bottom rounded-2xl border-4 border-solid border-white"
+              />
+            </div>
           </div>
         </section>
         <section className="flex place-content-center" id="info">
