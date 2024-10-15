@@ -5,7 +5,6 @@ headline: Under Construction!
 description: This page is being worked on, please check back in soon.
 ---
 
-
 <!-- ---
 title: Stevens Blueprint
 layout: _layouts/Blog.jsx
@@ -24,6 +23,4 @@ posts:
     image: "/assets/events/google_event_2.jpg"
     date: "10, May 2024"
     tag: "Project"
----
-
- -->
+--- -->

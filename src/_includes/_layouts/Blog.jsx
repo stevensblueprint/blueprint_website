@@ -18,9 +18,9 @@ export default ({ comp, description, posts, children }) => (
           <div class="col-span-1 p-4">
             <div class="flex items-center space-x-2">
               <img
-                src="../assets/vector/clock.png"
+                src="../assets/vector/clock.svg"
                 alt="clock"
-                class="h-4 w-4"
+                class="h-4 w-4 mb-1"
               />
               <p class="mb-1">4 May, 2024</p>
             </div>

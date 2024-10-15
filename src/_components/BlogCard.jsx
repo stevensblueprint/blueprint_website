@@ -11,7 +11,7 @@ export default function BlogCard({ name_post, image_url, date, project_tag }) {
         />
       </div>
       <div class="flex space-x-2">
-        <h1 className="font-semibold lg:text-2xl text-5xl mt-4 lg:my-3">
+        <h1 className="font-semibold text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl mt-4 lg:my-3">
           {name_post}
         </h1>
         <p className="bg-primary px-2 py-1 max-w-max my-4 rounded-md text-white lg:text-xs text-lg font-medium">
@@ -20,7 +20,7 @@ export default function BlogCard({ name_post, image_url, date, project_tag }) {
       </div>
       <div class="flex space-x-2">
         <img
-          src="../assets/vector/clock.png"
+          src="../assets/vector/clock.svg"
           alt="clock"
           class="h-4 w-4 my-1"
         />
