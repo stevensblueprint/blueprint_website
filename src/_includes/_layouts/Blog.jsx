@@ -12,6 +12,15 @@ export default ({ comp, description, posts, children }) => (
       <main className="max-w-4xl mx-auto p-4">
         <div className="text-4xl font-bold mb-2">Stevens Blueprint Blog</div>
         <p className="text-lg text-gray-700 mb-8">{description}</p>
+        <comp.BlogHero 
+              image_url={"../assets/events/google_event_2.jpg"}
+              card_header={"Reflecting on the 2023-2024 Year"}
+              tags={"hello"}
+              time_posted={"16 Sept 2024"}
+              description={"Join Blueprint to gain hands on experience and give back to the community."}
+              redirect_url={"https://hobokenlibrary.org/"}
+              redirect_url_text={"Read More"}
+        />
         <div className="grid grid-cols-3 gap-4">
           {/* 'posts' is currently a static string array that matches the filenames in blogs/ folder. Needs to be dynamic. See utility/searchResults.js for more info */}
           {posts.map((post) => (
