@@ -30,12 +30,12 @@ export default ({ comp, values }) => (
               text={"Read More"}
             />
           </div>
-          <div className="lg:w-5/12 lg:absolute lg:right-20 lg:full flex items-end max-lg:flex-1 max-lg:px-10">
-            <div className="max-lg:p-8">
+          <div className="lg:w-5/12 lg:absolute lg:right-20 lg:top-1/2 lg:-translate-y-1/2 flex items-center justify-center max-lg:mt-8 max-lg:px-10">
+            <div className="max-lg:p-8 lg:w-full lg:max-w-[850px] lg:aspect-[4/3] lg:rounded-2xl lg:border-4 lg:border-solid lg:border-white lg:overflow-hidden">
               <image
                 src="../assets/events/google_event_1.jpg"
                 alt="A photo of Blueprint members at a Google Event in New York City"
-                className="w-full h-auto object-contain lg:object-bottom rounded-2xl border-4 border-solid border-white"
+                className="w-full lg:h-full lg:object-cover max-lg:h-auto max-lg:object-contain max-lg:rounded-2xl max-lg:border-4 max-lg:border-solid max-lg:border-white"
               />
             </div>
           </div>
