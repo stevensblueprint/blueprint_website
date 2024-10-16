@@ -41,6 +41,11 @@ export default ({ comp, title }) => {
                   text="Join our team"
                   redirect_url="community"
                 />
+                <comp.Button
+                  style="px-8 py-4 rounded-lg bg-transparent border-2 border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-12 max-lg:py-6 max-lg:text-4xl"
+                  text="Support our mission"
+                  redirect_url="community"
+                />
               </div>
             </div>
             <div className="max-lg:hidden lg:absolute lg:bottom-0 lg:right-0 lg:full lg:max-w-[695px] flex items-end max-lg:flex-1">
