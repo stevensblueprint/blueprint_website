@@ -118,70 +118,78 @@ export default ({ comp }) => (
         <section>
           <div className="flex flex-col items-center py-20">
             <h1 className="lg:text-4xl text-6xl mb-12">
-              <strong>Our Team</strong>
+              <strong>The Eboard</strong>
             </h1>
             <div className="flex flex-wrap gap-4 my-12 lg:px-24 lg:max-w-[75rem] px-24 justify-center">
               {
                 <comp.MemberCard
                   key={1}
-                  name={"Katie Ng"}
+                  name={"Christian Apostol"}
                   role={"President"}
-                  image_url={"../assets/eboard/president.jpg"}
+                  image_url={"../assets/eboard/Christian_Apostol.png"}
                 />
               }
               {
                 <comp.MemberCard
                   key={2}
-                  name={"Shawn Aviles"}
+                  name={"Justin Ferber"}
                   role={"VP Projects"}
-                  image_url={"../assets/eboard/vp_projects.jpg"}
+                  image_url={"../assets/logos/logo.png"}
                 />
               }
               {
                 <comp.MemberCard
                   key={3}
-                  name={"Christian Apostol"}
+                  name={"Marcos Traverso"}
                   role={"VP Projects"}
-                  image_url={"../assets/eboard/vp_projects_1.png"}
+                  image_url={"../assets/logos/logo.png"}
                 />
               }
               {
                 <comp.MemberCard
                   key={4}
-                  name={"Daniel Kim"}
+                  name={"Lucas Ha"}
                   role={"VP Recruitment"}
-                  image_url={"../assets/eboard/vp_recruiting.png"}
+                  image_url={"../assets/logos/logo.png"}
                 />
               }
               {
                 <comp.MemberCard
                   key={5}
-                  name={"Christa Ruiz"}
+                  name={"Massimo Spina"}
                   role={"VP Internal"}
-                  image_url={"../assets/eboard/vp_internal.png"}
+                  image_url={"../assets/logos/logo.png"}
                 />
               }
               {
                 <comp.MemberCard
                   key={6}
-                  name={"Andrew Krasinski"}
-                  role={"VP External"}
-                  image_url={"../assets/eboard/vp_external.jpg"}
+                  name={"Miguel Merlin"}
+                  role={"VP Technology"}
+                  image_url={"../assets/eboard/Miguel_Merlin.jpg"}
                 />
               }
               {
                 <comp.MemberCard
                   key={7}
-                  name={"Miguel Merlin"}
+                  name={"Ezri Zhu"}
                   role={"VP Technology"}
-                  image_url={"../assets/eboard/vp_tech.jpg"}
+                  image_url={"../assets/eboard/Ezri_Zhu.png"}
                 />
               }
               {
                 <comp.MemberCard
                   key={8}
-                  name={"Ezri Zhu"}
-                  role={"VP Technology"}
+                  name={"Sahana"}
+                  role={"VP Design"}
+                  image_url={"../assets/logos/logo.png"}
+                />
+              }
+              {
+                <comp.MemberCard
+                  key={9}
+                  name={"Audrey Yoo"}
+                  role={"VP Design"}
                   image_url={"../assets/logos/logo.png"}
                 />
               }
