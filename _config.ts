@@ -53,6 +53,7 @@ site
   .copy("assets/eboard")
   .copy("assets/events")
   .copy("assets/vector")
+  .copy("assets/fonts")
   .loadAssets([".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".svg"])
   .ignore("README.md", "CHANGELOG.md", "node_modules")
   .use(jsx());
