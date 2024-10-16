@@ -11,8 +11,8 @@ export default ({ comp, values }) => (
       <div>
         <comp.Navbar />
         <section className="grow flex flex-col lg:flex-row lg:items-center lg:min-h-[42rem] bg-primary relative overflow-hidden">
-          <div className="lg:w-7/12 lg:px-40 text-negative max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-large:items-center">
-            <h1 className="lg:text-4xl text-7xl mb-12 lg:px-0 px-10 tracking-wide max-lg:text-center">
+          <div className="lg:w-7/12 lg:pl-40 lg:pr-20 text-negative max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-large:items-center">
+            <h1 className="lg:text-4xl text-7xl my-12 lg:px-0 px-10 tracking-wide max-lg:text-center">
               <strong>About The Club</strong>
             </h1>
             <p className="lg:text-xl text-4xl mb-12 lg:px-0 px-10 tracking-wide max-lg:text-center">
@@ -30,8 +30,8 @@ export default ({ comp, values }) => (
               text={"Read More"}
             />
           </div>
-          <div className="lg:w-5/12 lg:absolute lg:right-20 lg:top-1/2 lg:-translate-y-1/2 flex items-center justify-center max-lg:mt-8 max-lg:px-10">
-            <div className="max-lg:p-8 lg:w-full lg:max-w-[850px] lg:aspect-[4/3] lg:rounded-2xl lg:border-4 lg:border-solid lg:border-white lg:overflow-hidden">
+          <div className="lg:w-1/2 lg:pr-20 lg:pl-0 px-10 flex items-center justify-center py-8">
+            <div className="max-lg:p-8 lg:aspect-[4/3] lg:rounded-2xl lg:border-4 lg:border-solid lg:border-white lg:overflow-hidden">
               <image
                 src="../assets/events/google_event_1.jpg"
                 alt="A photo of Blueprint members at a Google Event in New York City"
