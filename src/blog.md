@@ -5,7 +5,10 @@ headline: Under Construction!
 description: This page is being worked on, please check back in soon.
 ---
 
+
 <!-- ---
+UNCOMMENT TO SHOW MOCK BLOG POSTS
+
 title: Stevens Blueprint
 layout: _layouts/Blog.jsx
 headline: Stevens Blueprint Blog
