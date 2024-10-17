@@ -9,7 +9,7 @@ export default ({ comp, description, posts, children }) => (
     </head>
     <body>
       <comp.Navbar />
-      <main className="max-w-4xl mx-auto p-4">
+      <main className="max-w-6xl mx-auto p-4">
         {/* <p className="text-lg text-gray-700 mb-8">{description}</p> */}
         <div className="text-4xl font-bold mb-2 my-10 text-primary">
           Stevens Blueprint Blog
@@ -65,7 +65,6 @@ export default ({ comp, description, posts, children }) => (
               <svg
                 class="w-2.5 h-2.5 ms-3"
                 aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 10 6"
               >
@@ -100,7 +99,6 @@ export default ({ comp, description, posts, children }) => (
               <svg
                 class="w-2.5 h-2.5 ms-3"
                 aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 10 6"
               >
@@ -126,7 +124,7 @@ export default ({ comp, description, posts, children }) => (
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mb-20">
+        <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-20">
           {/* 'posts' is currently a static string array that matches the filenames in blogs/ folder. Needs to be dynamic. See utility/searchResults.js for more info */}
           {posts.map((post) => (
             <comp.BlogCard

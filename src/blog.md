@@ -23,4 +23,16 @@ posts:
     image: "/assets/events/google_event_2.jpg"
     date: "10, May 2024"
     tag: "Project"
+  - name_post: example4
+    image: "/assets/events/google_event.jpg"
+    date: "10, May 2024"
+    tag: "Project"
+  - name_post: example5
+    image: "/assets/events/google_event_1.jpg"
+    date: "10, May 2024"
+    tag: "Project"
+  - name_post: example6
+    image: "/assets/events/google_event_2.jpg"
+    date: "10, May 2024"
+    tag: "Project"
 --- -->
