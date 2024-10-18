@@ -96,7 +96,7 @@ export default ({ comp, title }) => {
           <p className="text-center text-xl mb-8">
             Our most recent projects include...
           </p>
-          <div className="w-full grid grid-cols-2 gap-6 lg:px-60 max-lg:flex max-lg:flex-col tems-center justify-center">
+          <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col justify-items-center">
             <comp.ProjectCard
               name_organization={"Asian American Dream"}
               image_url={"../assets/logos/aad_logo.png"}
