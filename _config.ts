@@ -38,10 +38,11 @@ site
               "text-color": "#333333",
               negative: "#ffffff",
             },
-            // fontFamily: {
+             fontFamily: {
+                 'BPText': ['BPText', 'sans-serif'],           
             //   sans: ["Helvetica", "sans-serif"],
             //   serif: ["Mirador", "serif"],
-            // }
+             }
           },
         },
         plugins: [typography],

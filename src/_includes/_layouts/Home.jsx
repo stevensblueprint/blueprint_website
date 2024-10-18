@@ -123,10 +123,9 @@ export default ({ comp, title }) => {
         </section>
         <section className="h-[17rem] text-black flex flex-col justify-evenly items-start py-16 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
           <h1 className="lg:text-5xl text-6xl mb-6 ml-[77px]">
-
             <strong>Our Sponsors</strong>
           </h1>
-          <p className = "ml-[72px] mt-[-14px]">
+          <p className = "font-BPText ml-[72px] mt-[-14px]">
             We are grateful to our sponsors who provide us with the support and resources we need at Blueprint!
           </p>
           <div className="flex flex-wrap gap-x-6 justify-center mt-[50px] px-8 max-lg:px-4 max-md:px-2 w-full">
