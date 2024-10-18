@@ -1,84 +1,48 @@
 export default ({ comp }) => (
   <html>
     <head>
+      <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
-      <title>For Students</title>
+      <title>Students</title>
+      <meta property="og:title" content="Students" />
+      <meta property="og:url" content="https://sitblueprint.com/community/students/" />
     </head>
     <body>
-      <>
-        <comp.Navbar />
-        <div className="flex flex-col items-center px-4 lg:px-8">
-          <h1 className="text-4xl">
-            <strong>For Students</strong>
-          </h1>
-        </div>
-
-        <section className="grid place-content-center">
-          <div></div>
-
-          <div className="flex flex-col items-center p-20 max-lg:px-12 max-md:w-full max-md:px-4">
-            <div className="w-full flex flex-wrap justify-evenly max-md:flex-nowrap max-md:flex-col">
-              <ol className="flex flex-col p-10 md:flex-row md:divide-x md:divide-charcoal-500 space-y-5 md:space-y-0">
-                <li className="flex-1 flex flex-col p-6 space-y-4 md:pr-6">
-                  <div className="relative w-16 h-16 mb-3">
-                    <h1 className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">
-                      1
-                    </h1>
-                  </div>
-                  <h2 className="font-bold text-xl text-primary mb-2">
-                    Written Application
-                  </h2>
-                  <p>
-                    Attend our events and info sessions to learn more about our
-                    application cycle! In your written application, tell us
-                    about yourself and why you're interested in joining
-                    Blueprint. We anonymize your applications in this first
-                    stage, so please take care to be detailed so we have the
-                    most holistic perspective of you. Applications open Feb 26,
-                    2024 12:00 AM and close Mar 05, 2024 11:59 PM.
-                  </p>
-                </li>
-
-                <li className="flex-1 flex flex-col p-6 space-y-4 md:pr-6">
-                  <div className="relative w-16 h-16 mb-3">
-                    <h1 className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">
-                      2
-                    </h1>
-                  </div>
-                  <h2 className="font-bold text-xl text-primary mb-2">
-                    Blueprint Games
-                  </h2>
-                  <p>
-                    This semester, Blueprint Games will be hosted on Mar 20,
-                    2024 3:00 PM (invites will be sent by Mar 08). The event is
-                    a team-based activity that simulates the product design and
-                    implementation process for a hypothetical client.
-                  </p>
-                </li>
-
-                <li className="flex-1 flex flex-col p-6 space-y-4 md:pr-6">
-                  <div className="relative w-16 h-16 mb-3">
-                    <h1 className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-10 row-start-1 text-blue text-[48px] font-medium">
-                      3
-                    </h1>
-                  </div>
-                  <h2 className="font-bold text-xl text-primary">
-                    Coffee Chat with Us
-                  </h2>
-                  <p>
-                    Let's talk! Invites will be sent out by Mar 24 to connect.
-                    Before meeting, a small technical problem will be sent out
-                    for you to complete. During these chats, you'll have an
-                    opportunity to share more about how your values and any
-                    questions you may have!
-                  </p>
-                </li>
-              </ol>
+      <comp.Navbar />
+      <section className="grow flex flex-col lg:flex-row lg:items-center lg:min-h-[42rem] bg-secondary relative overflow-hidden">
+          <div className="lg:w-7/12 lg:pl-40 lg:pr-20 text-negative max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-large:items-center">
+            <h1 className="lg:text-4xl text-7xl my-12 lg:px-0 px-10 tracking-wide max-lg:text-center text-[#00070E]">
+              <strong>Students</strong>
+            </h1>
+            <p className="lg:text-xl text-4xl mb-12 lg:px-0 px-10 tracking-wide max-lg:text-center text-[#00070E]">
+              We’re proud of the diverse membership here at Blueprint.
+              Join us and make an impact with our opportunities in product design, 
+              project management, or software development!
+            </p>
+            <div className="flex space-x-6 max-lg:flex-col max-lg:space-x-0 max-lg:space-y-8 max-lg:w-full max-lg:items-center">
+              <comp.Button
+                style="px-8 py-4 rounded-lg bg-transparent border-2 border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-12 max-lg:py-6 max-lg:text-4xl"
+                redirect_url={"https://discord.gg/G6aTAc9nFQ"}
+                text={"Join Our Discord"}
+              />
+              <comp.Button
+                style="px-8 py-4 rounded-lg bg-transparent border-2 border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-12 max-lg:py-6 max-lg:text-4xl"
+                redirect_url={"/projects"}
+                text={"See Our Projects"}
+              />
             </div>
           </div>
-        </section>
-        <comp.Footer />
-      </>
+          <div className="lg:w-1/2 lg:pr-20 lg:pl-0 px-10 flex items-center justify-center py-8">
+            <div className="max-lg:p-8 lg:aspect-[4/3] lg:rounded-2xl lg:border-4 lg:border-solid lg:border-black lg:overflow-hidden">
+              <image
+                src="../../assets/events/students_hero.jpg"
+                alt="A photo of student Blueprint members"
+                className="w-full lg:h-full lg:object-cover max-lg:h-auto max-lg:object-contain max-lg:rounded-2xl max-lg:border-4 max-lg:border-solid max-lg:border-white"
+              />
+            </div>
+          </div>
+      </section>
+      <comp.Footer />
     </body>
   </html>
 );
