@@ -42,6 +42,38 @@ export default ({ comp }) => (
             </div>
           </div>
       </section>
+      <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-gray-50">
+          <h1 className="lg:text-5xl text-7xl">
+            <strong>Our Teams</strong>
+          </h1>
+          <div className="flex flex-col items-start justify-start">
+            <h2 className="font-semibold lg:text-2xl text-5xl">
+              Project Teams
+            </h2>
+            <p className="bg-[#E9415A] px-2 py-1 max-w-max my-3 rounded-md text-white lg:text-xs text-lg font-medium">
+              APPLICATION REQUIRED
+            </p>
+            <p>
+              <strong>Purpose:</strong> Work directly on projects with non-profit 
+              organizations (NPOs)!
+            </p>
+            <p>
+              <strong>Goal:</strong> Help deliver requested software solutions to NPOs and 
+              contribute to our mission of creating tech for social good!
+            </p>
+            <p>
+              <strong>Requirements:</strong> Project teams are year long commitments depending on 
+              the scope of the project. We are looking for <strong className="text-[#E9415A]">technical leads, project 
+              managers, developers, and designers</strong> who can engage and collaborate 
+              within this time frame while also meeting deadlines punctually.
+            </p>
+            <p>
+              Have any questions? Reach out to our VPs of Projects:
+            </p>
+            <strong className="text-[#E9415A]">Justin Ferber: jferber@stevens.edu</strong>
+            <strong className="text-[#E9415A]">Marcos Traverso: mtravers@stevens.edu</strong>
+          </div>
+        </section>
       <comp.Footer />
     </body>
   </html>
