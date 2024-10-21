@@ -49,16 +49,18 @@ export default function NavigationBar() {
 
 function renderDesktopNavigationLinks() {
   return navigationLinks.map((link, index) => (
-    <a
+    <span className="text-center w-[5rem]">
+      <a
       key={index}
       href={link.href}
       className="text-white text-xl relative group transition-all duration-300 ease-in-out"
-    >
-      <span className="group-hover:font-bold group-hover:text-yellow-100">
-        {link.text}
-      </span>
-      <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-100 transition-all group-hover:w-full"></span>
-    </a>
+      >
+        <span className="whitespace-nowrap group-hover:font-bold group-hover:text-yellow-100">
+          {link.text}
+        </span>
+        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-100 transition-all group-hover:w-full"></span>
+      </a>
+    </span>
   ));
 }
 
