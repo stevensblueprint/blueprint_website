@@ -5,7 +5,10 @@ export default ({ comp }) => (
       <link rel="stylesheet" href="/styles.css" />
       <title>Students</title>
       <meta property="og:title" content="Students" />
-      <meta property="og:url" content="https://sitblueprint.com/community/students/" />
+      <meta
+        property="og:url"
+        content="https://sitblueprint.com/community/students/"
+      />
     </head>
     <body>
       <comp.Navbar />
@@ -15,9 +18,9 @@ export default ({ comp }) => (
             <strong>Students</strong>
           </h1>
           <p className="lg:text-xl text-4xl mb-12 lg:px-0 px-10 tracking-wide max-lg:text-center text-[#00070E]">
-            We’re proud of the diverse membership here at Blueprint.
-            Join us and make an impact with our opportunities in product design,
-            project management, or software development!
+            We’re proud of the diverse membership here at Blueprint. Join us and
+            make an impact with our opportunities in product design, project
+            management, or software development!
           </p>
           <div className="flex space-x-6 max-lg:flex-col max-lg:space-x-0 max-lg:space-y-8 max-lg:w-full max-lg:items-center">
             <comp.Button
@@ -60,20 +63,46 @@ export default ({ comp }) => (
             organizations (NPOs)!
           </p>
           <p className="text-black">
-            <strong>Goal:</strong> Help deliver requested software solutions to NPOs and
-            contribute to our mission of creating tech for social good!
+            <strong>Goal:</strong> Help deliver requested software solutions to
+            NPOs and contribute to our mission of creating tech for social good!
           </p>
           <p className="text-black">
-            <strong>Requirements:</strong> Project teams are year long commitments depending on
-            the scope of the project. We are looking for <strong className="text-[#E9415A]">technical leads, project
-              managers, developers, and designers</strong> who can engage and collaborate
-            within this time frame while also meeting deadlines punctually.
+            <strong>Requirements:</strong> Project teams are year long
+            commitments depending on the scope of the project. We are looking
+            for{" "}
+            <strong className="text-[#E9415A]">
+              technical leads, project managers, developers, and designers
+            </strong>{" "}
+            who can engage and collaborate within this time frame while also
+            meeting deadlines punctually.
           </p>
           <p className="text-black">
             Have any questions? Reach out to our VPs of Projects:
           </p>
-          <p className="text-black"><strong className="text-[#E9415A]">Justin Ferber: <a className="underline" target="_blank" href="mailto:jferber@stevens.edu">jferber@stevens.edu</a></strong></p>
-          <p className="text-black"><strong className="text-[#E9415A]">Marcos Traverso: <a className="underline" target="_blank" href="mailto:mtravers@stevens.edu">mtravers@stevens.edu</a></strong></p>
+          <p className="text-black">
+            <strong className="text-[#E9415A]">
+              Justin Ferber:{" "}
+              <a
+                className="underline"
+                target="_blank"
+                href="mailto:jferber@stevens.edu"
+              >
+                jferber@stevens.edu
+              </a>
+            </strong>
+          </p>
+          <p className="text-black">
+            <strong className="text-[#E9415A]">
+              Marcos Traverso:{" "}
+              <a
+                className="underline"
+                target="_blank"
+                href="mailto:mtravers@stevens.edu"
+              >
+                mtravers@stevens.edu
+              </a>
+            </strong>
+          </p>
         </div>
         <div className="lg:w-5/12 lg:pr-20 lg:pl-0 px-10 flex items-center justify-center py-8">
           <div>
