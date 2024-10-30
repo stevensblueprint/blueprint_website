@@ -28,12 +28,12 @@ export default function StudentsProjectTeam({ comp }) {
         <p className="text-black">
           Have any questions? Reach out to our VPs of Projects:
         </p>
-        <comp.EmailButton
+        <comp.EmailLink
           name="Justin Ferber"
           emailAddr="jferber@stevens.edu"
           textColor="#E9415A"
         />
-        <comp.EmailButton
+        <comp.EmailLink
           name="Marcos Traverso"
           emailAddr="mtravers@stevens.edu"
           textColor="#E9415A"
