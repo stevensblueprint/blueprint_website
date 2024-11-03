@@ -8,7 +8,6 @@ export default ({ comp }) => (
       <>
         <comp.Navbar />
         <comp.ForNPOs.Hero />
-        <section className="grid place-content-center"></section>
       </>
     </body>
   </html>
