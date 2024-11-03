@@ -30,7 +30,7 @@ export default function Hero({ comp }) {
       <img
         src="../../assets/vector/hands.svg" // FIXME: Avoid aboslute path?
         alt="hands"
-        className="hidden lg:block px-80 -mt-10"
+        className="hidden lg:block transform -translate-y-10 translate-x-80"
       />
     </section>
   );
