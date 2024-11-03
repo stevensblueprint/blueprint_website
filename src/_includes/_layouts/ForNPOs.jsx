@@ -6,7 +6,8 @@ export default ({ comp }) => (
     </head>
     <body>
       <>
-        <h2>For Non-Profits</h2>
+        <comp.Navbar />
+        <comp.ForNPOs.Hero />
         <section className="grid place-content-center"></section>
       </>
     </body>
