@@ -1,4 +1,4 @@
-export default ({ comp, faqs }) => (
+export default ({ comp }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
@@ -59,11 +59,6 @@ export default ({ comp, faqs }) => (
             </div>
           </div>
         </section>
-        {faqs.map((faq, index) => (
-          <comp.DropdownFAQ faq={faq} key={index} index={index}/>
-        ))
-
-        }
         <comp.Footer />
       </>
     </body>
