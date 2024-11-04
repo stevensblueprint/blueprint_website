@@ -2,6 +2,7 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "npm:@tailwindcss/line-clamp": "npm:@tailwindcss/line-clamp@0.4.4_tailwindcss@3.3.3__postcss@8.4.31",
       "npm:@tailwindcss/typography": "npm:@tailwindcss/typography@0.5.10_tailwindcss@3.3.5__postcss@8.4.31",
       "npm:autoprefixer@10.4.16": "npm:autoprefixer@10.4.16_postcss@8.4.31",
       "npm:date-fns@2.30.0": "npm:date-fns@2.30.0",
@@ -78,6 +79,12 @@
         "dependencies": {
           "@nodelib/fs.scandir": "@nodelib/fs.scandir@2.1.5",
           "fastq": "fastq@1.15.0"
+        }
+      },
+      "@tailwindcss/line-clamp@0.4.4_tailwindcss@3.3.3__postcss@8.4.31": {
+        "integrity": "sha512-5U6SY5z8N42VtrCrKlsTAA35gy2VSyYtHWCsg1H87NU1SXnEfekTVlrga9fzUDrrHcGi2Lb5KenUWb4lRQT5/g==",
+        "dependencies": {
+          "tailwindcss": "tailwindcss@3.3.3_postcss@8.4.31"
         }
       },
       "@tailwindcss/typography@0.5.10_tailwindcss@3.3.5__postcss@8.4.31": {

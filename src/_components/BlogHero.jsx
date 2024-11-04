@@ -1,5 +1,6 @@
 import React from "https://esm.sh/react";
 
+
 export default ({ 
     comp, 
     image_url,
@@ -31,14 +32,14 @@ export default ({
                             {tags.map((tag) => (
                             <div
                                 key={tag}
-                                className="bg-primary rounded-md px-3 text-sm font-semibold text-white text-center text-nowrap"
+                                className="bg-primary rounded-md px-3 text-sm font-semibold text-white text-center truncate"
                             >
                                 {tag}
                             </div>
                         ))}
                     </div>
                 </div>
-                <p className="flex-auto h-20 text-xl font-normal leading-7 text-balance truncate overflow-hidden text-clip"> {description} </p>
+                <div> <p className="flex-auto line-clamp-3 h-20 text-xl font-normal leading-7 text-balance truncate overflow-hidden text-clip"> {description} </p> </div>
                 <comp.Button
                     style={"block lg:px-8 px-8 lg:py-2 py-2 lg:rounded-md rounded-md border border-black text-base leading-normal font-bold w-fit lg:text-base text-4xl"} 
                     text={"Read More"}
