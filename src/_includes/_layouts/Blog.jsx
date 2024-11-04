@@ -13,11 +13,10 @@ export default ({ comp, description, posts, children }) => (
         <comp.BlogHero 
               image_url={"../assets/events/google_event_2.jpg"}
               card_header={"Reflecting on the 2023-2024 Year"}
-              tags={["hello"]}
+              tags={["Yearly Recap", "else"]}
               time_posted={"16 Sept 2024"}
               description={"Join Blueprint to gain hands on experience and give back to the community. Teeeee eeeee eeeeeee eeeeeessss ssssssss sssssss sssssss sssssss sssssttttt tttttt tttttt tting oooooo oooover flow. Here's some more stuff! Here's so much stuff! So much stuff, it'll overflow off the page!"}
-              redirect_url={"../blog/example1.html"}
-              redirect_url_text={"Read More"}
+              redirect_url={"../blog/yearEnd2024.html"}
         />
         <div className="grid grid-cols-3 gap-4">
           {/* 'posts' is currently a static string array that matches the filenames in blogs/ folder. Needs to be dynamic. See utility/searchResults.js for more info */}

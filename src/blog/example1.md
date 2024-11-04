@@ -14,7 +14,7 @@ tags:
 
 Wow this is the first ever blog post. Very Exciting
 
-## Setion Header
+## Section Header
 
 This is some content for the blog, yay. This is some content for the blog, yay. This is some content for the blog, yay. This is some content for the blog, yay. This is some content for the blog, yay. This is some content for the blog, yay.
 
