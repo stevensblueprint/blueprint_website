@@ -13,9 +13,9 @@ export default ({ comp, description, posts, children }) => (
         <comp.BlogHero 
               image_url={"../assets/events/google_event_2.jpg"}
               card_header={"Reflecting on the 2023-2024 Year"}
-              tags={["Yearly Recap", "else"]}
-              time_posted={"16 Sept 2024"}
-              description={"Join Blueprint to gain hands on experience and give back to the community. Teeeee eeeee eeeeeee eeeeeessss ssssssss sssssss sssssss sssssss sssssttttt tttttt tttttt tting oooooo oooover flow. Here's some more stuff! Here's so much stuff! So much stuff, it'll overflow off the page!"}
+              tags={["Yearly Recap"]}
+              time_posted={"24 May 2024"}
+              description={"As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year."}
               redirect_url={"../blog/yearEnd2024.html"}
         />
         <div className="grid grid-cols-3 gap-4">
