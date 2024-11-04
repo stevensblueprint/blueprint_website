@@ -8,14 +8,14 @@ export default ({
     time_posted,
     description,
     redirect_url,
-    redirect_url_text, }) => {
+        }) => {
     return (
       <figure className="flex-col flex w-full lg:p-5 p-8 lg:max-w-[1280px]">
         <div className="flex">
             <div className="w-2/3 pr-8">
                 {/* Left Side Content */}
                 <h1 className="pb-8 text-4xl text-primary font-normal"> {"Stevens Blueprint Blog"} </h1>
-                <div className="flex">
+                <div className="flex content-center">
                     <div>
                     <img
                         className="size-1"
@@ -23,19 +23,18 @@ export default ({
                         alt="Clock"
                     />
                     </div>
-                    <div className="text-xl font-normal"> <p> {time_posted} </p> </div>
+                    <div className="text-base font-normal"> <p> {time_posted} </p> </div>
                 </div>
                 <div className="flex">
                     <div className="text-3xl font-semibold pb-2 pt-2"> {card_header} </div>
-                    <div> {tags} </div>
-                <div className="flex flex-wrap">
+                <div className="flex flex-wrap grid-cols-2 gap-1 justify-center content-center">
                             {tags.map((tag) => (
-                            <span
+                            <div
                                 key={tag}
-                                className="m-1 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+                                className="bg-primary rounded-md px-3 text-sm font-semibold text-white text-center text-nowrap"
                             >
                                 {tag}
-                            </span>
+                            </div>
                         ))}
                     </div>
                 </div>
@@ -46,7 +45,7 @@ export default ({
                     redirect_url={redirect_url}
                 />
             </div>
-            <div className="w-1/3 bg-transparent">
+            <div className="w-1/3 bg-transparent content-center">
                 {/* Image */}
                 {image_url && (
                 <div className="flex justify-center items-center w-full">
