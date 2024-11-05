@@ -1,8 +1,9 @@
-export default ({ comp }) => (
+export default ({ comp, faqs }) => (
   <html>
     <head>
       <link rel="stylesheet" href="/styles.css" />
       <title>For Students</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
       <>
@@ -75,6 +76,14 @@ export default ({ comp }) => (
                 </li>
               </ol>
             </div>
+          </div>
+        </section>
+        <section className="flex flex-col justify-center px-5 mb-10 max-w-7xl mx-auto">
+          <h1 className="md:text-[40px] font-semibold text-5xl py-3">FAQs</h1>
+          <div className="w-full flex flex-col">
+            {faqs.map((faq, index) => (
+              <comp.DropdownFAQ faq={faq} index={index} key={index} />
+            ))}
           </div>
         </section>
         <comp.Footer />
