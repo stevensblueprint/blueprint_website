@@ -9,19 +9,17 @@ export default function Hero({ comp }) {
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 text-center lg:text-left">
           We are passionate about leveraging our technical and
-          <br />
           consulting skills to support your organization’s mission,
-          <br />
           free of charge!
         </p>
         <div className="flex flex-col md:flex-row md:justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-6">
           <comp.Button
-            style="h-10 px-6 md:px-8 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex"
+            style="h-10 px-6 md:px-8 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
             text="Email Us"
             redirect_url="community"
           />
           <comp.Button
-            style="h-10 px-6 md:px-8 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex"
+            style="h-10 px-6 md:px-8 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
             text="See our Projects"
             redirect_url="../../projects" // FIXME: How can we avoid hardcoding the URL?
           />
