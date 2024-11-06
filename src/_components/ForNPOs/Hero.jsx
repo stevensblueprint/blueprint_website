@@ -15,7 +15,7 @@ export default function Hero({ comp }) {
           <comp.Button
             style="py-2 px-6 md:px-8 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
             text="Email Us"
-            redirect_url="community"
+            redirect_url="mailto:sit.blueprint@gmail.com"
           />
           <comp.Button
             style="py-2 px-6 md:px-6 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
