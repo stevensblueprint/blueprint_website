@@ -8,9 +8,8 @@ export default function Hero({ comp }) {
           Non-Profit Organizations
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 text-center lg:pr-40 lg:text-left">
-          We are passionate about leveraging our technical and
-          consulting skills to support your organization’s mission,
-          free of charge!
+          We are passionate about leveraging our technical and consulting skills
+          to support your organization’s mission, free of charge!
         </p>
         <div className="flex flex-col md:flex-row md:justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-6">
           <comp.Button
