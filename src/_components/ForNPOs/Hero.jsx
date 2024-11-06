@@ -7,7 +7,7 @@ export default function Hero({ comp }) {
         <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl leading-snug md:leading-[1.3] tracking-wide mb-4 md:mb-6 lg:mb-16 text-center lg:text-left">
           Non-Profit Organizations
         </h1>
-        <p className="text-lg md:text-xl lg:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 text-center lg:text-left">
+        <p className="text-lg md:text-xl lg:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 text-center lg:pr-40 lg:text-left">
           We are passionate about leveraging our technical and
           consulting skills to support your organization’s mission,
           free of charge!
