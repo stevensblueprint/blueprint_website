@@ -11,11 +11,11 @@ export default ({ comp, description, posts, children }) => (
       <comp.Navbar />
       <main className="max-w-4xl mx-auto p-4">
         <comp.BlogHero 
-              image_url={"../assets/events/google_event_2.jpg"}
+              image_url={"../assets/events/spring_kickoff.png"}
               card_header={"Reflecting on the 2023-2024 Year"}
               tags={["Yearly Recap"]}
               time_posted={"24 May 2024"}
-              description={"As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year."}
+              description={"As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year. As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year."}
               redirect_url={"../blog/yearEnd2024.html"}
         />
         <div className="grid grid-cols-3 gap-4">
