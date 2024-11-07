@@ -9,12 +9,12 @@ posts:
   - example3
 ---
 
-
 <!-- title: Stevens Blueprint
 layout: _layouts/Placeholder.jsx
 headline: Under Construction!
 description: This page is being worked on, please check back in soon.
  -->
+
 Blog page to learn more about Stevens Blueprint and what we do
 
 ## Section
