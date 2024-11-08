@@ -32,7 +32,7 @@ export default ({
             </div>
           </div>
           <div className="flex">
-            <div className="text-3xl font-semibold pb-2 pt-2">
+            <div className="text-3xl font-semibold pb-4 pt-2">
               {" "}
               {card_header}{" "}
             </div>
@@ -51,7 +51,7 @@ export default ({
             {" "}
             {description}{" "}
           </p>
-          <div className="py-2">
+          <div className="py-6">
             <comp.Button
               style={
                 "block lg:px-8 px-8 lg:py-2 py-2 lg:rounded-md rounded-md border border-black text-base leading-normal font-bold w-fit lg:text-base text-4xl"
