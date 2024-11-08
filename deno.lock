@@ -1405,5 +1405,13 @@
     "https://esm.sh/v135/unist-util-visit@4.1.2/denonext/unist-util-visit.mjs": "17fb2ed178b4f6ac073c362ca95680df240fcfb6a324ad79fab34314a3c06929",
     "https://esm.sh/v135/vfile-message@3.1.4/denonext/vfile-message.mjs": "d34b802439153a4908c47017c7a7b1e5b8c704de13825f738c4d810468fd7e4d",
     "https://esm.sh/v135/vfile@5.3.7/denonext/vfile.mjs": "fba5dc460e787ded817fb2565ac7235cfd2a164f403a4f38864f34384e0afbf1"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:prettier-plugin-tailwindcss@^0.6.8",
+        "npm:prettier@^3.2.5"
+      ]
+    }
   }
 }
