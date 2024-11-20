@@ -181,7 +181,7 @@ export default ({
         </div>
       </section>
       {/*Internal Teams & Design Teams Section*/}
-      <section className="flex items-start justify-center flex-wrap align-center pt-12 px-12 max-lg:px-12 max-md:w-full max-md:px-4 gap-14">
+      <section className="flex items-start justify-center align-center pt-12 px-12 max-lg:px-12 max-md:w-full max-md:px-4 gap-14">
         <div>
           <img
             className="object-cover"
@@ -222,7 +222,7 @@ export default ({
         </div>
       </section>
       <section className="flex flex-col items-center p-12 max-lg:px-12 max-md:w-full max-md:px-4">
-        <h1 className="text-4xl text-center text-primary font-bold w-3/5 my-20">
+        <h1 className="text-4xl text-center text-primary font-bold w-3/5 my-16">
           Have any questions? Reach out at sit.blueprint@gmail.com
         </h1>
       </section>
