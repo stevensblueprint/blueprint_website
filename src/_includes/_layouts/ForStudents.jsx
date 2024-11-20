@@ -1,23 +1,30 @@
 export default ({
-  comp,
+  comp, faqs,
   internal_teams_img = "../../assets/clip_art/internal_teams.svg",
 }) => (
   <html>
     <head>
+      <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
-      <title>For Students</title>
+      <title>Students</title>
+      <meta property="og:title" content="Students" />
+      <meta
+        property="og:url"
+        content="https://sitblueprint.com/community/students/"
+      />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-      <>
-        <comp.Navbar />
-        <div className="flex flex-col items-center px-4 lg:px-8">
-          <h1 className="text-4xl">
-            <strong>For Students</strong>
-          </h1>
-        </div>
-
-        {/* Application Process Section */}
-        <section className="flex flex-col items-center p-12 max-lg:px-12 max-md:w-full max-md:px-4">
+      <comp.Navbar />
+      <comp.StudentsHero comp={comp} />
+      <section>
+        <h1 className="font-bold lg:text-5xl text-7xl flex flex-col items-center justify-center lg:pt-32 max-lg:py-32 gap-y-6">
+          Our Teams
+        </h1>
+      </section>
+      <comp.StudentsProjectTeam comp={comp} /> 
+      {/* Application Process Section */}
+      <section className="flex flex-col items-center p-12 max-lg:px-12 max-md:w-full max-md:px-4">
           <h1 className="text-4xl text-center">
             <strong>Application Process</strong>
           </h1>
@@ -234,8 +241,16 @@ export default ({
             Have any questions? Reach out at sit.blueprint@gmail.com
           </h1>
         </section>
-        <comp.Footer />
-      </>
+      <section className="flex flex-col justify-center px-5 mb-10 max-w-7xl mx-auto">
+        <h1 className="md:text-[40px] font-semibold text-5xl py-3">FAQs</h1>
+        <div className="w-full flex flex-col">
+          {faqs.map((faq, index) => (
+            <comp.DropdownFAQ faq={faq} index={index} key={index} />
+          ))}
+        </div>
+      </section>
+
+      <comp.Footer />
     </body>
   </html>
 );
