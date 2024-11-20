@@ -21,7 +21,7 @@ export default function ProjectTimeline() {
             is feasible for our team.
           </p>
         </div>
-        <div className="px-12 py-8 border-x-[1px] border-black">
+        <div className="px-12 py-8 lg:border-x-[1px] border-black">
           <h2 className="pb-4 text-xl text-primary font-bold">
             Phase 2: Development
           </h2>
