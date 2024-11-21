@@ -25,7 +25,7 @@ export default ({
       </section>
       <comp.StudentsProjectTeam comp={comp} />
       {/* Application Process Section */}
-      <section className="flex flex-col items-center p-12 max-lg:px-12 max-md:w-full max-md:px-4">
+      <section className="flex flex-col items-center px-12 pb-12 max-lg:px-12 max-md:w-full max-md:px-4">
         <h1 className="text-4xl text-center">
           <strong>Application Process</strong>
         </h1>
@@ -222,8 +222,13 @@ export default ({
         </div>
       </section>
       <section className="flex flex-col items-center p-12 max-lg:px-12 max-md:w-full max-md:px-4">
-        <h1 className="text-4xl text-center text-primary font-bold w-3/5 my-16">
-          Have any questions? Reach out at sit.blueprint@gmail.com
+        <h1 className="text-[40px] text-center text-primary font-bold w-3/5 my-16">
+          Have any questions? Reach out at sit.blueprint@gmail.com{" "}
+          <img
+            className="object-cover inline h-8 w-8"
+            src={"../../assets/clip_art/AiOutlineMail.svg"}
+            alt="Email"
+          />
         </h1>
       </section>
       <section className="flex flex-col justify-center px-5 mb-10 max-w-7xl mx-auto">
