@@ -84,14 +84,17 @@ export default ({ comp, title }) => {
             redirect_url={"about"}
           />
         </section>
-        <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-6 max-lg:h-fit">
+        <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
-            <strong>Projects</strong>
+            <strong>What We Do</strong>
           </h1>
-          <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
-            With transparency and accessibility always top-of-mind, all of
-            Blueprint's work is open source. We believe in building technology
-            that makes our community more open and connected.
+          <p className="text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14 px-24 py-8">
+            We collaborate with non-profit organizations and offer <br /> our
+            expertise in software development , web design, <br /> and product
+            management to bring ideas to life
+          </p>
+          <p className="text-center text-xl mb-8">
+            Our most recent projects include...
           </p>
           <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col justify-items-center">
             <comp.ProjectCard
@@ -115,26 +118,30 @@ export default ({ comp, title }) => {
           </div>
           <comp.Button
             style={
-              "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl bg-primary text-negative font-bold w-fit lg:text-base text-4xl"
+              "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl border-2 border-black mt-8 text-black font-bold w-fit lg:text-base text-4xl"
             }
-            text={"See More"}
+            text={"View all projects"}
             redirect_url={"projects"}
           />
         </section>
-        <section className="h-[17rem] bg-primary text-negative flex flex-col justify-evenly items-center justify-center py-16 max-lg:h-fit max-lg:gap-y-16 max-lg:py-16">
-          <h1 className="lg:text-5xl text-6xl mb-12">
-            <strong>Sponsors and Partners</strong>
+        <section className="h-[24rem] bg-white text-black flex flex-col justify-evenly items-left justify-center px-12 max-lg:w-full max-lg:flex-1 max-lg:px-8 py-24 max-lg:h-fit max-lg:gap-y-20 max-lg:py-16">
+          <h1 className="lg:text-5xl text-6xl mb-4">
+            <strong>Our Sponsors</strong>
           </h1>
-          <div className="flex flex-wrap gap-x-6 justify-center px-8 max-lg:px-4 max-md:px-2">
+          <h2 className="lg:text-xl text-4xl">
+            We are grateful to our sponsors who provide us with the resources
+            and support we need at Blueprint!
+          </h2>
+          <div className="flex flex-wrap gap-x-16 justify-center px-8 max-lg:px-4 pt-9 max-md:px-2 pt-2">
             <img
-              className="object-contain h-20 max-w-none mr-4"
-              src="../assets/logos/github.png"
-              alt="GitHub logo"
-            />
-            <img
-              className="object-contain h-20 max-w-none mr-4"
+              className="object-contain h-20 max-w-none "
               src="../assets/logos/notion.png"
               alt="Notion logo"
+            />
+            <img
+              className="object-cover h-20 max-w-none "
+              src="../assets/logos/github_square.png"
+              alt="GitHub logo"
             />
           </div>
         </section>

@@ -10,22 +10,34 @@ export default ({ comp, description, posts, children }) => (
     <body>
       <comp.Navbar />
       <main className="max-w-4xl mx-auto p-4">
-        <div className="text-4xl font-bold mb-2">Stevens Blueprint Blog</div>
-        <p className="text-lg text-gray-700 mb-8">{description}</p>
+        <comp.BlogHero
+          image_url={"../assets/events/spring_kickoff.png"}
+          card_header={"Reflecting on the 2023-2024 Year"}
+          tags={["Yearly Recap"]}
+          time_posted={"24 May 2024"}
+          description={
+            "As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year. As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year."
+          }
+          redirect_url={"../blog/yearEnd2024.html"}
+        />
         <div className="grid grid-cols-3 gap-4">
           {/* 'posts' is currently a static string array that matches the filenames in blogs/ folder. Needs to be dynamic. See utility/searchResults.js for more info */}
           {posts.map((post) => (
-            <a
-              href={post}
-              key={post}
-              className="block p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100"
-            >
-              {post}
-              {/* <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">{post.title}</h3>
-              <p className="font-normal text-gray-700">{post.description}</p>
-              <p className="text-sm text-gray-600">{new Date(post.date).toLocaleDateString()}</p> */}
-            </a>
+            <comp.BlogCard
+              name_post={post.name_post}
+              image_url={post.image}
+              date={post.date}
+              project_tag={post.tag}
+            />
           ))}
+        </div>
+        <div class="flex justify-center items-center">
+          <button
+            type="button"
+            class="text-black font-bold hover:text-black border-2 border-black hover:bg-black rounded-lg text-sm px-10 py-2.5 text-center me-2 mb-2 dark:border-black dark:text-black dark:hover:text-white dark:hover:bg-black mb-20"
+          >
+            View all blog posts
+          </button>
         </div>
       </main>
       <comp.Footer />

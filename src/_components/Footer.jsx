@@ -21,13 +21,10 @@ export default function Footer() {
             <div className="mb-6 md:mb-0">
               <a href={blueprint_url} className="flex items-center">
                 <img
-                  src="/assets/logos/logo_negative.png"
+                  src="/assets/logos/logo_banner_negative.png"
                   className="h-8 mr-2"
                   alt="blueprint Logo"
                 />
-                <span className="self-center text-3xl font-semibold font-poppins whitespace-nowrap text-white">
-                  blueprint
-                </span>
               </a>
               <h3 className="my-5 text-white font-medium font-poppins">
                 Technology for Social Good

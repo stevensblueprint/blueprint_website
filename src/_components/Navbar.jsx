@@ -9,18 +9,11 @@ const navigationLinks = [
 ];
 
 export default function NavigationBar() {
-  const logo = "/assets/logos/logo_negative.png";
+  const logo = "/assets/logos/logo_banner_negative.png";
   return (
     <nav className="relative flex items-center justify-between lg:p-6 p-10 bg-primary z-50">
-      <a href="/" className="flex items-center text-white">
-        <img
-          src={logo}
-          alt="Blueprint Logo"
-          className="mr-2 lg:w-10 lg:h-10 w-16 h-16"
-        />
-        <span className="lg:text-3xl text-5xl font-poppins font-semibold hover:font-bold">
-          blueprint
-        </span>
+      <a href="/" className="flex items-center">
+        <img src={logo} alt="Blueprint Logo" className="mr-2 lg:h-10 h-16" />
       </a>
       {/* Desktop Navigation Menu - Visible only on large screens */}
       <div className="hidden lg:flex space-x-6">
@@ -49,16 +42,21 @@ export default function NavigationBar() {
 
 function renderDesktopNavigationLinks() {
   return navigationLinks.map((link, index) => (
-    <a
-      key={index}
-      href={link.href}
-      className="text-white text-xl relative group transition-all duration-300 ease-in-out"
-    >
-      <span className="group-hover:font-bold group-hover:text-yellow-100">
-        {link.text}
-      </span>
-      <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-100 transition-all group-hover:w-full"></span>
-    </a>
+    <span className="text-center">
+      <a
+        key={index}
+        href={link.href}
+        className="text-white text-xl relative group transition-all duration-300 ease-in-out"
+      >
+        <span className="whitespace-nowrap font-bold invisible">
+          {link.text}
+        </span>
+        <span className="absolute inset-0 flex justify-center items-center whitespace-nowrap transition-all group-hover:font-bold group-hover:text-yellow-100">
+          {link.text}
+        </span>
+        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-100 transition-all group-hover:w-full"></span>
+      </a>
+    </span>
   ));
 }
 
