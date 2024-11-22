@@ -6,7 +6,7 @@ export default function ProjectCriteria ({ comp }) {
       <div className="m-24">
         <h1 className="text-4xl font-semibold pb-6"> What We're Looking For </h1>
         <div className="flex">
-          <div className="flex flex-col w-7/12 pr-12">
+          <div className="flex flex-col">
             {/* Left Side Content */}
             <div className="flex">
               <div> <img className="size-1" src="../../assets/vector/higlobealt.svg" alt="Globe" /> </div>
@@ -24,16 +24,16 @@ export default function ProjectCriteria ({ comp }) {
             </div>
             <div> <p className="font-normal text-xl pb-2"> {"What technical areas of expertise does this project require? We love challenging ourselves and learning new skills, but we also want to ensure that our projects fit with our core capabilities."} </p> </div>
           </div>
-          <div className="flex grow relative justify-center items-center">
+          <div className="flex max-lg:hidden w-5/12 justify-center items-center">
             {/* Right Side Content */}
-            <div className="w-96 h-80">
-              <div className="z-10 absolute w-72 h-44 bg-primary rounded-2xl"> 
-                <p className="text-white py-7 px-8"> {"Wow! Blueprint is amazing! Wow! Blueprint is amazing! Wow! Blueprint is amazing! Wow! Blueprint is amazing! Wow! Blueprint is amazing!"} </p></div>
-              <div className="z-0 absolute left-1/4 bottom-1/3 w-72 h-44 bg-sky-100 rounded-2xl"> 
-                <div className="absolute bottom-3 left-8">
-                <p> {"- Definitely Real, NPO"} </p></div>
+            <div className="pl-12 w-96 h-60">
+              <div className="z-00 relative max-w-64 bg-primary rounded-2xl"> 
+                <p className="text-white py-7 px-8"> {"Wow! Blueprint is amazing! Blueprint is amazing! Wow! Blueprint is amazing! Wow! Blueprint is amazing!"} </p>
+                <div className="-z-10 absolute left-24 -bottom-12 w-10/12 h-full bg-sky-100 rounded-2xl"> 
+                  <p className="absolute bottom-4 left-6"> {"- Definitely Real, NPO"} </p>
                 </div>
-            </div>
+                </div>
+              </div>
           </div>
       </div>
       <div>
