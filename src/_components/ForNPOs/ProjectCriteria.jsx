@@ -116,9 +116,9 @@ export default function ProjectCriteria({ comp }) {
                 "block lg:px-8 px-8 lg:py-2 py-2 lg:rounded-md rounded-md border border-black text-base leading-normal font-bold w-fit lg:text-base text-4xl"
               }
               text={"Download our proposal template"}
+              redirect_url={"../../assets/docs/NPO_Project_Proposal.pdf"}
+              download={"NPO_Project_Proposal.pdf"}
             />
-            {/* TODO: Instead of using comp.Button add a new component called DownloadButton */}
-            <a href={"../../assets/docs/NPO_Project_Proposal.pdf"} download={"NPO_Project_Proposal.pdf"}>Download</a>
           </div>
         </div>
       </div>
