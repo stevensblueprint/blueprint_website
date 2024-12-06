@@ -2,13 +2,13 @@ import React from "https://esm.sh/react";
 
 export default function ProjectCriteria({ comp }) {
   return (
-    <figure className="flex-col flex w-full lg:p-5 lg:max-w-[1280px]">
+    <figure className="flex-col flex w-full lg:px-24 xl:px-64">
       <div className="m-24">
         <h1 className="text-4xl font-semibold pb-6">
           {" "}
           What We're Looking For{" "}
         </h1>
-        <div className="flex">
+        <div className="flex flex-col md:flex-row">
           <div className="flex flex-col">
             {/* Left Side Content */}
             <div className="flex">
@@ -81,9 +81,9 @@ export default function ProjectCriteria({ comp }) {
               </p>{" "}
             </div>
           </div>
-          <div className="flex max-lg:hidden w-5/12 justify-center items-center">
+          <div className="flex md:w-5/12 justify-center items-center">
             {/* Right Side Content */}
-            <div className="pl-12 w-96 h-60">
+            <div className="pt-12 md:pt-0 md:pl-12 w-96 h-60">
               <div className="z-00 relative max-w-64 bg-primary rounded-2xl">
                 <p className="text-white py-7 px-8">
                   {" "}
@@ -102,7 +102,7 @@ export default function ProjectCriteria({ comp }) {
           </div>
         </div>
         <div>
-          <div className="flex justify-center pt-20">
+          <div className="flex justify-center pt-12 md:pt-20">
             <p className="text-center text-4xl font-semibold max-w-3xl text-primary">
               {" "}
               {
@@ -116,7 +116,7 @@ export default function ProjectCriteria({ comp }) {
                 "block lg:px-8 px-8 lg:py-2 py-2 lg:rounded-md rounded-md border border-black text-base leading-normal font-bold w-fit lg:text-base text-4xl"
               }
               text={"Download our proposal template"}
-              redirect_url={"http://localhost:3000/projects/"}
+              redirect_url={"../../assets/NPO_Project_Proposal.pdf"}
             />
           </div>
         </div>
