@@ -1,6 +1,6 @@
 export default function StudentsProjectTeam({ comp }) {
   return (
-    <section className="grow flex flex-col lg:flex-row lg:items-center lg:min-h-[42rem] relative overflow-hidden lg:pb-32">
+    <section className="grow flex flex-col lg:flex-row lg:items-center lg:min-h-[42rem] relative overflow-hidden">
       <div className="lg:w-7/12 lg:pl-40 lg:pr-20 text-negative max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-start max-large:items-start">
         <h2 className="font-semibold lg:text-2xl text-5xl text-black">
           Project Teams
