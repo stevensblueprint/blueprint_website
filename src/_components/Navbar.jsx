@@ -9,18 +9,11 @@ const navigationLinks = [
 ];
 
 export default function NavigationBar() {
-  const logo = "/assets/logos/logo_negative.png";
+  const logo = "/assets/logos/logo_banner_negative.png";
   return (
     <nav className="relative flex items-center justify-between lg:p-6 p-10 bg-primary z-50">
-      <a href="/" className="flex items-center text-white">
-        <img
-          src={logo}
-          alt="Blueprint Logo"
-          className="mr-2 lg:w-10 lg:h-10 w-16 h-16"
-        />
-        <span className="lg:text-3xl text-5xl font-poppins font-semibold hover:font-bold">
-          blueprint
-        </span>
+      <a href="/" className="flex items-center">
+        <img src={logo} alt="Blueprint Logo" className="mr-2 lg:h-10 h-16" />
       </a>
       {/* Desktop Navigation Menu - Visible only on large screens */}
       <div className="hidden lg:flex space-x-6">

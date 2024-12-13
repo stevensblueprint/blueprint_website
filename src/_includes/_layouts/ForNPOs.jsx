@@ -9,6 +9,7 @@ export default ({ comp }) => (
         <comp.Navbar />
         <comp.ForNPOs.Hero />
         <comp.ForNPOs.ProjectCriteria />
+        <comp.ForNPOs.ProjectTimeline />
       </>
     </body>
   </html>
