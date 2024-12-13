@@ -9,7 +9,12 @@ export default function Button({
 }) {
   const target = openInNewTab ? "_blank" : "";
   return (
-    <a className={style} href={redirect_url} target={target} download={download}>
+    <a
+      className={style}
+      href={redirect_url}
+      target={target}
+      download={download}
+    >
       {text}
     </a>
   );
