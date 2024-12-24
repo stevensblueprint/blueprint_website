@@ -26,3 +26,4 @@ Specials thanks to the members of Stevens Blueprint for collaborating on this pr
 - [Chinli Ong](https://github.com/co16661666)
 - [Derrick Sual](https://github.com/dersual)
 - [Johan Nguyen](https://github.com/SevenThanh)
+- [John Doe](https://github.com/your_github_username)
