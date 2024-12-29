@@ -20,6 +20,6 @@
     "jsxImportSource": "npm:react"
   },
   "imports": {
-    "lume/": "https://deno.land/x/lume@v1.19.2/"
+    "lume/": "https://deno.land/x/lume@v2.4.3/"
   }
 }
