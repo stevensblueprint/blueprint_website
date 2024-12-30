@@ -31,10 +31,10 @@ export default ({ comp, description, posts, children }) => (
             />
           ))}
         </div>
-        <div class="flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <button
             type="button"
-            class="text-black font-bold hover:text-black border-2 border-black hover:bg-black rounded-lg text-sm px-10 py-2.5 text-center me-2 mb-2 dark:border-black dark:text-black dark:hover:text-white dark:hover:bg-black mb-20"
+            className="text-black font-bold hover:text-black border-2 border-black hover:bg-black rounded-lg text-sm px-10 py-2.5 text-center me-2 mb-2 dark:border-black dark:text-black dark:hover:text-white dark:hover:bg-black mb-20"
           >
             View all blog posts
           </button>
