@@ -84,6 +84,7 @@ export default ({ comp, title }) => {
             redirect_url={"about"}
           />
         </section>
+        <comp.Home.ImpactStats />
         <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
             <strong>What We Do</strong>
