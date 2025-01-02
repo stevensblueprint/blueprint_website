@@ -5,7 +5,7 @@ export default ({
   githubRepository,
   npoDescription,
   projectDescription,
-  tools
+  tools,
 }) => (
   <html>
     <head>
@@ -37,7 +37,7 @@ export default ({
             <p className="line-clamp-6">{tools}</p>
           </div>
           <div className="w-full max-w-2xl mx-auto p-4 flex justify-center">
-          <a
+            <a
               href={githubRepository}
               className="flex-auto text-gray-500 hover:text-gray-300 dark:hover:text-white"
             >
