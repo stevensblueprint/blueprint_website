@@ -37,7 +37,7 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
 
 ## Setup for contributors
 
-1. Ensure that you have Deno installed. You can skip this step if you do. If you don't or are unsure, you can use the following command to install it.
+1. Ensure that you have Deno installed. We are using Deno 2 (version 2.1.4). You can skip this step if you do. If you don't or are unsure, you can use the following command to install it.
 
    **Homebrew users:**
 
@@ -62,7 +62,7 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
 
    Re-run the curl command.
 
-   Restart your terminal or enter a new one. To confirm deno was installed, check the version by running `deno --version`, should see something like `deno 1.37.2`
+   Restart your terminal or enter a new one. To confirm deno was installed, check the version by running `deno --version`, should see something like `deno 2.1.4`
 
    You can find more information on the [Deno Docs](https://docs.deno.com/runtime/manual/getting_started/installation)
 
@@ -86,7 +86,7 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
 
 `npm run format:write`
 
-Note: make sure npm is installed on your machine
+Note: make sure npm is installed on your machine. The reason we are using npm for prettier as opposed to `deno fmt` is because of the `prettier-plugin-tailwindcss` npm pacakge. This helps us format our tailwindcss classes correctly, and currently, there is no deno equivalent.
 
 ## For Project Teams Updating their Project Page
 

@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "lume": "echo \"import 'lume/cli.ts'\" | deno run --unstable -A -",
+    "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
     "build": "deno task lume",
     "serve": "deno task lume -s"
   },
@@ -12,8 +12,8 @@
       "exclude": ["no-unused-vars"]
     }
   },
+  "nodeModulesDir": "auto",
   "compilerOptions": {
-    "allowJs": true,
     "lib": ["deno.window"],
     "strict": true,
     "jsx": "react-jsx",
