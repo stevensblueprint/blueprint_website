@@ -1,25 +1,44 @@
 export default ({
   comp,
-  project_title,
-  project_logo_url,
-  github_repository_url,
-  children, // This prop does not need to be scpecified in the markdown header, think of it as the markdown content
+  npoName,
+  npoLogo,
+  githubRepository,
+  npoDescription,
+  projectDescription,
+  tools
 }) => (
   <html>
     <head>
       <link rel="stylesheet" href="/styles.css" />
-      <title>{project_title}</title>
+      <title>{npoName}</title>
     </head>
     <body>
       <div>
         <comp.Navbar />
-        <div className="flex flex-col items-center px-4 lg:px-8">
-          <div className="flex items-center justify-center">
+        <div className="flex flex-col px-4 lg:px-8 pt-4">
+          <div className="w-full max-w-2xl mx-auto text-left">
             <h1 className="text-4xl">
-              <strong>{project_title}</strong>
+              <strong>{npoName}</strong>
             </h1>
-            <a
-              href={github_repository_url}
+          </div>
+          <div className="w-full max-w-2xl mx-auto text-center">
+            <img
+              className="w-full h-auto"
+              src={npoLogo}
+              alt="Project Logo"
+              key={npoLogo}
+            />
+          </div>
+          <div className="w-full max-w-2xl mx-auto p-4">
+            <p className="line-clamp-6">{npoDescription}</p>
+            <h1 className="text-2xl pt-7 font-bold">Project</h1>
+            <p className="line-clamp-6">{projectDescription}</p>
+            <h1 className="text-2xl pt-7 font-bold">Tools</h1>
+            <p className="line-clamp-6">{tools}</p>
+          </div>
+          <div className="w-full max-w-2xl mx-auto p-4 flex justify-center">
+          <a
+              href={githubRepository}
               className="flex-auto text-gray-500 hover:text-gray-300 dark:hover:text-white"
             >
               <svg
@@ -35,16 +54,6 @@ export default ({
               </svg>
               <span className="sr-only">Github</span>
             </a>
-          </div>
-          <div className="w-full max-w-2xl mx-auto text-center">
-            <img
-              className="w-full h-auto"
-              src={project_logo_url}
-              alt="Project Logo"
-            />
-          </div>
-          <div className="w-full max-w-2xl mx-auto p-4">
-            <p className="line-clamp-6">{children}</p>
           </div>
         </div>
         <comp.Footer />
