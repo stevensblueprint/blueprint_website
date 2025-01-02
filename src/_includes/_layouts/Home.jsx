@@ -60,29 +60,33 @@ export default ({ comp, title }) => {
           </section>
         </div>
         {/* end of hero */}
-        <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-gray-50">
-          <h1 className="lg:text-5xl text-7xl">
-            <strong>About Us</strong>
+        <section className="flex flex-col py-32 gap-y-6 bg-white">
+          <h1 className="lg:text-5xl text-7xl text-center pb-20">
+            <strong>Our impact</strong>
           </h1>
-          <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
-            We are a group of students at Stevens Institute of Technology who
-            have a passion technology and want to apply our talents towards
-            social causes that can use our help.
-          </p>
-          <comp.Carousel
-            array_of_images={[
-              "../assets/events/google_event.jpg",
-              "../assets/events/google_event_1.jpg",
-              "../assets/events/ebm.jpeg",
-            ]}
-          />
-          <comp.Button
-            style={
-              "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl bg-primary text-negative font-bold w-fit lg:text-base text-4xl"
-            }
-            text={"Learn More"}
-            redirect_url={"about"}
-          />
+          <div className="flex items-center justify-evenly">
+            <div className="flex flex-col items-center justify-center">
+              <h2 className="text-9xl text-secondary font-bold">4</h2>
+              <span className="text-center text-3xl font-bold">
+                <span className="block">NON-PROFIT</span>
+                <span className="block">PROJECTS</span>
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h2 className="text-9xl text-primary font-bold">5,000</h2>
+              <span className="text-center text-3xl font-bold">
+                <span className="block">ACCUMULATED</span>
+                <span className="block">VOLUNTEER HOURS</span>
+              </span>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h2 className="text-9xl text-secondary font-bold">80</h2>
+              <span className="text-center text-3xl font-bold"> 
+                <span className="block">STUDENT</span>
+                <span className="block">VOLUNTEERS</span>
+              </span>
+            </div>
+          </div>
         </section>
         <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
