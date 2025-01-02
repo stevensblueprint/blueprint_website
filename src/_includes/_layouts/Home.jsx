@@ -81,7 +81,7 @@ export default ({ comp, title }) => {
             </div>
             <div className="flex flex-col items-center justify-center">
               <h2 className="text-9xl text-secondary font-bold">80</h2>
-              <span className="text-center text-3xl font-bold"> 
+              <span className="text-center text-3xl font-bold">
                 <span className="block">STUDENT</span>
                 <span className="block">VOLUNTEERS</span>
               </span>
