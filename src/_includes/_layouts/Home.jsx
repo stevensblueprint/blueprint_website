@@ -61,10 +61,10 @@ export default ({ comp, title }) => {
         </div>
         {/* end of hero */}
         <section className="flex flex-col py-32 gap-y-6 bg-white">
-          <h1 className="lg:text-5xl text-7xl text-center pb-20">
+          <h1 className="lg:text-5xl text-7xl text-center lg:pb-20 sm:pb-10">
             <strong>Our impact</strong>
           </h1>
-          <div className="flex items-center justify-evenly">
+          <div className="flex lg:flex-row sm:flex-col gap-20 items-center justify-evenly">
             <div className="flex flex-col items-center justify-center">
               <h2 className="text-9xl text-secondary font-bold">4</h2>
               <span className="text-center text-3xl font-bold">
