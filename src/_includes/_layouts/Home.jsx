@@ -93,8 +93,8 @@ export default ({ comp, title }) => {
             expertise in software development , web design, <br /> and product
             management to bring ideas to life
           </p>
-          <p className="text-center text-xl mb-8">
-            Our most recent projects include...
+          <p className="text-center text-2xl mb-8 text-primary font-bold">
+            View all projects
           </p>
           <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col justify-items-center">
             <comp.ProjectCard
