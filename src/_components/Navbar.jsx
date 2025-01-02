@@ -1,27 +1,26 @@
 import React from "https://esm.sh/react";
 
-// Global navigation links array
 const navigationLinks = [
-  { href: "/mission", text: "Mission" },
+  { href: "/about", text: "About" },
   { href: "/projects", text: "Projects" },
-  { href: "/community", text: "Get Involved" },
+  { href: "/students", text: "Students" },
+  { href: "/non-profits", text: "Non-Profits" },
+  { href: "/partners", text: "Partners" },
   { href: "/blog", text: "Blog" },
 ];
 
+const logo = "/assets/logos/logo_banner_negative.png";
+
 export default function NavigationBar() {
-  const logo = "/assets/logos/logo_banner_negative.png";
   return (
-    <nav className="relative flex items-center justify-between lg:p-6 p-10 bg-primary z-50">
+    <nav className="relative flex items-center justify-evenly lg:p-6 p-10 bg-primary z-50">
       <a href="/" className="flex items-center">
-        <img src={logo} alt="Blueprint Logo" className="mr-2 lg:h-10 h-16" />
+        <img src={logo} alt="Blueprint Logo" className="lg:h-11 h-16" />
       </a>
-      {/* Desktop Navigation Menu - Visible only on large screens */}
-      <div className="hidden lg:flex space-x-6">
+      <div className="hidden lg:flex space-x-10">
         {renderDesktopNavigationLinks()}
       </div>
-      {/* Mobile Menu Toggle and Dropdown - Visible on screens smaller than "large" */}
       <div className="lg:hidden relative">
-        {/* Toggles the mobile menu */}
         <input
           type="checkbox"
           id="mobileMenuToggle"
@@ -31,7 +30,6 @@ export default function NavigationBar() {
         <label htmlFor="mobileMenuToggle" className="block cursor-pointer p-2">
           {renderHamburgerIcon()}
         </label>
-        {/* Mobile Navigation Menu - Expands and shows when hamburger icon is clicked*/}
         <div className="absolute top-[calc(100%+1rem)] right-2 bg-primary transition-all duration-300 max-h-0 overflow-hidden peer-checked:max-h-screen peer-checked:border peer-checked:border-white peer-checked:rounded-lg peer-checked:shadow-lg w-80">
           {renderMobileNavigationLinks()}
         </div>
@@ -46,7 +44,7 @@ function renderDesktopNavigationLinks() {
       <a
         key={index}
         href={link.href}
-        className="text-white text-xl relative group transition-all duration-300 ease-in-out"
+        className="text-white text-2xl relative group transition-all duration-300 ease-in-out"
       >
         <span className="whitespace-nowrap font-bold invisible">
           {link.text}
