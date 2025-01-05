@@ -37,6 +37,7 @@ site
               secondary: "#93C9FE",
               "text-color": "#333333",
               negative: "#ffffff",
+              maroon: "#9D1535",
             },
             // fontFamily: {
             //   sans: ["Helvetica", "sans-serif"],

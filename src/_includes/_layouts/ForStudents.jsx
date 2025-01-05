@@ -15,7 +15,7 @@ export default ({ comp, faqs }) => (
       <comp.Navbar />
       <comp.ForStudents.StudentsHero comp={comp} />
       <section>
-        <h1 className="font-bold lg:text-5xl text-7xl flex flex-col items-center justify-center lg:pt-32 max-lg:py-32 gap-y-6">
+        <h1 className="font-bold lg:text-5xl text-7xl flex flex-col items-center justify-center lg:pt-32 gap-y-6">
           Our Teams
         </h1>
       </section>
@@ -23,8 +23,8 @@ export default ({ comp, faqs }) => (
       {/* Application Process Section */}
       <comp.ForStudents.ApplicationProcess comp={comp} />
       {/*Internal Teams & Design Teams Section*/}
-      <comp.ForStudents.InternalDesignTeams comp={comp} />
-      <section className="flex flex-col justify-center px-5 mb-10 max-w-7xl mx-auto">
+      <comp.ForStudents.InternalTeams comp={comp} />
+      <section className="flex flex-col justify-center mb-10 px-40">
         <h1 className="md:text-[40px] font-semibold text-5xl py-3">FAQs</h1>
         <div className="w-full flex flex-col">
           {faqs.map((faq, index) => (

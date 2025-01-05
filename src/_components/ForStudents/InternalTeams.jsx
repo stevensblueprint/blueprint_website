@@ -1,9 +1,9 @@
 import React from "https://esm.sh/react";
 
-export default function InternalDesignTeam({ comp }) {
+export default function InternalTeams({ comp }) {
   return (
     <section>
-      <div className="flex items-start justify-center align-center pt-12 px-12 max-lg:px-12 max-md:w-full max-md:px-4 gap-14">
+      <div className="flex items-start justify-center align-center pt-12 px-40 gap-14">
         <div>
           <img
             className="object-cover"
@@ -13,8 +13,8 @@ export default function InternalDesignTeam({ comp }) {
         </div>
         <div className="flex w-7/12 flex-col gap-6">
           <h2 className="font-bold text-3xl">Internal Teams</h2>
-          <span className="bg-primary text-white self-start px-2 rounded-md text-xs">
-            No Application
+          <span className="bg-primary px-2 py-1 max-w-max rounded-md text-white text-lg font-medium">
+            NO APPLICATION
           </span>
           <div>
             <h2 className="text-2xl mb-3.5 font-bold">Tech Team</h2>
