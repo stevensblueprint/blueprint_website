@@ -2,16 +2,16 @@ import React from "https://esm.sh/react";
 
 export default function ProjectTimeline() {
   return (
-    <section className="grow min-h-[550px] bg-neg text-black lg:px-20 py-16">
+    <section className="grow bg-neg text-black lg:px-20 pt-16 pb-8">
       <div className="">
-        <h1 className=" font-bold text-3xl pl-12 pb-8">Our Project Timeline</h1>
+        <h1 className="text-4xl font-bold pl-12 pb-8">Our Project Timeline</h1>
       </div>
       <div className="grid lg:grid-cols-3">
         <div className="px-12 py-8">
-          <h2 className="pb-4 text-xl text-primary font-bold">
+          <h2 className="pb-4 text-3xl text-primary font-bold">
             Phase 1: Introductions
           </h2>
-          <p>
+          <p className="text-xl">
             In the initial stages of our project timeline, we'd like to meet and
             discuss your organization's mission, the project idea, and what we
             can do to help. We ask that organizations provide a proposal that
@@ -22,10 +22,10 @@ export default function ProjectTimeline() {
           </p>
         </div>
         <div className="px-12 py-8 lg:border-x-[1px] border-black">
-          <h2 className="pb-4 text-xl text-primary font-bold">
+          <h2 className="pb-4 text-3xl text-primary font-bold">
             Phase 2: Development
           </h2>
-          <p>
+          <p className="text-xl">
             To start the development process, we pair our organizations with the
             teams that will deliver the project by the end of the timeline.
             There is one project team per organization, composed of technical
@@ -36,10 +36,10 @@ export default function ProjectTimeline() {
           </p>
         </div>
         <div className="px-12 py-8">
-          <h2 className="pb-4 text-xl text-primary font-bold">
+          <h2 className="pb-4 text-3xl text-primary font-bold">
             Phase 3: Handoff
           </h2>
-          <p>
+          <p className="text-xl">
             Once we reach the end of the timeline, our project teams would have
             created a minimum viable product (MVP) through a constant feedback
             loop between our team members and organization. The objective of the
