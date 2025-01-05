@@ -1,5 +1,5 @@
 ---
-title: Mission
+title: About
 layout: _layouts/Mission.jsx
 values:
   - header: Impact
