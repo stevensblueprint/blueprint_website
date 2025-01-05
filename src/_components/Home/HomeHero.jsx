@@ -7,10 +7,10 @@ export default function Hero({ comp }) {
         <img src="../../assets/vector/gear.svg" alt="gear" className="pt-24" />
       </div>
       <div className="flex flex-col w-full items-center justify-center text-center md:mb-48">
-        <h1 className="font-bold text-3xl sm:text-5xl md:text-5xl tracking-wide mb-4 md:mb-16">
+        <h1 className="font-bold text-3xl xs:text-6xl md:text-5xl tracking-wide mb-4 md:mb-16">
           Tech for Social Good
         </h1>
-        <p className="text-md sm:text-xl md:text-2xl mb-4 md:mb-14">
+        <p className="text-md xs:text-2xl md:text-2xl mb-4 md:mb-14">
           We're a team of students from Stevens Institute of Technology that
           provides technical solutions for non-profit organizations.
         </p>
