@@ -12,57 +12,11 @@ export default ({ comp, title }) => {
       <body>
         <div className="h-[90vh] flex flex-col bg-[#D4EAFF] relative">
           <comp.Navbar />
-          {/* start of hero */}
-          <div className="relative">
-            <img
-              className="absolute top-1/2 right-1/4 w-16 "
-              src="../assets/vector/lamp.svg"
-              alt="Lamp"
-            />
-          </div>
-          <section className="grow flex flex-col lg:flex-row lg:items-center relative overflow-hidden">
-            <div className="w-1/2 px-20 max-lg:w-full max-lg:flex-1 max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:pt-16 z-20">
-              <h1 className="font-bold text-[2.9rem] leading-[1.3]  tracking-wide mb-1 max-lg:text-5xl max-lg:text-center max-lg:mb-8">
-                Tech for Social Good
-              </h1>
-              <p className="text-[1.5rem] w-[32rem] leading-[1.3] mb-6 max-lg:w-full max-lg:text-center max-lg:text-4xl max-lg:mb-12 font-weight:400">
-                We're a team of students from Stevens <br />
-                Institute of Technology that develops software <br />
-                solutions for non-profit organizations.
-              </p>
-              <div className="flex space-x-6 max-lg:flex-col max-lg:space-x-0 max-lg:space-y-8 max-lg:w-full max-lg:items-center">
-                <comp.Button
-                  style="px-8 py-4 rounded-lg bg-transparent border-2 border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-12 max-lg:py-6 max-lg:text-4xl"
-                  text="See our work"
-                  redirect_url="projects"
-                />
-                <comp.Button
-                  style="px-8 py-4 rounded-lg bg-transparent border-2 border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-12 max-lg:py-6 max-lg:text-4xl"
-                  text="Join our team"
-                  redirect_url="community"
-                />
-              </div>
-            </div>
-            <div className="max-lg:hidden lg:absolute lg:bottom-0 lg:right-0 lg:full lg:max-w-[695px] flex items-end max-lg:flex-1">
-              <img
-                src="../assets/vector/new_hero_background.svg"
-                alt="Background"
-                className="w-full h-full object-cover lg:object-bottom"
-              />
-            </div>
-            <div className="max-lg:hidden lg:absolute lg:bottom-0 lg:right-10 lg:w-5/12 max-lg:absolute max-lg:bottom-0 max-lg:left-0 max-lg:right-0">
-              <img
-                src="../assets/vector/new_hero_banner.svg"
-                alt="Blueprint Persons"
-                className="w-full h-full object-contain lg:object-bottom"
-              />
-            </div>
-          </section>
+          <comp.Home.HomeHero />
         </div>
-        {/* end of hero */}
-        <section className="flex flex-col py-32 gap-y-6 bg-white">
-          <h1 className="lg:text-5xl text-7xl text-center lg:pb-20 sm:pb-10">
-            <strong>Our impact</strong>
+        <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-gray-50">
+          <h1 className="lg:text-5xl text-7xl">
+            <strong>About Us</strong>
           </h1>
           <div className="flex lg:flex-row sm:flex-col gap-20 items-center justify-evenly">
             <div className="flex flex-col items-center justify-center">
