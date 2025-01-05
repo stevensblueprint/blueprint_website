@@ -13,11 +13,9 @@ export default ({ comp, title }) => {
         <link rel="icon" href="assets/logos/logo.png" type="image/png"></link>
         <title>{title}</title>
       </head>
-      <body className="max-w-full">
-        <div className="min-h-[90vh] flex flex-col bg-[#D4EAFF] relative">
-          <comp.Navbar />
-          <comp.Home.HomeHero />
-        </div>
+      <body>
+        <comp.Navbar />
+        <comp.Home.HomeHero />
         <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-gray-50">
           <h1 className="lg:text-5xl text-7xl">
             <strong>About Us</strong>
@@ -58,7 +56,7 @@ export default ({ comp, title }) => {
           <p className="text-center text-xl mb-8">
             Our most recent projects include...
           </p>
-          <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col justify-items-center">
+          <div className="w-full lg:grid lg:grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col justify-items-center">
             <comp.ProjectCard
               name_organization={"Asian American Dream"}
               image_url={"../assets/logos/aad_logo.png"}

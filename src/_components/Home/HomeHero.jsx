@@ -2,45 +2,29 @@ import React from "https://esm.sh/react";
 
 export default function Hero({ comp }) {
   return (
-    <section className="grow flex flex-col min-h-[700px] lg:flex-row lg:items-center relative overflow-hidden bg-primary text-white">
-      <div className="flex grow w-full justify-start pt-24">
-        <img
-          className="hidden lg:block"
-          src="../../assets/vector/gear_left.svg" // FIXME: Avoid absolute path?
-          alt="gear"
+    <section className="flex flex-col bg-primary text-white p-6 overflow-hidden">
+      <h1 className="font-bold text-3xl tracking-wide mb-4 text-left">
+        Tech for Social Good
+      </h1>
+      <p className="text-lg mb-4 text-left">
+        We're a team of students from Stevens Institute of Technology that
+        provides technical solutions for non-profit organizations.
+      </p>
+      <div className="flex space-x-2 pb-4">
+        <comp.Button
+          style="text-xs text-center py-1 px-3 rounded-md border bg-white text-primary font-semibold inline-flex items-center justify-center hover:bg-primary hover:text-white"
+          text="Work with us"
+          redirect_url="/for-npos"
         />
-      </div>
-      <div className="px-6 pb-48 md:px-12 lg:px-32 w-full">
-        <h1 className="font-bold text-7xl sm:text-5xl leading-snug md:leading-[1.3] tracking-wide md:mb-6 lg:mb-16 sm:text-center">
-          Tech for Social Good
-        </h1>
-        <p className="text-5xl sm:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 lg:px-8 sm:text-center">
-          We're a team of students from Stevens Institute of Technology that
-          provides technical solutions for non-profit organizations.
-        </p>
-        <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4 justify-center items-center mt-4 md:mt-6">
-          <comp.Button
-            style="py-2 px-4 md:px-8 w-48 rounded-md border bg-white text-primary font-semibold text-base inline-flex justify-center items-center hover:bg-primary hover:text-white"
-            text="Work with us"
-            redirect_url="/for-npos"
-          />
-          <comp.Button
-            style="py-2 px-4 md:px-8 w-48 rounded-md border bg-white text-primary font-semibold text-base inline-flex justify-center items-center hover:bg-primary hover:text-white"
-            text="Join our team"
-            redirect_url="/students"
-          />
-          <comp.Button
-            style="py-2 px-4 md:px-4 w-48 rounded-md border bg-white text-primary font-semibold text-base inline-flex justify-center items-center hover:bg-primary hover:text-white"
-            text="Support our mission"
-            redirect_url="/partners"
-          />
-        </div>
-      </div>
-      <div className="flex grow w-full justify-end pb-72">
-        <img
-          className="hidden lg:block transform rotate-180"
-          src="../../assets/vector/gear_left.svg" // FIXME: Avoid absolute path?
-          alt="gear"
+        <comp.Button
+          style="text-xs text-center py-1 px-3 rounded-md border bg-white text-primary font-semibold inline-flex items-center justify-center hover:bg-primary hover:text-white"
+          text="Join our team"
+          redirect_url="/students"
+        />
+        <comp.Button
+          style="text-xs text-center py-1 px-3 rounded-md border bg-white text-primary font-semibold inline-flex items-center justify-center hover:bg-primary hover:text-white"
+          text="Support our mission"
+          redirect_url="/partners"
         />
       </div>
     </section>
