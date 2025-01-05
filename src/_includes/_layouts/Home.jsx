@@ -3,14 +3,18 @@ export default ({ comp, title }) => {
     <html>
       <head>
         <comp.OpenGraphCommon />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
         <meta property="og:title" content="Stevens Blueprint" />
         <meta property="og:url" content="https://sitblueprint.com/" />
         <link rel="stylesheet" href="styles.css" />
         <link rel="icon" href="assets/logos/logo.png" type="image/png"></link>
         <title>{title}</title>
       </head>
-      <body>
-        <div className="h-[90vh] flex flex-col bg-[#D4EAFF] relative">
+      <body className="max-w-full">
+        <div className="min-h-[90vh] flex flex-col bg-[#D4EAFF] relative">
           <comp.Navbar />
           <comp.Home.HomeHero />
         </div>

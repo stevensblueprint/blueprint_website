@@ -11,10 +11,10 @@ export default function Hero({ comp }) {
         />
       </div>
       <div className="px-6 pb-48 md:px-12 lg:px-32 w-full">
-        <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl leading-snug md:leading-[1.3] tracking-wide mb-4 md:mb-6 lg:mb-16 text-center lg:text-center">
+        <h1 className="font-bold text-7xl sm:text-5xl leading-snug md:leading-[1.3] tracking-wide md:mb-6 lg:mb-16 sm:text-center">
           Tech for Social Good
         </h1>
-        <p className="text-lg md:text-xl lg:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 lg:px-8 text-center lg:text-center">
+        <p className="text-5xl sm:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 lg:px-8 sm:text-center">
           We're a team of students from Stevens Institute of Technology that
           provides technical solutions for non-profit organizations.
         </p>
