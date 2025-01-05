@@ -133,7 +133,7 @@ export default ({ comp, title }) => {
             />
           </div>
         </section>
-        <comp.ContactUs />
+        {/* <comp.ContactUs /> */}
         <comp.Footer />
       </body>
     </html>
