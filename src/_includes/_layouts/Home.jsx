@@ -3,6 +3,10 @@ export default ({ comp, title }) => {
     <html>
       <head>
         <comp.OpenGraphCommon />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        ></meta>
         <meta property="og:title" content="Stevens Blueprint" />
         <meta property="og:url" content="https://sitblueprint.com/" />
         <link rel="stylesheet" href="styles.css" />
@@ -60,6 +64,7 @@ export default ({ comp, title }) => {
           </section>
         </div>
         {/* end of hero */}
+        <comp.HomeAbout />
         <section className="flex flex-col py-32 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl text-center lg:pb-20 sm:pb-10">
             <strong>Our impact</strong>
