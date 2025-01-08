@@ -15,7 +15,7 @@ export default ({ comp, title }) => {
       </head>
       <body>
         <comp.Navbar />
-        <comp.Home.HomeHero />
+        <comp.Home.Hero />
         <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-gray-50">
           <h1 className="lg:text-5xl text-7xl">
             <strong>About Us</strong>
