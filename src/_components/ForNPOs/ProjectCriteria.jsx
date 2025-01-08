@@ -2,7 +2,7 @@ import React from "https://esm.sh/react";
 
 export default function ProjectCriteria({ comp }) {
   return (
-    <figure className="flex-col flex w-full lg:px-32 py-8">
+    <figure className="flex-col flex w-full lg:px-32 px-12 py-8">
       <h1 className="text-4xl font-bold pb-6"> What We're Looking For </h1>
       <div className="flex flex-col md:flex-row">
         <div className="flex flex-col">
@@ -100,11 +100,18 @@ export default function ProjectCriteria({ comp }) {
       <div>
         <div className="flex justify-center pt-12 md:pt-20">
           <p className="text-center text-4xl font-semibold max-w-3xl text-primary">
-            {" "}
-            {
-              "Want to get in touch with us? Reach out at sit.blueprint@gmail.com"
-            }{" "}
+            Want to get in touch with us? Reach out at {" "}
+            <a href="mailto:sit.blueprint@gmail.com" className="block">
+            sit.blueprint@gmail.com
+            <img
+              className="object-cover inline h-8 w-8 ml-2"
+              src={"../../assets/clip_art/AiOutlineMail.svg"}
+              alt="Email"
+            />
+          </a>
+
           </p>
+
         </div>
         <div className="flex justify-center py-12">
           <comp.Button
