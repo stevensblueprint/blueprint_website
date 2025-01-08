@@ -1,8 +1,4 @@
 ---
-title: Stevens Blueprint
-layout: _layouts/Placeholder.jsx
-headline: Under Construction.
-description: We appreciate your patience, come back soon!
+title: Community - Organizations
+layout: _layouts/ForNPOs.jsx
 ---
-
-# Stevens Blueprint Website
