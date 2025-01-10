@@ -8,16 +8,18 @@ export default function Hero({ comp }) {
           About Us
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 text-center lg:text-left">
-          We are the Stevens Institute of Technology chapter of Blueprint that develops pro-bono software for non-profit organizations and promotes tech for social good.
+          We are the Stevens Institute of Technology chapter of Blueprint that
+          develops pro-bono software for non-profit organizations and promotes
+          tech for social good.
         </p>
         <div className="flex flex-col md:flex-row md:justify-center lg:justify-start gap-4 md:gap-6">
-          <comp.Button 
+          <comp.Button
             style="bg-negative text-primary font-bold py-2 px-4 md:px-8 rounded-md min-w-max text-base md:text-lg inline-flex justify-center items-center"
             text="Follow our Instagram"
             redirect_url="https://instagram.com/stevensblueprint"
             openInNewTab
           />
-          <comp.Button 
+          <comp.Button
             style="bg-negative text-primary font-bold py-2 px-4 md:px-8 rounded-md min-w-[191px] text-base md:text-lg inline-flex justify-center items-center"
             text="See our projects"
             redirect_url="/projects"
