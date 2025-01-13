@@ -1,7 +1,6 @@
 import React from "https://esm.sh/react";
 
 export default function Footer() {
-  //
   const blueprint_url = "/";
   const mission_url = "/mission";
   const projects_url = "/projects";
@@ -11,6 +10,10 @@ export default function Footer() {
   const linkedin_url = "https://www.linkedin.com/company/stevens-blueprint/";
   const github_url = "https://github.com/stevensblueprint";
   const instagram_url = "https://instagram.com/stevensblueprint";
+  const blog_url = "/blog";
+  const support_url = "/support";
+  const opp_url = "/opportunities";
+  const timeline_url = "/fornpos#timeline-section"
 
   return (
     <html>
@@ -84,24 +87,26 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-20 sm:gap-60 sm:grid-cols-3 ">
+            <div className="grid grid-cols-2 gap-20 sm:grid-cols-4">
               <div>
-                <h2 className="mb-6  text-md font-semibold font- poppins text-white uppercase ">
+                <h2 className="mb-6 text-md font-semibold font- poppins text-white uppercase ">
                   General
                 </h2>
                 <ul className="text-gray-300  font-medium">
                   <li className="mb-4 font- poppins">
                     <a href={mission_url} className="hover:underline">
-                      Mission
+                      MISSION
                     </a>
                   </li>
                   <li className="mb-4 font- poppins">
                     <a href={projects_url} className="hover:underline">
-                      Projects
+                      PROJECTS
                     </a>
                   </li>
                   <li className="mb-4 font- poppins">
-                    <a href="mailto:sit.blueprint@gmail.com">Contact</a>
+                    <a href={blog_url} className="hover:underline">
+                      BLOG
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -111,18 +116,8 @@ export default function Footer() {
                 </h2>
                 <ul className="text-gray-300 font-medium">
                   <li className="mb-4 font- poppins">
-                    <a href={community_url} className="hover:underline ">
-                      Get Involved
-                    </a>
-                  </li>
-                  <li className="mb-4 font- poppins">
-                    <a href={process_url} className="hover:underline">
-                      Process
-                    </a>
-                  </li>
-                  <li className="mb-4 font- poppins">
-                    <a href={faq_url} className="hover:underline">
-                      FAQ
+                    <a href={opp_url} className="hover:underline ">
+                      OPPORTUNITIES
                     </a>
                   </li>
                 </ul>
@@ -133,27 +128,29 @@ export default function Footer() {
                 </h2>
                 <ul className="text-gray-300 font-medium">
                   <li className="mb-4 font- poppins">
-                    <a href={community_url} className="hover:underline">
-                      Get Involved
-                    </a>
-                  </li>
-                  <li className="mb-4 font- poppins">
-                    <a href={process_url} className="hover:underline">
-                      Process
-                    </a>
-                  </li>
-                  <li className="mb-4 font- poppins">
-                    <a href={faq_url} className="hover:underline">
-                      FAQ
+                    <a href={timeline_url} className="hover:underline">
+                      TIMELINE
                     </a>
                   </li>
                 </ul>
               </div>
+              <div>
+              <h2 className="mb-6 text-md font-semibold font-poppins text-white uppercase">
+                  PARTNERS
+              </h2>
+                <ul className="text-gray-300 font-medium">
+                    <li className="mb-4 font-poppins">
+                        <a href={support_url} className="hover:underline">
+                            SUPPORT US
+                        </a>
+                    </li>
+                </ul>
             </div>
-          </div>
+        </div>
+      </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-300 lg:my-5" />
           <span className="block text-sm text-gray-300 sm:text-center">
-            © 2023
+            © 2024
             <a href={blueprint_url} className="hover:underline font- poppins">
               {" "}
               Stevens Blueprint
