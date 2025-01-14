@@ -12,7 +12,7 @@ const FOOTER_LINKS = {
     github: "https://github.com/stevensblueprint",
     instagram: "https://instagram.com/stevensblueprint",
     blog: "/blog",
-    support: "/support",
+    support: "/partners",
     opportunities: "/students",
     timeline: "/non-profits#project-timeline",
   },
