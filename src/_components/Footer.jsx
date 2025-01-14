@@ -11,6 +11,7 @@ const FOOTER_LINKS = {
     linkedin: "https://www.linkedin.com/company/stevens-blueprint/",
     github: "https://github.com/stevensblueprint",
     instagram: "https://instagram.com/stevensblueprint",
+    email: "mailto:sit.blueprint@gmail.com",
     blog: "/blog",
     support: "/partners",
     opportunities: "/students",
@@ -106,6 +107,14 @@ export default function Footer() {
         path: "M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z",
       },
     },
+    {
+      href: urls.email,
+      label: "Email",
+      icon: {
+        viewBox: "0 0 34 30",
+        path: "M30.8125 4.6875H3.1875C2.5998 4.6875 2.125 5.10645 2.125 5.625V24.375C2.125 24.8936 2.5998 25.3125 3.1875 25.3125H30.8125C31.4002 25.3125 31.875 24.8936 31.875 24.375V5.625C31.875 5.10645 31.4002 4.6875 30.8125 4.6875ZM29.4844 7.93359V23.2031H4.51562V7.93359L3.59922 7.30371L4.9041 5.82422L6.3252 6.7998H27.6781L29.0992 5.82422L30.4041 7.30371L29.4844 7.93359ZM27.6781 6.79688L17 14.1211L6.32187 6.79688L4.90078 5.82129L3.5959 7.30078L4.5123 7.93066L15.8545 15.7119C16.1807 15.9355 16.582 16.0569 16.995 16.0569C17.4081 16.0569 17.8094 15.9355 18.1355 15.7119L29.4844 7.93359L30.4008 7.30371L29.0959 5.82422L27.6781 6.79688Z"
+      }
+    }
   ];
 
   return (
@@ -132,7 +141,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-wrap gap-20">
+            <div className="flex flex-wrap gap-x-20">
               {sections.map((section) => (
                 <FooterSection key={section.title} {...section} urls={urls} />
               ))}
@@ -140,7 +149,7 @@ export default function Footer() {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-300 lg:my-5" />
           <span className="block text-sm text-gray-300 sm:text-center">
-            © 2024
+            © 2025
             <a href={urls.blueprint} className="hover:underline font-poppins">
               {" "}
               Stevens Blueprint
