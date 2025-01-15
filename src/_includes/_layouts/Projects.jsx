@@ -10,24 +10,38 @@ export default ({ comp }) => (
     <body>
       <div>
         <comp.Navbar />
-        <section className="flex items-center h-[42rem] bg-primary">
-          <div className="w-[60rem] px-60 text-negative max-lg:w-full max-lg:px-8">
-            <h1 className="lg:text-4xl text-7xl mb-12 lg:px-0 px-10">
-              <strong>Our Projects</strong>
+        <section className="flex flex-col min-h-[700px] lg:flex-row lg:items-center bg-primary text-white">
+          <div className="px-6 md:px-12 lg:px-32 py-8 md:py-16 lg:py-0 w-full">
+            <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl tracking-wide mb-4 md:mb-6 lg:mb-16 text-center lg:text-left">
+              Projects
             </h1>
-            <p className="lg:text-xl text-4xl mb-12 lg:px-0 px-10">
-              All of our work is open source to increase transparency and
-              support our mission of providing accessible technology for Social
-              Good.
+            <p className="lg:text-2xl mb-12 lg:px-0 px-10">
+              All of our work is open source to maintain transparency and
+              accessiblity. We believe in the importance of building technology
+              that connects and gives back to the community.
             </p>
             <comp.Button
               style={
-                "lg:p-4 lg:m-0 p-5 m-10 lg:rounded-sm rounded-xl bg-white text-text-color font-bold lg:text-base text-4xl"
+                "py-2 px-6 lg:mr-6 md:px-8 min-w-[191px] rounded-md border border-white text-white font-semibold justify-center items-center text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
               }
               redirect_url={
                 "https://github.com/stevensblueprint/blueprint_website"
               }
               text={"View Our Github"}
+            />
+
+            <comp.Button
+              style={
+                "py-2 px-6 md:px-8 min-w-[191px] rounded-md border border-white text-white font-semibold justify-center items-center text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
+              }
+              redirect_url={""}
+              text={"Work With Us"}
+            />
+          </div>
+          <div className="flex px-6 md:px-12 grow w-full justify-center pb-12">
+            <img
+              src="../../assets/logos/project-img.png"
+              alt="projects-banner-image"
             />
           </div>
         </section>
