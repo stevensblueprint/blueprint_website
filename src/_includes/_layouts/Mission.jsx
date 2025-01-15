@@ -6,6 +6,10 @@ export default ({ comp, values }) => (
       <title>Stevens Blueprint Mission</title>
       <meta property="og:title" content="Stevens Blueprint Mission" />
       <meta property="og:url" content="https://sitblueprint.com/mission/" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+      ></meta>
     </head>
     <body>
       <div>
