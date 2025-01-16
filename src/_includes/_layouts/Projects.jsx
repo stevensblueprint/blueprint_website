@@ -29,7 +29,6 @@ export default ({ comp }) => (
               }
               text={"View Our Github"}
             />
-
             <comp.Button
               style={
                 "py-2 px-6 md:px-8 min-w-[191px] rounded-md border border-white text-white font-semibold justify-center items-center text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
@@ -45,6 +44,7 @@ export default ({ comp }) => (
             />
           </div>
         </section>
+
         <section className="grid place-content-center">
           <div className="flex flex-col p-20 px-60 max-2xl:px-40 max-xl:px-20 max-md:px-8">
             <h1 className="lg:text-4xl text-6xl mb-12">
