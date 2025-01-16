@@ -34,7 +34,7 @@ export default ({ comp }) => (
               style={
                 "py-2 px-6 md:px-8 min-w-[191px] rounded-md border border-white text-white font-semibold justify-center items-center text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
               }
-              redirect_url={""}
+              redirect_url={"/students"}
               text={"Work With Us"}
             />
           </div>
