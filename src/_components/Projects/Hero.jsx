@@ -1,0 +1,40 @@
+import React from "https://esm.sh/react";
+
+export default function Hero({ comp }) {
+  return (
+    <section className="flex flex-col min-h-[700px] lg:flex-row lg:items-center bg-primary text-white">
+      <div className="px-6 md:px-12 lg:px-32 py-8 md:py-16 lg:py-0 w-full">
+        <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl tracking-wide mb-4 md:mb-6 lg:mb-16 text-center lg:text-left">
+          Projects
+        </h1>
+        <p className="lg:text-2xl mb-12 lg:px-0 px-10">
+          All of our work is open source to maintain transparency and
+          accessiblity. We believe in the importance of building technology that
+          connects and gives back to the community.
+        </p>
+        <div className="flex flex-col md:flex-row md:justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-6">
+          <comp.Button
+            style={
+              "py-2 px-6 lg:mr-6 md:px-8 min-w-[191px] rounded-md border border-white text-white font-semibold justify-center items-center text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
+            }
+            redirect_url={"https://github.com/stevensblueprint/"}
+            text={"View Our Github"}
+          />
+          <comp.Button
+            style={
+              "py-2 px-6 md:px-8 min-w-[191px] rounded-md border border-white text-white font-semibold justify-center items-center text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
+            }
+            redirect_url={"/students"}
+            text={"Work With Us"}
+          />
+        </div>
+      </div>
+      <div className="flex px-6 md:px-12 grow w-full justify-center pb-12">
+        <img
+          src="../../assets/logos/project-img.png"
+          alt="projects-banner-image"
+        />
+      </div>
+    </section>
+  );
+}
