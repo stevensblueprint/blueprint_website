@@ -7,7 +7,7 @@ export default function Hero({ comp }) {
         <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl tracking-wide mb-4 md:mb-6 lg:mb-16 text-center lg:text-left">
           Projects
         </h1>
-        <p className="lg:text-2xl mb-12 lg:px-0 px-10">
+        <p className="lg:text-2xl mb-12 lg:px-0 px-10 text-center lg:text-left">
           All of our work is open source to maintain transparency and
           accessiblity. We believe in the importance of building technology that
           connects and gives back to the community.
