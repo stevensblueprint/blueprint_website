@@ -30,7 +30,6 @@ export default ({ comp, faqs }) => (
           ))}
         </div>
       </section>
-
       <comp.Footer />
     </body>
   </html>
