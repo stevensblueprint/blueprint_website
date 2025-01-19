@@ -5,7 +5,7 @@ const md = new MarkdownIt();
 
 export default function DropdownFAQ({ faq, index }) {
   const answerHtmlContent = md.render(faq.answer);
-  
+
   return (
     <div className="flex flex-col justify-center items-center w-full first-of-type:border-t-[1px] border-b-[1px] border-black">
       <input
@@ -25,7 +25,7 @@ export default function DropdownFAQ({ faq, index }) {
         />
       </label>
       <div className="overflow-hidden max-h-0 peer-checked:max-h-max w-full transition-all duration-300 px-3 peer-checked:pt-2 peer-checked:pb-[20px]">
-        <div 
+        <div
           className="prose prose-p:text-xl prose-p:leading-6 max-w-none"
           dangerouslySetInnerHTML={{ __html: answerHtmlContent }}
         />
