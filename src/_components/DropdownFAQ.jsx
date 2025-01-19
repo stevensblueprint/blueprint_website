@@ -1,5 +1,5 @@
-import React from "https://esm.sh/react";
-import ReactMarkdown from "https://esm.sh/react-markdown@7";
+import React from "https://esm.sh/react@19.0.0";
+import ReactMarkdown from "https://esm.sh/react-markdown@7.1.2";
 
 export default function DropdownFAQ({ faq, index }) {
   return (

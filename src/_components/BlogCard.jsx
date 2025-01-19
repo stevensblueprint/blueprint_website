@@ -1,4 +1,4 @@
-import React from "https://esm.sh/react";
+import React from "https://esm.sh/react@19.0.0";
 
 export default function BlogCard({ name_post, image_url, date, project_tag }) {
   return (
