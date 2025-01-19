@@ -10,7 +10,7 @@ export default ({ comp, faqs }) => (
         <comp.ForNPOs.Hero />
         <comp.ForNPOs.ProjectTimeline />
         <comp.ForNPOs.ProjectCriteria />
-        <section className="flex flex-col justify-center px-32 mb-10">
+        <section className="flex flex-col justify-center mb-16 px-12 lg:px-40">
           <h1 className="text-4xl font-bold py-3">FAQs</h1>
           <div className="w-full flex flex-col">
             {faqs.map((faq, index) => (

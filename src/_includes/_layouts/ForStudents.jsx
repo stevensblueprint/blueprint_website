@@ -14,17 +14,15 @@ export default ({ comp, faqs }) => (
     <body>
       <comp.Navbar />
       <comp.ForStudents.StudentsHero comp={comp} />
-      <section>
-        <h1 className="font-bold lg:text-5xl text-7xl flex flex-col items-center justify-center lg:pt-32 gap-y-6">
-          Our Teams
-        </h1>
-      </section>
+      <h1 className="font-bold lg:text-5xl text-7xl flex flex-col items-center justify-center pt-16 lg:pt-24 gap-y-6">
+        Our Teams
+      </h1>
       <comp.ForStudents.StudentsProjectTeam comp={comp} />
       {/* Application Process Section */}
       <comp.ForStudents.ApplicationProcess comp={comp} />
       {/*Internal Teams & Design Teams Section*/}
       <comp.ForStudents.InternalTeams comp={comp} />
-      <section className="flex flex-col justify-center mb-10 px-40">
+      <section className="flex flex-col justify-center mb-16 px-12 lg:px-40">
         <h1 className="md:text-[40px] font-semibold text-5xl py-3">FAQs</h1>
         <div className="w-full flex flex-col">
           {faqs.map((faq, index) => (
