@@ -2,7 +2,10 @@ import React from "https://esm.sh/react";
 
 export default function ProjectTimeline() {
 	return (
-		<section className="grow bg-neg text-black lg:px-20 pt-16 pb-8">
+		<section
+			id="project-timeline"
+			className="grow bg-neg text-black lg:px-20 pt-16 pb-8"
+		>
 			<div className="">
 				<h1 className="text-4xl font-bold pl-12 pb-8">Our Project Timeline</h1>
 			</div>
