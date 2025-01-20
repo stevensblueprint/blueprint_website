@@ -31,6 +31,16 @@ export default ({ comp, title }) => {
           </p>
           <div className="flex flex-row justify-between gap-x-6 lg:gap-x-12 lg:flex-wrap lg:gap-y-6">
             <comp.ProjectCard
+              name_organization={"Sarapis"}
+              image_url={"../assets/logos/sarapis_logo.png"}
+              description={
+                "Sarapis is nonprofit organization advancing the free/libre/open source movement by helping NGOs, community groups and governments solve problems managing human services information."
+              }
+              redirect_url={"/projects/sarapis"}
+              project_tag={"Data Management"}
+              status={"In Progress"}
+            />
+            <comp.ProjectCard
               name_organization={"Asian American Dream"}
               image_url={"../assets/logos/aad_logo.png"}
               description={
@@ -38,6 +48,7 @@ export default ({ comp, title }) => {
               }
               redirect_url={"/projects/asian-american-dream"}
               project_tag={"Volunteer Management"}
+              status={"Completed"}
             />
             <comp.ProjectCard
               name_organization={"InReach"}
@@ -47,15 +58,7 @@ export default ({ comp, title }) => {
               }
               redirect_url={"/projects/inreach"}
               project_tag={"Community Resources"}
-            />
-            <comp.ProjectCard
-              name_organization={"NYC Mesh"}
-              image_url={"../assets/logos/nycmesh_logo.png"}
-              description={
-                "NYC Mesh is dedicated to ending the digital divide and extending high-speed, reliable internet to all New Yorkers across the five boroughs."
-              }
-              redirect_url={"/projects/nyc-mesh"}
-              project_tag={"Affordable Internet"}
+              status={"Completed"}
             />
           </div>
         </section>

@@ -6,9 +6,16 @@ export default function ProjectCard({
   description,
   project_tag,
   redirect_url,
+  status
 }) {
+  const box_styling = status === "Completed" ? "bg-primary" : "bg-maroon";
   return (
     <figure className="flex-col flex w-full border border-black rounded-lg lg:p-5 p-8 lg:max-w-[445px]">
+      <div className="flex flex-row justify-start items-center w-full">
+        <p className={`${box_styling} px-2 py-1 max-w-max my-3 rounded-md text-white lg:text-md text-md font-medium`}>
+          {status}
+        </p>
+      </div>
       <div className="h-36 flex justify-center items-center w-full">
         <img
           src={image_url}
@@ -25,7 +32,7 @@ export default function ProjectCard({
             {project_tag}
           </p>
           <p
-            className="line-clamp-6 max-sm:w-full lg:text-xl text-3xl lg:leading-6 overflow-hidden"
+            className="line-cl</p>amp-6 max-sm:w-full lg:text-xl text-3xl lg:leading-6 overflow-hidden"
             style={{ maxHeight: "6em" }}
           >
             {description}
