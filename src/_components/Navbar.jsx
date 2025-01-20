@@ -13,7 +13,7 @@ const logo = "/assets/logos/logo_banner_negative.png";
 
 export default function NavigationBar() {
   return (
-    <nav className="relative flex items-center justify-around lg:p-6 p-10 bg-primary z-50">
+    <nav className="relative flex items-center justify-between px-6 lg:p-6 p-10 bg-primary z-50">
       <a href="/" className="flex items-center">
         <img src={logo} alt="Blueprint Logo" className="lg:h-11 h-16" />
       </a>
