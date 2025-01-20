@@ -11,7 +11,7 @@ export default function GetInvolvedCard({
       <div className="h-36 flex justify-center items-center w-full">
         <img
           src={icon_url}
-          alt={`${name_organization} Image`}
+          alt={`${title} Image`}
           className="h-full object-contain lg:max-w-[315px]"
         />
       </div>
