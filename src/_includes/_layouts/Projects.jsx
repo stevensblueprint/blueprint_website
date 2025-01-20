@@ -17,7 +17,10 @@ export default ({ comp, projects }) => (
           </h1>
           <p className="text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14 px-24">
             Interested in collaborating with other peers at Stevens on a
-            project? <br /> Check out our <a href="/students" className="underline">student opportunities</a>
+            project? <br /> Check out our{" "}
+            <a href="/students" className="underline">
+              student opportunities
+            </a>
             !
           </p>
         </section>
