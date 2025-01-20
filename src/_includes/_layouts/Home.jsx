@@ -1,4 +1,4 @@
-export default ({ comp, title, about_title, about_text }) => {
+export default ({ comp, title, about }) => {
   return (
     <html>
       <head>
@@ -16,7 +16,7 @@ export default ({ comp, title, about_title, about_text }) => {
       <body>
         <comp.Navbar />
         <comp.Home.Hero />
-        <comp.Home.AboutUs about_title={about_title} about_text={about_text} />
+        <comp.Home.AboutUs about_title={about.title} about_text={about.description} />
         <comp.Home.Impact />
         <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
