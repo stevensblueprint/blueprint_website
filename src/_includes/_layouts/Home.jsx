@@ -19,73 +19,81 @@ export default ({ comp, title }) => {
         <comp.Home.Impact />
         <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
-            <strong>What We Do</strong>
+            <strong>Our Projects</strong>
           </h1>
-          <p className="text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14 px-24 py-8">
+          <p className="text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14 px-24">
             We collaborate with non-profit organizations and offer <br /> our
             expertise in software development , web design, <br /> and product
             management to bring ideas to life
           </p>
-          <p className="text-center text-xl mb-8">
-            Our most recent projects include...
+          <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline">
+            <a href="projects">View all projects</a>
           </p>
-          <div className="w-full lg:grid lg:grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col justify-items-center">
+          <div className="flex flex-row justify-between gap-x-6 lg:gap-x-12 lg:flex-wrap lg:gap-y-6">
+            <comp.ProjectCard
+              name_organization={"Sarapis"}
+              image_url={"../assets/logos/sarapis_logo.png"}
+              description={
+                "Sarapis is nonprofit organization advancing the free/libre/open source movement by helping NGOs, community groups and governments solve problems managing human services information."
+              }
+              redirect_url={"/projects/sarapis"}
+              project_tag={"Data Management"}
+              status={"In Progress"}
+            />
             <comp.ProjectCard
               name_organization={"Asian American Dream"}
               image_url={"../assets/logos/aad_logo.png"}
               description={
-                "Asian American Dream is a New York City based organization aiming to empower and assist underserved AAPI undergraduates in their career goals. We are developing a platform that will help them manage their rapidly-growing Kin Mentorship Program."
+                "Asian American Dream empowers underserved Asian American and Pacific Islander undergraduates through career-centric mentorship and professional development opportunities."
               }
               redirect_url={"/projects/asian-american-dream"}
               project_tag={"Volunteer Management"}
+              status={"Completed"}
             />
             <comp.ProjectCard
-              name_organization={"NYC Mesh"}
-              image_url={"../assets/logos/nycmesh_logo.png"}
+              name_organization={"InReach"}
+              image_url={"../assets/logos/inreach_logo.png"}
               description={
-                "NYC Mesh is committed to providing reliable, high-speed, and affordable internet to communities throughout New York City. We are developing an interactive map that will help them their wireless sectors used to transport data across city blocks."
+                "InReach provides verified services for LGBTQ+ asylum seekers, immigrants, refugees, BIPOC communities, TGNC individuals, LGBTQ+ youth, caregivers, and more."
               }
-              redirect_url={"/projects/nyc-mesh"}
-              project_tag={"Affordable Internet"}
+              redirect_url={"/projects/inreach"}
+              project_tag={"Community Resources"}
+              status={"Completed"}
             />
           </div>
-          <comp.Button
-            style={
-              "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl border-2 border-black mt-8 text-black font-bold w-fit lg:text-base text-4xl"
-            }
-            text={"View all projects"}
-            redirect_url={"projects"}
-          />
         </section>
-        <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-6 max-lg:h-fit">
+        <section className="flex flex-col items-center justify-center py-10 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
-            <strong>Apply</strong>
+            <strong>Get Involved</strong>
           </h1>
-          <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
-            With transparency and accessibility always top-of-mind, all of
-            Blueprint's work is open source. We believe in building technology
-            that makes our community more open and connected.
-          </p>
-          <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col">
-            <comp.ApplyCard
-              card_title={"Students"}
-              image_url={"../assets/events/google_event_2.jpg"}
+          <div className="flex flex-row justify-between gap-x-6 lg:gap-x-12 lg:flex-wrap lg:gap-y-6">
+            <comp.GetInvolvedCard
+              title={"Non-Profit Orgs"}
               description={
-                "Join Blueprint to gain hands on experience and give back to the community."
+                "We can help you grow your organization with innovative software solutions, whether you have a specific project in mind or a curiosity of how Blueprint can support you!"
               }
-              redirect_url={"apply"}
+              icon_url={"../assets/vector/hands_blue.svg"}
+              redirect_url={"/non-profits"}
             />
-            <comp.ApplyCard
-              card_title={"Nonprofits"}
-              image_url={"../assets/events/git_workshop.jpg"}
+            <comp.GetInvolvedCard
+              title={"Students"}
               description={
-                "Partner with Blueprint to meet your technology needs."
+                "We invite you to join our Blueprint family as a student volunteer and contribute to the design, development, or management of our projects!"
               }
-              redirect_url={"apply"}
+              icon_url={"../assets/vector/student.svg"}
+              redirect_url={"/students"}
+            />
+            <comp.GetInvolvedCard
+              title={"Partnerships"}
+              description={
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet."
+              }
+              icon_url={"../assets/vector/partnership_handshake.svg"}
+              redirect_url={"/partners"}
             />
           </div>
         </section>
-        {/* <comp.ContactUs /> */}
+        <comp.Home.ContactUs />
         <comp.Footer />
       </body>
     </html>
