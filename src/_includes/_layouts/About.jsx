@@ -35,11 +35,11 @@ export default ({ comp, values }) => (
           ]}
         />
         <section className="flex place-content-center" id="info">
-          <div className="flex flex-col items-center py-20 max-lg:px-12 w-full max-md:px-4">
+          <div className="flex flex-col items-center py-20 max-lg:px-12max-md:px-4">
             <h1 className="leading-10 md:text-[40px] mb-14 text-6xl">
               <strong>Our Values</strong>
             </h1>
-            <div className="flex flex-row items-center gap-4">
+            <div className="flex flex-row items-center p-20 gap-10">
               {values.map((value, index) => (
                 <comp.ValueCard key={index} value={value} />
               ))}
