@@ -1,6 +1,6 @@
 import React from "https://esm.sh/react";
 
-export default function HomeAbout({ comp }) {
+export default function AboutUs({ comp }) {
   return (
     <section className="relative">
       <div>
@@ -10,16 +10,21 @@ export default function HomeAbout({ comp }) {
           className="w-full"
         />
       </div>
-      <div className="flex flex-col absolute top-1/4 right-1/4 md:top-28 md:right-44 bg-primary text-white text-center sm:w-1/4 sm:p-4 sm:px-12">
-        <h2 className="hidden font-bold sm:block md:text-4xl md:mb-12 md:mt-24">
+      <div
+        className="flex flex-col absolute 
+        right-[15%] top-[15%]
+        w-[25%]
+        bg-primary text-white text-center p-4"
+      >
+        <h2 className="hidden font-bold lg:block text-2xl md:text-4xl my-6 md:mb-12">
           About Us
         </h2>
-        <p className="hidden sm:block md:text-lg md:mb-12">
+        <p className="hidden lg:block text-base md:text-lg mb-6 md:mb-12">
           Blueprint strives to make technology accessible and useful for those
           who create communities and promote public welfare.
         </p>
         <comp.Button
-          style="font-bold px-2 py-1 md:text-xl md:mb-24"
+          style="font-bold px-2 py-1 md:text-xl"
           text="Learn More >"
           redirect_url="/about"
         />
