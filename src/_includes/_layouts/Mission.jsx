@@ -6,40 +6,15 @@ export default ({ comp, values }) => (
       <title>Stevens Blueprint Mission</title>
       <meta property="og:title" content="Stevens Blueprint Mission" />
       <meta property="og:url" content="https://sitblueprint.com/mission/" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+      ></meta>
     </head>
     <body>
       <div>
         <comp.Navbar />
-        <section className="grow flex flex-col lg:flex-row lg:items-center lg:min-h-[42rem] bg-primary relative overflow-hidden">
-          <div className="lg:w-7/12 lg:pl-40 lg:pr-20 text-negative max-lg:w-full max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-large:items-center">
-            <h1 className="lg:text-4xl text-7xl my-12 lg:px-0 px-10 tracking-wide max-lg:text-center">
-              <strong>About The Club</strong>
-            </h1>
-            <p className="lg:text-xl text-4xl mb-12 lg:px-0 px-10 tracking-wide max-lg:text-center">
-              Stevens Blueprint is a community of passionate students at Stevens
-              Institute of Technology who are committed to making a positive
-              impact by developing software solutions for non-profit
-              organizations. Our club members work on real-world projects,
-              gaining valuable experience while giving back to the community.
-            </p>
-            <comp.Button
-              style={
-                "lg:p-4 lg:m-0 p-5 m-10 lg:rounded-sm rounded-xl bg-white text-text-color font-bold lg:text-base text-4xl tracking-wide max-lg:text-center"
-              }
-              redirect_url={"#info"}
-              text={"Read More"}
-            />
-          </div>
-          <div className="lg:w-1/2 lg:pr-20 lg:pl-0 px-10 flex items-center justify-center py-8">
-            <div className="max-lg:p-8 lg:aspect-[4/3] lg:rounded-2xl lg:border-4 lg:border-solid lg:border-white lg:overflow-hidden">
-              <image
-                src="../assets/events/google_event_1.jpg"
-                alt="A photo of Blueprint members at a Google Event in New York City"
-                className="w-full lg:h-full lg:object-cover max-lg:h-auto max-lg:object-contain max-lg:rounded-2xl max-lg:border-4 max-lg:border-solid max-lg:border-white"
-              />
-            </div>
-          </div>
-        </section>
+        <comp.About.Hero />
         <section className="flex place-content-center" id="info">
           <div className="flex flex-col items-center p-20 max-lg:px-12 w-full max-md:px-4">
             <h1 className="leading-10 md:text-[40px] mb-14 text-6xl">
