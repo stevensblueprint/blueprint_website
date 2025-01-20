@@ -7,7 +7,7 @@ faqs:
       Our projects span one full year.
       - **Phase 1** begins in the **summer**, where we prepare projects and organize teams.
       - **Phase 2** focuses on development and runs from **September through April**.
-      - Phase 3 involves the handoff of the project in **May**.
+      - **Phase 3** involves the handoff of the project in **May**.
 
       Work is generally **paused** during **Winter Break (mid-December to mid-January)** depending on student availability.
   - question: "Do Blueprint projects cost money?"
