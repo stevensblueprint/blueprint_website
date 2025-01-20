@@ -1,4 +1,4 @@
-export default ({ comp, values }) => (
+export default ({ comp, values, team }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
@@ -57,7 +57,7 @@ export default ({ comp, values }) => (
             </p>
             <comp.Button
               style={
-                "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl border-2 border-black mt-8 text-black font-bold w-fit lg:text-base text-4xl"
+                "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl border-2 border-black mt-8 text-black font-bold w-fit lg:text-base text-4xl hover:bg-primary hover:text-white"
               }
               text={"Become a sponsor"}
               redirect_url={"/partners"}
@@ -82,108 +82,15 @@ export default ({ comp, values }) => (
               <strong>Our Team</strong>
             </h1>
             <div className="flex flex-wrap gap-4 my-8 lg:px-24 lg:max-w-[75rem] px-24 justify-center">
-              {
+              {team.map((member, index) => (
                 <comp.MemberCard
-                  key={1}
-                  name={"Christian Apostol"}
-                  role={"President"}
-                  image_url={"../assets/eboard/president.png"}
-                  linkedin={"https://www.linkedin.com/in/capostol/"}
+                  key={index}
+                  name={member.name}
+                  role={member.role}
+                  image_url={member.image_url}
+                  linkedin={member.linkedin}
                 />
-              }
-              {
-                <comp.MemberCard
-                  key={2}
-                  name={"Miguel Merlin"}
-                  role={"VP Technology"}
-                  image_url={"../assets/eboard/vp_tech.jpg"}
-                  linkedin={
-                    "https://www.linkedin.com/in/miguel-angel-merlin-arriola/"
-                  }
-                />
-              }
-              {
-                <comp.MemberCard
-                  key={3}
-                  name={"Ezri Zhu"}
-                  role={"VP Technology"}
-                  image_url={"../assets/eboard/vp_tech_1.png"}
-                  linkedin={"https://www.linkedin.com/in/~ezri/"}
-                />
-              }
-              {
-                <comp.MemberCard
-                  key={4}
-                  name={"Audrey Yoo"}
-                  role={"VP Design"}
-                  image_url={"../assets/eboard/vp_design.png"}
-                  linkedin={"https://www.linkedin.com/in/audrey-june-yoo/"}
-                />
-              }
-              {
-                <comp.MemberCard
-                  key={5}
-                  name={"Sahana Ali"}
-                  role={"VP Design"}
-                  image_url={"../assets/eboard/vp_design_1.png"}
-                  linkedin={"https://www.linkedin.com/in/sahanaali/"}
-                />
-              }
-              {
-                <comp.MemberCard
-                  key={6}
-                  name={"Massimo Spina"}
-                  role={"VP Finance"}
-                  image_url={"../assets/eboard/vp_finance.png"}
-                  linkedin={
-                    "https://www.linkedin.com/in/massimo-spina-b47b12284/"
-                  }
-                />
-              }
-              {
-                <comp.MemberCard
-                  key={7}
-                  name={"Justin Ferber"}
-                  role={"VP Projects"}
-                  image_url={"../assets/eboard/vp_projects.png"}
-                  linkedin={
-                    "https://www.linkedin.com/in/massimo-spina-b47b12284/"
-                  }
-                />
-              }
-              {
-                <comp.MemberCard
-                  key={8}
-                  name={"Shawn Aviles"}
-                  role={"Alumni Chair"}
-                  image_url={"../assets/eboard/alumni_chair.png"}
-                  linkedin={
-                    "https://www.linkedin.com/in/massimo-spina-b47b12284/"
-                  }
-                />
-              }
-              {
-                <comp.MemberCard
-                  key={9}
-                  name={"Emilio Cardillo"}
-                  role={"Freshman Rep"}
-                  image_url={"../assets/eboard/freshman_rep.png"}
-                  linkedin={
-                    "https://www.linkedin.com/in/massimo-spina-b47b12284/"
-                  }
-                />
-              }
-              {
-                <comp.MemberCard
-                  key={10}
-                  name={"Chinli Ong"}
-                  role={"Freshman Rep"}
-                  image_url={"../assets/eboard/freshman_rep_1.png"}
-                  linkedin={
-                    "https://www.linkedin.com/in/massimo-spina-b47b12284/"
-                  }
-                />
-              }
+              ))}
             </div>
           </div>
         </section>
