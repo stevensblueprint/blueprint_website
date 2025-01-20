@@ -7,10 +7,6 @@ export default ({ comp, title }) => {
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1"
-        ></meta>
         <meta property="og:title" content="Stevens Blueprint" />
         <meta property="og:url" content="https://sitblueprint.com/" />
         <link rel="stylesheet" href="styles.css" />
