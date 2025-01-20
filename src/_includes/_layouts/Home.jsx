@@ -57,27 +57,6 @@ export default ({ comp, title }) => {
             redirect_url={"projects"}
           />
         </section>
-        <section className="h-[24rem] bg-white text-black flex flex-col justify-evenly items-left justify-center px-12 max-lg:w-full max-lg:flex-1 max-lg:px-8 py-24 max-lg:h-fit max-lg:gap-y-20 max-lg:py-16">
-          <h1 className="lg:text-5xl text-6xl mb-4">
-            <strong>Our Sponsors</strong>
-          </h1>
-          <h2 className="lg:text-xl text-4xl">
-            We are grateful to our sponsors who provide us with the resources
-            and support we need at Blueprint!
-          </h2>
-          <div className="flex flex-wrap gap-x-16 justify-center px-8 max-lg:px-4 pt-9 max-md:px-2 pt-2">
-            <img
-              className="object-contain h-20 max-w-none "
-              src="../assets/logos/notion.png"
-              alt="Notion logo"
-            />
-            <img
-              className="object-cover h-20 max-w-none "
-              src="../assets/logos/github_square.png"
-              alt="GitHub logo"
-            />
-          </div>
-        </section>
         <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-6 max-lg:h-fit">
           <h1 className="lg:text-5xl text-7xl">
             <strong>Apply</strong>
