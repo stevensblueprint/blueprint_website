@@ -5,21 +5,33 @@
     "serve": "deno task lume -s"
   },
   "lint": {
-    "include": ["src/"],
+    "include": [
+      "src/"
+    ],
     "rules": {
-      "tags": ["recommended"],
-      "include": ["ban-untagged-todo"],
-      "exclude": ["no-unused-vars"]
+      "tags": [
+        "recommended"
+      ],
+      "include": [
+        "ban-untagged-todo"
+      ],
+      "exclude": [
+        "no-unused-vars"
+      ]
     }
   },
   "nodeModulesDir": "auto",
   "compilerOptions": {
-    "lib": ["deno.window"],
+    "lib": [
+      "deno.window"
+    ],
     "strict": true,
     "jsx": "react-jsx",
     "jsxImportSource": "npm:react"
   },
   "imports": {
-    "lume/": "https://deno.land/x/lume@v2.4.3/"
+    "lume/": "https://deno.land/x/lume@v2.4.3/",
+    "react": "https://esm.sh/react?pin=v135",
+    "react-markdown": "https://esm.sh/react-markdown@7?pin=v135"
   }
 }
