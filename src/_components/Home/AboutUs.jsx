@@ -1,6 +1,6 @@
 import React from "https://esm.sh/react";
 
-export default function AboutUs({ comp, about }) {
+export default function AboutUs({ comp, about_title, about_text }) {
   return (
     <section className="relative">
       <div>
@@ -17,11 +17,10 @@ export default function AboutUs({ comp, about }) {
     bg-primary text-white text-center p-4"
         >
           <h2 className="hidden font-bold lg:block text-2xl md:text-4xl my-6 md:mb-12">
-            About Us
+            {about_title}
           </h2>
           <p className="hidden lg:block text-base md:text-lg mb-6 md:mb-12">
-            Blueprint strives to make technology accessible and useful for those
-            who create communities and promote public welfare.
+            {about_text}
           </p>
           <comp.Button
             style="font-bold px-2 py-1 md:text-xl"
