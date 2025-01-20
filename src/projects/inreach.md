@@ -2,7 +2,7 @@
 title: InReach
 layout: /_layouts/ProjectPage.jsx
 npoName: InReach
-npoLogo: ../../assets/logos/aad_logo.png
+npoLogo: ../../assets/logos/inreach_logo.png
 githubRepository: https://github.com/stevensblueprint/aad-admin
 npoDescription: |
   InReach has verified services for LGBTQ+ asylum seekers, refugees and other immigrants, LGBTQ+ Black, Indigenous, and People of Color (BIPOC) communities, the transgender and gender nonconforming (TGNC) community, LGBTQ+ youth and their caregivers, and more LGBTQ+ communities.

@@ -19,94 +19,62 @@ export default ({ comp, title }) => {
         <comp.Home.Impact />
         <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
-            <strong>What We Do</strong>
+            <strong>Our Projects</strong>
           </h1>
-          <p className="text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14 px-24 py-8">
+          <p className="text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14 px-24">
             We collaborate with non-profit organizations and offer <br /> our
             expertise in software development , web design, <br /> and product
             management to bring ideas to life
           </p>
-          <p className="text-center text-xl mb-8">
-            Our most recent projects include...
+          <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline">
+            <a href="projects">View all projects</a>
           </p>
-          <div className="w-full lg:grid lg:grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col justify-items-center">
+          <div className="flex flex-row justify-between gap-x-6 lg:gap-x-12 lg:flex-wrap lg:gap-y-6">
             <comp.ProjectCard
               name_organization={"Asian American Dream"}
               image_url={"../assets/logos/aad_logo.png"}
               description={
-                "Asian American Dream is a New York City based organization aiming to empower and assist underserved AAPI undergraduates in their career goals. We are developing a platform that will help them manage their rapidly-growing Kin Mentorship Program."
+                "Asian American Dream empowers underserved Asian American and Pacific Islander undergraduates through career-centric mentorship and professional development opportunities."
               }
               redirect_url={"/projects/asian-american-dream"}
               project_tag={"Volunteer Management"}
             />
             <comp.ProjectCard
+              name_organization={"InReach"}
+              image_url={"../assets/logos/inreach_logo.png"}
+              description={
+                "InReach provides verified services for LGBTQ+ asylum seekers, immigrants, refugees, BIPOC communities, TGNC individuals, LGBTQ+ youth, caregivers, and more."
+              }
+              redirect_url={"/projects/inreach"}
+              project_tag={"Community Resources"}
+            />
+            <comp.ProjectCard
               name_organization={"NYC Mesh"}
               image_url={"../assets/logos/nycmesh_logo.png"}
               description={
-                "NYC Mesh is committed to providing reliable, high-speed, and affordable internet to communities throughout New York City. We are developing an interactive map that will help them their wireless sectors used to transport data across city blocks."
+                "NYC Mesh is dedicated to ending the digital divide and extending high-speed, reliable internet to all New Yorkers across the five boroughs."
               }
               redirect_url={"/projects/nyc-mesh"}
               project_tag={"Affordable Internet"}
             />
           </div>
-          <comp.Button
-            style={
-              "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl border-2 border-black mt-8 text-black font-bold w-fit lg:text-base text-4xl"
-            }
-            text={"View all projects"}
-            redirect_url={"projects"}
-          />
         </section>
-        <section className="h-[24rem] bg-white text-black flex flex-col justify-evenly items-left justify-center px-12 max-lg:w-full max-lg:flex-1 max-lg:px-8 py-24 max-lg:h-fit max-lg:gap-y-20 max-lg:py-16">
-          <h1 className="lg:text-5xl text-6xl mb-4">
-            <strong>Our Sponsors</strong>
-          </h1>
-          <h2 className="lg:text-xl text-4xl">
-            We are grateful to our sponsors who provide us with the resources
-            and support we need at Blueprint!
-          </h2>
-          <div className="flex flex-wrap gap-x-16 justify-center px-8 max-lg:px-4 pt-9 max-md:px-2 pt-2">
-            <img
-              className="object-contain h-20 max-w-none "
-              src="../assets/logos/notion.png"
-              alt="Notion logo"
-            />
-            <img
-              className="object-cover h-20 max-w-none "
-              src="../assets/logos/github_square.png"
-              alt="GitHub logo"
-            />
-          </div>
-        </section>
-        <section className="h-screen flex flex-col items-center justify-center py-32 gap-y-6 max-lg:h-fit">
+        <section className="flex flex-col items-center justify-center py-10 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
-            <strong>Apply</strong>
+            <strong>Get Involved</strong>
           </h1>
-          <p className="text-center lg:text-lg text-4xl mb-4 lg:px-14 px-24 py-8">
-            With transparency and accessibility always top-of-mind, all of
-            Blueprint's work is open source. We believe in building technology
-            that makes our community more open and connected.
-          </p>
-          <div className="w-full grid grid-cols-2 gap-6 lg:px-40 px-20 max-lg:flex max-lg:flex-col">
-            <comp.ApplyCard
-              card_title={"Students"}
-              image_url={"../assets/events/google_event_2.jpg"}
+          <div className="flex flex-row justify-between gap-x-6 lg:gap-x-12 lg:flex-wrap lg:gap-y-6">
+            <comp.GetInvolvedCard
+              title={"Non-Profit Orgs"}
               description={
-                "Join Blueprint to gain hands on experience and give back to the community."
+                "We can help you grow your organization with innovative software solutions, whether you have a specific project in mind or a curiosity of how Blueprint can support you!"
               }
-              redirect_url={"apply"}
-            />
-            <comp.ApplyCard
-              card_title={"Nonprofits"}
-              image_url={"../assets/events/git_workshop.jpg"}
-              description={
-                "Partner with Blueprint to meet your technology needs."
-              }
-              redirect_url={"apply"}
+              icon_url={"../assets/vectors/hands_blue.svg"}
+              redirect_url={"/non-profits"}
             />
           </div>
         </section>
-        {/* <comp.ContactUs /> */}
+        <comp.ContactUs />
         <comp.Footer />
       </body>
     </html>
