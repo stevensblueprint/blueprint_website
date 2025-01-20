@@ -1,9 +1,9 @@
-import React from "https://esm.sh/react";
+import React from "https://esm.sh/react@19.0.0";
 
-export default function InternalDesignTeam({ comp }) {
+export default function InternalTeams({ comp }) {
   return (
     <section>
-      <div className="flex items-start justify-center align-center pt-12 px-12 max-lg:px-12 max-md:w-full max-md:px-4 gap-14">
+      <div className="flex items-start justify-center align-center pt-12 px-40 gap-14">
         <div>
           <img
             className="object-cover"
@@ -13,8 +13,8 @@ export default function InternalDesignTeam({ comp }) {
         </div>
         <div className="flex w-7/12 flex-col gap-6">
           <h2 className="font-bold text-3xl">Internal Teams</h2>
-          <span className="bg-primary text-white self-start px-2 rounded-md text-xs">
-            No Application
+          <span className="bg-primary px-2 py-1 max-w-max rounded-md text-white text-lg font-medium">
+            NO APPLICATION
           </span>
           <div>
             <h2 className="text-2xl mb-3.5 font-bold">Tech Team</h2>
@@ -45,12 +45,15 @@ export default function InternalDesignTeam({ comp }) {
       </div>
       <div className="flex flex-col items-center p-12 max-lg:px-12 max-md:w-full max-md:px-4">
         <h1 className="text-[40px] text-center text-primary font-bold w-3/5 my-16">
-          Have any questions? Reach out at sit.blueprint@gmail.com{" "}
-          <img
-            className="object-cover inline h-8 w-8"
-            src={"../../assets/clip_art/AiOutlineMail.svg"}
-            alt="Email"
-          />
+          Have any questions? Reach out at{" "}
+          <a href="mailto:sit.blueprint@gmail.com" className="block">
+            sit.blueprint@gmail.com
+            <img
+              className="object-cover inline h-8 w-8 ml-2"
+              src={"../../assets/clip_art/AiOutlineMail.svg"}
+              alt="Email"
+            />
+          </a>
         </h1>
       </div>
     </section>
