@@ -24,7 +24,8 @@ export default function DropdownFAQ({ faq, index }) {
           className="h-[7px] w-3 peer-checked:group-[]:rotate-180"
         />
       </label>
-      <div className="overflow-hidden max-h-0 peer-checked:max-h-max w-full transition-all duration-300 px-3 peer-checked:pt-2 peer-checked:pb-[20px]">
+      {/* Smooth Animation Requires number for max-height, choose arbitrarily large number */}
+      <div className="overflow-hidden max-h-0 peer-checked:max-h-96 w-full transition-all duration-300 px-3 peer-checked:pt-2 peer-checked:pb-[20px]">
         <div
           className="prose prose-p:text-xl prose-p:leading-6 max-w-none"
           dangerouslySetInnerHTML={{ __html: answerHtmlContent }}

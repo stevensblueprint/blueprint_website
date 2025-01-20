@@ -1,4 +1,4 @@
-export default ({ comp, faqs }) => (
+export default ({ comp, faqs, timelineContent }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
@@ -14,16 +14,19 @@ export default ({ comp, faqs }) => (
     <body>
       <comp.Navbar />
       <comp.ForStudents.StudentsHero comp={comp} />
-      <h1 className="font-bold lg:text-5xl text-7xl flex flex-col items-center justify-center pt-16 lg:pt-24 gap-y-6">
+      <h1 className="font-bold text-4xl lg:text-5xl flex flex-col items-center justify-center pt-16 lg:pt-24 gap-y-6">
         Our Teams
       </h1>
       <comp.ForStudents.StudentsProjectTeam comp={comp} />
       {/* Application Process Section */}
-      <comp.ForStudents.ApplicationProcess comp={comp} />
+      <comp.ForStudents.ApplicationProcess
+        comp={comp}
+        timelineContent={timelineContent}
+      />
       {/*Internal Teams & Design Teams Section*/}
       <comp.ForStudents.InternalTeams comp={comp} />
-      <section className="flex flex-col justify-center mb-16 px-12 lg:px-40">
-        <h1 className="md:text-[40px] font-semibold text-5xl py-3">FAQs</h1>
+      <section className="flex flex-col justify-center mb-16 px-8 lg:px-40">
+        <h1 className="text-4xl lg:text-5xl font-semibold py-3">FAQs</h1>
         <div className="w-full flex flex-col">
           {faqs.map((faq, index) => (
             <comp.DropdownFAQ faq={faq} index={index} key={index} />
