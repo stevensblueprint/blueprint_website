@@ -1,6 +1,19 @@
 ---
 title: Community - Students
 layout: _layouts/ForStudents.jsx
+timelineContent:
+  - title: "Written Application"
+    description: "Our written application will open in a short and anonymized format where we can get a sense of what brings you to Blueprint!"
+    iconPath: "assets/clip_art/MdOutlineStickyNote2.svg"
+  - title: "Take Home Challenge"
+    description: "Next, we will assign you a challenge that corresponds to your applied role and is to be completed on your own time (1-2 hours max)."
+    iconPath: "assets/clip_art/MdMenuBook.svg"
+  - title: "Blueprint Games"
+    description: "After the challenge, we will invite you to an interactive and collaborative activity where you will solve a mock NPO problem."
+    iconPath: "assets/clip_art/MdPeopleOutline.svg"
+  - title: "Coffee Chat"
+    description: "Finally, we will invite you to speak with an executive board member to review each stage of the application process, ask questions, and talk!"
+    iconPath: "assets/clip_art/BiCoffeeToGo.svg"
 faqs:
   - question: "What is the time commitment for each team?"
     answer: |

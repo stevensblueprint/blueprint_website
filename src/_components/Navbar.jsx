@@ -15,7 +15,7 @@ export default function NavigationBar() {
   return (
     <nav className="relative flex items-center justify-between px-6 lg:p-6 p-10 bg-primary z-50">
       <a href="/" className="flex items-center">
-        <img src={logo} alt="Blueprint Logo" className="lg:h-11 h-16" />
+        <img src={logo} alt="Blueprint Logo" className="h-8 lg:h-11" />
       </a>
       <div className="hidden lg:flex space-x-10">
         {renderDesktopNavigationLinks()}

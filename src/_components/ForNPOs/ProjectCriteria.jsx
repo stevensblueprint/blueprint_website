@@ -11,7 +11,7 @@ export default function ProjectCriteria({ comp }) {
             <div>
               {" "}
               <img
-                className="size-1"
+                className="pr-3"
                 src="../../assets/vector/higlobealt.svg"
                 alt="Globe"
               />{" "}
@@ -34,7 +34,7 @@ export default function ProjectCriteria({ comp }) {
             <div>
               {" "}
               <img
-                className="size-1"
+                className="pr-3"
                 src="../../assets/vector/mdoutlinetimeline.svg"
                 alt="Clock"
               />{" "}
@@ -57,7 +57,7 @@ export default function ProjectCriteria({ comp }) {
             <div>
               {" "}
               <img
-                className="size-1"
+                className="pr-3"
                 src="../../assets/vector/hilightbulb.svg"
                 alt="Clock"
               />{" "}

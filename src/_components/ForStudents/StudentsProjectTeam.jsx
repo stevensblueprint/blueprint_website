@@ -1,8 +1,10 @@
 export default function StudentsProjectTeam({ comp }) {
   return (
-    <section className="grow flex flex-col lg:flex-row lg:items-center relative overflow-hidden px-12 lg:px-40 py-8">
+    <section className="grow flex flex-col lg:flex-row lg:items-center relative overflow-hidden px-8 lg:px-40 py-8">
       <div className="text-xl lg:w-2/3">
-        <h2 className="font-semibold text-4xl text-black">Project Teams</h2>
+        <h2 className="font-semibold text-3xl lg:text-4xl text-black">
+          Project Teams
+        </h2>
         <p className="bg-maroon px-2 py-1 max-w-max my-3 rounded-md text-white text-lg font-medium">
           APPLICATION REQUIRED
         </p>
