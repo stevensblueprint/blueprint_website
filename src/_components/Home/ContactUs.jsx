@@ -10,17 +10,17 @@ export default ({ comp, title }) => {
       <div className="flex flex-row items-center gap-6">
         <comp.Button
           text="Email"
-          style="px-16 py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-16 max-lg:py-6 max-lg:text-3xl"
-          redirect_url="mailto:hello@sitblueprint.com"
+          style="px-16 py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-16 max-lg:py-6 max-lg:text-3xl hover:bg-primary hover:text-white"
+          redirect_url="mailto:sit.blueprint@gmail.com"
         />
         <comp.Button
           text="LinkedIn"
-          style="px-16 py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-16 max-lg:py-6 max-lg:text-3xl"
+          style="px-16 py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-16 max-lg:py-6 max-lg:text-3xl hover:bg-primary hover:text-white"
           redirect_url="https://www.linkedin.com/company/stevens-blueprint/"
         />
         <comp.Button
           text="Instagram"
-          style="px-16 py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-16 max-lg:py-6 max-lg:text-3xl"
+          style="px-16 py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] font-semibold text-lg inline-block max-lg:px-16 max-lg:py-6 max-lg:text-3xl hover:bg-primary hover:text-white"
           redirect_url="https://www.instagram.com/stevensblueprint/"
           openInNewTab
         />

@@ -93,7 +93,7 @@ export default ({ comp, title }) => {
             />
           </div>
         </section>
-        <comp.ContactUs />
+        <comp.Home.ContactUs />
         <comp.Footer />
       </body>
     </html>
