@@ -15,6 +15,7 @@ export default ({ comp, values, team }) => (
       <div>
         <comp.Navbar />
         <comp.About.Hero />
+        {/* TODO: Refactor Our Mission into a component */}
         <section className="flex flex-col items-center justify-center pt-20 pb-10 gap-y-6 bg-white">
           <h1 className="lg:text-5xl text-7xl">
             <strong>Our Mission</strong>
