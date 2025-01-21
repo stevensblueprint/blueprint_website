@@ -1,19 +1,19 @@
 export default function Hero({ comp }) {
   return (
-    <section className="grow flex flex-col lg:flex-row lg:items-center lg:min-h-[42rem] bg-primary relative overflow-hidden px-12 lg:px-40">
-      <div className="lg:w-7/12 lg:pr-20 text-negative max-lg:w-full lg:max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-large:items-center">
-        <h1 className="mb-6 lg:mb-12 lg:px-0 px-10 tracking-wide max-lg:text-center text-4xl lg:text-5xl">
-          <strong>Students</strong>
+    <section className="flex flex-col min-h-[700px] lg:flex-row lg:items-center bg-primary text-white px-6 md:px-12 lg:px-32">
+      <div className="py-8 md:py-16 lg:py-0 w-full lg:w-1/2 lg:pr-20">
+        <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl tracking-wide mb-4 md:mb-6 lg:mb-16 text-left">
+          Student Opportunities
         </h1>
-        <p className="text-2xl mb-6 lg:mb-12 tracking-wide max-lg:text-center">
-          We’re proud of the diverse membership here at Blueprint. Join us and
+        <p className="text-lg md:text-xl lg:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 text-left">
+          We're proud of the diverse membership here at Blueprint. Join us and
           make an impact with our opportunities in product design, project
           management, or software development!
         </p>
-        <div className="flex space-x-6 max-lg:flex-col max-lg:space-x-0 max-lg:space-y-8 max-lg:w-full max-lg:items-center">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
           <comp.HeroButton
-            redirect_url={"https://discord.gg/G6aTAc9nFQ"}
-            text={"Join Our Discord"}
+            redirect_url={"mailto:sit.blueprint@gmail.com"}
+            text={"Email Us"}
           />
           <comp.HeroButton
             redirect_url={"/projects"}
@@ -21,11 +21,11 @@ export default function Hero({ comp }) {
           />
         </div>
       </div>
-      <div className="lg:w-1/2 lg:pl-0 flex items-center justify-end py-10 lg:py-20">
-        <image
+      <div className="flex grow w-full lg:w-1/2 justify-center pb-8 md:pb-12">
+        <img
           src="../../assets/events/students_hero.jpg"
           alt="A photo of student Blueprint members"
-          className="w-full lg:h-full lg:object-cover max-lg:h-auto max-lg:object-contain rounded-2xl"
+          className="rounded-[20px] w-full h-auto object-cover"
         />
       </div>
     </section>

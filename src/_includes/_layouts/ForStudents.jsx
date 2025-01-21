@@ -18,9 +18,7 @@ export default ({ comp, faqs, timelineContent }) => (
         Our Teams
       </h1>
       <comp.ForStudents.StudentsProjectTeam />
-      {/* Application Process Section */}
       <comp.ForStudents.ApplicationProcess timelineContent={timelineContent} />
-      {/*Internal Teams & Design Teams Section*/}
       <comp.ForStudents.InternalTeams />
       <section className="flex flex-col justify-center mb-16 px-8 lg:px-40">
         <h1 className="text-4xl lg:text-5xl font-semibold py-3">FAQs</h1>
