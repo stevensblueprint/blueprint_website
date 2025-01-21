@@ -1,4 +1,4 @@
-export default function StudentsHero({ comp }) {
+export default function Hero({ comp }) {
   return (
     <section className="grow flex flex-col lg:flex-row lg:items-center lg:min-h-[42rem] bg-primary relative overflow-hidden px-12 lg:px-40">
       <div className="lg:w-7/12 lg:pr-20 text-negative max-lg:w-full lg:max-lg:px-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-large:items-center">
@@ -11,13 +11,11 @@ export default function StudentsHero({ comp }) {
           management, or software development!
         </p>
         <div className="flex space-x-6 max-lg:flex-col max-lg:space-x-0 max-lg:space-y-8 max-lg:w-full max-lg:items-center">
-          <comp.Button
-            style="px-8 py-4 rounded-lg bg-transparent border-2 font-semibold inline-block max-lg:px-12 max-lg:py-6 text-xl lg:text-lg"
+          <comp.HeroButton
             redirect_url={"https://discord.gg/G6aTAc9nFQ"}
             text={"Join Our Discord"}
           />
-          <comp.Button
-            style="px-8 py-4 rounded-lg bg-transparent border-2 font-semibold inline-block max-lg:px-12 max-lg:py-6 text-xl lg:text-lg"
+          <comp.HeroButton
             redirect_url={"/projects"}
             text={"See Our Projects"}
           />

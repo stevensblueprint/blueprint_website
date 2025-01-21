@@ -13,17 +13,12 @@ export default function Hero({ comp }) {
           tech for social good.
         </p>
         <div className="flex flex-col md:flex-row md:justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-6">
-          <comp.Button
-            style="py-2 px-6 md:px-8 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
+          <comp.HeroButton
             text="Follow our Instagram"
             redirect_url="https://instagram.com/stevensblueprint"
             openInNewTab
           />
-          <comp.Button
-            style="py-2 px-6 md:px-8 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
-            text="See our projects"
-            redirect_url="/projects"
-          />
+          <comp.HeroButton text="See our projects" redirect_url="/projects" />
         </div>
       </div>
       <div className="flex px-6 md:px-12 lg:32 grow w-full justify-center pb-12">

@@ -12,13 +12,11 @@ export default function Hero({ comp }) {
           to support your organization’s mission, free of charge!
         </p>
         <div className="flex flex-col md:flex-row md:justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-6">
-          <comp.Button
-            style="py-2 px-6 md:px-8 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
+          <comp.HeroButton
             text="Email Us"
             redirect_url="mailto:sit.blueprint@gmail.com"
           />
-          <comp.Button
-            style="py-2 px-6 md:px-6 min-w-[191px] rounded-md border border-white justify-center items-center gap-2 text-white font-semibold text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
+          <comp.HeroButton
             text="See our Projects"
             redirect_url="../../projects" // FIXME: How can we avoid hardcoding the URL?
           />

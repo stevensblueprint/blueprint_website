@@ -13,20 +13,11 @@ export default function Hero({ comp }) {
           connects and gives back to the community.
         </p>
         <div className="flex flex-col md:flex-row md:justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-6">
-          <comp.Button
-            style={
-              "py-2 px-6 lg:mr-6 md:px-8 min-w-[191px] rounded-md border border-white text-white font-semibold justify-center items-center text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
-            }
+          <comp.HeroButton
             redirect_url={"https://github.com/stevensblueprint/"}
             text={"View Our Github"}
           />
-          <comp.Button
-            style={
-              "py-2 px-6 md:px-8 min-w-[191px] rounded-md border border-white text-white font-semibold justify-center items-center text-base md:text-lg inline-flex hover:bg-white hover:text-primary"
-            }
-            redirect_url={"/students"}
-            text={"Work With Us"}
-          />
+          <comp.HeroButton redirect_url={"/students"} text={"Work With Us"} />
         </div>
       </div>
       <div className="flex px-6 md:px-12 grow w-full justify-center pb-12">
