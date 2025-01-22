@@ -1,4 +1,4 @@
-import React from "https://esm.sh/react@19.0.0";
+import React from "react";
 
 export default function ProjectCard({
   name_organization,
