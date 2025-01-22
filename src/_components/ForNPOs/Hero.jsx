@@ -16,17 +16,11 @@ export default function Hero({ comp }) {
             text="Email Us"
             redirect_url="mailto:sit.blueprint@gmail.com"
           />
-          <comp.HeroButton
-            text="See our Projects"
-            redirect_url="/projects"
-          />
+          <comp.HeroButton text="See our Projects" redirect_url="/projects" />
         </div>
       </div>
       <div className="flex grow w-full justify-center pb-8">
-        <img
-          src="../../assets/vector/hands.svg"
-          alt="hands"
-        />
+        <img src="../../assets/vector/hands.svg" alt="hands" />
       </div>
     </section>
   );
