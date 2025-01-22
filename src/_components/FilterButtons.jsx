@@ -4,7 +4,7 @@ export default function FilterButtons() {
   return (
     <div className="flex justify-center gap-4">
       <form method="GET" className="flex gap-4">
-        <select 
+        <select
           name="year"
           className="bg-blue-500 text-white text-lg px-6 py-3 pr-10 rounded cursor-pointer"
         >
@@ -22,8 +22,10 @@ export default function FilterButtons() {
           <option value="In Progress">In Progress</option>
           <option value="Completed">Completed</option>
         </select>
-        
-        <button type="submit" className="hidden">Apply</button>
+
+        <button type="submit" className="hidden">
+          Apply
+        </button>
       </form>
     </div>
   );
