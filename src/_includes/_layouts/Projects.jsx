@@ -8,6 +8,7 @@ export default ({ comp, projects }) => (
       <title>Stevens Blueprint</title>
     </head>
     <body>
+
       <div>
         <comp.Navbar />
         <comp.Projects.Hero />
@@ -25,6 +26,9 @@ export default ({ comp, projects }) => (
           </p>
         </section>
         <div className="container mx-auto px-4 py-10">
+        <section className="flex justify-center mb-20">
+          <comp.FilterButtons />
+        </section>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 place-items-center">
             {projects.map((project, idx) => (
               <div key={idx} className="w-full flex justify-center">
@@ -35,6 +39,7 @@ export default ({ comp, projects }) => (
                   description={project.description}
                   redirect_url={project.redirect_url}
                   project_tag={project.project_tag}
+                  year={project.year}
                 />
               </div>
             ))}
@@ -44,4 +49,4 @@ export default ({ comp, projects }) => (
       </div>
     </body>
   </html>
-);
+  );
