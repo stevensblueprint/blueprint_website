@@ -36,7 +36,7 @@ export default ({ comp, values, team }) => (
         />
         <section className="flex place-content-center" id="info">
           <div className="flex flex-col items-center py-20 max-lg:px-12max-md:px-4">
-            <h1 className="leading-10 justify-center md:text-[40px] mb-14 text-6xl">
+            <h1 className="leading-10 md:text-[40px] mb-14 text-6xl">
               <strong>Our Values</strong>
             </h1>
             <div className="flex flex-col sm:flex-row p-20 gap-10">
