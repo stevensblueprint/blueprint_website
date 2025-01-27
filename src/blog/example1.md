@@ -1,5 +1,5 @@
 ---
-url: /blog/example1.html
+url: /blog/example1
 title: First Post
 layout: _layouts/Post.jsx
 headline: Stevens Blueprint Blog Headline

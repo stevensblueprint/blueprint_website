@@ -1,5 +1,5 @@
 ---
-url: /blog/yearEnd2024.html
+url: /blog/yearEnd2024
 title: Reflecting on the 2023-2024 Year
 layout: _layouts/Post.jsx
 headline: Stevens Blueprint Blog Headline

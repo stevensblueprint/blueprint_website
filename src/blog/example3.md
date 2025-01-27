@@ -1,5 +1,5 @@
 ---
-url: /blog/example3.html
+url: /blog/example3
 title: Third Post
 layout: _layouts/Post.jsx
 headline: Blog Headline 2
