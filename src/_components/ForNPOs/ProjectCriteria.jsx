@@ -5,7 +5,7 @@ export default function ProjectCriteria({ comp, testimonial }) {
     <figure className="flex-col flex w-full py-16 px-12 lg:px-40">
       <h1 className="text-4xl font-bold pb-6"> What We're Looking For </h1>
       <div className="flex flex-col md:flex-row">
-        <div className="flex flex-col w-1/2">
+        <div className="flex flex-col w-full md:w-1/2">
           {/* Left Side Content */}
           <div className="flex">
             <div>
@@ -77,12 +77,12 @@ export default function ProjectCriteria({ comp, testimonial }) {
             </p>{" "}
           </div>
         </div>
-        <div className="flex sm:w-1/2">
+        <div className="flex sm:pt-8 sm:pb-24 md:w-1/2">
           {/* Right Side Content */}
           <div className="pt-12 sm:pt-0 sm:pl-24 w-3/4 h-60 justify-center items-center">
-            <div className="z-00 relative bg-primary rounded-2xl">
+            <div className="z-00 relative bg-primary rounded-2xl md:w-full md:min-w-[400px]">
               <p className="text-white py-7 px-8 italic">{testimonial.text}</p>
-              <div className="-z-10 absolute lg:left-24 lg:-bottom-12 lg:w-11/12 h-full bg-sky-100 rounded-2xl">
+              <div className="-z-10 absolute left-24 -bottom-12 w-11/12 h-full sm:w-full md:min-w-[350px] bg-sky-100 rounded-2xl">
                 <p className="absolute bottom-4 left-6 font-bold">
                   - {testimonial.npo}
                 </p>
