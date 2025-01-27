@@ -13,18 +13,13 @@ export default ({ comp, faqs, timelineContent }) => (
     </head>
     <body>
       <comp.Navbar />
-      <comp.ForStudents.StudentsHero comp={comp} />
+      <comp.ForStudents.Hero />
       <h1 className="font-bold text-4xl lg:text-5xl flex flex-col items-center justify-center pt-16 lg:pt-24 gap-y-6">
         Our Teams
       </h1>
-      <comp.ForStudents.StudentsProjectTeam comp={comp} />
-      {/* Application Process Section */}
-      <comp.ForStudents.ApplicationProcess
-        comp={comp}
-        timelineContent={timelineContent}
-      />
-      {/*Internal Teams & Design Teams Section*/}
-      <comp.ForStudents.InternalTeams comp={comp} />
+      <comp.ForStudents.StudentsProjectTeam />
+      <comp.ForStudents.ApplicationProcess timelineContent={timelineContent} />
+      <comp.ForStudents.InternalTeams />
       <section className="flex flex-col justify-center mb-16 px-8 lg:px-40">
         <h1 className="text-4xl lg:text-5xl font-semibold py-3">FAQs</h1>
         <div className="w-full flex flex-col">

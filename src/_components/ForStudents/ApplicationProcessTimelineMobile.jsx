@@ -1,7 +1,4 @@
-export default function ApplicationProcessTimelineMobile({
-  comp,
-  timelineContent,
-}) {
+export default function ApplicationProcessTimelineMobile({ timelineContent }) {
   return (
     <div className="grid lg:hidden grid-rows-[auto] h-auto grid-flow-row pt-12 mt-2">
       {/* Content column */}
