@@ -5,6 +5,16 @@ testimonial:
   text: |
     "Partnering with the Stevens Blueprint team to transform our organization's homesite from WordPress to Next.js was a great experience. Their expertise and dedication resulted in a modern, user-friendly website with a streamlined backend CMS. This upgrade will empower our staff and volunteers to easily manage updates, ensuring our homesite stays relevant and impactful for years to come."
   npo: Jamie Sgarro, Executive Director of InReach
+projectCriteria:
+  - title: Impact
+    description: What is the purpose and goal of this project? Our team prioritizes projects that generate social impact and contribute to the greater community
+    iconPath: "assets/vector/higlobealt.svg"
+  - title: Scope
+    description: Is this project feasible within our timeline? We want to adhere to your deadlines while delivering high-quality results in a reasonable time frame.
+    iconPath: "assets/vector/mdoutlinetimeline.svg"
+  - title: Challenge
+    description: What technical areas of expertise does this project require? We love challenging ourselves and learning new skills, but we also want to ensure that our projects fit with our core capabilities.
+    iconPath: "assets/vector/hilightbulb.svg"
 faqs:
   - question: "How long is the project timeline?"
     answer: |

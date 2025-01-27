@@ -1,4 +1,4 @@
-export default ({ comp, faqs, testimonial }) => (
+export default ({ comp, faqs, testimonial, projectCriteria }) => (
   <html>
     <head>
       <link rel="stylesheet" href="/styles.css" />
@@ -9,7 +9,10 @@ export default ({ comp, faqs, testimonial }) => (
         <comp.Navbar />
         <comp.ForNPOs.Hero />
         <comp.ForNPOs.ProjectTimeline />
-        <comp.ForNPOs.ProjectCriteria testimonial={testimonial} />
+        <comp.ForNPOs.ProjectCriteria
+          projectCriteria={projectCriteria}
+          testimonial={testimonial}
+        />
         <section className="flex flex-col justify-center mb-16 px-12 lg:px-40">
           <h1 className="text-4xl font-bold py-3">FAQs</h1>
           <div className="w-full flex flex-col">

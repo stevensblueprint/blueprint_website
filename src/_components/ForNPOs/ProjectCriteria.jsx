@@ -1,84 +1,40 @@
 import React from "react";
 
-export default function ProjectCriteria({ comp, testimonial }) {
+export default function ProjectCriteria({
+  comp,
+  projectCriteria,
+  testimonial,
+}) {
   return (
     <figure className="flex-col flex w-full py-16 px-12 lg:px-40">
       <h1 className="text-4xl font-bold pb-6"> What We're Looking For </h1>
       <div className="flex flex-col md:flex-row">
+        {/* Left Side Content */}
         <div className="flex flex-col w-full md:w-1/2">
-          {/* Left Side Content */}
-          <div className="flex">
-            <div>
-              {" "}
-              <img
-                className="pr-3"
-                src="../../assets/vector/higlobealt.svg"
-                alt="Globe"
-              />{" "}
+          {projectCriteria.map((criteria, index) => (
+            <div key={index}>
+              <div className="flex">
+                <div>
+                  <img
+                    className="pr-3"
+                    src={`../../${criteria.iconPath}`}
+                    alt={criteria.title}
+                  />
+                </div>
+                <div className="font-semibold text-3xl text-primary">
+                  <p>{criteria.title}</p>
+                </div>
+              </div>
+              <div>
+                <p className="font-normal text-xl pb-2">
+                  {criteria.description}
+                </p>
+              </div>
             </div>
-            <div className="font-semibold text-3xl text-primary">
-              {" "}
-              <p> {"Impact"} </p>{" "}
-            </div>
-          </div>
-          <div>
-            {" "}
-            <p className="font-normal text-xl pb-2">
-              {" "}
-              {
-                "What is the purpose and goal of this project? Our team prioritizes projects that generate social impact and contribute to the greater community."
-              }{" "}
-            </p>{" "}
-          </div>
-          <div className="flex">
-            <div>
-              {" "}
-              <img
-                className="pr-3"
-                src="../../assets/vector/mdoutlinetimeline.svg"
-                alt="Clock"
-              />{" "}
-            </div>
-            <div className="font-semibold text-3xl text-primary">
-              {" "}
-              <p> {"Scope"} </p>{" "}
-            </div>
-          </div>
-          <div>
-            {" "}
-            <p className="font-normal text-xl pb-2">
-              {" "}
-              {
-                "Is this project feasible within our timeline? We want to adhere to your deadlines while delivering high-quality results in a reasonable time frame."
-              }{" "}
-            </p>{" "}
-          </div>
-          <div className="flex">
-            <div>
-              {" "}
-              <img
-                className="pr-3"
-                src="../../assets/vector/hilightbulb.svg"
-                alt="Clock"
-              />{" "}
-            </div>
-            <div className="font-semibold text-3xl text-primary">
-              {" "}
-              <p> {"Challenge"} </p>{" "}
-            </div>
-          </div>
-          <div>
-            {" "}
-            <p className="font-normal text-xl pb-2">
-              {" "}
-              {
-                "What technical areas of expertise does this project require? We love challenging ourselves and learning new skills, but we also want to ensure that our projects fit with our core capabilities."
-              }{" "}
-            </p>{" "}
-          </div>
+          ))}
         </div>
+        {/* Right Side Content */}
         <div className="flex sm:pt-8 sm:pb-24 md:w-1/2">
-          {/* Right Side Content */}
           <div className="pt-12 sm:pt-0 sm:pl-24 w-3/4 h-60 justify-center items-center">
             <div className="z-00 relative bg-primary rounded-2xl md:w-full md:min-w-[400px]">
               <p className="text-white py-7 px-8 italic">{testimonial.text}</p>
