@@ -31,7 +31,7 @@ export default function Hero({ comp }) {
       </div>
       <div className="flex px-6 md:px-12 grow w-full justify-center pb-12">
         <img
-          src="../../assets/logos/project-img.png"
+          src="/assets/clip_art/ProjectHeroIcon.svg"
           alt="projects-banner-image"
         />
       </div>
