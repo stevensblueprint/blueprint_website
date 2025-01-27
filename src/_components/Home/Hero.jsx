@@ -23,11 +23,7 @@ export default function Hero({ comp }) {
         <div className="flex space-x-2 md:space-x-4 pb-4">
           {heroButtons.map((button) => {
             return (
-              <comp.Button
-                style="text-xs md:text-base text-center py-1 md:py-2 px-3 md:px-4 rounded-md border bg-white text-primary font-semibold inline-flex items-center justify-center hover:bg-primary hover:text-white"
-                text={button.text}
-                redirect_url={button.url}
-              />
+              <comp.HeroButton text={button.text} redirect_url={button.url} />
             );
           })}
         </div>
