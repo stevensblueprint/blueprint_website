@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function ProjectCriteria({ comp }) {
+export default function ProjectCriteria({ comp, testimonial }) {
   return (
     <figure className="flex-col flex w-full py-16 px-12 lg:px-40">
       <h1 className="text-4xl font-bold pb-6"> What We're Looking For </h1>
       <div className="flex flex-col md:flex-row">
-        <div className="flex flex-col">
+        <div className="flex flex-col w-1/2">
           {/* Left Side Content */}
           <div className="flex">
             <div>
@@ -77,20 +77,14 @@ export default function ProjectCriteria({ comp }) {
             </p>{" "}
           </div>
         </div>
-        <div className="flex md:w-5/12 justify-center items-center">
+        <div className="flex sm:w-1/2">
           {/* Right Side Content */}
-          <div className="pt-12 md:pt-0 md:pl-12 w-96 h-60">
-            <div className="z-00 relative max-w-64 bg-primary rounded-2xl">
-              <p className="text-white py-7 px-8">
-                {" "}
-                {
-                  "Wow! Blueprint is amazing! Blueprint is amazing! Wow! Blueprint is amazing! Wow! Blueprint is amazing!"
-                }{" "}
-              </p>
-              <div className="-z-10 absolute left-24 -bottom-12 w-10/12 h-full bg-sky-100 rounded-2xl">
-                <p className="absolute bottom-4 left-6">
-                  {" "}
-                  {"- Definitely Real, NPO"}{" "}
+          <div className="pt-12 sm:pt-0 sm:pl-24 w-3/4 h-60 justify-center items-center">
+            <div className="z-00 relative bg-primary rounded-2xl">
+              <p className="text-white py-7 px-8 italic">{testimonial.text}</p>
+              <div className="-z-10 absolute lg:left-24 lg:-bottom-12 lg:w-11/12 h-full bg-sky-100 rounded-2xl">
+                <p className="absolute bottom-4 left-6 font-bold">
+                  - {testimonial.npo}
                 </p>
               </div>
             </div>

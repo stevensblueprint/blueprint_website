@@ -1,6 +1,10 @@
 ---
 title: Community - Organizations
 layout: _layouts/ForNPOs.jsx
+testimonial:
+  text: |
+    "Partnering with the Stevens Blueprint team to transform our organization's homesite from WordPress to Next.js was a great experience. Their expertise and dedication resulted in a modern, user-friendly website with a streamlined backend CMS. This upgrade will empower our staff and volunteers to easily manage updates, ensuring our homesite stays relevant and impactful for years to come."
+  npo: Jamie Sgarro, Executive Director of InReach
 faqs:
   - question: "How long is the project timeline?"
     answer: |
