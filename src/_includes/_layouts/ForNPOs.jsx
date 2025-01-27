@@ -1,4 +1,10 @@
-export default ({ comp, faqs, testimonial, projectCriteria }) => (
+export default ({
+  comp,
+  faqs,
+  testimonial,
+  projectCriteria,
+  projectTimeline,
+}) => (
   <html>
     <head>
       <link rel="stylesheet" href="/styles.css" />
@@ -8,7 +14,7 @@ export default ({ comp, faqs, testimonial, projectCriteria }) => (
       <>
         <comp.Navbar />
         <comp.ForNPOs.Hero />
-        <comp.ForNPOs.ProjectTimeline />
+        <comp.ForNPOs.ProjectTimeline projectTimeline={projectTimeline} />
         <comp.ForNPOs.ProjectCriteria
           projectCriteria={projectCriteria}
           testimonial={testimonial}
