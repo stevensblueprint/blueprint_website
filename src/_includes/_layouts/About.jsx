@@ -39,7 +39,7 @@ export default ({ comp, values, team }) => (
             <h1 className="leading-10 md:text-[40px] mb-14 text-6xl">
               <strong>Our Values</strong>
             </h1>
-            <div className="flex flex-row items-center p-20 gap-10">
+            <div className="flex flex-col sm:flex-row p-20 gap-10">
               {values.map((value, index) => (
                 <comp.ValueCard key={index} value={value} />
               ))}
