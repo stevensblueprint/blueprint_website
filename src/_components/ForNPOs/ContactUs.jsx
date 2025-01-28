@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ContactUs({comp}) {
+export default function ContactUs({ comp }) {
   return (
     <section>
       <div className="flex justify-center pt-12 md:pt-20">
