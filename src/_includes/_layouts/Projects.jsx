@@ -28,7 +28,7 @@ export default ({ comp, projects }) => (
           <section className="flex justify-center mb-20">
             <comp.FilterButtons />
           </section>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 place-items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto px-4">
             {projects.map((project, idx) => (
               <div key={idx} className="w-full flex justify-center">
                 <comp.ProjectCard
