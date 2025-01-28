@@ -19,6 +19,7 @@ export default ({
           projectCriteria={projectCriteria}
           testimonial={testimonial}
         />
+        <comp.ForNPOs.ContactUs />
         <section className="flex flex-col justify-center mb-16 px-12 lg:px-40">
           <h1 className="text-4xl font-bold py-3">FAQs</h1>
           <div className="w-full flex flex-col">
