@@ -10,13 +10,12 @@ export default ({
   redirect_url,
 }) => {
   return (
-    <figure className="flex-col flex w-full lg:p-5 p-8 lg:max-w-[1280px]">
+    <figure className="flex flex-col w-full">
       <div className="flex">
         <div className="w-2/3 pr-8">
           {/* Left Side Content */}
-          <h1 className="pb-8 text-4xl text-primary font-normal">
-            {" "}
-            {"Stevens Blueprint Blog"}{" "}
+          <h1 className="font-bold text-primary text-5xl tracking-wide mb-4 md:mb-6 lg:mb-16 text-left">
+            Stevens Blueprint Blog
           </h1>
           <div className="flex content-center">
             <div>
