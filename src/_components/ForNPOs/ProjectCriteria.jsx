@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ProjectCriteria({ projectCriteria, testimonial }) {
   return (
-    <figure className="flex-col flex w-full px-12 py-8 md:py-16 lg:px-40">
+    <figure className="flex-col flex w-full px-12 py-8 lg:py-16 lg:px-40">
       <h1 className="text-4xl font-bold pb-6"> What We're Looking For </h1>
       <div className="flex flex-col lg:flex-row">
         {/* Left Side Content */}
@@ -44,8 +44,12 @@ export default function ProjectCriteria({ projectCriteria, testimonial }) {
         </div>
         {/* Testimonial on small screen sizes*/}
         <div className="md:hidden pt-4">
-          <div className="bg-primary rounded-2xl text-white p-8 italic">{testimonial.text}</div>
-          <div className="bg-sky-100 rounded-2xl p-4 font-bold">- {testimonial.npo}</div>
+          <div className="bg-primary rounded-2xl text-white p-8 italic">
+            {testimonial.text}
+          </div>
+          <div className="bg-sky-100 rounded-2xl p-4 font-bold">
+            - {testimonial.npo}
+          </div>
         </div>
       </div>
     </figure>

@@ -16,7 +16,7 @@ export default function ProjectTimeline({ projectTimeline }) {
               <h2 className="pb-4 text-3xl text-primary font-bold">
                 {phase.title}
               </h2>
-              <p className="text-xl">{phase.title}</p>
+              <p className="text-xl">{phase.description}</p>
             </div>
           );
         })}
