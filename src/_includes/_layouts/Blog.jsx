@@ -8,7 +8,7 @@ export default ({ comp, description, posts, children }) => (
       <title>Stevens Blueprint Blog</title>
     </head>
     <body>
-      <comp.Navbar />
+      <comp.Navbar alternate={true} />
       <main className="max-w-4xl mx-auto p-4">
         <comp.Blog.Hero
           image_url={"../assets/events/spring_kickoff.png"}
