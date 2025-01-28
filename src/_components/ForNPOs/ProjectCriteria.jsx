@@ -42,7 +42,7 @@ export default function ProjectCriteria({ projectCriteria, testimonial }) {
             </div>
           </div>
         </div>
-        {/* Testimonial on small screen sizes*/}
+        {/* Testimonial on small screen sizes - removes absolute overlap */}
         <div className="md:hidden pt-4">
           <div className="bg-primary rounded-2xl text-white p-8 italic">
             {testimonial.text}
