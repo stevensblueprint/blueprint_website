@@ -69,7 +69,7 @@ export default ({ comp, title, about }) => {
           </h1>
           <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-x-6 lg:gap-x-12 flex-nowrap lg:gap-y-6">
             <comp.GetInvolvedCard
-              title={"Non-Profit Orgs"}
+              title={"Non-Profits"}
               description={
                 "We can help you grow your organization with innovative software solutions, whether you have a specific project in mind or a curiosity of how Blueprint can support you!"
               }

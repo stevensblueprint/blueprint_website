@@ -34,7 +34,7 @@ export default function ProjectCard({
             {project_tag}
           </p>
           <p
-            className="line-cl</p>amp-6 max-sm:w-full lg:text-xl text-3xl lg:leading-6 overflow-hidden"
+            className="line-clamp-6 max-sm:w-full lg:text-xl text-3xl lg:leading-6 overflow-hidden"
             style={{ maxHeight: "6em" }}
           >
             {description}
