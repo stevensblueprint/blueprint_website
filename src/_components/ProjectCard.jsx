@@ -13,7 +13,7 @@ export default function ProjectCard({
     <figure className="flex-col flex w-full border border-black rounded-lg lg:p-10 p-8">
       <div className="flex flex-row justify-start items-center w-full">
         <p
-          className={`${box_styling} px-2 py-1 max-w-max my-3 rounded-md text-white lg:text-md text-md font-medium`}
+          className={`${box_styling} px-2 py-1 max-w-max my-3 rounded-md text-white lg:text-lg text-lg font-medium`}
         >
           {status}
         </p>
