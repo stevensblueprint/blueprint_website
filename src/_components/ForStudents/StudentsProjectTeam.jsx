@@ -1,4 +1,4 @@
-export default function StudentsProjectTeam({ comp }) {
+export default function StudentsProjectTeam() {
   return (
     <section className="grow flex flex-col lg:flex-row lg:items-center relative overflow-hidden px-8 lg:px-40 py-8">
       <div className="text-xl lg:w-2/3">

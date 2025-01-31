@@ -1,4 +1,5 @@
 export default ({ comp, faqs, timelineContent }) => (
+export default ({ comp, faqs, timelineContent }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
