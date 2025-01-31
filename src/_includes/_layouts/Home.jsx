@@ -30,7 +30,7 @@ export default ({ comp, title, about }) => {
           <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline">
             <a href="projects">View all projects</a>
           </p>
-          <div className="flex flex-col md:flex-row gap-6 md:gap-x-6 lg:gap-x-12 flex-nowrap lg:gap-y-6">
+          <div className="flex flex-col md:flex-row md:max-w-[1440px] md:mx-auto gap-6 md:gap-x-6 lg:gap-x-12 flex-nowrap lg:gap-y-6">
             <comp.ProjectCard
               name_organization={"Sarapis"}
               image_url={"../assets/logos/sarapis_logo.png"}
@@ -67,7 +67,7 @@ export default ({ comp, title, about }) => {
           <h1 className="lg:text-5xl text-7xl text-center">
             <strong>Get Involved</strong>
           </h1>
-          <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-x-6 lg:gap-x-12 flex-nowrap lg:gap-y-6">
+          <div className="flex flex-col md:flex-row md:max-w-[1440px] md:mx-auto justify-between gap-6 md:gap-x-6 lg:gap-x-12 flex-nowrap lg:gap-y-6">
             <comp.GetInvolvedCard
               title={"Non-Profits"}
               description={
