@@ -18,8 +18,8 @@ export default ({ comp, title, about }) => {
         <comp.Home.Hero />
         <comp.Home.AboutUs about={about} />
         <comp.Home.Impact />
-        <section className="flex flex-col items-center justify-center py-32 gap-y-6 bg-white">
-          <h1 className="lg:text-5xl text-7xl">
+        <section className="flex flex-col items-center justify-center px-10 py-32 gap-y-6 bg-white">
+          <h1 className="lg:text-5xl text-7xl text-center">
             <strong>Our Projects</strong>
           </h1>
           <p className="text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14 px-24">
@@ -30,7 +30,7 @@ export default ({ comp, title, about }) => {
           <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline">
             <a href="projects">View all projects</a>
           </p>
-          <div className="flex flex-row justify-between gap-x-6 lg:gap-x-12 lg:flex-wrap lg:gap-y-6">
+          <div className="flex flex-col md:flex-row md:max-w-[1440px] md:mx-auto gap-6 md:gap-x-6 lg:gap-x-12 flex-nowrap lg:gap-y-6">
             <comp.ProjectCard
               name_organization={"Sarapis"}
               image_url={"../assets/logos/sarapis_logo.png"}
@@ -63,13 +63,13 @@ export default ({ comp, title, about }) => {
             />
           </div>
         </section>
-        <section className="flex flex-col items-center justify-center py-10 gap-y-6 bg-white">
-          <h1 className="lg:text-5xl text-7xl">
+        <section className="flex flex-col items-center justify-center px-10 py-10 gap-y-6 bg-white">
+          <h1 className="lg:text-5xl text-7xl text-center">
             <strong>Get Involved</strong>
           </h1>
-          <div className="flex flex-row justify-between gap-x-6 lg:gap-x-12 lg:flex-wrap lg:gap-y-6">
+          <div className="flex flex-col md:flex-row md:max-w-[1440px] md:mx-auto justify-between gap-6 md:gap-x-6 lg:gap-x-12 flex-nowrap lg:gap-y-6">
             <comp.GetInvolvedCard
-              title={"Non-Profit Orgs"}
+              title={"Non-Profits"}
               description={
                 "We can help you grow your organization with innovative software solutions, whether you have a specific project in mind or a curiosity of how Blueprint can support you!"
               }
