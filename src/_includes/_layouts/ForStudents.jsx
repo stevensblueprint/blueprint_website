@@ -5,10 +5,7 @@ export default ({ comp, faqs, timelineContent }) => (
       <link rel="stylesheet" href="/styles.css" />
       <title>Students</title>
       <meta property="og:title" content="Students" />
-      <meta
-        property="og:url"
-        content="https://sitblueprint.com/community/students/"
-      />
+      <meta property="og:url" content="https://sitblueprint.com/students/" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
