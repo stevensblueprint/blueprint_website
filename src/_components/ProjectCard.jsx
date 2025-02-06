@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function ProjectCard({
+export const ProjectCard = ({
   name_organization,
   image_url,
   description,
   project_tag,
   redirect_url,
   status,
-}) {
+}) => {
   const box_styling = status === "Completed" ? "bg-primary" : "bg-maroon";
   return (
     <figure className="flex-col shadow-lg hover:shadow-2xl flex w-full border-2 border-black rounded-lg lg:p-10 p-8">

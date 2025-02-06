@@ -1,36 +1,36 @@
-import React from "react";
+import React from 'react';
 
 const navigationLinks = [
-  { href: "/about", text: "About" },
-  { href: "/projects", text: "Projects" },
-  { href: "/students", text: "Students" },
-  { href: "/non-profits", text: "Non-Profits" },
-  { href: "/partners", text: "Partners" },
-  { href: "/blog", text: "Blog" },
+  { href: '/about', text: 'About' },
+  { href: '/projects', text: 'Projects' },
+  { href: '/students', text: 'Students' },
+  { href: '/non-profits', text: 'Non-Profits' },
+  { href: '/partners', text: 'Partners' },
+  { href: '/blog', text: 'Blog' },
 ];
 
-const logo = "/assets/logos/logo_banner_negative.png";
+const logo = '/assets/logos/logo_banner_negative.png';
 
 export default function NavigationBar() {
   return (
-    <nav className="relative flex items-center justify-between px-6 lg:p-6 p-10 bg-primary z-50 border-b border-white">
-      <a href="/" className="flex items-center">
-        <img src={logo} alt="Blueprint Logo" className="h-8 lg:h-11" />
+    <nav className='relative flex items-center justify-between px-6 lg:p-6 p-10 bg-primary z-50 border-b border-white'>
+      <a href='/' className='flex items-center'>
+        <img src={logo} alt='Blueprint Logo' className='h-8 lg:h-11' />
       </a>
-      <div className="hidden lg:flex space-x-10">
+      <div className='hidden lg:flex space-x-10'>
         {renderDesktopNavigationLinks()}
       </div>
-      <div className="lg:hidden relative">
+      <div className='lg:hidden relative'>
         <input
-          type="checkbox"
-          id="mobileMenuToggle"
-          className="hidden peer"
-          aria-label="Toggle mobile menu"
+          type='checkbox'
+          id='mobileMenuToggle'
+          className='hidden peer'
+          aria-label='Toggle mobile menu'
         />
-        <label htmlFor="mobileMenuToggle" className="block cursor-pointer p-2">
+        <label htmlFor='mobileMenuToggle' className='block cursor-pointer p-2'>
           {renderHamburgerIcon()}
         </label>
-        <div className="absolute top-[calc(100%+1rem)] right-2 bg-primary transition-all duration-300 max-h-0 overflow-hidden peer-checked:max-h-screen peer-checked:border peer-checked:border-white peer-checked:rounded-lg peer-checked:shadow-lg w-80">
+        <div className='absolute top-[calc(100%+1rem)] right-2 bg-primary transition-all duration-300 max-h-0 overflow-hidden peer-checked:max-h-screen peer-checked:border peer-checked:border-white peer-checked:rounded-lg peer-checked:shadow-lg w-80'>
           {renderMobileNavigationLinks()}
         </div>
       </div>
@@ -40,19 +40,19 @@ export default function NavigationBar() {
 
 function renderDesktopNavigationLinks() {
   return navigationLinks.map((link, index) => (
-    <span className="text-center">
+    <span className='text-center'>
       <a
         key={index}
         href={link.href}
-        className="text-white text-2xl relative group transition-all duration-300 ease-in-out"
+        className='text-white text-2xl relative group transition-all duration-300 ease-in-out'
       >
-        <span className="whitespace-nowrap font-bold invisible">
+        <span className='whitespace-nowrap font-bold invisible'>
           {link.text}
         </span>
-        <span className="absolute inset-0 flex justify-center items-center whitespace-nowrap transition-all group-hover:font-bold group-hover:text-yellow-100">
+        <span className='absolute inset-0 flex justify-center items-center whitespace-nowrap transition-all group-hover:font-bold group-hover:text-yellow-100'>
           {link.text}
         </span>
-        <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-100 transition-all group-hover:w-full"></span>
+        <span className='absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-100 transition-all group-hover:w-full'></span>
       </a>
     </span>
   ));
@@ -68,7 +68,7 @@ function renderMobileNavigationLinks() {
         hover:bg-white hover:bg-opacity-10 hover:font-bold
         ${
           // Add a bottom border to all items except the last one
-          index !== navigationLinks.length - 1 ? "border-b border-white" : ""
+          index !== navigationLinks.length - 1 ? 'border-b border-white' : ''
         }
       `}
     >
@@ -81,17 +81,17 @@ function renderMobileNavigationLinks() {
 function renderHamburgerIcon() {
   return (
     <svg
-      className="w-12 h-12 text-white"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
+      className='w-12 h-12 text-white'
+      fill='none'
+      stroke='currentColor'
+      viewBox='0 0 24 24'
+      xmlns='http://www.w3.org/2000/svg'
     >
       <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        d="M4 6 h16 M4 12 h16 M4 18 h16"
+        strokeLinecap='round'
+        strokeLinejoin='round'
+        strokeWidth='2'
+        d='M4 6 h16 M4 12 h16 M4 18 h16'
       ></path>
     </svg>
   );
