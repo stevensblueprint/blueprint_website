@@ -10,7 +10,7 @@ export default function ProjectCard({
 }) {
   const box_styling = status === "Completed" ? "bg-primary" : "bg-maroon";
   return (
-    <figure className="flex-col flex w-full border border-black rounded-lg lg:p-10 p-8">
+    <figure className="flex-col shadow-lg hover:shadow-2xl flex w-full border-2 border-black rounded-lg lg:p-10 p-8">
       <div className="flex flex-row justify-start items-center w-full">
         <p
           className={`${box_styling} px-2 py-1 max-w-max my-3 rounded-md text-white lg:text-lg text-lg font-medium`}
