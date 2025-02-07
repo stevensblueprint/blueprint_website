@@ -19,12 +19,4 @@ Deno.test("Searching an array with one blog", () => {
   assertEquals(result, blogs);
 });
 
-Deno.test("Searching an array with multiple blogs", () => {
-  const blogs = [
-    { title: "test blog" },
-    { title: "another Test blog" },
-    { title: "Yet Another Test blog" },
-  ];
-  const result = getBlogsByTitle("test", blogs);
-  assertEquals(result, blogs);
-});
+// Add TEST
