@@ -17,7 +17,6 @@ Deno.test("Searching an array with multiple blogs", () => {
   assertEquals(result, blogs);
 });
 
-
 Deno.test("Searching an empty array", () => {
   const blogs = [];
   const result = getBlogsByTitle("test", blogs);
