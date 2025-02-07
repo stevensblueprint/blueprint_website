@@ -46,4 +46,4 @@ export const ProjectCard = ({
       </figcaption>
     </figure>
   );
-}
+};

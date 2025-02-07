@@ -33,6 +33,7 @@ faqs:
     answer: |
       Since the applications for project teams occur in the Spring, freshmen are typically unable to join their first year. **However,** there are often a couple of members who drop from the project teams, and if you are active on the Internal Teams and express an interest to join, we may reach out to help fill the gaps!
 ---
+
 Test
 Jes
 New line bull shit
