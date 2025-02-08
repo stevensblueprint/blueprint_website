@@ -11,10 +11,10 @@ export default function ProjectTimeline({ projectTimeline }) {
           Our Project Timeline
         </h1>
       </div>
-      <div className="grid lg:grid-cols-3">
+      <div className="grid lg:grid-cols-3 lg:gap-x-24">
         {projectTimeline.map((phase, index) => {
           return (
-            <div key={index} className="py-8 lg:pr-12">
+            <div key={index} className="py-8">
               <h2 className="pb-4 text-2xl lg:text-3xl text-primary font-bold">
                 {phase.title}
               </h2>
