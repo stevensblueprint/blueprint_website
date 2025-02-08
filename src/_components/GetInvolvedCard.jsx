@@ -7,7 +7,7 @@ export default function GetInvolvedCard({
   redirect_url,
 }) {
   return (
-    <figure className="flex flex-col shadow-lg hover:shadow-2xl md:w-1/3 border border-black rounded-lg lg:p-5 p-5 lg:h-[450px]">
+    <figure className="flex flex-col shadow-lg hover:shadow-2xl transition-shadow md:w-1/3 rounded-lg lg:p-5 p-5 lg:h-[450px]">
       <div className="h-36 flex justify-center items-center w-full shrink-0">
         <img
           src={icon_url}
