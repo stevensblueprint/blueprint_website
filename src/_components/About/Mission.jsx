@@ -1,15 +1,15 @@
 import React from "https://esm.sh/react";
 
-export default function OurMission({ comp }) {
+export default function Mission({ comp }) {
   return (
     <section>
-      <section className="flex flex-col items-center justify-center pt-20 pb-10 gap-y-6 bg-white">
-        <h1 className="lg:text-5xl text-7xl">
+      <section className="flex flex-col items-center justify-center pt-20 pb-10 gap-y-2 lg:gap-y-6 bg-white">
+        <h1 className="text-4xl lg:text-5xl">
           <strong>Our Mission</strong>
         </h1>
-        <p className="text-center text-5xl lg:text-3xl text-3xl mb-4 lg:px-14 px-24 py-8">
-          At Blueprint, we strive to make technology <br /> accessible for those
-          who promote public <br /> welfare and give back to our communities.
+        <p className="text-center text-xl lg:text-3xl mb-4 px-12 max-w-3xl py-8">
+          At Blueprint, we strive to make technology accessible for those who
+          promote public welfare and give back to our communities.
         </p>
       </section>
       <comp.Carousel
