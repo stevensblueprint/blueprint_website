@@ -15,67 +15,10 @@ export default ({ comp, values, team }) => (
       <div>
         <comp.Navbar />
         <comp.About.Hero />
-        <comp.About.OurMission />
-        <section className="flex place-content-center" id="info">
-          <div className="flex flex-col items-center py-20 max-lg:px-12max-md:px-4">
-            <h1 className="leading-10 md:text-[40px] mb-14 text-6xl">
-              <strong>Our Values</strong>
-            </h1>
-            <div className="flex flex-col sm:flex-row p-20 gap-10">
-              {values.map((value, index) => (
-                <comp.ValueCard key={index} value={value} />
-              ))}
-            </div>
-          </div>
-        </section>
-        <section className="flex place-content-center items-center justify-center">
-          <div className="flex flex-col items-center p-8 max-lg:px-12 w-full max-md:px-4">
-            <h1 className="leading-10 md:text-[40px] mb-14 text-6xl">
-              <strong>Our Sponsors</strong>
-            </h1>
-            <p className="text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14 px-12 py-8">
-              We are grateful to our sponsors who provide us with <br /> the
-              resources and support we need at Blueprint.
-            </p>
-            <comp.Button
-              style={
-                "lg:px-6 px-12 lg:py-4 py-8 lg:rounded-lg rounded-3xl border-2 border-black mt-8 text-black font-bold w-fit lg:text-base text-4xl hover:bg-primary hover:text-white"
-              }
-              text={"Become a sponsor"}
-              redirect_url={"/partners"}
-            />
-            <div className="flex flex-row py-12 gap-5 ml-8">
-              <img
-                src="../assets/logos/notion.png"
-                alt="notion"
-                className="object-cover h-20 max-w-none "
-              />
-              <img
-                src="../assets/logos/github.png"
-                alt="github"
-                className="object-cover h-20 max-w-none "
-              />
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="flex flex-col items-center">
-            <h1 className="lg:text-4xl text-6xl mb-8">
-              <strong>Our Team</strong>
-            </h1>
-            <div className="flex flex-wrap gap-4 my-8 lg:px-24 lg:max-w-[75rem] px-24 justify-center">
-              {team.map((member, index) => (
-                <comp.MemberCard
-                  key={index}
-                  name={member.name}
-                  role={member.role}
-                  image_url={member.image_url}
-                  linkedin={member.linkedin}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
+        <comp.About.Mission />
+        <comp.About.Values values={values} />
+        <comp.About.Sponsors />
+        <comp.About.Team team={team} />
         <comp.Footer />
       </div>
     </body>

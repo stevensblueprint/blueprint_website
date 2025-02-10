@@ -25,7 +25,7 @@ export default function Hero({ comp }) {
         <img
           src="../../assets/events/students_hero.jpg"
           alt="A photo of student Blueprint members"
-          className="rounded-[20px] w-full h-auto object-cover"
+          className="rounded-2xl w-full h-auto object-cover"
         />
       </div>
     </section>
