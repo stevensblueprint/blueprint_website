@@ -23,7 +23,7 @@ export default function Hero({ comp }) {
       </div>
       <div className="flex grow w-full lg:w-1/2 justify-center pb-8 md:pb-12">
         <img
-          src="../../assets/events/students_hero.jpg"
+          src="../../assets/photos/students_hero.jpg"
           alt="A photo of student Blueprint members"
           className="rounded-2xl w-full h-auto object-cover"
         />
