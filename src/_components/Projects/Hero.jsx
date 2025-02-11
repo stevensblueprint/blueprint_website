@@ -20,7 +20,7 @@ export default function Hero({ comp }) {
           <comp.HeroButton redirect_url={"/students"} text={"Work With Us"} />
         </div>
       </div>
-      <div className="flex px-6 md:px-12 grow w-full justify-center pb-12">
+      <div className="flex grow w-full justify-center pb-12">
         <img
           src="/assets/clip_art/ProjectHeroIcon.svg"
           alt="projects-banner-image"
