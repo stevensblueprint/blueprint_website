@@ -14,12 +14,10 @@ export default function Mission({ comp }) {
       </section>
       <comp.Carousel
         array_of_images={[
-          "../assets/photos/google_event.jpg",
-          "../assets/photos/google_event_1.jpg",
           "../assets/photos/cs_carnival.jpg",
-          // TODO: Add Eboard selfie, resize images
-          "../assets/photos/google_event_2.jpg",
-          "../assets/photos/stock_photo_working.jpg",
+          "../assets/photos/google_event.jpg",
+          "../assets/photos/eboard_merch.jpg",
+          "../assets/photos/google_event_1.jpg",
         ]}
       />
     </section>
