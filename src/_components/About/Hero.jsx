@@ -12,7 +12,7 @@ export default function Hero({ comp }) {
           develops pro-bono software for non-profit organizations and promotes
           tech for social good.
         </p>
-        <div className="flex flex-col md:flex-row md:justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-6">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
           <comp.HeroButton
             text="Follow our Instagram"
             redirect_url="https://instagram.com/stevensblueprint"

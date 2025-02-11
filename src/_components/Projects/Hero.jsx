@@ -12,7 +12,7 @@ export default function Hero({ comp }) {
           accessiblity. We believe in the importance of building technology that
           connects and gives back to the community.
         </p>
-        <div className="flex flex-col md:flex-row md:justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-6">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
           <comp.HeroButton
             redirect_url={"https://github.com/stevensblueprint/"}
             text={"View Our Github"}
