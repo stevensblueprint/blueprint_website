@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({
+export default function Hero({
   comp,
   image_url,
   card_header,
@@ -8,7 +8,7 @@ export default ({
   time_posted,
   description,
   redirect_url,
-}) => {
+}) {
   return (
     <figure className="flex-col flex w-full lg:p-5 p-8 lg:max-w-[1280px]">
       <div className="flex">
@@ -27,14 +27,12 @@ export default ({
               />
             </div>
             <div className="text-base font-normal">
-              {" "}
-              <p> {time_posted} </p>{" "}
+              <p> {time_posted} </p>
             </div>
           </div>
           <div className="flex">
             <div className="text-3xl font-semibold pb-4 pt-2">
-              {" "}
-              {card_header}{" "}
+              {card_header}
             </div>
             <div className="flex flex-wrap grid-cols-2 gap-1 justify-center content-center">
               {tags.map((tag) => (
@@ -48,8 +46,7 @@ export default ({
             </div>
           </div>
           <p className="flex-auto text-xl font-normal leading-7 text-balance overflow-hidden text-clip line-clamp-3">
-            {" "}
-            {description}{" "}
+            {description}
           </p>
           <div className="py-6">
             <comp.Button
@@ -62,7 +59,6 @@ export default ({
           </div>
         </div>
         <div className="w-1/3 bg-transparent content-center">
-          {/* Image */}
           {image_url && (
             <div className="flex justify-center items-center w-full">
               <img

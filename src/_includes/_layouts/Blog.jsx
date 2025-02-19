@@ -10,7 +10,7 @@ export default ({ comp, description, posts, children }) => (
     <body>
       <comp.Navbar />
       <main className="max-w-4xl mx-auto p-4">
-        <comp.BlogHero
+        <comp.Blog.Hero
           image_url={"../assets/events/spring_kickoff.png"}
           card_header={"Reflecting on the 2023-2024 Year"}
           tags={["Yearly Recap"]}
@@ -23,7 +23,7 @@ export default ({ comp, description, posts, children }) => (
         <div className="grid grid-cols-3 gap-4">
           {/* 'posts' is currently a static string array that matches the filenames in blogs/ folder. Needs to be dynamic. See utility/searchResults.js for more info */}
           {posts.map((post) => (
-            <comp.BlogCard
+            <comp.Blog.BlogCard
               name_post={post.name_post}
               image_url={post.image}
               date={post.date}
