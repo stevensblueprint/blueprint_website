@@ -1,14 +1,6 @@
 import React from "react";
 
-export default function Hero({
-  comp,
-  image_url,
-  card_header,
-  tags,
-  time_posted,
-  description,
-  redirect_url,
-}) {
+export default function Hero({ comp, featured_post }) {
   return (
     <section className="grow flex flex-col min-h-[700px] lg:flex-row lg:items-center overflow-hidden px-6 md:px-12 lg:px-32">
       <div className="py-8 md:py-16 lg:py-0 w-full lg:w-1/2 lg:pr-20">
@@ -21,9 +13,9 @@ export default function Hero({
             src="../assets/vector/clock.svg"
             alt="Clock"
           />
-          <p className="text-base font-normal px-2">{time_posted}</p>
+          <p className="text-base font-normal px-2">{featured_post.date_posted}</p>
           <div className="flex gap-1 content-center">
-            {tags.map((tag) => (
+            {featured_post.tags.map((tag) => (
               <div
                 key={tag}
                 className="bg-primary rounded-md px-3 text-sm font-semibold text-white text-center truncate"
@@ -34,10 +26,10 @@ export default function Hero({
           </div>
         </div>
         <div className="text-xl sm:text-3xl font-semibold pb-4 pt-2">
-          {card_header}
+          {featured_post.title}
         </div>
         <p className="flex-auto text-lg sm:text-xl font-normal leading-7 text-balance overflow-hidden text-clip line-clamp-3">
-          {description}
+          {featured_post.preview}
         </p>
         {/* This div may seem pointless, however it is needed to apply padding between the 
         button and the paragraph. If you add bottom padding to the paragraph, it causes a 
@@ -46,14 +38,14 @@ export default function Hero({
           <comp.Button
             style="text-xs sm:min-w-[191px] md:text-base text-center py-1 md:py-2 px-3 md:px-4 rounded-md border bg-primary text-white font-semibold inline-flex items-center justify-center hover:bg-white hover:text-primary"
             text={"Read More"}
-            redirect_url={redirect_url}
+            redirect_url={featured_post.redirect_url}
           />
         </div>
       </div>
       <div className="flex grow w-full lg:w-1/2 justify-center pb-8 md:pb-12">
         <image
-          src={image_url}
-          alt={`${card_header} Image`}
+          src={featured_post.image_url}
+          alt={`${featured_post.title} Image`}
           className="rounded-2xl w-full h-auto object-cover"
         />
       </div>

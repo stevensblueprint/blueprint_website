@@ -1,4 +1,4 @@
-export default ({ comp, description, posts, children }) => (
+export default ({ comp, featured_post, posts }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
@@ -13,20 +13,7 @@ export default ({ comp, description, posts, children }) => (
     </head>
     <body>
       <comp.Navbar />
-      {/* The Blog Hero contains content for a "featured" post. 
-      This post should be updated periodically
-      to highlight certain topics or events. 
-      TODO: Is there a better way to pass content to the featured blog post?*/}
-      <comp.Blog.Hero
-        image_url={"../assets/events/spring_kickoff.png"}
-        card_header={"Reflecting on the 2023-2024 Year"}
-        tags={["Yearly Recap", "Blueprint"]} // Render at most 2 tags (21 total characters or less including spaces)
-        time_posted={"24 May 2024"}
-        description={
-          "As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year. As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year. As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year. As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year."
-        }
-        redirect_url={"../blog/yearEnd2024.html"}
-      />
+      <comp.Blog.Hero featured_post={featured_post} />
       <main className="max-w-4xl mx-auto p-4">
         <div className="grid grid-cols-3 gap-4">
           {/* 'posts' is currently a static string array that matches the filenames in blogs/ folder. Needs to be dynamic. See utility/searchResults.js for more info */}

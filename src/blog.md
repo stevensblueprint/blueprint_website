@@ -1,22 +1,19 @@
 ---
 title: Stevens Blueprint
 layout: _layouts/Blog.jsx
-headline: Stevens Blueprint Blog
-description: Keep up with our student run organization's latest accomplishments and mishaps.
+featured_post:
+  title: Reflecting on the 2023-2024 School Year
+  date_posted: May 24, 2021
+  image_url: ../assets/blog/featured_post.jpg
+  tags:
+    - Reflection
+    - Blueprint
+  preview: |
+    Welcome to the Stevens Blueprint Blog! Here, you can find posts about our projects, events, and more. We hope you enjoy reading our blog! This is the content needed to fill three lines
+    Make sure that you're featured post occupies this much space.
+  redirect_url: /assets/
 posts:
   - example1
   - example2
   - example3
 ---
-
-<!-- title: Stevens Blueprint
-layout: _layouts/Placeholder.jsx
-headline: Under Construction!
-description: This page is being worked on, please check back in soon.
- -->
-
-Blog page to learn more about Stevens Blueprint and what we do
-
-## Section
-
-Learn more about us! -->
