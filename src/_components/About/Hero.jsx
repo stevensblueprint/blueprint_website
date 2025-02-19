@@ -7,12 +7,12 @@ export default function Hero({ comp }) {
         <h1 className="font-bold text-4xl lg:text-5xl leading-snug md:leading-[1.3] tracking-wide mb-4 md:mb-6 lg:mb-16">
           About Us
         </h1>
-        <p className="text-lg md:text-xl lg:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14 text-left">
+        <p className="text-lg md:text-xl lg:text-2xl leading-snug md:leading-[1.3] mb-6 md:mb-10 lg:mb-14">
           We are the Stevens Institute of Technology chapter of Blueprint that
           develops pro-bono software for non-profit organizations and promotes
           tech for social good.
         </p>
-        <div className="flex flex-col md:flex-row md:justify-center lg:justify-start space-y-4 md:space-y-0 md:space-x-6">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
           <comp.HeroButton
             text="Follow our Instagram"
             redirect_url="https://instagram.com/stevensblueprint"
