@@ -19,10 +19,10 @@ export default ({ comp, featured_post, posts }) => (
           {/* 'posts' is currently a static string array that matches the filenames in blogs/ folder. Needs to be dynamic. See utility/searchResults.js for more info */}
           {posts.map((post) => (
             <comp.Blog.BlogCard
-              name_post={post.name_post}
+              name_post={post.title}
               image_url={post.image}
               date={post.date}
-              project_tag={post.tag}
+              project_tag={post.tags}
             />
           ))}
         </div>
