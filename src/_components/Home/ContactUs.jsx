@@ -1,13 +1,9 @@
 export default ({ comp, title }) => {
   return (
     <section className="text-black flex lg:flex-row flex-col justify-between items-center md:max-w-[1440px] mx-auto gap-8 py-16 px-10">
-      <div className="">
-        <h3 className="lg:text-5xl text-4xl text-center lg:text-left mb-4 font-bold">
-          Contact Us
-        </h3>
-        <p className="text-2xl text-center lg:text-left">
-          Feel free to reach out to us via...
-        </p>
+      <div className="w-full">
+        <h3 className="lg:text-5xl text-4xl mb-4 font-bold">Contact Us</h3>
+        <p className="text-2xl">Feel free to reach out to us via...</p>
       </div>
       <div className="flex flex-col md:flex-row items-center gap-x-6 gap-y-2">
         <comp.Button
