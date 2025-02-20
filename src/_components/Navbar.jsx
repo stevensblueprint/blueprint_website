@@ -17,7 +17,7 @@ export default function NavigationBar({ alternate }) {
     <nav
       className={`relative flex items-center justify-between px-6 lg:p-6 p-10 ${alternate ? "bg-white" : "bg-primary"} z-50`}
     >
-      <a href="/" className="flex items-center">
+      <a href="/" className="flex items-center lg:pl-24">
         <img
           src={alternate ? logoPrimary : logoNegative}
           alt="Blueprint Logo"
