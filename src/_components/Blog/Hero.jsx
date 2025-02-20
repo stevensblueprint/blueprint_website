@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero({ comp, featured_post }) {
   return (
-    <section className="grow flex flex-col min-h-[700px] lg:flex-row lg:items-center overflow-hidden px-6 md:px-12 lg:px-32">
+    <section className="grow flex flex-col min-h-[600px] lg:flex-row lg:items-center overflow-hidden px-6 md:px-12 lg:px-32">
       <div className="py-8 md:py-16 lg:py-0 w-full lg:w-1/2 lg:pr-20">
         <h1 className="font-bold text-primary text-3xl lg:text-5xl leading-snug md:leading-[1.3] tracking-wide mb-4 md:mb-6 lg:mb-16">
           Stevens Blueprint Blog
@@ -13,7 +13,9 @@ export default function Hero({ comp, featured_post }) {
             src="../assets/vector/clock.svg"
             alt="Clock"
           />
-          <p className="text-base font-normal px-2">{featured_post.date_posted}</p>
+          <p className="text-base font-normal px-2">
+            {featured_post.date_posted}
+          </p>
           <div className="flex gap-1 content-center">
             {featured_post.tags.map((tag) => (
               <div
