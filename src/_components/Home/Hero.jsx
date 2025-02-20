@@ -12,15 +12,15 @@ export default function Hero({ comp }) {
       <div className="hidden w-full md:flex md:items-center md:justify-start">
         <img src="../../assets/vector/gear.svg" alt="gear" className="pt-24" />
       </div>
-      <div className="flex flex-col w-full items-center justify-center text-center">
-        <h1 className="font-bold text-3xl xs:text-6xl md:text-5xl tracking-wide mb-4 md:mb-16">
+      <div className="flex flex-col w-full items-center justify-center lg:text-center">
+        <h1 className="font-bold text-4xl w-full lg:text-5xl tracking-wide mb-4 md:mb-16">
           Tech for Social Good
         </h1>
-        <p className="text-md xs:text-2xl md:text-2xl mb-4 md:mb-14">
+        <p className="text-lg md:text-xl lg:text-2xl mb-4 md:mb-14">
           We're a team of students from Stevens Institute of Technology that
           provides technical solutions for non-profit organizations.
         </p>
-        <div className="flex space-x-2 md:space-x-4 pb-4">
+        <div className="flex space-x-2 md:space-x-4 pb-4 w-full lg:w-auto">
           {heroButtons.map((button) => {
             return (
               <comp.HeroButton text={button.text} redirect_url={button.url} />
