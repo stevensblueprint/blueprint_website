@@ -21,7 +21,7 @@ export default function Hero({ comp }) {
           <comp.HeroButton text="See our projects" redirect_url="/projects" />
         </div>
       </div>
-      <div className="flex w-full lg:w-1/2 justify-center p-2 sm:p-16">
+      <div className="flex w-full lg:w-1/2 justify-center p-2 sm:p-16 max-w-[600px] max-h-[600px]">
         <img
           src="/assets/photos/stock_photo.png"
           alt="A photo of Blueprint members hard at work"

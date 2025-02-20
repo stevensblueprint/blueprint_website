@@ -40,9 +40,8 @@
     "npm:meriyah@6.0.3": "6.0.3",
     "npm:postcss-import@16.1.0": "16.1.0_postcss@8.4.49",
     "npm:postcss@8.4.49": "8.4.49",
-    "npm:prettier-plugin-tailwindcss@~0.6.8": "0.6.10_prettier@3.4.2",
-    "npm:prettier@3.4.2": "3.4.2",
-    "npm:prettier@^3.2.5": "3.4.2",
+    "npm:prettier-plugin-tailwindcss@~0.6.8": "0.6.11_prettier@3.5.0",
+    "npm:prettier@^3.5.0": "3.5.0",
     "npm:react-dom@18.3.1": "18.3.1_react@18.3.1",
     "npm:react@*": "18.3.1",
     "npm:react@18.3.1": "18.3.1",
@@ -789,14 +788,14 @@
         "source-map-js"
       ]
     },
-    "prettier-plugin-tailwindcss@0.6.10_prettier@3.4.2": {
-      "integrity": "sha512-ndj2WLDaMzACnr1gAYZiZZLs5ZdOeBYgOsbBmHj3nvW/6q8h8PymsXiEnKvj/9qgCCAoHyvLOisoQdIcsDvIgw==",
+    "prettier-plugin-tailwindcss@0.6.11_prettier@3.5.0": {
+      "integrity": "sha512-YxaYSIvZPAqhrrEpRtonnrXdghZg1irNg4qrjboCXrpybLWVs55cW2N3juhspVJiO0JBvYJT8SYsJpc8OQSnsA==",
       "dependencies": [
         "prettier"
       ]
     },
-    "prettier@3.4.2": {
-      "integrity": "sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ=="
+    "prettier@3.5.0": {
+      "integrity": "sha512-quyMrVt6svPS7CjQ9gKb3GLEX/rl3BCL2oa/QkNcXv4YNVBC9olt3s+H7ukto06q7B1Qz46PbrKLO34PR6vXcA=="
     },
     "punycode.js@2.3.1": {
       "integrity": "sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA=="
@@ -1378,7 +1377,7 @@
     "packageJson": {
       "dependencies": [
         "npm:prettier-plugin-tailwindcss@~0.6.8",
-        "npm:prettier@^3.2.5"
+        "npm:prettier@^3.5.0"
       ]
     }
   }
