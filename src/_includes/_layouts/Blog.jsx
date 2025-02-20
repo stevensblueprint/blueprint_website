@@ -12,7 +12,7 @@ export default ({ comp, featured_post, posts }) => (
       <title>Stevens Blueprint Blog</title>
     </head>
     <body>
-      <comp.Navbar />
+      <comp.Navbar alternate={true}/>
       <comp.Blog.Hero featured_post={featured_post} />
       <main className="max-w-4xl mx-auto p-4">
         <div className="grid grid-cols-3 gap-4">
