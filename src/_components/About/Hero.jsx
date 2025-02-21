@@ -21,10 +21,10 @@ export default function Hero({ comp }) {
           <comp.HeroButton text="See our projects" redirect_url="/projects" />
         </div>
       </div>
-      <div className="flex grow w-full lg:w-1/2 justify-center pb-8 md:pb-12">
-        <image
-          src="/assets/events/google_event_1_cropped.jpg"
-          alt="A photo of Blueprint members at a Google Event in New York City"
+      <div className="flex w-full lg:w-1/2 justify-center p-2 sm:p-16 max-w-[600px] max-h-[600px]">
+        <img
+          src="/assets/photos/stock_photo.png"
+          alt="A photo of Blueprint members hard at work"
           className="rounded-2xl w-full h-auto object-cover"
         />
       </div>
