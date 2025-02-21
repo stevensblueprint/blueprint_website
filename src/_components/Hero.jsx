@@ -15,7 +15,7 @@ export default function Hero({ comp, title, descr, button1, button2, image }) {
           <comp.HeroButton text={button2.text} redirect_url={button2.url} />
         </div>
       </div>
-      <div className="flex w-full lg:w-1/2 justify-center p-2 sm:p-16 lg:max-w-[600px] lg:max-h-[600px]">
+      <div className="flex sm:w-full lg:w-3/4 justify-center p-2 sm:p-16 lg:max-w-[600px] lg:max-h-[600px]">
         <img
           src={image.src}
           alt={image.alt}
