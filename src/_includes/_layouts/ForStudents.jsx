@@ -10,7 +10,21 @@ export default ({ comp, faqs, timelineContent }) => (
     </head>
     <body>
       <comp.Navbar />
-      <comp.ForStudents.Hero />
+      <comp.Hero
+        title="Student Opportunities"
+        descr="We're proud of the diverse membership here at Blueprint. Join us and
+          make an impact with our opportunities in product design, project
+          management, or software development!"
+        button1={{
+          text: "Email Us",
+          url: "mailto:sit.blueprint@gmail.com",
+        }}
+        button2={{ text: "See Our Projects", url: "/projects" }}
+        image={{
+          src: "../../assets/vector/student_hero.svg",
+          alt: "student",
+        }}
+      />
       <h1 className="font-bold text-4xl lg:text-5xl flex flex-col items-center justify-center pt-16 lg:pt-24 gap-y-6">
         Our Teams
       </h1>

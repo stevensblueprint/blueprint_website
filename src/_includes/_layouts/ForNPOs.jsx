@@ -17,7 +17,20 @@ export default ({
     <body>
       <>
         <comp.Navbar />
-        <comp.ForNPOs.Hero />
+        <comp.Hero
+          title="Non-Profit Organizations"
+          descr="We are passionate about leveraging our technical and consulting skills
+          to support your organization’s mission, free of charge!"
+          button1={{
+            text: "Email Us",
+            url: "mailto:sit.blueprint@gmail.com",
+          }}
+          button2={{ text: "See Our Projects", url: "/projects" }}
+          image={{
+            src: "../../assets/vector/hands.svg",
+            alt: "hands",
+          }}
+        />
         <comp.ForNPOs.ProjectTimeline projectTimeline={projectTimeline} />
         <comp.ForNPOs.ProjectCriteria
           projectCriteria={projectCriteria}
