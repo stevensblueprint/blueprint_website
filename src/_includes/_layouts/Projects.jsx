@@ -14,7 +14,21 @@ export default ({ comp, projects }) => (
     <body>
       <div>
         <comp.Navbar />
-        <comp.Projects.Hero />
+        <comp.Hero
+          title="Projects"
+          description="All of our work is open source to maintain transparency and
+          accessiblity. We believe in the importance of building technology that
+          connects and gives back to the community."
+          button1={{
+            text: "View Our Github",
+            url: "https://github.com/stevensblueprint/",
+          }}
+          button2={{ text: "Work With Us", url: "/students" }}
+          image={{
+            src: "/assets/clip_art/ProjectHeroIcon.svg",
+            alt: "projects-banner-image",
+          }}
+        />
         <comp.Projects.Interested />
         <comp.Projects.Gallery projects={projects} />
         <comp.Footer />

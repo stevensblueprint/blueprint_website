@@ -14,7 +14,22 @@ export default ({ comp, values, team }) => (
     <body>
       <div>
         <comp.Navbar />
-        <comp.About.Hero />
+        <comp.Hero
+          title="About Us"
+          description="We are the Stevens Institute of Technology chapter of Blueprint that
+          develops pro-bono software for non-profit organizations and promotes
+          tech for social good."
+          button1={{
+            text: "Follow our Instagram",
+            url: "https://instagram.com/stevensblueprint",
+          }}
+          button2={{ text: "See Our Projects", url: "/projects" }}
+          image={{
+            src: "/assets/photos/stock_photo.png",
+            alt: "A photo of Blueprint members hard at work",
+            className: "rounded-2xl w-full h-auto object-cover",
+          }}
+        />
         <comp.About.Mission />
         <comp.About.Values values={values} />
         <comp.About.Sponsors />
