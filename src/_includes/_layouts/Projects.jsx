@@ -16,7 +16,7 @@ export default ({ comp, projects }) => (
         <comp.Navbar />
         <comp.Hero
           title="Projects"
-          descr="All of our work is open source to maintain transparency and
+          description="All of our work is open source to maintain transparency and
           accessiblity. We believe in the importance of building technology that
           connects and gives back to the community."
           button1={{

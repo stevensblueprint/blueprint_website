@@ -12,7 +12,7 @@ export default ({ comp, faqs, timelineContent }) => (
       <comp.Navbar />
       <comp.Hero
         title="Student Opportunities"
-        descr="We're proud of the diverse membership here at Blueprint. Join us and
+        description="We're proud of the diverse membership here at Blueprint. Join us and
           make an impact with our opportunities in product design, project
           management, or software development!"
         button1={{
@@ -21,7 +21,7 @@ export default ({ comp, faqs, timelineContent }) => (
         }}
         button2={{ text: "See Our Projects", url: "/projects" }}
         image={{
-          src: "../../assets/vector/student_hero.svg",
+          src: "/assets/vector/student_hero.svg",
           alt: "student",
         }}
       />
