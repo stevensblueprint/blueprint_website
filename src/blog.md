@@ -4,7 +4,7 @@ layout: _layouts/Blog.jsx
 featured_post:
   title: The Founding of Stevens Blueprint
   date_posted: February 19, 2025
-  image_url: ../assets/events/students_hero.jpg
+  image_url: ../assets/photos/blueprint_blog.jpg
   tags:
     - General
   preview: |
@@ -15,7 +15,6 @@ posts: # FIXME: Is this the best way to do this? Ideally we can read from the bl
   - example1:
       title: example1
       date_posted: May 24, 2021
-      image_url: ../assets/blog/featured_post.jpg
       tags:
         - Reflection
         - Blueprint
@@ -26,7 +25,6 @@ posts: # FIXME: Is this the best way to do this? Ideally we can read from the bl
   - example2:
       title: example2
       date_posted: May 24, 2021
-      image_url: ../assets/blog/featured_post.jpg
       tags:
         - Reflection
         - Blueprint
@@ -37,7 +35,6 @@ posts: # FIXME: Is this the best way to do this? Ideally we can read from the bl
   - example3:
       title: example3
       date_posted: May 24, 2021
-      image_url: ../assets/blog/featured_post.jpg
       tags:
         - Reflection
         - Blueprint
