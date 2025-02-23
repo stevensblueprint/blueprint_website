@@ -9,7 +9,7 @@ export default function HeroButton({
   const target = openInNewTab ? "_blank" : "";
   return (
     <a
-      className="text-xs sm:min-w-[191px] md:text-base text-center py-1 md:py-2 px-3 md:px-4 rounded-md border bg-white text-primary font-semibold inline-flex items-center justify-center hover:bg-primary hover:text-white transition-all"
+      className="sm:min-w-[191px] text-lg text-center py-2 md:py-2 px-3 md:px-4 rounded-md border bg-white text-primary font-semibold inline-flex items-center justify-center hover:bg-primary hover:text-white transition-all active:scale-95"
       href={redirect_url}
       target={target}
       download={download}
