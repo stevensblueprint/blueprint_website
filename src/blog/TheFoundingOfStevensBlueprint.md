@@ -10,8 +10,4 @@ tags:
 
 # The Founding of Stevens Blueprint
 
-<<<<<<< HEAD
 This is the content of the blog post. It can be as long as you want it to be. You can include images, videos, and other media in your blog post. You can also include links to other pages on the website or external websites.
-=======
-This is the content of the blog post. It can be as long as you want it to be. You can include images, videos, and other media in your blog post. You can also include links to other pages on the website or external websites.
->>>>>>> e7e69b5 (created alternate navbar for blog pages)
