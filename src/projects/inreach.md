@@ -11,7 +11,7 @@ projectDescription: |
   Our project consisted of a website revamp for InReach to improve volunteer accessibility and site performance. The new site leverages Next.js for faster load speeds and a seamless user experience. Another critical focus for the project was the implementation of a user-friendly content management system (CMS), enabling volunteers to easily update site content without technical expertise. By replacing the organizations existing WordPress site, the new platform aims to enhance maintainability, optimize performance, and ensure InReach can efficiently share resources with their community.
 tools: |
   TinaCMS, Vercel, React, Next.js
-members: 
+members:
   - name: Justin Ferber
     role: Technical Lead
   - name: Lucas Ha

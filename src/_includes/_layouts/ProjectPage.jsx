@@ -6,7 +6,7 @@ export default ({
   npoDescription,
   projectDescription,
   tools,
-  members
+  members,
 }) => (
   <html>
     <head>
@@ -60,19 +60,24 @@ export default ({
               <span className="sr-only">Github</span>
             </a>
           </div>
-          {members &&
+          {members && (
             <div className="w-full max-w-2xl mx-auto p-4">
-              <p className="text-2xl font-bold text-center">Special thanks to the students who worked on this project!</p>
+              <p className="text-2xl font-bold text-center">
+                Special thanks to the students who worked on this project!
+              </p>
               <div className="w-full flex flex-col gap-3 p-4 items-center">
                 {members.map((member, index) => (
-                  <div className="grid grid-cols-2 place-items-center w-full max-w-lg" key={index}>
+                  <div
+                    className="grid grid-cols-2 place-items-center w-full max-w-lg"
+                    key={index}
+                  >
                     <p>{member.name}</p>
                     <p>{member.role}</p>
                   </div>
                 ))}
               </div>
             </div>
-          }
+          )}
         </div>
         <comp.Footer />
       </div>
