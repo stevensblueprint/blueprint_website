@@ -6,11 +6,16 @@ export default ({
   npoDescription,
   projectDescription,
   tools,
+  members
 }) => (
   <html>
     <head>
       <link rel="stylesheet" href="/styles.css" />
       <title>{npoName}</title>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+      ></meta>
     </head>
     <body>
       <div>
@@ -32,7 +37,7 @@ export default ({
           <div className="w-full max-w-2xl mx-auto p-4">
             <p className="line-clamp-6">{npoDescription}</p>
             <h1 className="text-2xl pt-7 font-bold">Project</h1>
-            <p className="line-clamp-6">{projectDescription}</p>
+            <p>{projectDescription}</p>
             <h1 className="text-2xl pt-7 font-bold">Tools</h1>
             <p className="line-clamp-6">{tools}</p>
           </div>
@@ -55,6 +60,19 @@ export default ({
               <span className="sr-only">Github</span>
             </a>
           </div>
+          {members &&
+            <div className="w-full max-w-2xl mx-auto p-4">
+              <p className="text-2xl font-bold text-center">Special thanks to the students who worked on this project!</p>
+              <div className="w-full flex flex-col gap-3 p-4 items-center">
+                {members.map((member, index) => (
+                  <div className="grid grid-cols-2 place-items-center w-full max-w-lg" key={index}>
+                    <p>{member.name}</p>
+                    <p>{member.role}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          }
         </div>
         <comp.Footer />
       </div>
