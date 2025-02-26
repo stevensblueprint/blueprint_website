@@ -1,7 +1,6 @@
 ---
 url: /blog/example1.html
 title: First Post
-layout: _layouts/Post.jsx
 headline: Stevens Blueprint Blog Headline
 description: Learn more about Blueprint's History!
 author: Shawn Aviles

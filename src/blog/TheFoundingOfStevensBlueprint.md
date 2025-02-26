@@ -1,7 +1,6 @@
 ---
 url: /blog/the-founding-of-stevens-blueprint
 title: The Founding of Stevens Blueprint
-layout: _layouts/Post.jsx
 author: Christian Apostol
 date: 2025-02-19
 tags:

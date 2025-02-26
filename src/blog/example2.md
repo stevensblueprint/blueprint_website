@@ -1,7 +1,6 @@
 ---
 url: /blog/example2.html
 title: Second Post
-layout: _layouts/Post.jsx
 headline: Blog Headline 2
 description: Learn more about Blueprint's History!
 author: Shawn Aviles

@@ -1,7 +1,6 @@
 ---
 url: /blog/example3.html
 title: Third Post
-layout: _layouts/Post.jsx
 headline: Blog Headline 2
 description: Example blog post
 author: Shawn Aviles

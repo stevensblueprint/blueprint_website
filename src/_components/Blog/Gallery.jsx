@@ -1,6 +1,6 @@
 export default function Gallery({ comp, posts }) {
   return (
-    <section className="flex flex-col items-center justify-center px-6 md:px-12 lg:px-32">
+    <section className="flex flex-col items-center justify-center px-6 md:px-12 lg:px-32 py-8">
       {posts.map((post) => {
         return (
           <div className="flex flex-col bg-white p-4 m-4 rounded-md shadow-lg w-full">
