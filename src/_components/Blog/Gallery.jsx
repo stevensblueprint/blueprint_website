@@ -5,7 +5,7 @@ export default function Gallery({ comp, posts }) {
         return (
           <div className="flex flex-col bg-white p-4 m-4 rounded-md shadow-lg w-full">
             <a href={post.redirect_url}>
-              <h2 className="text-3xl font-bold text-primary hover:text-secondary pb-2 truncate">
+              <h2 className="text-2xl sm:text-4xl font-bold text-primary hover:text-secondary pb-2">
                 {post.title}
               </h2>
             </a>
@@ -14,7 +14,7 @@ export default function Gallery({ comp, posts }) {
                 {post.tags.map((tag) => (
                   <div
                     key={tag}
-                    className="bg-primary rounded-md px-3 text-sm font-semibold text-white text-center truncate"
+                    className="bg-primary rounded-md px-3 text-sm font-semibold text-white text-center"
                   >
                     {tag}
                   </div>
@@ -22,11 +22,11 @@ export default function Gallery({ comp, posts }) {
               </div>
               <p className="pl-2">{post.date_posted}</p>
             </div>
-            <p className="text-xl overflow-hidden text-ellipsis">
+            <p className="text-lg sm:text-xl overflow-hidden py-4 text-ellipsis">
               {post.preview}
             </p>
             <a href={post.redirect_url}>
-              <p className="text-xl text-primary underline hover:text-secondary hover:no-underline">
+              <p className="text-lg sm:text-xl text-primary underline hover:text-secondary hover:no-underline">
                 Continue Reading →
               </p>
             </a>
