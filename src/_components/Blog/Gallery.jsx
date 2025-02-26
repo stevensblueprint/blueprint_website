@@ -1,10 +1,12 @@
-export default function Gallery({ comp, posts }) {
+export default function Gallery({ search }) {
+  const posts = search.pages("type=post");
+
   return (
     <section className="flex flex-col items-center justify-center px-6 md:px-12 lg:px-32 py-8">
       {posts.map((post) => {
         return (
           <div className="flex flex-col bg-white p-4 m-4 rounded-md shadow-lg w-full">
-            <a href={post.redirect_url}>
+            <a href={post.url}>
               <h2 className="text-2xl sm:text-4xl font-bold text-primary hover:text-secondary pb-2">
                 {post.title}
               </h2>

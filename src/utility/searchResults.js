@@ -7,7 +7,7 @@ import site from "../../_config.ts";
 
 // Function to perform the search and return results.
 function getBlogSearchResults() {
-  const searchResults = site.searcher.pages({ type: "blog" });
+  const searchResults = site.searcher.pages({ type: "post" });
   return searchResults.map((page) => ({
     url: page.data.url,
     title: page.data.title,
