@@ -1,5 +1,12 @@
 export default function Gallery({ search }) {
-  const posts = search.pages("type=post");
+  const posts = search.pages("type=post").map((post) => ({
+    url: post.url,
+    title: post.title,
+    tags: post.tags,
+    date: new Date(post.date).toLocaleDateString(),
+    preview: post.preview,
+    author: post.author,
+  }));
 
   return (
     <section className="flex flex-col items-center justify-center px-6 md:px-12 lg:px-32 py-8">
@@ -22,7 +29,7 @@ export default function Gallery({ search }) {
                   </div>
                 ))}
               </div>
-              <p className="pl-2">{post.date_posted}</p>
+              <p className="pl-2">{post.date}</p>
             </div>
             <p className="text-lg sm:text-xl overflow-hidden py-4 text-ellipsis">
               {post.preview}
