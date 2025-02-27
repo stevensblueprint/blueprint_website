@@ -1,8 +1,7 @@
 ---
 url: /blog/yearEnd2024.html
 title: Reflecting on the 2023-2024 Year
-headline: Stevens Blueprint Blog Headline
-description: As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year.
+preview: As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year.
 author: Alexis Emerson
 date: 2024-05-24
 tags:
