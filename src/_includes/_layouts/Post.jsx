@@ -34,7 +34,7 @@ export default ({ title, author, date, tags, comp, children }) => (
             {children}
             <a href="/blog">
               <div className="text-primary underline hover:text-secondary hover:no-underline">
-                ← Back to Blog
+                ← View Other Posts
               </div>
             </a>
           </article>
