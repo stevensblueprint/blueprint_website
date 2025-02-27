@@ -13,7 +13,7 @@ export default function Gallery({ search }) {
     .sort((a, b) => b.dateObj - a.dateObj); // Sort by date in descending order
 
   return (
-    <section className="flex flex-col items-center justify-center px-6 md:px-12 lg:px-32 py-8 bg-gray-50">
+    <section className="flex flex-col items-center justify-center px-6 md:px-12 lg:px-32 py-8 bg-gray-100">
       <h1 className="text-4xl lg:text-5xl font-bold pb-4">Posts</h1>
       {posts.map((post) => {
         return (
@@ -39,7 +39,7 @@ export default function Gallery({ search }) {
             <p className="text-lg sm:text-xl overflow-hidden py-4 text-ellipsis">
               {post.preview}
             </p>
-            <a href={post.redirect_url}>
+            <a href={post.url}>
               <p className="text-lg sm:text-xl text-primary underline hover:text-secondary hover:no-underline">
                 Continue Reading →
               </p>

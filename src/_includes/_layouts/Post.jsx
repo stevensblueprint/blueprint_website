@@ -32,6 +32,11 @@ export default ({ title, author, date, tags, comp, children }) => (
               </div>
             </header>
             {children}
+            <a href="/blog">
+              <div className="text-primary underline hover:text-secondary hover:no-underline">
+                ← Back to Blog
+              </div>
+            </a>
           </article>
         </main>
         <comp.Footer />
