@@ -1,12 +1,16 @@
 export default function Gallery({ search }) {
-  const posts = search.pages("type=post").map((post) => ({
-    url: post.url,
-    title: post.title,
-    tags: post.tags,
-    date: new Date(post.date).toLocaleDateString(),
-    preview: post.preview,
-    author: post.author,
-  }));
+  const posts = search
+    .pages("type=post")
+    .map((post) => ({
+      url: post.url,
+      title: post.title,
+      tags: post.tags,
+      date: new Date(post.date).toLocaleDateString(),
+      preview: post.preview,
+      author: post.author,
+      dateObj: new Date(post.date), // Add a date object for sorting
+    }))
+    .sort((a, b) => b.dateObj - a.dateObj); // Sort by date in descending order
 
   return (
     <section className="flex flex-col items-center justify-center px-6 md:px-12 lg:px-32 py-8 bg-gray-50">
