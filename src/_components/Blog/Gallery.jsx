@@ -9,7 +9,8 @@ export default function Gallery({ search }) {
   }));
 
   return (
-    <section className="flex flex-col items-center justify-center px-6 md:px-12 lg:px-32 py-8">
+    <section className="flex flex-col items-center justify-center px-6 md:px-12 lg:px-32 py-8 bg-gray-50">
+      <h1 className="text-4xl lg:text-5xl font-bold pb-4">Posts</h1>
       {posts.map((post) => {
         return (
           <div className="flex flex-col bg-white p-4 m-4 rounded-md shadow-lg w-full">
