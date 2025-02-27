@@ -15,9 +15,9 @@ const logoPrimary = "/assets/logos/logo_banner.png";
 export default function NavigationBar({ alternate }) {
   return (
     <nav
-      className={`relative flex items-center justify-between px-6 lg:p-6 p-10 ${alternate ? "bg-white" : "bg-primary"} z-50`}
+      className={`relative flex items-center justify-between px-6 py-2 lg:p-10 bg-primary z-50 border-b ${alternate ? "bg-white border-primary" : "bg-primary  border-white"}`}
     >
-      <a href="/" className="flex items-center lg:pl-24">
+      <a href="/">
         <img
           src={alternate ? logoPrimary : logoNegative}
           alt="Blueprint Logo"
@@ -98,7 +98,7 @@ function renderMobileNavigationLinks(alternate) {
 function renderHamburgerIcon(alternate) {
   return (
     <svg
-      className={`w-12 h-12 ${alternate ? "text-primary" : "text-white"}`}
+      className={`w-10 h-10 ${alternate ? "text-primary" : "text-white"}`}
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
