@@ -44,11 +44,11 @@ export default function Hero({ comp, featured_post }) {
           />
         </div>
       </div>
-      <div className="flex grow w-full lg:w-1/2 justify-center pb-8 md:pb-12">
+      <div className="flex grow w-full lg:w-1/2 justify-center">
         <image
           src={featured_post.image_url}
           alt={`${featured_post.title} Image`}
-          className="rounded-2xl w-full h-auto object-cover"
+          className="rounded-2xl w-full object-cover"
         />
       </div>
     </section>

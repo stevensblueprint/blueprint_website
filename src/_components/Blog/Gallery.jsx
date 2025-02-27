@@ -1,6 +1,6 @@
 export default function Gallery({ search }) {
   const posts = search
-    .pages("type=post")
+    .pages("type=post") // the _data.yml file in the src/blog directory identifies all the blogs as `type: post`
     .map((post) => ({
       url: post.url,
       title: post.title,

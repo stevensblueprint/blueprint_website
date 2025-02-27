@@ -15,6 +15,7 @@ Stevens Blueprint, a student club organization dedicated to developing code for 
 - [Contributors](#contributors)
   - [Setup for contributors](#setup-for-contributors)
   - [For Project Teams Updating their Project Page](#for-project-teams-updating-their-project-page)
+- [Resources](#resources)
 
 ## About
 
@@ -131,3 +132,8 @@ The content of the project description is all contained within a markdown file
 - In `src/projects` create a new markdown file with the non-profit's name. Make the file name all lowercase and use hyphens "-" instead of spaces or underscores
 - Add the following fields to your project: (title, layout, url, project_title, project_logo_url, github_repository_url)
 - Fill in the above fields (refer to current projects for help)
+
+# Resources
+
+- [Lume Search and Pagination Plugin](https://lume.land/docs/core/searching/#searching-pages)
+- [Lume Blog Example](https://lume.land/blog/)
