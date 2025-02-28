@@ -1,20 +1,15 @@
 ---
-url: /blog/example2.html
-title: Second Post
-layout: _layouts/Post.jsx
-headline: Blog Headline 2
-description: Learn more about Blueprint's History!
-author: Shawn Aviles
-date: 2024-02-10
+url: /blog/static-site-generation-with-lume-and-deno.html
+title: Static Website Generation with Lume and Deno
+preview: |
+  Welcome to the Stevens Blueprint Blog! Here, you can find posts about our projects, events, and more. We hope you enjoy reading our blog! This is the content needed to fill three lines Make sure that you're featured post occupies this much space.
+author: Christian Apostol
+date: 2024-02-15
 tags:
-  - projects
-  - learn
-  - blog
+  - Technology
 ---
 
-Wow this is the SECOND ever blog post. Very Exciting
-
-## Setion Header
+## Section Header
 
 This is some content for the blog, yay. This is some content for the blog, yay. This is some content for the blog, yay. This is some content for the blog, yay. This is some content for the blog, yay. This is some content for the blog, yay.
 

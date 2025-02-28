@@ -1,22 +1,14 @@
 ---
 title: Stevens Blueprint
 layout: _layouts/Blog.jsx
-headline: Stevens Blueprint Blog
-description: Keep up with our student run organization's latest accomplishments and mishaps.
-posts:
-  - example1
-  - example2
-  - example3
+featured_post:
+  title: The Founding of Stevens Blueprint
+  date_posted: February 19, 2025
+  image_url: ../assets/photos/blueprint_blog.jpg
+  tags:
+    - General
+  preview: |
+    Welcome to the Stevens Blueprint Blog! Here, you can find posts about our projects, events, and more. We hope you enjoy reading our blog! This is the content needed to fill three lines
+    Make sure that you're featured post occupies this much space.
+  redirect_url: /blog/the-founding-of-stevens-blueprint.html
 ---
-
-<!-- title: Stevens Blueprint
-layout: _layouts/Placeholder.jsx
-headline: Under Construction!
-description: This page is being worked on, please check back in soon.
- -->
-
-Blog page to learn more about Stevens Blueprint and what we do
-
-## Section
-
-Learn more about us! -->

@@ -14,6 +14,8 @@ Stevens Blueprint, a student club organization dedicated to developing code for 
   - [Technologies Used](#technologies-used)
 - [Contributors](#contributors)
   - [Setup for contributors](#setup-for-contributors)
+  - [For Project Teams Updating their Project Page](#for-project-teams-updating-their-project-page)
+- [Resources](#resources)
 
 ## About
 
@@ -26,6 +28,32 @@ On the [Projects] page, you can explore the various software projects we've been
 ## Blog
 
 Our [Blog] is where we share our experiences, insights, and updates about our work with non-profit organizations. Stay informed about the latest news, events, and project highlights by visiting this section regularly. We encourage club members to contribute to the blog and share their knowledge and experiences.
+
+To create a new blog post, follow these steps:
+
+1. Create a branch called `blog/{title-of-the-post}` and switch to that branch.
+2. Create a new markdown file in the `src/blog` directory.
+3. Name the file using the following format: `title-of-the-post.md`
+4. Add the following metadata to the top of the markdown file
+
+```markdown
+---
+url: /blog/title-of-the-post.html
+title: Title Of The Post
+preview: |
+  This preview section is what is shown on the main "Blog" page. It should be a brief summary of the post. We have not decided on a character limit yet, but it should be consistent with the other posts on the page so that it does not look too strange. The recommended length would
+  be 3 full lines of text. So what is written here in these docs is a good target point of what you should be writing.
+author: Author Name (For Example: "Christian Apostol")
+date: YYYY-MM-DD (For Example: "2024-02-15", if the date is not in this format it will error out)
+tags: 
+  - Technology
+---
+```
+
+**Notes: Standard tags include "Technology", "Design", "Product", "General". The tag options may change. In the future we hope to implement a feature that allows users to filter blog posts based on the tags. [EXAMPLE](https://lume.land/blog/archive/)**
+
+5. Add the content of the blog post as normal markdown. You can include images, code snippets, and other media in your blog post. You can also include links to other pages on the website or external websites. Images should be placed in the `src/assets/blog_photos` directory.
+6. Create a Pull Request and request the President, VP of Technology, and VP of Design to review your post. The Executive Board will review the post and provide feedback before merging it into the main branch.
 
 ## Technologies Used
 
@@ -104,3 +132,8 @@ The content of the project description is all contained within a markdown file
 - In `src/projects` create a new markdown file with the non-profit's name. Make the file name all lowercase and use hyphens "-" instead of spaces or underscores
 - Add the following fields to your project: (title, layout, url, project_title, project_logo_url, github_repository_url)
 - Fill in the above fields (refer to current projects for help)
+
+# Resources
+
+- [Lume Search and Pagination Plugin](https://lume.land/docs/core/searching/#searching-pages)
+- [Lume Blog Example](https://lume.land/blog/)

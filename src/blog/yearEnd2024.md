@@ -1,13 +1,11 @@
 ---
 url: /blog/yearEnd2024.html
 title: Reflecting on the 2023-2024 Year
-layout: _layouts/Post.jsx
-headline: Stevens Blueprint Blog Headline
-description: As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year.
+preview: As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year.
 author: Alexis Emerson
 date: 2024-05-24
 tags:
-  - Yearly Recap
+  - General
 ---
 
 As the spring semester comes to an end, we reflect on our work for the 2023-2024 school year. Our project teams partnered with Asian American Dream and NYC Mesh to do some really amazing things.
