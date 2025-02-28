@@ -32,10 +32,11 @@ export default ({ title, author, date, tags, comp, children }) => (
               </div>
             </header>
             {children}
-            <a href="/blog">
-              <div className="text-primary underline hover:text-secondary hover:no-underline">
-                ← View Other Posts
-              </div>
+            <a
+              href="/blog"
+              className="text-primary hover:text-secondary underline hover:no-underline"
+            >
+              <p>← View Other Posts</p>
             </a>
           </article>
         </main>
