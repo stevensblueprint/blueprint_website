@@ -20,7 +20,7 @@ export default ({ comp }) => (
             partnering with us means investing in the next generation of leaders. 
             Reach out to us today!"
           button1={{
-            text: "Partner With Us",
+            text: "Become A Sponsor",
             url: "mailto:sit.blueprint@gmail.com",
           }}
           button2={{ text: "See Our Projects", url: "/projects" }}
@@ -29,7 +29,7 @@ export default ({ comp }) => (
             alt: "A graphic showing a handshake between two people",
           }}
         />
-        <comp.ForStudents.StudentsProjectTeam />
+        <comp.Partners.Sponsors />
         <comp.Footer />
       </div>
     </body>
