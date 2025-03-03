@@ -16,7 +16,9 @@ export default ({ comp }) => (
         <comp.Navbar />
         <comp.Hero
           title="Partners"
-          description="Whether through sponsorships, joint events, or mentorship opportunities, partnering with us means investing in the next generation of leaders. Let’s work together to create meaningful impact—reach out to us today!"
+          description="Whether through sponsorships, recruiting events, or mentorship opportunities, 
+            partnering with us means investing in the next generation of leaders. 
+            Reach out to us today!"
           button1={{
             text: "Partner With Us",
             url: "mailto:sit.blueprint@gmail.com",
@@ -27,6 +29,7 @@ export default ({ comp }) => (
             alt: "A graphic showing a handshake between two people",
           }}
         />
+        <comp.ForStudents.StudentsProjectTeam />
         <comp.Footer />
       </div>
     </body>
