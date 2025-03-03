@@ -1,4 +1,4 @@
-export default ({ comp }) => (
+export default ({ comp, testimonial_inreach, testimonial_aad }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
@@ -29,7 +29,10 @@ export default ({ comp }) => (
             alt: "A graphic showing a handshake between two people",
           }}
         />
-        <comp.Partners.Sponsors />
+        <comp.Partners.Sponsors
+          testimonial_1={testimonial_aad}
+          testimonial_2={testimonial_inreach}
+        />
         <comp.Footer />
       </div>
     </body>
