@@ -5,7 +5,7 @@ export default function Testimonial({ testimonial, npo }) {
         <div className="relative bg-primary rounded-2xl md:min-w-[400px]">
           <p className="text-white py-7 px-8 italic">{testimonial}</p>
           <div className="-z-10 absolute left-12 sm:-bottom-14 -bottom-20 h-full w-full md:min-w-[350px] bg-sky-100 rounded-2xl">
-            <p className="absolute bottom-4 left-6 font-bold p-1">- {npo}</p>
+            <p className="absolute bottom-4 left-6 font-bold p-1 text-sm">- {npo}</p>
           </div>
         </div>
       </div>
