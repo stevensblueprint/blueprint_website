@@ -102,7 +102,7 @@ Thank you for wishing to contribute to our Chapter's Website! As stated [above](
      3. Now, inside VSCode open the terminal (In the Top Menu Bar press 'View' > 'Terminal'). You can now run the below command.
    - cloning via https:
 
-     `git clone https://github.com/stevensblueprint/blueprint_website.git`
+     `git clone https://github.com/stevensblueprint/nj-appleseed.git`
 
 3. We can run the project using the following command:
 
