@@ -2,7 +2,7 @@ export default function Testimonial({ testimonial, npo, padding = "left" }) {
   return (
     <div className="flex block sm:pt-8 pb-24 lg:pb-24 lg:w-1/2">
       <div
-        className={`pt-12 sm:pt-0 ${padding === "left" ? "sm:pl-24" : padding === "right" ? "sm:pr-24" : ""} w-[calc(100%-48px)] sm:w-3/4 min-h-60 self-center`}
+        className={`pt-12 sm:pt-0 ${padding === "left" ? "sm:pl-24" : padding === "right" ? "sm:pl-24 lg:pr-24" : ""} w-[calc(100%-48px)] sm:w-3/4 min-h-60 self-center`}
       >
         <div className="relative bg-primary rounded-2xl md:min-w-[400px]">
           <p className="text-white py-7 px-8 italic">{testimonial}</p>

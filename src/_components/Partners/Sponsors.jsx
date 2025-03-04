@@ -45,7 +45,7 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
               </li>
             </ul>
           </div>
-          <div className="order-1 lg:order-2">
+          <div className="lg:w-1/2 order-1 lg:order-2">
             <comp.Testimonial
               testimonial={testimonial_2.text}
               npo={testimonial_2.npo}
