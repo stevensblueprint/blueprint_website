@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
   return (
-    <section className="flex flex-col items-center w-full px-8 lg:px-40 py-4 sm:py-8">
+    <section className="flex flex-col items-center w-full px-8 lg:px-36 py-4 sm:py-8">
       <p className="text-lg lg:text-xl text-left sm:text-center w-full lg:w-3/5">
         We use free platforms like GitHub, BookStack, and Authelia to manage our
         operations and development. Your sponsorship can help us expand into
@@ -11,20 +11,23 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
       </p>
       <div className="flex flex-col w-full pt-8">
         <div className="flex flex-col lg:flex-row w-full">
-          <comp.Testimonial
-            testimonial={testimonial_1.text}
-            npo={testimonial_1.npo}
-            padding="right"
-          />
+          <div className="lg:w-1/2">
+            <comp.Testimonial
+              testimonial={testimonial_1.text}
+              npo={testimonial_1.npo}
+              padding="right"
+            />
+          </div>
           <div className="flex flex-col lg:w-1/2 lg:pl-12 mt-8">
             <h1 className="text-xl sm:text-3xl font-bold">Sponsor Benefits</h1>
-            <ul className="list-disc pl-5 text-left">
-              <li>Recognition on our website and project repositories</li>
-              <li>
-                Access to talented pool of student developers for recruitment
-              </li>
-              <li>Brand visibility at our events and in our community</li>
-            </ul>
+            <div className="flex flex-col">
+              <comp.Partners.ListItem
+                item="Recognition on our website and project repositories"
+                iconPath={""}
+              />
+              <comp.Partners.ListItem item="Access to our student developers for recruitment" />
+              <comp.Partners.ListItem item="Brand visibility at our events and in our community" />
+            </div>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row w-full">
@@ -32,18 +35,15 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
             <h1 className="text-xl sm:text-3xl font-bold">
               How We'll Use Donations
             </h1>
-            <ul className="list-disc pl-5 text-left">
-              <li>
-                Cloud infrastructure and hosting services for development
-                environments
-              </li>
-              <li>
-                Premium development tools and APIs to enhance our capabilities
-              </li>
-              <li>
-                Educational workshops and training for our student developers
-              </li>
-            </ul>
+            <div className="flex flex-col">
+              <comp.Partners.ListItem
+                item="Cloud infrastructure and hosting services for development
+                environments"
+                iconPath={""}
+              />
+              <comp.Partners.ListItem item="Premium development tools and APIs to enhance our capabilities" />
+              <comp.Partners.ListItem item="Educational workshops and training for our student developers" />
+            </div>
           </div>
           <div className="lg:w-1/2 order-1 lg:order-2">
             <comp.Testimonial
