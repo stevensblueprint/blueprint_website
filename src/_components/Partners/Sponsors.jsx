@@ -1,5 +1,4 @@
 export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
-  // TODO: Implement designs
   return (
     <section className="grow flex flex-col items-center relative overflow-hidden px-8 lg:px-40 py-8">
       <p className="text-lg lg:text-xl text-center lg:w-3/5">
@@ -9,26 +8,41 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
         for our members and non-profit partners.
       </p>
       <div className="flex items-center justify-center py-4">
-        <comp.Testimonial
-          testimonial={testimonial_1.text}
-          npo={testimonial_1.npo}
-        />
+        <div className="flex block sm:pt-8 pb-24 lg:pb-24 lg:w-1/2">
+          <comp.Testimonial
+            testimonial={testimonial_1.text}
+            npo={testimonial_1.npo}
+          />
+        </div>
         <div>
-          <h1>Sponsor Benefits</h1>
+          <h1 className="text-xl sm:text-3xl font-bold sm:text-center">
+            Sponsor Benefits
+          </h1>
           <ul>
-            <li>Cloud Services</li>
-            <li>APIs</li>
-            <li>Software Licenses</li>
-            <li>Hardware</li>
+            <li>Recognition on our website and project repositories</li>
+            <li>
+              Access to talented pool of student developers for recruitment
+            </li>
+            <li>Brand visibility at our events and in our community</li>
           </ul>
         </div>
       </div>
       <div className="flex items-center justify-center py-4">
         <div>
-          <h1>How We'll Use Funds</h1>
+          <h1 className="text-xl sm:text-3xl font-bold sm:text-center">
+            How We'll Use Donations
+          </h1>
           <ul>
-            <li>Featured on Website</li>
-            <li>Resume Playbook</li>
+            <li>
+              Cloud infrastructure and hosting services for development
+              environments
+            </li>
+            <li>
+              Premium development tools and APIs to enhance our capabilities
+            </li>
+            <li>
+              Educational workshops and training for our student developers
+            </li>
           </ul>
         </div>
         <div className="flex block sm:pt-8 pb-24 lg:pb-24 lg:w-1/2">
