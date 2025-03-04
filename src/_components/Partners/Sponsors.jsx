@@ -11,22 +11,26 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
       </p>
       <div className="flex flex-col w-full pt-8">
         <div className="flex flex-col lg:flex-row w-full">
-          <div className="lg:w-1/2">
-            <comp.Testimonial
-              testimonial={testimonial_1.text}
-              npo={testimonial_1.npo}
-              padding="right"
-            />
-          </div>
-          <div className="flex flex-col lg:w-1/2 lg:pl-12 mt-8">
+          <comp.Testimonial
+            testimonial={testimonial_1.text}
+            npo={testimonial_1.npo}
+            padding="right"
+          />
+          <div className="flex flex-col lg:w-3/4 lg:pl-12 mt-8">
             <h1 className="text-xl sm:text-3xl font-bold">Sponsor Benefits</h1>
             <div className="flex flex-col">
               <comp.Partners.ListItem
                 item="Recognition on our website and project repositories"
-                iconPath={""}
+                iconPath={"../../assets/vector/hilightbulb.svg"}
               />
-              <comp.Partners.ListItem item="Access to our student developers for recruitment" />
-              <comp.Partners.ListItem item="Brand visibility at our events and in our community" />
+              <comp.Partners.ListItem
+                item="Access to our student developers for recruitment"
+                iconPath={"../../assets/vector/hilightbulb.svg"}
+              />
+              <comp.Partners.ListItem
+                item="Brand visibility at our events and in our community"
+                iconPath={"../../assets/vector/hilightbulb.svg"}
+              />
             </div>
           </div>
         </div>
@@ -37,12 +41,17 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
             </h1>
             <div className="flex flex-col">
               <comp.Partners.ListItem
-                item="Cloud infrastructure and hosting services for development
-                environments"
-                iconPath={""}
+                item="Cloud infrastructure and hosting services for development"
+                iconPath={"../../assets/vector/hilightbulb.svg"}
               />
-              <comp.Partners.ListItem item="Premium development tools and APIs to enhance our capabilities" />
-              <comp.Partners.ListItem item="Educational workshops and training for our student developers" />
+              <comp.Partners.ListItem
+                item="Premium development tools and APIs to enhance our capabilities"
+                iconPath={"../../assets/vector/hilightbulb.svg"}
+              />
+              <comp.Partners.ListItem
+                item="Educational workshops and training for our student developers"
+                iconPath={"../../assets/vector/hilightbulb.svg"}
+              />
             </div>
           </div>
           <div className="lg:w-1/2 order-1 lg:order-2">
