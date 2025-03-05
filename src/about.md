@@ -40,6 +40,10 @@ team:
     role: VP Projects
     image_url: "../assets/eboard/vp_projects.png"
     linkedin: https://www.linkedin.com/in/j-ferber/
+  - name: Lucas Ha
+    role: VP Recruitment
+    image_url: "../assets/eboard/vp_recruitment.png"
+    linkedin: "https://www.linkedin.com/in/lucas-ha/"
   - name: Shawn Aviles
     role: Alumni Chair
     image_url: "../assets/eboard/alumni_chair.png"
