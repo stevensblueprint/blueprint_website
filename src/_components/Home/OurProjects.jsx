@@ -4,7 +4,7 @@ export default function OurProjects({ comp }) {
       <h1 className="text-4xl lg:text-5xl lg:text-center w-full">
         <strong>Our Projects</strong>
       </h1>
-      <p className="lg:text-center text-2xl lg:text-2xl text-2xl mb-4 lg:px-14">
+      <p className="lg:text-center text-2xl mb-4 lg:px-14">
         We collaborate with non-profit organizations and offer <br /> our
         expertise in software development, web design, <br /> and product
         management to bring ideas to life

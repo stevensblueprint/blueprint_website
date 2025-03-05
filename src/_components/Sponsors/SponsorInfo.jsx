@@ -10,13 +10,13 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
         for our members and non-profit partners.
       </p>
       <div className="flex flex-col w-full sm:pt-8 lg:pl-24">
-        <div className="flex flex-col lg:flex-row w-full">
+        <div className="flex flex-col xl:flex-row w-full">
           <comp.Testimonial
             testimonial={testimonial_1.text}
             npo={testimonial_1.npo}
             padding="right"
           />
-          <div className="flex flex-col lg:w-1/2 lg:pl-24 mt-8">
+          <div className="flex flex-col xl:w-1/2 xl:pl-24 mt-8">
             <h1 className="text-xl sm:text-3xl font-bold">Sponsor Benefits</h1>
             <div className="flex flex-col">
               <comp.Sponsors.ListItem
@@ -34,8 +34,8 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row w-full">
-          <div className="flex flex-col lg:w-1/2 mt-8 order-2 lg:order-1">
+        <div className="flex flex-col xl:flex-row w-full">
+          <div className="flex flex-col xl:w-1/2 mt-8 order-2 xl:order-1">
             <h1 className="text-xl sm:text-3xl font-bold">
               How We'll Use Donations
             </h1>
@@ -55,7 +55,7 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
             </div>
           </div>
           <comp.Testimonial
-            classes="order-1 lg:order-2"
+            classes="order-1 xl:order-2"
             testimonial={testimonial_2.text}
             npo={testimonial_2.npo}
           />

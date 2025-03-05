@@ -4,8 +4,8 @@ export default ({ comp, testimonial_inreach, testimonial_aad }) => (
       <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
       <title>Sponsors</title>
-      <meta property="og:title" content="About Us" />
-      <meta property="og:url" content="https://sitblueprint.com/about/" />
+      <meta property="og:title" content="Sponsors" />
+      <meta property="og:url" content="https://sitblueprint.com/sponsors/" />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
