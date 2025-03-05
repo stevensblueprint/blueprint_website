@@ -13,8 +13,8 @@ export default ({ comp, faqs, timelineContent }) => (
       <comp.Hero
         title="Student Opportunities"
         description="We're proud of the diverse membership here at Blueprint. Join us and
-          make an impact with our opportunities in product design, project
-          management, or software development!"
+          make an impact with our opportunities in product design, project management, or 
+          software development!"
         button1={{
           text: "Email Us",
           url: "mailto:sit.blueprint@gmail.com",

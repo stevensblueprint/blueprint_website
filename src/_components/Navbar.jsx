@@ -5,7 +5,7 @@ const navigationLinks = [
   { href: "/projects", text: "Projects" },
   { href: "/students", text: "Students" },
   { href: "/non-profits", text: "Non-Profits" },
-  { href: "/partners", text: "Partners" },
+  { href: "/sponsors", text: "Sponsors" },
   { href: "/blog", text: "Blog" },
 ];
 

@@ -19,7 +19,8 @@ export default ({
       <comp.Hero
         title="Non-Profit Organizations"
         description="We are passionate about leveraging our technical and consulting skills
-          to support your organization’s mission, free of charge!"
+          to support your organization’s mission, free of charge! Reach out to see how we can
+          help!"
         button1={{
           text: "Email Us",
           url: "mailto:sit.blueprint@gmail.com",
