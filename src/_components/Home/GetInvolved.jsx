@@ -24,7 +24,7 @@ export default function GetInvolved({ comp }) {
         <comp.GetInvolvedCard
           title={"Sponsors"}
           description={
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet."
+            "Join us as a sponsor to empower our initiatives! Your support enables us to leverage cutting-edge technologies and provide invaluable experiences to our student developers and non-profit partners."
           }
           icon_url={"../assets/vector/partnership_handshake.svg"}
           redirect_url={"/sponsors"}
