@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
   return (
-    <section className="flex flex-col items-center w-full px-8 lg:px-36 py-4 sm:py-8">
+    <section className="flex flex-col items-center justify-center px-8 lg:gap-y-6 lg:px-36 py-4 sm:py-8">
       <p className="text-lg lg:text-xl text-left sm:text-center w-full lg:w-3/5">
         We use free platforms like GitHub, BookStack, and Authelia to manage our
         operations and development. Your sponsorship can help us expand into
         various Cloud Services and APIs, enhancing the development experience
         for our members and non-profit partners.
       </p>
-      <div className="flex flex-col w-full pt-8 lg:pl-24">
+      <div className="flex flex-col w-full sm:pt-8 lg:pl-24">
         <div className="flex flex-col lg:flex-row w-full">
           <comp.Testimonial
             testimonial={testimonial_1.text}
@@ -62,12 +62,12 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
         </div>
       </div>
       <div className="flex flex-col items-center p-12 w-full max-w-full px-4">
-        <h1 className="text-3xl lg:text-4xl text-center text-primary font-bold px-8">
+        <h1 className="text-2xl lg:text-4xl text-center text-primary font-bold px-8">
           Join Us in Making a Difference - Become a Sponsor Today!
         </h1>
         <a
           href="mailto:blueprint@stevens.edu"
-          className="inline-block text-xl text-primary py-4 hover:text-secondary"
+          className="inline-block text-md lg:text-xl text-primary py-4 hover:text-secondary"
         >
           Contact us at blueprint@stevens.edu
           <img
