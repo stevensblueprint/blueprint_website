@@ -21,15 +21,15 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
             <div className="flex flex-col">
               <comp.Sponsors.ListItem
                 item="Recognition on our website and project repositories"
-                iconPath={"../../assets/vector/hilightbulb.svg"}
+                iconPath={"../../assets/vector/medal.svg"}
               />
               <comp.Sponsors.ListItem
                 item="Access to our student developers for recruitment"
-                iconPath={"../../assets/vector/hilightbulb.svg"}
+                iconPath={"../../assets/vector/group.svg"}
               />
               <comp.Sponsors.ListItem
                 item="Brand visibility at our events and in our community"
-                iconPath={"../../assets/vector/hilightbulb.svg"}
+                iconPath={"../../assets/vector/globe.svg"}
               />
             </div>
           </div>
@@ -42,15 +42,15 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
             <div className="flex flex-col">
               <comp.Sponsors.ListItem
                 item="Cloud infrastructure and hosting services for development"
-                iconPath={"../../assets/vector/hilightbulb.svg"}
+                iconPath={"../../assets/vector/codepen.svg"}
               />
               <comp.Sponsors.ListItem
                 item="Premium development tools and APIs to enhance our capabilities"
-                iconPath={"../../assets/vector/hilightbulb.svg"}
+                iconPath={"../../assets/vector/code.svg"}
               />
               <comp.Sponsors.ListItem
                 item="Educational workshops and training for our student developers"
-                iconPath={"../../assets/vector/hilightbulb.svg"}
+                iconPath={"../../assets/vector/brightness-window.svg"}
               />
             </div>
           </div>
