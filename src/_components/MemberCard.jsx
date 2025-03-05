@@ -12,7 +12,7 @@ export default function MemberCard({ name, role, image_url, linkedin }) {
         <div className="font-semibold lg:text-base text-xl">{name}</div>
         <div className="lg:text-base text-xl">{role}</div>
       </figcaption>
-      <a href={linkedin}>
+      <a href={linkedin} target="_blank">
         <img
           className="mb-4 mt-1 object-cover object-center w-8 h-8"
           src="../assets/logos/linkedin.png"
