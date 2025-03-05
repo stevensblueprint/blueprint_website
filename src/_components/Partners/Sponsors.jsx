@@ -16,7 +16,7 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
             npo={testimonial_1.npo}
             padding="right"
           />
-          <div className="flex flex-col lg:w-3/4 lg:pl-12 mt-8">
+          <div className="flex flex-col lg:w-1/2 lg:pl-12 mt-8">
             <h1 className="text-xl sm:text-3xl font-bold">Sponsor Benefits</h1>
             <div className="flex flex-col">
               <comp.Partners.ListItem
@@ -54,12 +54,11 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
               />
             </div>
           </div>
-          <div className="lg:w-1/2 order-1 lg:order-2">
-            <comp.Testimonial
-              testimonial={testimonial_2.text}
-              npo={testimonial_2.npo}
-            />
-          </div>
+          <comp.Testimonial
+            classes="order-1 lg:order-2"
+            testimonial={testimonial_2.text}
+            npo={testimonial_2.npo}
+          />
         </div>
       </div>
       <div className="flex flex-col items-center p-12 w-full max-w-full px-4">

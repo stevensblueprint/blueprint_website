@@ -1,6 +1,6 @@
-export default function Testimonial({ testimonial, npo, padding = "left" }) {
+export default function Testimonial({ testimonial, npo, padding = "left", classes = "" }) {
   return (
-    <div className="flex block sm:pt-8 pb-24 lg:pb-24 lg:w-1/2">
+    <div className={`flex block sm:pt-8 pb-24 lg:pb-24 lg:w-1/2 ${classes}`}>
       <div
         className={`pt-12 sm:pt-0 ${padding === "left" ? "sm:pl-24" : padding === "right" ? "lg:pr-24" : ""} w-[calc(100%-48px)] sm:w-3/4 min-h-60 self-center`}
       >
