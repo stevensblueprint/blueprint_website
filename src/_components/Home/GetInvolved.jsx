@@ -27,7 +27,7 @@ export default function GetInvolved({ comp }) {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet."
           }
           icon_url={"../assets/vector/partnership_handshake.svg"}
-          redirect_url={"/partners"}
+          redirect_url={"/sponsors"}
         />
       </div>
     </section>
