@@ -22,7 +22,7 @@ export default function GetInvolved({ comp }) {
           redirect_url={"/students"}
         />
         <comp.GetInvolvedCard
-          title={"Partnerships"}
+          title={"Sponsors"}
           description={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet."
           }

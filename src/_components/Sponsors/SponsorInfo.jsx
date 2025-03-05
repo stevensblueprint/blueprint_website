@@ -19,15 +19,15 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
           <div className="flex flex-col lg:w-1/2 lg:pl-12 mt-8">
             <h1 className="text-xl sm:text-3xl font-bold">Sponsor Benefits</h1>
             <div className="flex flex-col">
-              <comp.Partners.ListItem
+              <comp.Sponsors.ListItem
                 item="Recognition on our website and project repositories"
                 iconPath={"../../assets/vector/hilightbulb.svg"}
               />
-              <comp.Partners.ListItem
+              <comp.Sponsors.ListItem
                 item="Access to our student developers for recruitment"
                 iconPath={"../../assets/vector/hilightbulb.svg"}
               />
-              <comp.Partners.ListItem
+              <comp.Sponsors.ListItem
                 item="Brand visibility at our events and in our community"
                 iconPath={"../../assets/vector/hilightbulb.svg"}
               />
@@ -40,15 +40,15 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
               How We'll Use Donations
             </h1>
             <div className="flex flex-col">
-              <comp.Partners.ListItem
+              <comp.Sponsors.ListItem
                 item="Cloud infrastructure and hosting services for development"
                 iconPath={"../../assets/vector/hilightbulb.svg"}
               />
-              <comp.Partners.ListItem
+              <comp.Sponsors.ListItem
                 item="Premium development tools and APIs to enhance our capabilities"
                 iconPath={"../../assets/vector/hilightbulb.svg"}
               />
-              <comp.Partners.ListItem
+              <comp.Sponsors.ListItem
                 item="Educational workshops and training for our student developers"
                 iconPath={"../../assets/vector/hilightbulb.svg"}
               />

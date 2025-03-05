@@ -3,7 +3,7 @@ export default ({ comp, testimonial_inreach, testimonial_aad }) => (
     <head>
       <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
-      <title>Partners</title>
+      <title>Sponsors</title>
       <meta property="og:title" content="About Us" />
       <meta property="og:url" content="https://sitblueprint.com/about/" />
       <meta
@@ -15,7 +15,7 @@ export default ({ comp, testimonial_inreach, testimonial_aad }) => (
       <div>
         <comp.Navbar />
         <comp.Hero
-          title="Partners"
+          title="Sponsors"
           description="Whether through sponsorships, recruiting events, or mentorship opportunities, 
             partnering with us means investing in the next generation of leaders. 
             Reach out to us today!"
@@ -32,7 +32,7 @@ export default ({ comp, testimonial_inreach, testimonial_aad }) => (
         <h1 className="font-bold text-4xl lg:text-5xl flex flex-col items-center justify-center pt-16 lg:pt-24 gap-y-6">
           Support Our Mission
         </h1>
-        <comp.Partners.Sponsors
+        <comp.Sponsors.SponsorInfo
           testimonial_1={testimonial_aad}
           testimonial_2={testimonial_inreach}
         />
