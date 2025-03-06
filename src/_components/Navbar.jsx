@@ -15,7 +15,7 @@ const logoPrimary = "/assets/logos/logo_banner.png";
 export default function NavigationBar({ alternate }) {
   return (
     <nav
-      className={`relative flex items-center justify-between px-6 py-2 lg:p-10 bg-primary z-50 border-b ${alternate ? "bg-white border-primary" : "bg-primary  border-white"}`}
+      className={`relative flex items-center justify-between px-6 py-2 lg:p-10 bg-primary z-50 border-b ${alternate ? "bg-white border-primary" : "bg-primary border-white"}`}
     >
       <a href="/">
         <img
@@ -59,12 +59,12 @@ function renderDesktopNavigationLinks(alternate) {
           {link.text}
         </span>
         <span
-          className={`absolute inset-0 flex justify-center items-center whitespace-nowrap transition-all group-hover:font-bold ${alternate ? "group-hover:text-primary" : ""}`}
+          className={`absolute inset-0 flex justify-center items-center whitespace-nowrap transition-all group-hover:font-bold group-hover:underline ${alternate ? "group-hover:text-primary" : ""}`}
         >
           {link.text}
         </span>
         <span
-          className={`absolute left-0 -bottom-1 w-0 h-0.5 ${alternate ? "bg-primary" : ""} transition-all group-hover:w-full`}
+          className={`absolute left-0 -bottom-1 w-0 h-0.5 ${alternate ? "bg-primary" : ""} transition-all group-hover:underline group-hover:w-full`}
         ></span>
       </a>
     </span>
