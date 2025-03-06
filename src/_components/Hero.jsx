@@ -22,7 +22,7 @@ export default function Hero({
           <comp.HeroButton text={button2.text} redirect_url={button2.url} />
         </div>
       </div>
-      <div className="flex sm:w-full lg:w-3/4 justify-center p-2 sm:p-16 lg:max-w-[600px] lg:max-h-[600px] mb-8">
+      <div className="flex sm:w-full lg:w-3/4 justify-center p-2 sm:p-16 lg:max-w-[600px] lg:max-h-[550px] mb-8">
         <img
           src={image.src}
           alt={image.alt}
