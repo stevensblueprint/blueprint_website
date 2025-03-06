@@ -21,7 +21,7 @@ export default function NavigationBar({ alternate }) {
         <img
           src={alternate ? logoPrimary : logoNegative}
           alt="Blueprint Logo"
-          className="md:pl-6 lg:pl-20 h-8 lg:h-11"
+          className="h-8 lg:h-11"
         />
       </a>
       <div className="hidden lg:flex space-x-10">

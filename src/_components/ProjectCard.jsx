@@ -43,7 +43,7 @@ export default function ProjectCard({
             {description}
           </p>
         </div>
-        <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline text-center py-4">
+        <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline hover:font-bold text-center py-4">
           Learn More
         </p>
       </figcaption>

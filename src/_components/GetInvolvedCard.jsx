@@ -28,7 +28,7 @@ export default function GetInvolvedCard({
           </p>
         </div>
         <div className="mt-auto">
-          <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline text-center py-4">
+          <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline hover:font-bold text-center py-4">
             <a href={redirect_url}>Learn More</a>
           </p>
         </div>
