@@ -21,7 +21,7 @@ export default function NavigationBar({ alternate }) {
         <img
           src={alternate ? logoPrimary : logoNegative}
           alt="Blueprint Logo"
-          className="h-8 lg:h-11"
+          className="md:pl-6 lg:pl-20 h-8 lg:h-11"
         />
       </a>
       <div className="hidden lg:flex space-x-10">
@@ -59,12 +59,12 @@ function renderDesktopNavigationLinks(alternate) {
           {link.text}
         </span>
         <span
-          className={`absolute inset-0 flex justify-center items-center whitespace-nowrap transition-all group-hover:font-bold ${alternate ? "group-hover:text-primary" : "group-hover:text-yellow-100"}`}
+          className={`absolute inset-0 flex justify-center items-center whitespace-nowrap transition-all group-hover:font-bold ${alternate ? "group-hover:text-primary" : ""}`}
         >
           {link.text}
         </span>
         <span
-          className={`absolute left-0 -bottom-1 w-0 h-0.5 ${alternate ? "bg-primary" : "bg-yellow-100"} transition-all group-hover:w-full`}
+          className={`absolute left-0 -bottom-1 w-0 h-0.5 ${alternate ? "bg-primary" : ""} transition-all group-hover:w-full`}
         ></span>
       </a>
     </span>
