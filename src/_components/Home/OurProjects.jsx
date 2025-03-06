@@ -9,7 +9,7 @@ export default function OurProjects({ comp }) {
         expertise in software development, web design, <br /> and product
         management to bring ideas to life
       </p>
-      <p className="text-2xl text-primary hover:underline">
+      <p className="text-2xl text-primary hover:underline hover:font-bold">
         <a href="projects">View all projects</a>
       </p>
       <div className="flex flex-col md:flex-row md:max-w-[1440px] md:mx-auto gap-6 md:gap-x-6 lg:gap-x-12 flex-nowrap lg:gap-y-6">

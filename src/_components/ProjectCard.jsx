@@ -10,7 +10,10 @@ export default function ProjectCard({
 }) {
   const box_styling = status === "Completed" ? "bg-primary" : "bg-maroon";
   return (
-    <figure className="flex-col flex shadow-2xl lg:shadow-lg lg:hover:shadow-2xl lg:transition-shadow w-full rounded-lg lg:p-10 p-8">
+    <a
+      href={redirect_url}
+      className="flex-col flex shadow-2xl lg:shadow-lg lg:hover:shadow-2xl lg:transition-shadow w-full rounded-lg lg:p-10 p-8"
+    >
       <div className="flex flex-row justify-start items-center w-full">
         <p
           className={`${box_styling} px-2 py-1 max-w-max my-3 rounded-md text-white lg:text-lg text-lg font-medium`}
@@ -40,10 +43,10 @@ export default function ProjectCard({
             {description}
           </p>
         </div>
-        <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline text-center py-4">
-          <a href={redirect_url}>Learn More</a>
+        <p className="text-center-2xl lg:text-2xl text-2xl text-primary hover:underline hover:font-bold text-center py-4">
+          Learn More
         </p>
       </figcaption>
-    </figure>
+    </a>
   );
 }

@@ -21,7 +21,7 @@ export default ({ comp, testimonial_inreach, testimonial_aad }) => (
             Reach out to us today!"
           button1={{
             text: "Become A Sponsor",
-            url: "mailto:sit.blueprint@gmail.com",
+            url: "mailto:blueprint@stevens.edu",
           }}
           button2={{ text: "See Our Projects", url: "/projects" }}
           image={{

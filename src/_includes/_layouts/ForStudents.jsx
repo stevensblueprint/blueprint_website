@@ -17,7 +17,7 @@ export default ({ comp, faqs, timelineContent }) => (
           software development!"
         button1={{
           text: "Email Us",
-          url: "mailto:sit.blueprint@gmail.com",
+          url: "mailto:blueprint@stevens.edu",
         }}
         button2={{ text: "See Our Projects", url: "/projects" }}
         image={{

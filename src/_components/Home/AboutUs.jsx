@@ -23,7 +23,7 @@ export default function AboutUs({ comp, about }) {
             {about.description}
           </p>
           <comp.Button
-            style="font-bold px-2 py-1 md:text-xl"
+            style="font-bold px-2 py-1 md:text-xl hover:underline hover:font-bold"
             text="Learn More >"
             redirect_url="/about"
           />

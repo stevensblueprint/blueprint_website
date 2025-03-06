@@ -9,7 +9,7 @@ export default ({ comp, title }) => {
         <comp.Button
           text="Email"
           style="w-full lg:w-auto px-16 min-w-[200px] py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] text-center font-semibold text-2xl lg:text-lg inline-block hover:bg-primary hover:text-white transition-all"
-          redirect_url="mailto:sit.blueprint@gmail.com"
+          redirect_url="mailto:blueprint@stevens.edu"
         />
         <comp.Button
           text="LinkedIn"

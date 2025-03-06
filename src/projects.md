@@ -27,6 +27,7 @@ projects:
     status: Completed
     image_url: "../assets/logos/nycmesh_logo.png"
     description: We developed a web application that enables members to adjust antenna directions and frequencies to prevent service disruptions caused by overlapping sector lobes. By allowing real-time modifications, this tool ensures that new installations maintain consistent internet service across NYC, minimizing interference and optimizing service coverage.
+    redirect_url: /projects/nyc-mesh
     project_tag: Antenna Management
     year: 2023
 ---
