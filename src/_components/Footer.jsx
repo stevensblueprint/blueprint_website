@@ -8,7 +8,7 @@ const FOOTER_LINKS = {
     linkedin: "https://www.linkedin.com/company/stevens-blueprint/",
     github: "https://github.com/stevensblueprint",
     instagram: "https://instagram.com/stevensblueprint",
-    email: "mailto:sit.blueprint@gmail.com",
+    email: "mailto:blueprint@stevens.edu",
     blog: "/blog",
     support: "/partners",
     opportunities: "/students",

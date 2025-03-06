@@ -44,8 +44,8 @@ export default function InternalTeams() {
       <div className="flex flex-col items-center p-12 max-lg:px-12 max-md:w-full max-md:px-4">
         <h1 className="text-3xl lg:text-4xl text-center text-primary font-bold px-8 lg:px-0 lg:w-3/5 my-12 lg:my-16">
           Have any questions? Reach out at{" "}
-          <a href="mailto:sit.blueprint@gmail.com" className="inline-block">
-            sit.blueprint@gmail.com
+          <a href="mailto:blueprint@stevens.edu" className="inline-block">
+            blueprint@stevens.edu
             <img
               className="object-cover inline h-8 w-8 ml-2"
               src={"../../assets/clip_art/AiOutlineMail.svg"}
