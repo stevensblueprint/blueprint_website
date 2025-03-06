@@ -69,7 +69,7 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
           href="mailto:blueprint@stevens.edu"
           className="inline-block text-md lg:text-xl text-primary py-4 hover:text-secondary"
         >
-          Contact us at blueprint@stevens.edu
+          Email us at blueprint@stevens.edu
           <img
             className="inline h-8 w-8 ml-2"
             src={"../../assets/clip_art/AiOutlineMail.svg"}

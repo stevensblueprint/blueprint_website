@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function InternalTeams() {
+export default function InternalTeams({ comp }) {
   return (
     <section>
       <div className="flex flex-col lg:flex-row items-start justify-center align-center pt-12 px-8 lg:px-40 gap-4 lg:gap-14">
@@ -41,19 +41,7 @@ export default function InternalTeams() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center p-12 max-lg:px-12 max-md:w-full max-md:px-4">
-        <h1 className="text-3xl lg:text-4xl text-center text-primary font-bold px-8 lg:px-0 lg:w-3/5 my-12 lg:my-16">
-          Have any questions? Reach out at{" "}
-          <a href="mailto:blueprint@stevens.edu" className="inline-block">
-            blueprint@stevens.edu
-            <img
-              className="object-cover inline h-8 w-8 ml-2"
-              src={"../../assets/clip_art/AiOutlineMail.svg"}
-              alt="Email"
-            />
-          </a>
-        </h1>
-      </div>
+      <comp.MailToAction text="Have any questions? Email us at" />
     </section>
   );
 }
