@@ -151,6 +151,11 @@ export default function Footer() {
               {" "}
               Stevens Blueprint
             </a>
+            <p className="italic py-2">
+              The views and opinions expressed on this channel are solely those
+              of Stevens Blueprint and do not necessarily reflect the official
+              policy or position of Stevens Institute of Technology
+            </p>
           </span>
         </div>
       </footer>
