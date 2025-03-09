@@ -1,4 +1,4 @@
-export default ({ comp, values, team }) => (
+export default ({ comp, values, team, alumni, nj_appleseed }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
@@ -33,7 +33,8 @@ export default ({ comp, values, team }) => (
         <comp.About.Mission />
         <comp.About.Values values={values} />
         <comp.About.Sponsors />
-        <comp.About.Team team={team} />
+        <comp.About.Team team={team} teamName={"Our Team"} />
+        <comp.About.Team team={alumni} teamName={"Alumni"} />
         <comp.Footer />
       </div>
     </body>
