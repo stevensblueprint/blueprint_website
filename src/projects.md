@@ -9,6 +9,13 @@ projects:
     redirect_url: /projects/sarapis
     project_tag: Data Management
     year: 2025
+  - name_organization: NJ Appleseed
+    status: In Progress
+    description: We are creating a static website to help distriubte NJ Appleseed's written guide on handling medical debt
+    image_url: "../assets/logos/nj_appleseed_logo.png"
+    redirect_url: /projects/nj-appleseed
+    project_tag: Community Resources
+    year: 2025
   - name_organization: Asian American Dream"
     status: Completed
     image_url: "../assets/logos/aad_logo.png"
