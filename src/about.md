@@ -80,6 +80,10 @@ team:
     role: Designer
     image_url: "../assets/members/heta_patel.jpg"
     linkedin: https://www.linkedin.com/in/hpatel61005/
+  - name: Avanish Arif
+    role: Designer
+    image_url: ""
+    linkedin: https://www.linkedin.com/in/avanish-arif/
   - name: Brandon Yen
     role: Developer
     image_url: "../assets/members/brandon_yen.jpg"
