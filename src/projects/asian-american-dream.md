@@ -3,6 +3,7 @@ title: Asian American Dream
 layout: /_layouts/ProjectPage.jsx
 npoName: Asian American Dream
 npoLogo: ../../assets/logos/aad_logo.png
+npoWebsite: https://www.asianamericandream.org/
 githubRepository: https://github.com/stevensblueprint/aad-matching-service
 npoDescription: |
   Asian American Dream (AAD) is dedicated to empowering underserved Asian American and Pacific Islander undergraduates by providing career-focused mentorship and professional development opportunities. Their signature KIN Mentorship Program fosters meaningful connections between students and industry professionals, helping mentees explore career paths, build confidence, and gain the skills needed to succeed. Over the course of a 12-month program, participants develop a sense of community, unlock the power of cultural kinship, and work toward achieving milestone career goals. Through mentorship, AAD inspires students to dream big and equips them with the tools to turn those aspirations into reality.

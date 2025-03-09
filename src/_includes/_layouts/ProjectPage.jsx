@@ -4,6 +4,7 @@ export default ({
   npoLogo,
   githubRepository,
   npoDescription,
+  npoWebsite,
   projectDescription,
   tools,
   members,
@@ -28,11 +29,13 @@ export default ({
               </div>
             </header>
             <div className="w-full flex justify-center items-center border-2 border-gray-200 rounded-lg px-16 py-8">
-              <img
-                className="h-auto max-h-96"
-                src={npoLogo}
-                alt="Project Logo"
-              />
+              <a href={npoWebsite}>
+                <img
+                  className="h-auto max-h-96"
+                  src={npoLogo}
+                  alt="Project Logo"
+                />
+              </a>
             </div>
             <p className="pt-6 line-clamp-6">{npoDescription}</p>
 
@@ -80,6 +83,12 @@ export default ({
                 </div>
               </div>
             )}
+            <a
+              href="/projects"
+              className="text-primary hover:text-secondary underline hover:no-underline"
+            >
+              <p>← View Other Projects</p>
+            </a>
           </article>
         </main>
         <comp.Footer />

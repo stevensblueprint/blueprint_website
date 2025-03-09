@@ -3,6 +3,7 @@ title: NYC Mesh
 layout: /_layouts/ProjectPage.jsx
 npoName: NYC Mesh
 npoLogo: ../../assets/logos/nycmesh_logo.png
+npoWebsite: https://www.nycmesh.net/
 githubRepository: https://github.com/stevensblueprint/nycmesh-node-visualizer
 npoDescription: |
   NYC Mesh is dedicated to bridging the digital divide in New York City by providing an open, resilient, and community-driven internet network. Their mission is to ensure affordable and reliable internet access for all residents, independent of commercial providers. By building and maintaining a decentralized, neutral network, NYC Mesh empowers communities with unrestricted connectivity, safeguarding privacy and autonomy while offering a crucial alternative during internet disruptions or emergencies.
