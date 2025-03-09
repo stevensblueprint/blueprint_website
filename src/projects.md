@@ -19,7 +19,7 @@ projects:
   - name_organization: Asian American Dream"
     status: Completed
     image_url: "../assets/logos/aad_logo.png"
-    description: We designed a matching algorithm and created a directory for AAD’s KIN mentorship program, to streamline the annual mentor-mentee matching event, save over 48 hours each year, provide a user-friendly directory where mentors and mentees can view each other’s profiles, and enhance the overall experience and efficiency of the program.
+    description: We built an automated matching system for AAD’s KIN Mentorship Program, replacing a time-consuming manual process. Using the Gale-Shapley algorithm, our solution streamlines mentor-mentee pairing, reducing over 48 hours of manual work annually. We also developed a directory where participants can browse profiles, improving engagement and the overall mentorship experience.
     redirect_url: /projects/asian-american-dream
     project_tag: Volunteer Management
     year: 2024
