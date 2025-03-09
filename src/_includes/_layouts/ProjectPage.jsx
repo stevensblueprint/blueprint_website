@@ -27,9 +27,9 @@ export default ({
                 {npoName}
               </div>
             </header>
-            <div className="w-full text-center">
+            <div className="w-full flex justify-center items-center border-2 border-gray-200 rounded-lg px-16 py-8">
               <img
-                className="w-full h-auto border-2 border-gray-200 rounded-lg px-16 py-8"
+                className="h-auto max-h-96"
                 src={npoLogo}
                 alt="Project Logo"
               />
