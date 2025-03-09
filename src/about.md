@@ -143,22 +143,30 @@ alumni:
     linkedin: https://www.linkedin.com/in/daniel-kim-a8b525200/
   - name: Richard Kirk
     role: Technical Lead
-    image_url: ""
+    image_url: "../assets/members/alumni/richard_kirk.jpg"
     linkedin: https://www.linkedin.com/in/richardrickykirk/
   - name: Bao-Chau Nguyen
     role: Product Manager
-    image_url: ""
+    image_url: "../assets/members/alumni/bao_chau_nguyen.jpg"
     linkedin: https://www.linkedin.com/in/bao-chaunguyen071/
   - name: Harris Pyo
     role: Developer
-    image_url: ""
+    image_url: "../assets/members/alumni/harris_pyo.jpg"
     linkedin: https://www.linkedin.com/in/harris-pyo/
   - name: Justin Chen
     role: Developer
-    image_url: ""
+    image_url: "../assets/members/alumni/justin_chen.jpeg"
     linkedin: https://www.linkedin.com/in/jjustinchen/
   - name: Phillip Anerine
     role: Developer
-    image_url: ""
+    image_url: "../assets/members/alumni/phillip_anerine.jpg"
     linkedin: https://www.linkedin.com/in/panerine/
+  - name: Owen Truong
+    role: Developer
+    image_url: "../assets/members/alumni/owen_truong.jpg"
+    linkedin: https://www.linkedin.com/in/owen-truong/
+  - name: Joshua Gorman
+    role: Developer
+    image_url: "../assets/members/alumni/joshua_gorman.jpg"
+    linkedin: https://www.linkedin.com/in/joshua-gorman/
 ---
