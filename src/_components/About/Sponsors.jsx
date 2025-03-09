@@ -16,7 +16,7 @@ export default function Sponsors({ comp }) {
           text={"Become a sponsor"}
           redirect_url={"/sponsors"}
         />
-        <div className="flex flex-row py-12 gap-5 mb-16 mx-auto sm:pl-8">
+        <div className="flex flex-row py-12 gap-5 mb-16 mx-auto">
           <img
             src="../assets/logos/notion.png"
             alt="notion"

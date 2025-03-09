@@ -10,7 +10,9 @@ export default function MemberCard({ name, role, image_url, linkedin }) {
         alt="member image"
       />
       <figcaption className="text-center">
-        <div className="font-semibold lg:text-base text-xl">{name}</div>
+        <div className="font-semibold lg:text-base text-xl lg:w-32 w-40">
+          {name}
+        </div>
         <div className="lg:text-base text-xl">{role}</div>
       </figcaption>
       {linkedin && (
