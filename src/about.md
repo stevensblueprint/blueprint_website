@@ -56,4 +56,21 @@ team:
     role: Freshman Rep
     image_url: "../assets/eboard/freshman_rep_1.png"
     linkedin: https://www.linkedin.com/in/chinli-o-2aaa68317/
+alumni:
+  - name: Katie Ng
+    role: President
+    image_url: "../assets/eboard/fa23-sp24/president.jpg"
+    linkedin: https://www.linkedin.com/in/katiexng/
+  - name: Andrew Krasinki
+    role: VP External
+    image_url: "../assets/eboard/fa23-sp24/vp_external.jpg"
+    linkedin: https://www.linkedin.com/in/andrew-krasinski-407a43224/
+  - name: Christa Ruiz
+    role: VP Internal
+    image_url: "../assets/eboard/fa23-sp24/vp_internal.jpg"
+    linkedin: https://www.linkedin.com/in/christaruiz/
+  - name: Daniel Kim
+    role: VP Recruitment
+    image_url: "../assets/eboard/fa23-sp24/vp_recruitment.jpg"
+    linkedin: https://www.linkedin.com/in/daniel-kim-a8b525200/
 ---
