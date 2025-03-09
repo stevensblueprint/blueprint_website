@@ -59,12 +59,12 @@ function renderDesktopNavigationLinks(alternate) {
           {link.text}
         </span>
         <span
-          className={`absolute inset-0 flex justify-center items-center whitespace-nowrap transition-all group-hover:font-bold group-hover:underline ${alternate ? "group-hover:text-primary" : ""}`}
+          className={`absolute inset-0 flex justify-center items-center whitespace-nowrap transition-all group-hover:font-bold ${alternate ? "group-hover:text-primary" : ""}`}
         >
           {link.text}
         </span>
         <span
-          className={`absolute left-0 -bottom-1 w-0 h-0.5 ${alternate ? "bg-primary" : ""} transition-all group-hover:underline group-hover:w-full`}
+          className={`absolute left-0 -bottom-1 w-0 h-0.5 ${alternate ? "bg-primary" : "bg-white"} transition-all group-hover:w-full`}
         ></span>
       </a>
     </span>

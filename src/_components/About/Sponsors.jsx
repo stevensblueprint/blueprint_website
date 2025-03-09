@@ -14,9 +14,9 @@ export default function Sponsors({ comp }) {
             "mx-auto px-16 py-2 rounded-xl border-2 border-black text-black font-bold w-fit lg:text-xl hover:bg-primary hover:text-white transition-all"
           }
           text={"Become a sponsor"}
-          redirect_url={"/partners"}
+          redirect_url={"/sponsors"}
         />
-        <div className="flex flex-row py-12 gap-5 mb-16 mx-auto pl-8">
+        <div className="flex flex-row py-12 gap-5 mb-16 mx-auto sm:pl-8">
           <img
             src="../assets/logos/notion.png"
             alt="notion"

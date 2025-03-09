@@ -4,7 +4,7 @@ export default function Hero({ comp }) {
   const heroButtons = [
     { text: "Work with us", url: "/for-npos" },
     { text: "Join our team", url: "/students" },
-    { text: "Support our mission", url: "/partners" },
+    { text: "Support our mission", url: "/sponsors" },
   ];
 
   return (
