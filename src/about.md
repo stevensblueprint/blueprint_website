@@ -169,4 +169,12 @@ alumni:
     role: Developer
     image_url: "../assets/members/alumni/joshua_gorman.jpg"
     linkedin: https://www.linkedin.com/in/joshua-gorman/
+  - name: Ryan Camburn
+    role: Developer
+    image_url: "../assets/members/alumni/ryan_camburn.jpg"
+    linkedin: https://www.linkedin.com/in/ryancamburn/
+  - name: Rumi Loghmani
+    role: Designer
+    image_url: "../assets/members/alumni/rumi_loghmani.jpg"
+    linkedin: https://www.linkedin.com/in/rumilog/
 ---
