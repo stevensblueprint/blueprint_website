@@ -70,7 +70,7 @@ team:
     linkedin: https://www.linkedin.com/in/zhangterrence/
   - name: Johan Nguyen
     role: Technical Lead
-    image_url: ""
+    image_url: "../assets/members/johan_nguyen.png"
     linkedin: https://www.linkedin.com/in/johan-nguyen-seven/
   - name: Eiliyah Sarowar
     role: Designer
