@@ -5,12 +5,18 @@ npoName: NYC Mesh
 npoLogo: ../../assets/logos/nycmesh_logo.png
 githubRepository: https://github.com/stevensblueprint/nycmesh-node-visualizer
 npoDescription: |
-  NYC Mesh is an organization dedicated to bridging the digital divide in New York City by
-  providign high-speed reliable internet access. They host and build neutral internet networks
-  that allows residents to connect without monitoring, data collection, content blocking, preserving
-  user privacy and autonomy.
+  NYC Mesh is dedicated to bridging the digital divide in New York City by providing an open, resilient, and community-driven internet network. Their mission is to ensure affordable and reliable internet access for all residents, independent of commercial providers. By building and maintaining a decentralized, neutral network, NYC Mesh empowers communities with unrestricted connectivity, safeguarding privacy and autonomy while offering a crucial alternative during internet disruptions or emergencies.
 projectDescription: |
-  NYC Mesh manages and installs antennas to provide free internet service across the different boroughs in New York City. Each antenna produces an area of service availability called the sector lobe. The sector lobe points in the same direction as the antenna is directed; however, if the sector lobes of two different antennas overlap, they can cause interference, thereby reducing the service availability in the area. To manage this, we created a web application that lets NYC Mesh members modify the direction and frequencies of the antennas to verify that new installations do not break the service availability in certain areas.
+  To enhance the reliability of NYC Mesh’s decentralized network, Blueprint developed a node planning web interface that helps volunteers optimize antenna configurations. The platform maps all existing antennas, calculates potential interference based on location and direction, and allows users to simulate frequency adjustments. This tool enables NYC Mesh’s install team to proactively prevent service disruptions by ensuring that new antenna placements do not degrade network performance. By streamlining installation planning and reducing frequency conflicts, this solution helps expand internet access while maintaining a high-quality mesh network for communities across New York City.
 tools: |
   Next.js, PostgreSQL
+members:
+  - name: Miguel Merlin
+    role: Technical Lead
+  - name: Owen Truong
+    role: Developer
+  - name: Joshua Gorman
+    role: Developer
+  - name: Jonathan Memoli
+    role: Developer
 ---
