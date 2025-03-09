@@ -26,7 +26,7 @@ projects:
   - name_organization: InReach
     status: Completed
     image_url: "../assets/logos/inreach_logo.png"
-    description: We are revamping and modernizing the website to visually align with the free mobile app, creating a cohesive and streamlined user experience across platforms. Using a content management system (CMS), the website will feature reusable components and an intuitive interface where all team members can easily update and manage the website content.
+    description: We revamped and modernized the website to visually align with the free mobile app, creating a cohesive and streamlined user experience across platforms. Using a content management system (CMS), the website will feature reusable components and an intuitive interface where all team members can easily update and manage the website content.
     redirect_url: /projects/inreach
     project_tag: Community Resources
     year: 2024

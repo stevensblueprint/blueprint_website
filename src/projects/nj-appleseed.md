@@ -2,7 +2,7 @@
 title: NJ Appleseed
 layout: /_layouts/ProjectPage.jsx
 npoName: NJ Appleseed
-npoLogo: ../../assets/logos/aad_logo.png
+npoLogo: ../../assets/logos/nj_appleseed_logo.png
 githubRepository: https://github.com/stevensblueprint/aad-admin
 npoDescription: |
   Asian American Dream empowers underserved Asian American and Pacific Islander undergraduates through career-centric mentorship and professional development opportunities.
