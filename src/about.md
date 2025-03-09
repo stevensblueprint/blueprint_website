@@ -73,4 +73,25 @@ alumni:
     role: VP Recruitment
     image_url: "../assets/eboard/fa23-sp24/vp_recruitment.jpg"
     linkedin: https://www.linkedin.com/in/daniel-kim-a8b525200/
+nj_appleseed:
+  - name: Johan Nguyen
+    role: Technical Lead
+    image_url: ""
+    linkedin: https://www.linkedin.com/in/johan-nguyen-seven/
+  - name: Eiliyah Sarowar
+    role: Designer
+    image_url: "../assets/members/nj-appleseed/eiliyah_sarowar.jpg"
+    linkedin: https://www.linkedin.com/in/eiliyah/
+  - name: Ananya Shrivastava
+    role: Developer
+    image_url: "../assets/members/nj-appleseed/ananya_shrivastava.png"
+    linkedin: https://www.linkedin.com/in/anshri/
+  - name: Alexis Emerson
+    role: Developer
+    image_url: "../assets/members/nj-appleseed/alexis_emerson.jpg"
+    linkedin: www.linkedin.com/in/alexis-emerson-a87216353
+  - name: Zidanni Clerigo
+    role: Developer
+    image_url: "../assets/members/nj-appleseed/zidanni_clerigo.jpeg"
+    linkedin: https://www.linkedin.com/in/zidanni-clerigo/
 ---
