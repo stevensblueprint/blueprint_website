@@ -52,6 +52,7 @@ site
   .use(postcss())
   .copy("assets/logos")
   .copy("assets/eboard")
+  .copy("assets/members")
   .copy("assets/photos")
   .copy("assets/vector")
   .copy("assets/fonts")

@@ -1,9 +1,9 @@
-export default function Team({ comp, team }) {
+export default function Team({ comp, team, teamName }) {
   return (
     <section>
       <div className="flex flex-col lg:items-center mb-16">
         <h1 className="text-4xl lg:text-5xl mb-8 px-8">
-          <strong>Our Team</strong>
+          <strong>{teamName}</strong>
         </h1>
         <div className="flex flex-wrap gap-x-6 my-8 px-4 lg:px-24 lg:max-w-7xl justify-center">
           {team.map((member, index) => (
