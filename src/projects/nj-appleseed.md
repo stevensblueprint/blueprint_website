@@ -3,11 +3,11 @@ title: NJ Appleseed
 layout: /_layouts/ProjectPage.jsx
 npoName: NJ Appleseed
 npoLogo: ../../assets/logos/nj_appleseed_logo.png
-githubRepository: https://github.com/stevensblueprint/aad-admin
+githubRepository: https://github.com/stevensblueprint/nj-appleseed
 npoDescription: |
-  Asian American Dream empowers underserved Asian American and Pacific Islander undergraduates through career-centric mentorship and professional development opportunities.
+  New Jersey Appleseed is a public interest law center dedicated to advocating for vulnerable communities across the state. For over 25 years, NJ Appleseed has worked to address pressing legal and policy challenges, from protecting voting rights to ensuring access to affordable healthcare. Through litigation, policy reform, and public education, the organization provides a legal voice to those who need it most, empowering individuals and communities to stand up for their rights.
 projectDescription: |
-  AAD hosts an annual event where mentees can meet their potential mentors. At the end of the event, the mentees and mentors rank their preferences. AAD processes the mentor rankings manually, which takes over 48 hours of manual matching each year. The project aims to design a matching algorithm for AAD's KIN mentorship program and a directory that allows mentors and mentees to view each other's profiles.
+  Medical debt is a growing crisis affecting millions of Americans, often pushing families into financial hardship. NJ Appleseed is partnering with Blueprint to develop an accessible, user-friendly website that will serve as a critical resource for New Jersey residents dealing with medical billing and debt collection. This platform will provide downloadable legal guides, sample forms, FAQs, and video tutorials to help individuals navigate medical debt disputes, insurance appeals, and payment negotiations. The site will also connect users with legal aid services and resources, making it easier for them to access the support they need. By streamlining access to this vital information, the project aims to reduce the burden of medical debt and empower individuals to protect their financial well-being.
 tools: |
-  Next.js, tRPC, Docker, Prisma, Typescript, Python
+  Deno, Lume, JavaScript, TailwindCss
 ---

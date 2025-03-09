@@ -11,7 +11,7 @@ projects:
     year: 2025
   - name_organization: NJ Appleseed
     status: In Progress
-    description: We are creating a static website to help distriubte NJ Appleseed's written guide on handling medical debt
+    description: We are developing an accessible website to distribute NJ Appleseed’s comprehensive guide on handling medical debt. The site will provide downloadable legal resources, FAQs, and tools to help New Jersey residents navigate billing disputes, insurance appeals, and debt collection processes.
     image_url: "../assets/logos/nj_appleseed_logo.png"
     redirect_url: /projects/nj-appleseed
     project_tag: Community Resources
