@@ -10,7 +10,7 @@ const FOOTER_LINKS = {
     instagram: "https://instagram.com/stevensblueprint",
     email: "mailto:blueprint@stevens.edu",
     blog: "/blog",
-    support: "/partners",
+    support: "/sponsors",
     opportunities: "/students",
     timeline: "/non-profits#project-timeline",
   },
