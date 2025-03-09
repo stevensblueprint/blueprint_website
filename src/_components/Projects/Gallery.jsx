@@ -1,9 +1,10 @@
 export default function Gallery({ comp, projects }) {
   return (
     <div className="container mx-auto px-8 py-10 mb-16">
-      <section className="flex justify-center mb-8 lg:mb-20">
+      {/* There is currently no filtering/search functinality so keep commented */}
+      {/* <section className="flex justify-center mb-8 lg:mb-20">
         <comp.FilterButtons />
-      </section>
+      </section> */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
         {projects.map((project, idx) => (
           <div key={idx} className="w-full flex justify-center">
