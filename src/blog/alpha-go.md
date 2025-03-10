@@ -2,7 +2,7 @@
 url: /blog/alpha-go.html
 title: Winning Go - a Computer Scientist’s Strategy
 preview: |
-  A review of a massively popular YouTube documentary on the most significant (and my favorite) project that has come out of DeepMind: **AlphaGo**
+  A review of a massively popular YouTube documentary on the most significant (and my favorite) project that has come out of DeepMind: AlphaGo
 author: Emilio Cardillo-Schrader
 date: 2025-03-09
 tags:
