@@ -36,7 +36,13 @@ export default function Gallery({ search }) {
                   </div>
                 ))}
               </div>
-              <p className="pl-2">{post.date}</p>
+              <p className="pl-2">
+                {new Date(post.date).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </p>
             </div>
             <p className="text-lg sm:text-xl overflow-hidden py-4 text-ellipsis">
               {post.preview}
