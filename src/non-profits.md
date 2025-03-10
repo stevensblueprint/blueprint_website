@@ -7,10 +7,10 @@ testimonial:
   npo: Jamie Sgarro, Executive Director of InReach
 projectCriteria:
   - title: Impact
-    description: What is the purpose and goal of this project? Our team prioritizes projects that generate social impact and contribute to the greater community
+    description: What is the purpose and goal of this project? Our team prioritizes projects that generate social impact and contribute to the greater community.
     iconPath: "assets/vector/higlobealt.svg"
   - title: Scope
-    description: Is this project feasible within our timeline? We want to adhere to your deadlines while delivering high-quality results in a reasonable time frame.
+    description: Is this project feasible within our academic year timeline? We want to adhere to your deadlines while delivering high-quality results in a reasonable time frame.
     iconPath: "assets/vector/mdoutlinetimeline.svg"
   - title: Challenge
     description: What technical areas of expertise does this project require? We love challenging ourselves and learning new skills, but we also want to ensure that our projects fit with our core capabilities.
@@ -18,13 +18,15 @@ projectCriteria:
 projectTimeline:
   - title: "Phase 1: Introductions"
     description: |
-      In the initial stages of our project timeline, we'd like to meet and discuss your organization's mission, the project idea, and what we can do to help. We ask that organizations provide a proposal that details the requested project. Not everything has to be fleshed out, since we are open to collaborative scoping, but we would like as much detail as possible so we can decide whether or not this project is feasible for our team.
+      We begin by understanding your organization’s mission, goals, and technical needs. Organizations submit a detailed proposal, and we work together to refine the project scope. Our teams assess feasibility and determine the best approach before officially kicking off development. The project runs for one year, with a Minimum Viable Product targeted for Winter and a final product by Spring.
   - title: "Phase 2: Development"
     description: |
-      To start the development process, we pair our organizations with the teams that will deliver the project by the end of the timeline. There is one project team per organization, composed of technical leads, project managers, software developers, and user experience designers. Organization representatives can expect to receive status updates and feedback every 2 weeks during scheduled meetings throughout the year.
+      Each nonprofit is paired with a dedicated team of tech leads, developers, designers, and product managers. Teams follow an iterative process, incorporating feedback through bi-weekly check-ins with organization representatives. These meetings ensure transparency, align expectations, and allow us to make adjustments as needed to keep the project on track for successful completion.
   - title: "Phase 3: Handoff"
     description: |
-      Once we reach the end of the timeline, our project teams would have created a minimum viable product (MVP) through a constant feedback loop between our team members and organization. The objective of the final phase is to provide instructions on how to deploy the provided software and conduct basic maintenance going forward. Blueprint is not responsible for maintaining the project after the collaboration period ends.
+      By the final phase, the team delivers a fully developed product alongside deployment and maintenance instructions. Blueprint does not take 
+      responsibility for ongoing maintenance, but we provide documentation and support to ensure a smooth transition. Sometimes, members of the
+      team may volunteer to continue supporting the project, however, this is not guaranteed.
 faqs:
   - question: "How long is the project timeline?"
     answer: |
