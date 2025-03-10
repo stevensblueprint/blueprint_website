@@ -11,6 +11,7 @@ Stevens Blueprint, a student club organization dedicated to developing code for 
   - [About](#about)
   - [Projects](#projects)
   - [Blog](#blog)
+    - [Changing the Featured Blog Post](#changing-the-featured-blog-post)
   - [Technologies Used](#technologies-used)
 - [Contributors](#contributors)
   - [Setup for contributors](#setup-for-contributors)
@@ -49,6 +50,30 @@ tags:
   - Technology
 ---
 ```
+
+### Changing the Featured Blog Post
+
+Go into the `src/blog.md` file and change the `featured_post` metadata to the new blog post you want to feature. The `redirect_url` field should be the same as the `url` field in the blog post metadata. `title` and `date_posted` should also be consistent with the blog post metadata. For the `preview`, I recommend pasting the first paragraph of the blog post. The code is setup to line clamp and cut off the content with ellipses if it is too long.
+
+````markdown
+Example:
+
+```markdown
+---
+title: Stevens Blueprint
+layout: _layouts/Blog.jsx
+featured_post:
+  title: The Founding of Stevens Blueprint
+  date_posted: March 6, 2025
+  image_url: ../assets/photos/blueprint_blog.jpg
+  tags:
+    - General
+  preview: |
+    In September of 2021, Blueprint was just a dream that Simon Gao, Max Shi, and Hamzah Nizami all shared. Inspired by Blueprint chapters at other universities, they wanted to bring the same organization to Stevens. Blueprint would connect project teams of Stevens students to non-profit organizations (NPOs) to provide software solutions free of charge. However, all three of them were seniors, and not able to make Blueprint a fully registered organization (RSO) before graduating. Little did they know that they would lay the groundwork for what Blueprint has become in just two years, an organization with over 60 members that has worked on projects for five NPOs thus far.
+  redirect_url: /blog/the-founding-of-stevens-blueprint.html
+---
+```
+````
 
 **Notes: Standard tags include "Technology", "Design", "Product", "General". The tag options may change. In the future we hope to implement a feature that allows users to filter blog posts based on the tags. [EXAMPLE](https://lume.land/blog/archive/)**
 
