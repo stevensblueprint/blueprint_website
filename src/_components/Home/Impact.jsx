@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Impact() {
   return (
-    <section className="flex flex-col lg:items-center justify-center pt-16 lg:pt-24 lg:py-32 gap-y-6 bg-gray-50 px-8">
+    <section className="flex flex-col lg:items-center justify-center pt-16 pb-4 lg:pt-24 lg:py-32 gap-y-6 bg-gray-50 px-8">
       <h1 className="text-4xl lg:text-5xl lg:text-center lg:pb-20 sm:pb-10">
         <strong>Our Impact</strong>
       </h1>

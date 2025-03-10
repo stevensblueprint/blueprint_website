@@ -24,7 +24,7 @@ export default function GetInvolvedCard({
             {title}
           </h1>
           <p
-            className="line-clamp-6 max-sm:w-full lg:text-xl text-xl lg:leading-6 overflow-hidden"
+            className="line-clamp-6 max-sm:w-full lg:text-xl text-md lg:leading-6 overflow-hidden"
             style={{ maxHeight: "6em" }}
           >
             {description}
