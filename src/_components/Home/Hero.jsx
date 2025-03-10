@@ -20,7 +20,7 @@ export default function Hero({ comp }) {
           We're a team of students from Stevens Institute of Technology that
           develop pro bono technical solutions for non-profit organizations.
         </p>
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 w-full">
+        <div className="flex flex-col justify-center md:flex-row space-y-4 md:space-y-0 md:space-x-6 w-full">
           {heroButtons.map((button) => {
             return (
               <comp.HeroButton text={button.text} redirect_url={button.url} />
