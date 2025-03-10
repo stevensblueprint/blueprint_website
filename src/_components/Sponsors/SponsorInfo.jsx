@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
   return (
-    <section className="flex flex-col items-center justify-center px-8 lg:gap-y-6 lg:px-36 py-4 sm:py-8">
-      <p className="text-lg lg:text-xl text-left sm:text-center w-full lg:w-3/5">
+    <section className="flex flex-col lg:items-center justify-center px-8 lg:gap-y-6 lg:px-36 py-4 sm:py-8">
+      <p className="text-xl lg:text-2xl lg:text-center w-full lg:w-3/5">
         We use free platforms like GitHub, BookStack, and Authelia to manage our
         operations and development. Your sponsorship can help us expand into
         various Cloud Services and APIs, enhancing the development experience

@@ -29,7 +29,7 @@ export default ({ comp, testimonial_inreach, testimonial_aad }) => (
             alt: "A graphic showing a handshake between two people",
           }}
         />
-        <h1 className="font-bold text-4xl lg:text-5xl flex flex-col items-center justify-center pt-16 lg:pt-24 gap-y-6">
+        <h1 className="font-bold text-4xl lg:text-5xl flex flex-col lg:items-center justify-center px-8 pt-16 lg:pt-24 gap-y-6">
           Support Our Mission
         </h1>
         <comp.Sponsors.SponsorInfo
