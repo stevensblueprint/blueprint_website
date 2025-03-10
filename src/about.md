@@ -2,15 +2,15 @@
 title: About
 layout: _layouts/About.jsx
 values:
-  - header: Innovation
-    icon: ../assets/vector/wrench_icon.svg
-    text: We as Blueprint members recognize that change is both inevitable and necessary. We are committed to innovate and emphasize effective solutions as needed in order to remain relevant - nothing is sacred. We welcome new ideas and diverse thinking.
-  - header: Growth
-    icon: ../assets/vector/tree_icon.svg
-    text: We as Blueprint members value the academic, social, and personal growth of our peers. We constantly seek to perpetuate the cycle of learning and teaching, for our benefit and for others. We strive to offer a helping hand in times of need and help each other.
-  - header: Community
+  - header: Empowering Communities Through Technology
     icon: ../assets/vector/world_icon.svg
-    text: We as Blueprint members seek to cherish our time spent together. We develop meaningful relationships that extend well beyond the scope of the organization. We value each other as individuals and appreciate our differences.
+    text: We build impactful, open-source solutions that help nonprofits serve their communities more effectively.
+  - header: Taking Initiative and Driving Innovation
+    icon: ../assets/vector/wrench_icon.svg
+    text: We encourage our members to be proactive, take ownership of their work, and push the boundaries of what student-led teams can achieve.
+  - header: Fostering Growth Through Hands-On Experience
+    icon: ../assets/vector/tree_icon.svg
+    text: We provide students with real-world project opportunities, challenging them to develop technical, leadership, and problem-solving skills.
 team:
   - name: Christian Apostol
     role: President
@@ -123,7 +123,7 @@ team:
   - name: Alexis Emerson
     role: Developer
     image_url: "../assets/members/alexis_emerson.jpg"
-    linkedin: www.linkedin.com/in/alexis-emerson-a87216353
+    linkedin: https://www.linkedin.com/in/alexis-emerson-a87216353
   - name: Zidanni Clerigo
     role: Developer
     image_url: "../assets/members/zidanni_clerigo.jpeg"
