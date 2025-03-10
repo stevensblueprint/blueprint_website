@@ -6,8 +6,8 @@ export default function Sponsors({ comp }) {
           <strong>Our Sponsors</strong>
         </h1>
         <p className="lg:text-center text-xl lg:text-2xl mb-4 lg:px-14 pb-8 max-w-2xl">
-          We are grateful to our sponsors who provide us with the resources and
-          support we need at Blueprint.
+          We are grateful to our sponsors who provide us with resources and
+          support!
         </p>
         <comp.Button
           style={

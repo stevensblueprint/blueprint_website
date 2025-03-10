@@ -1,13 +1,13 @@
 export default function OurProjects({ comp }) {
   return (
-    <section className="flex flex-col items-center justify-center px-8 py-24 lg:py-32 gap-y-6 bg-white">
+    <section className="flex flex-col items-center justify-center px-8 py-16 lg:py-24 gap-y-6 bg-white">
       <h1 className="text-4xl lg:text-5xl lg:text-center w-full">
         <strong>Our Projects</strong>
       </h1>
       <p className="lg:text-center text-2xl mb-4 lg:px-14">
-        We collaborate with non-profit organizations and offer <br /> our
-        expertise in software development, web design, <br /> and product
-        management to bring ideas to life
+        We collaborate with non-profit organizations and offer our expertise in
+        software development, web design, and product management to bring ideas
+        to life
       </p>
       <p className="text-2xl text-primary hover:underline hover:font-bold">
         <a href="projects">View all projects</a>

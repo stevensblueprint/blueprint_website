@@ -18,7 +18,7 @@ export default function Hero({ comp }) {
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-4 md:mb-14">
           We're a team of students from Stevens Institute of Technology that
-          provides technical solutions for non-profit organizations.
+          develop pro bono technical solutions for non-profit organizations.
         </p>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 w-full">
           {heroButtons.map((button) => {

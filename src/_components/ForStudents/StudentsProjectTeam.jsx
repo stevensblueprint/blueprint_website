@@ -25,7 +25,7 @@ export default function StudentsProjectTeam() {
             technical leads, project managers, developers, and designers
           </span>{" "}
           who can engage and collaborate within this time frame while also
-          meeting deadlines punctually.
+          meeting deadlines.
         </p>
       </div>
       <div className="flex items-center justify-center lg:w-1/3">

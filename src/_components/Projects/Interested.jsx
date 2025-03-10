@@ -1,6 +1,6 @@
 export default function Interested() {
   return (
-    <section className="flex flex-col lg:items-center justify-center pt-20 lg:pb-10 gap-y-2 lg:gap-y-6 bg-white px-8">
+    <section className="flex flex-col lg:items-center justify-center pt-16 lg:pt-24 lg:pb-10 gap-y-2 lg:gap-y-6 bg-white px-8">
       <h1 className="text-4xl lg:text-5xl">
         <strong>Project Gallery</strong>
       </h1>

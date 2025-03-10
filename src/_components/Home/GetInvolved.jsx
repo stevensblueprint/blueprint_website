@@ -8,7 +8,7 @@ export default function GetInvolved({ comp }) {
         <comp.GetInvolvedCard
           title={"Non-Profits"}
           description={
-            "We can help you grow your organization with innovative software solutions, whether you have a specific project in mind or a curiosity of how Blueprint can support you!"
+            "We can help you grow your organization with innovative software solutions. Learn how Blueprint can support your mission!"
           }
           icon_url={"../assets/vector/hands_blue.svg"}
           redirect_url={"/non-profits"}
@@ -24,7 +24,7 @@ export default function GetInvolved({ comp }) {
         <comp.GetInvolvedCard
           title={"Sponsors"}
           description={
-            "Join us as a sponsor to empower our initiatives! Your support enables us to leverage cutting-edge technologies and provide invaluable experiences to our student developers and non-profit partners."
+            "Join us as a sponsor to empower our initiatives! Your support provides invaluable experiences to our student developers and non-profit partners."
           }
           icon_url={"../assets/vector/partnership_handshake.svg"}
           redirect_url={"/sponsors"}
