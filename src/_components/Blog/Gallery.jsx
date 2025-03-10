@@ -24,6 +24,7 @@ export default function Gallery({ search }) {
             <h2 className="text-2xl sm:text-4xl font-bold text-primary hover:text-secondary pb-2">
               {post.title}
             </h2>
+            <p className="pr-2">By {post.author}</p>
             <div className="flex py-2">
               <div className="flex gap-1 content-center">
                 {post.tags.map((tag) => (
