@@ -25,8 +25,7 @@ projectTimeline:
   - title: "Phase 3: Handoff"
     description: |
       By the final phase, the team delivers a fully developed product alongside deployment and maintenance instructions. Blueprint does not take 
-      responsibility for ongoing maintenance, but we provide documentation and support to ensure a smooth transition. Sometimes, members of the
-      team may volunteer to continue supporting the project, however, this is not guaranteed.
+      responsibility for hosting after the final delivery. However, we will provide your organization with all the resource to ensure your project can be maintained and hosted by your team.
 faqs:
   - question: "How long is the project timeline?"
     answer: |
