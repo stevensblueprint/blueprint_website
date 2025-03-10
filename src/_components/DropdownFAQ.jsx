@@ -20,7 +20,7 @@ export default function DropdownFAQ({ faq, index }) {
           className="h-[7px] w-3 peer-checked:group-[]:rotate-180"
         />
       </label>
-      <div className="overflow-hidden max-h-0 peer-checked:max-h-96 w-full transition-all duration-300 px-3 peer-checked:pt-2 peer-checked:pb-[20px]">
+      <div className="overflow-hidden max-h-0 peer-checked:max-h-screen w-full transition-all duration-300 px-3 peer-checked:pt-2 peer-checked:pb-[20px]">
         <div className="prose prose-p:text-xl prose-p:leading-6 max-w-none">
           <ReactMarkdown>{faq.answer}</ReactMarkdown>
         </div>
