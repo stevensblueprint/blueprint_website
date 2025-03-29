@@ -1,4 +1,4 @@
-export default ({ comp, values, team, alumni, nj_appleseed }) => (
+export default ({ comp, values, team, alumni }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
