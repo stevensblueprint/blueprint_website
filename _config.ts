@@ -24,7 +24,7 @@ site
   .use(
     favicon({
       input: "assets/logos/logo.png",
-    })
+    }),
   )
   .use(
     tailwindcss({
@@ -48,7 +48,7 @@ site
         },
         plugins: [typography],
       },
-    })
+    }),
   )
   .use(postcss())
   .copy("assets/logos")
@@ -66,7 +66,7 @@ site
       filename: "sitemap.xml",
       query: "indexable=true",
       sort: "date=desc",
-    })
+    }),
   );
 
 export default site;
