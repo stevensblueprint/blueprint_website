@@ -14,10 +14,11 @@ export default function Mission({ comp }) {
       </section>
       <comp.Carousel
         array_of_images={[
-          "../assets/photos/cs_carnival.jpg",
+          "../assets/photos/elections.jpg",
           "../assets/photos/google_event.jpg",
           "../assets/photos/eboard_merch.jpg",
           "../assets/photos/google_event_1.jpg",
+          "../assets/photos/cs_carnival.jpg",
         ]}
       />
     </section>
