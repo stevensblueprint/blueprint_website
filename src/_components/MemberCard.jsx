@@ -13,9 +13,7 @@ export default function MemberCard({ name, role, image_url, linkedin }) {
         <div className="font-semibold lg:text-base text-xl overflow-hidden">
           {name}
         </div>
-        <div className="lg:text-base text-xl overflow-hidden">
-          {role}
-        </div>
+        <div className="lg:text-base text-xl overflow-hidden">{role}</div>
       </figcaption>
       {linkedin && (
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
