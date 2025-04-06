@@ -20,7 +20,6 @@ export default function Mission({ comp }) {
           "../assets/photos/google_event.jpg",
           "../assets/photos/google_event_1.jpg",
           "../assets/photos/perplexity_group.jpg",
-
         ]}
       />
     </section>
