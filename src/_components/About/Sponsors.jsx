@@ -27,6 +27,11 @@ export default function Sponsors({ comp }) {
             alt="github"
             className="object-cover h-20 max-w-none"
           />
+          <img
+            src="../assets/logos/perplexity.png"
+            alt="perplexity"
+            className="object-cover h-20 max-w-none"
+          />
         </div>
       </div>
     </section>
