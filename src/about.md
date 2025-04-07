@@ -1,6 +1,7 @@
 ---
 title: About
 layout: _layouts/About.jsx
+indexable: true
 values:
   - header: Empowering Communities Through Technology
     icon: ../assets/vector/world_icon.svg

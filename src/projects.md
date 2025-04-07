@@ -1,6 +1,7 @@
 ---
 title: Stevens Blueprint
 layout: _layouts/Projects.jsx
+indexable: true
 projects:
   - name_organization: Sarapis
     status: In Progress

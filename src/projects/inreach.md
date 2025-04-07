@@ -1,6 +1,7 @@
 ---
 title: InReach
 layout: /_layouts/ProjectPage.jsx
+indexable: true
 npoName: InReach
 npoLogo: ../../assets/logos/inreach_logo.png
 npoWebsite: https://inreach.org/about-us/
