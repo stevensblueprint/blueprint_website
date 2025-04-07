@@ -12,58 +12,54 @@ values:
     icon: ../assets/vector/tree_icon.svg
     text: We provide students with real-world project opportunities, challenging them to develop technical, leadership, and problem-solving skills.
 team:
-  - name: Christian Apostol
-    role: President
-    image_url: "../assets/eboard/president.png"
-    linkedin: https://www.linkedin.com/in/capostol/
   - name: Miguel Merlin
+    role: President
+    image_url: "../assets/eboard/president.jpg"
+    linkedin: https://www.linkedin.com/in/miguel-angel-merlin-arriola/
+  - name: Lucas Ha
+    role: VP Operations
+    image_url: "../assets/eboard/vp_operations.png"
+    linkedin: https://www.linkedin.com/in/lucas-ha/
+  - name: Brandon Yen
+    role: VP Projects
+    image_url: "../assets/members/brandon_yen.jpg"
+    linkedin: https://www.linkedin.com/in/brandonyen2026/
+  - name: Dominic Magats
     role: VP Technology
     image_url: "../assets/eboard/vp_tech.jpg"
-    linkedin: https://www.linkedin.com/in/miguel-angel-merlin-arriola/
-  - name: Ezri Zhu
+    linkedin: https://www.linkedin.com/in/dominic-magats-6bb914230/
+  - name: Emilio Cardillo
     role: VP Technology
     image_url: "../assets/eboard/vp_tech_1.png"
-    linkedin: https://www.linkedin.com/in/~ezri/
+    linkedin: https://www.linkedin.com/in/emilio-cardillo-schrader-6594b7308/
   - name: Ivan Farfan Diaz
-    role: VP Technology
-    image_url: "../assets/members/ivan_diaz.jpg"
+    role: VP Design
+    image_url: "../assets/eboard/vp_design.jpg"
     linkedin: https://www.linkedin.com/in/ifdiaz/
-  - name: Audrey Yoo
-    role: VP Design
-    image_url: "../assets/eboard/vp_design.png"
-    linkedin: https://www.linkedin.com/in/audrey-june-yoo/
   - name: Sahana Ali
-    role: VP Design
-    image_url: "../assets/eboard/vp_design_1.png"
-    linkedin: https://www.linkedin.com/in/sahanaali/
-  - name: Massimo Spina
     role: VP Finance
     image_url: "../assets/eboard/vp_finance.png"
-    linkedin: "https://www.linkedin.com/in/massimo-spina-b47b12284/"
-  - name: Justin Ferber
-    role: VP Projects
-    image_url: "../assets/eboard/vp_projects.png"
-    linkedin: https://www.linkedin.com/in/j-ferber/
-  - name: Lucas Ha
+    linkedin: https://www.linkedin.com/in/sahanaali/
+  - name: Harris Hamid
     role: VP Recruitment
-    image_url: "../assets/eboard/vp_recruitment.png"
-    linkedin: "https://www.linkedin.com/in/lucas-ha/"
-  - name: Shawn Aviles
-    role: Alumni Chair
-    image_url: "../assets/eboard/alumni_chair.png"
-    linkedin: https://www.linkedin.com/in/shawn-aviles/
-  - name: Emilio Cardillo
-    role: Freshman Rep
-    image_url: "../assets/eboard/freshman_rep.png"
-    linkedin: https://www.linkedin.com/in/emilio-cardillo-schrader-6594b7308/
-  - name: Chinli Ong
-    role: Freshman Rep
-    image_url: "../assets/eboard/freshman_rep_1.png"
-    linkedin: https://www.linkedin.com/in/chinli-o-2aaa68317/
-  - name: Jonathan Memoli
-    role: Technical Lead
-    image_url: "../assets/members/jonathan_memoli.jpg"
-    linkedin: https://www.linkedin.com/in/jonathan-m-memoli/
+    image_url: "../assets/eboard/vp_recruitment.jpg"
+    linkedin: https://www.linkedin.com/in/hhamid26/
+  - name: Ananya Shrivastava
+    role: VP Marketing
+    image_url: "../assets/eboard/vp_marketing.png"
+    linkedin: https://www.linkedin.com/in/anshri/
+  - name: Sutej Upadhyaya
+    role: VP Events
+    image_url: "../assets/eboard/vp_events.png"
+    linkedin: https://www.linkedin.com/in/sutej-upadhyaya-525843278/
+  - name: Ezri Zhu
+    role: Head of Infrastructure
+    image_url: "../assets/eboard/head_of_infrastructure.png"
+    linkedin: https://www.linkedin.com/in/~ezri/
+  - name: Audrey Yoo
+    role: Senior Designer
+    image_url: "../assets/eboard/senior_designer.png"
+    linkedin: https://www.linkedin.com/in/audrey-june-yoo/
   - name: Terrence Zhang
     role: Technical Lead
     image_url: "../assets/members/terrence_zhang.jpg"
@@ -84,14 +80,6 @@ team:
     role: Designer
     image_url: ""
     linkedin: https://www.linkedin.com/in/avanish-arif/
-  - name: Brandon Yen
-    role: Developer
-    image_url: "../assets/members/brandon_yen.jpg"
-    linkedin: https://www.linkedin.com/in/brandonyen2026/
-  - name: Harris Hamid
-    role: Developer
-    image_url: "../assets/members/harris_hamid.jpg"
-    linkedin: https://www.linkedin.com/in/hhamid26/
   - name: Nathaniel Andre Escaro
     role: Developer
     image_url: "../assets/members/nathaniel_andre_escaro.jpg"
@@ -108,18 +96,6 @@ team:
     role: Developer
     image_url: "../assets/members/sneha_banda.jpg"
     linkedin: https://www.linkedin.com/in/sneha-banda-301393218/
-  - name: Dan Liu
-    role: Developer
-    image_url:
-    linkedin: https://www.linkedin.com/in/danliu10/
-  - name: Christopher Engelbart
-    role: Developer
-    image_url: "../assets/members/christopher_engelbart.jpg"
-    linkedin: https://www.linkedin.com/in/christopherengelbart/
-  - name: Ananya Shrivastava
-    role: Developer
-    image_url: "../assets/members/ananya_shrivastava.png"
-    linkedin: https://www.linkedin.com/in/anshri/
   - name: Alexis Emerson
     role: Developer
     image_url: "../assets/members/alexis_emerson.jpg"
@@ -129,6 +105,26 @@ team:
     image_url: "../assets/members/zidanni_clerigo.jpeg"
     linkedin: https://www.linkedin.com/in/zidanni-clerigo/
 alumni:
+  - name: Christian Apostol
+    role: President
+    image_url: "../assets/eboard/fa24-sp25/president.png"
+    linkedin: https://www.linkedin.com/in/capostol/
+  - name: Justin Ferber
+    role: VP Projects
+    image_url: "../assets/eboard/fa24-sp25/vp_projects.png"
+    linkedin: https://www.linkedin.com/in/j-ferber/
+  - name: Chinli Ong
+    role: Freshman Rep
+    image_url: "../assets/eboard/fa24-sp25/freshman_rep_1.png"
+    linkedin: https://www.linkedin.com/in/chinli-o-2aaa68317/
+  - name: Massimo Spina
+    role: VP Finance
+    image_url: "../assets/eboard/fa24-sp25/vp_finance.png"
+    linkedin: "https://www.linkedin.com/in/massimo-spina-b47b12284/"
+  - name: Shawn Aviles
+    role: Alumni Chair
+    image_url: "../assets/eboard/fa24-sp25/alumni_chair.png"
+    linkedin: https://www.linkedin.com/in/shawn-aviles/
   - name: Katie Ng
     role: President
     image_url: "../assets/eboard/fa23-sp24/president.jpg"
@@ -149,6 +145,14 @@ alumni:
     role: Technical Lead
     image_url: "../assets/members/alumni/richard_kirk.jpg"
     linkedin: https://www.linkedin.com/in/richardrickykirk/
+  - name: Jonathan Memoli
+    role: Technical Lead
+    image_url: "../assets/members/jonathan_memoli.jpg"
+    linkedin: https://www.linkedin.com/in/jonathan-m-memoli/
+  - name: Christopher Engelbart
+    role: Developer
+    image_url: "../assets/members/christopher_engelbart.jpg"
+    linkedin: https://www.linkedin.com/in/christopherengelbart/
   - name: Bao-Chau Nguyen
     role: Product Manager
     image_url: "../assets/members/alumni/bao_chau_nguyen.jpg"
@@ -165,6 +169,10 @@ alumni:
     role: Developer
     image_url: "../assets/members/alumni/phillip_anerine.jpg"
     linkedin: https://www.linkedin.com/in/panerine/
+  - name: Dan Liu
+    role: Developer
+    image_url:
+    linkedin: https://www.linkedin.com/in/danliu10/
   - name: Owen Truong
     role: Developer
     image_url: "../assets/members/alumni/owen_truong.jpg"
