@@ -27,7 +27,8 @@ export default ({ comp, values, team, alumni }) => (
           image={{
             src: "/assets/photos/eboard_fa2025_sp_2026.jpg",
             alt: "A photo of Blueprint members hard at work",
-            className: "rounded-2xl w-full h-auto object-cover",
+            className:
+              "rounded-2xl w-full md:w-full lg:w-full h-auto md:h-96 lg:h-128 object-cover",
           }}
         />
         <comp.About.Mission />
