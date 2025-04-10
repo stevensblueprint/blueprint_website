@@ -45,7 +45,7 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
                 iconPath={"../../assets/vector/codepen.svg"}
               />
               <comp.Sponsors.ListItem
-                item="Premium development tools and APIs to enhance our capabilities"
+                item="Premium development tools to enhance our capabilities"
                 iconPath={"../../assets/vector/code.svg"}
               />
               <comp.Sponsors.ListItem
