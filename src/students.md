@@ -1,6 +1,7 @@
 ---
 title: Community - Students
 layout: _layouts/ForStudents.jsx
+indexable: true
 timelineContent:
   - title: "Written Application"
     description: "Our written application will open in a short and anonymized format where we can get a sense of what brings you to Blueprint!"

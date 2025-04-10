@@ -1,6 +1,7 @@
 ---
 title: Stevens Blueprint
 layout: _layouts/Blog.jsx
+indexable: true
 featured_post:
   title: The Founding of Stevens Blueprint
   date_posted: March 6, 2025

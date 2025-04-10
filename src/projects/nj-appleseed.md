@@ -1,6 +1,7 @@
 ---
 title: NJ Appleseed
 layout: /_layouts/ProjectPage.jsx
+indexable: true
 npoName: NJ Appleseed
 npoLogo: ../../assets/logos/nj_appleseed_logo.png
 npoWebsite: https://njappleseed.org/

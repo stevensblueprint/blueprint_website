@@ -4,6 +4,7 @@ import postcss from "lume/plugins/postcss.ts";
 import typography from "npm:@tailwindcss/typography";
 import jsx from "lume/plugins/jsx.ts";
 import favicon from "lume/plugins/favicon.ts";
+import sitemap from "lume/plugins/sitemap.ts";
 
 const site = lume({
   src: "./src",
@@ -59,6 +60,13 @@ site
   .copy("assets/docs")
   .loadAssets([".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".pdf"])
   .ignore("README.md", "CHANGELOG.md", "node_modules")
-  .use(jsx());
+  .use(jsx())
+  .use(
+    sitemap({
+      filename: "sitemap.xml",
+      query: "indexable=true",
+      sort: "date=desc",
+    }),
+  );
 
 export default site;

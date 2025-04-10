@@ -1,6 +1,7 @@
 ---
 url: /blog/the-founding-of-stevens-blueprint.html
 title: The Founding of Stevens Blueprint
+indexable: true
 preview: |
   Learn about the founding of Stevens Blueprint and the lessons learned along the way.
 author: Christa Ruiz

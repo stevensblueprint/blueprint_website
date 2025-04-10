@@ -1,6 +1,7 @@
 ---
 title: Sarapis
 layout: /_layouts/ProjectPage.jsx
+indexable: true
 npoName: Sarapis
 npoLogo: ../../assets/logos/sarapis_logo.png
 npoWebsite: https://sarapis.org/

@@ -1,6 +1,7 @@
 ---
 title: Asian American Dream
 layout: /_layouts/ProjectPage.jsx
+indexable: true
 npoName: Asian American Dream
 npoLogo: ../../assets/logos/aad_logo.png
 npoWebsite: https://www.asianamericandream.org/
