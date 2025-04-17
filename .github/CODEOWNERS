@@ -2,3 +2,10 @@
 
 # Defines the owner of the whole code repository
 * @org/team-cappuccino
+
+# Design Team Owns Visual Changes
+src/ @org/design-team
+
+# Marketing Team Owns Blog Changes
+src/blog/ @org/marketing-team
+src/blog.md @org/marketing-team
