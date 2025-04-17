@@ -1,12 +1,30 @@
-# Technology Stack
+# Table of Contents
+  - [Repository Structure](#repository-structure)
+  - [Maintenance + Making Changes](#maintenance--making-changes)
+    - [Blog Updates](#blog-changes)
+    - [Changing the Featured Blog Post](#changing-the-featured-blog-post)
+    - [Adding and Updating Project Page](#adding-and-updating-project-page)
+  - [Contributing](#contributing)
+  - [Resources](#resources)
 
-# Design
+## Repository Structure
+
+**_configt.ts**: Configuration file for Lume plugins, settings, assets, and other options.
+
+Most of your changes will be in the `src` directory. This is where all the content for the website is stored.
+- **src/assets**: Contains all the images, logos, and other assets used in the website.
+- **src/blog**: Contains all the blog posts. Each post is a markdown file with metadata at the top.
+- **src/projects**: Contains all the project pages. Each project is a markdown file with metadata at the top.
+- **src/_includes_layouts**: Contains all the layout files for the website. These are used to define the structure of the pages.
+- **src/components**: Contains all the components used in the website. These are reusable pieces of code that can be used in multiple places. Each page has its own directory of unique components, while the shared components are in the root of the directory.
+
+There are several markdown (.md) files at the root of the `src` directory. These files are used to define the content of the website. We have abstracted most of the written content into these files to make it easier to make content updates (as opposed to going through the .jsx components). ***Adhere to this pattern if creating new pages.***
 
 # Maitnenance + Making Changes
 
 ### Blog Changes
 
-Our [Blog] is where we share our experiences, insights, and updates about our work with non-profit organizations. Stay informed about the latest news, events, and project highlights by visiting this section regularly. We encourage club members to contribute to the blog and share their knowledge and experiences.
+Our Blog is where we share our experiences, insights, and updates about our work with non-profit organizations. Stay informed about the latest news, events, and project highlights by visiting this section regularly. We encourage club members to contribute to the blog and share their knowledge and experiences.
 
 To create a new blog post, follow these steps:
 
@@ -58,6 +76,25 @@ featured_post:
 5. Add the content of the blog post as normal markdown. You can include images, code snippets, and other media in your blog post. You can also include links to other pages on the website or external websites. Images should be placed in the `src/assets/blog_photos` directory.
 6. Create a Pull Request and request the President, VP of Technology, and VP of Design to review your post. The Executive Board will review the post and provide feedback before merging it into the main branch.
 
-* Managing Blog Posts/Project pages
-* Approval process for website
-* PR structure/requirements
+
+## Adding and Updating Project Page
+
+The content for each project is written in a markdown file.
+
+**To add a new project:**
+
+- Create a branch called newProject/{REPLACE_WITH_PROJECT_NAME}
+- In `src/projects` create a new markdown file with the non-profit's name. Make the file name all lowercase and use hyphens "-" instead of spaces or underscores
+- Add the following fields to your project: (title, layout, url, project_title, project_logo_url, github_repository_url)
+- Fill in the above fields (refer to current projects for help)
+
+**To update the content:**
+
+- Create a branch called projectUpdate/{REPLACE_WITH_PROJECT_NAME}
+- In your branch, access your project's respective markdown file in `src/projects` and make your respective edits
+- Submit a pull request for review
+
+## Resources
+
+- [Lume Search and Pagination Plugin](https://lume.land/docs/core/searching/#searching-pages)
+- [Lume Blog Example](https://lume.land/blog/)
