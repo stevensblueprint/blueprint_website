@@ -4,8 +4,8 @@
 * @org/team-cappuccino
 
 # Design Team Owns Visual Changes
-src/ @org/design-team
+src/ @org/team-design
 
 # Marketing Team Owns Blog Changes
-src/blog/ @org/marketing-team
-src/blog.md @org/marketing-team
+src/blog/ @org/team-marketing
+src/blog.md @org/team-marketing
