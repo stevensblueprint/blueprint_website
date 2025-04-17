@@ -1,6 +1,7 @@
 # Table of Contents
   - [Repository Structure](#repository-structure)
   - [Maintenance + Making Changes](#maintenance--making-changes)
+    - [Writing Issues](#writing-issues)
     - [Blog Updates](#blog-changes)
     - [Changing the Featured Blog Post](#changing-the-featured-blog-post)
     - [Adding and Updating Project Page](#adding-and-updating-project-page)
@@ -20,11 +21,17 @@ Most of your changes will be in the `src` directory. This is where all the conte
 
 There are several markdown (.md) files at the root of the `src` directory. These files are used to define the content of the website. We have abstracted most of the written content into these files to make it easier to make content updates (as opposed to going through the .jsx components). ***Adhere to this pattern if creating new pages.***
 
-# Maitnenance + Making Changes
+# Maintenance + Making Changes
+
+### Issues
+
+If you find any issues with the website, please create an issue on the repository and notify a member of the Website Team. Include a description of the issue and any relevant screenshots or links. We will review the issue and assign it to a member of the Website Team for resolution.
+
+Current issues are tracked on the [Blueprint Website Project Board](https://github.com/orgs/stevensblueprint/projects/23/views/1)
 
 ### Blog Changes
 
-Our Blog is where we share our experiences, insights, and updates about our work with non-profit organizations. Stay informed about the latest news, events, and project highlights by visiting this section regularly. We encourage club members to contribute to the blog and share their knowledge and experiences.
+Our Blog is where we share our experiences, insights, and updates about our work with non-profit organizations. We encourage club members to contribute to the blog and share their knowledge and experiences. Please consult with the Website Team before writing your blog post to ensure it aligns with our organization.
 
 To create a new blog post, follow these steps:
 
@@ -74,8 +81,8 @@ featured_post:
 **Notes: Standard tags include "Technology", "Design", "Product", "General". The tag options may change. In the future we hope to implement a feature that allows users to filter blog posts based on the tags. [EXAMPLE](https://lume.land/blog/archive/)**
 
 5. Add the content of the blog post as normal markdown. You can include images, code snippets, and other media in your blog post. You can also include links to other pages on the website or external websites. Images should be placed in the `src/assets/blog_photos` directory.
-6. Create a Pull Request and request the President, VP of Technology, and VP of Design to review your post. The Executive Board will review the post and provide feedback before merging it into the main branch.
 
+6. Create a Pull Request and request the President, VP of Technology, and VP of Design to review your post. The Executive Board will review the post and provide feedback before merging it into the main branch.
 
 ## Adding and Updating Project Page
 
@@ -83,18 +90,20 @@ The content for each project is written in a markdown file.
 
 **To add a new project:**
 
-- Create a branch called newProject/{REPLACE_WITH_PROJECT_NAME}
-- In `src/projects` create a new markdown file with the non-profit's name. Make the file name all lowercase and use hyphens "-" instead of spaces or underscores
-- Add the following fields to your project: (title, layout, url, project_title, project_logo_url, github_repository_url)
-- Fill in the above fields (refer to current projects for help)
+1. Create a branch called newProject/{REPLACE_WITH_PROJECT_NAME}
+2. In `src/projects` create a new markdown file with the non-profit's name. Make the file name all lowercase and use hyphens "-" instead of spaces or underscores
+3. Add the following fields to your project: (title, layout, url, project_title, project_logo_url, github_repository_url)
+4. Fill in the above fields (refer to current projects for help)
 
 **To update the content:**
 
-- Create a branch called projectUpdate/{REPLACE_WITH_PROJECT_NAME}
-- In your branch, access your project's respective markdown file in `src/projects` and make your respective edits
-- Submit a pull request for review
+1. Create a branch called projectUpdate/{REPLACE_WITH_PROJECT_NAME}
+2. In your branch, access your project's respective markdown file in `src/projects` and make your respective edits
+3. Submit a pull request for review
 
 ## Resources
 
+- [Website Figma FA24 - SP25](https://www.figma.com/design/Zw1lNlwMEahJCcN5X2L0WT/Blueprint-Website-Redesign?node-id=1380-1888&p=f&t=7GY818P5x6T3JUuE-0)
+- [Website Ownership and Approval Process](https://wiki.sitblueprint.com/books/website/page/change-approval-process-and-website-ownership)
 - [Lume Search and Pagination Plugin](https://lume.land/docs/core/searching/#searching-pages)
 - [Lume Blog Example](https://lume.land/blog/)

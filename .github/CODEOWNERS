@@ -1,0 +1,4 @@
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners for more information
+
+# Defines the owner of the whole code repository
+* @org/team-cappuccino
