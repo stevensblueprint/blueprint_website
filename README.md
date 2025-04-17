@@ -2,163 +2,46 @@
 
 ![Blueprint](/src/assets/logos/logo_banner.png)
 
-Stevens Blueprint, a student club organization dedicated to developing code for non-profit organizations.
+Stevens Blueprint is a student organization that develops pro bono technical solutions for non-profit organizations. The site is now in maintenance mode, and any major changes to it will be at the discretion of the Website team.
 
-## Table of Contents
+The website is built using Lume, a static site generator (SSG) that uses Deno, a runtime for JavaScript and TypeScript. We use TailwindCSS for styling. The website is hosted on GitHub Pages.
 
-- [Stevens Blueprint Website](#stevens-blueprint-website)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [Projects](#projects)
-  - [Blog](#blog)
-    - [Changing the Featured Blog Post](#changing-the-featured-blog-post)
-  - [Technologies Used](#technologies-used)
-- [Contributors](#contributors)
-  - [Setup for contributors](#setup-for-contributors)
-  - [For Project Teams Updating their Project Page](#for-project-teams-updating-their-project-page)
-- [Resources](#resources)
+## Contributors
 
-## About
+Before making changes, please read our [documentation](DOCS.md) to understand our processes and guidelines. We invite pull requests from all Stevens Blueprint members. Read our [approval process](https://wiki.sitblueprint.com/books/website/page/change-approval-process-and-website-ownership) for more information.
 
-Stevens Blueprint is a community of passionate students at Stevens Institute of Technology who are committed to making a positive impact by developing software solutions for non-profit organizations. Our club members work on real-world projects, gaining valuable experience while giving back to the community.
+### Prerequisites
 
-## Projects
+1. Install [Deno Runtime](https://docs.deno.com/runtime/getting_started/installation/) (v2)
+2. Install [Lume Static Site Generator](https://lume.land/) (v2)
+3. Install [Node](https://nodejs.org/en/download) and npm
 
-On the [Projects] page, you can explore the various software projects we've been working on. Each project is aimed at helping non-profit organizations in different ways, from building websites to creating custom software tools. You can find project descriptions, status updates, and information on how you can get involved in ongoing projects or propose new ones.
+### Setup
 
-## Blog
+1. Clone the repository:
 
-Our [Blog] is where we share our experiences, insights, and updates about our work with non-profit organizations. Stay informed about the latest news, events, and project highlights by visiting this section regularly. We encourage club members to contribute to the blog and share their knowledge and experiences.
-
-To create a new blog post, follow these steps:
-
-1. Create a branch called `blog/{title-of-the-post}` and switch to that branch.
-2. Create a new markdown file in the `src/blog` directory.
-3. Name the file using the following format: `title-of-the-post.md`
-4. Add the following metadata to the top of the markdown file
-
-```markdown
----
-url: /blog/title-of-the-post.html
-title: Title Of The Post
-preview: |
-  This preview section is what is shown on the main "Blog" page. It should be a brief summary of the post. We have not decided on a character limit yet, but it should be consistent with the other posts on the page so that it does not look too strange. The recommended length would
-  be 3 full lines of text. So what is written here in these docs is a good target point of what you should be writing.
-author: Author Name (For Example: "Christian Apostol")
-date: YYYY-MM-DD (For Example: "2024-02-15", if the date is not in this format it will error out)
-tags: 
-  - Technology
----
-```
-
-### Changing the Featured Blog Post
-
-Go into the `src/blog.md` file and change the `featured_post` metadata to the new blog post you want to feature. The `redirect_url` field should be the same as the `url` field in the blog post metadata. `title` and `date_posted` should also be consistent with the blog post metadata. For the `preview`, I recommend pasting the first paragraph of the blog post. The code is setup to line clamp and cut off the content with ellipses if it is too long.
-
-````markdown
-Example:
-
-```markdown
----
-title: Stevens Blueprint
-layout: _layouts/Blog.jsx
-featured_post:
-  title: The Founding of Stevens Blueprint
-  date_posted: March 6, 2025
-  image_url: ../assets/photos/blueprint_blog.jpg
-  tags:
-    - General
-  preview: |
-    In September of 2021, Blueprint was just a dream that Simon Gao, Max Shi, and Hamzah Nizami all shared. Inspired by Blueprint chapters at other universities, they wanted to bring the same organization to Stevens. Blueprint would connect project teams of Stevens students to non-profit organizations (NPOs) to provide software solutions free of charge. However, all three of them were seniors, and not able to make Blueprint a fully registered organization (RSO) before graduating. Little did they know that they would lay the groundwork for what Blueprint has become in just two years, an organization with over 60 members that has worked on projects for five NPOs thus far.
-  redirect_url: /blog/the-founding-of-stevens-blueprint.html
----
-```
-````
-
-**Notes: Standard tags include "Technology", "Design", "Product", "General". The tag options may change. In the future we hope to implement a feature that allows users to filter blog posts based on the tags. [EXAMPLE](https://lume.land/blog/archive/)**
-
-5. Add the content of the blog post as normal markdown. You can include images, code snippets, and other media in your blog post. You can also include links to other pages on the website or external websites. Images should be placed in the `src/assets/blog_photos` directory.
-6. Create a Pull Request and request the President, VP of Technology, and VP of Design to review your post. The Executive Board will review the post and provide feedback before merging it into the main branch.
-
-## Technologies Used
-
-Our website is built using Lume, a static site generator (SSG), which provides a simple and efficient way to create static websites. The use of Lume ensures that our website is fast, reliable, and easy to maintain. You can find the website's source code and more information about how it's built in our GitHub repository.
-
-# Contributors
-
-Thank you for wishing to contribute to our Chapter's Website! As stated [above](#technologies-used), we are using [Lume](https://lume.land/docs/overview/about-lume/) for this site. Lume is an SSG that uses Deno, a runtime for Javascript. If you are familiar with git, feel free to follow the installation, clone, and running steps. If you are unfamiliar that's good too; the instructions will be a little more verbose so you can easily follow along. We assume you have already installed git 👍
-
-## Setup for contributors
-
-1. Ensure that you have Deno installed. We are using Deno 2 (version 2.1.4). You can skip this step if you do. If you don't or are unsure, you can use the following command to install it.
-
-   **Homebrew users:**
-
-   `brew install deno`
-
-   **Linux/Non-Homebrew Users:**
-
-   Run the following in your terminal:
-
-   `curl -fsSL https://deno.land/x/install/install.sh | sh`
-
-   If you are using bash run `code $HOME/.bashrc` to open your bash configuration file in VSCode.
-
-   If you are using zsh run `code $HOME/.zshrc` to open your zsh configuration file in VSCode.
-
-   In your respective file add the following:
-
-   ```
-   export DENO_INSTALL="/home/REPLACE_WITH_YOUR_USER/.deno"
-   export PATH="$DENO_INSTALL/bin:$PATH"
+   ```bash
+   git clone git@github.com:stevensblueprint/blueprint_website.git
    ```
 
-   Re-run the curl command.
+2. Navigate to the project directory:
 
-   Restart your terminal or enter a new one. To confirm deno was installed, check the version by running `deno --version`, should see something like `deno 2.1.4`
+   ```bash
+   cd blueprint_website
+   ```
 
-   You can find more information on the [Deno Docs](https://docs.deno.com/runtime/manual/getting_started/installation)
+3. Run the website + install dependencies:
 
-2. We need to clone the repository, which can be done with the following command:
+   ```bash
+   deno task serve
+   ```
 
-   - _For beginners_, we recommend having a folder on your computer where you plan on having this repo be stored.
-     1. To do such, open your Finder or File Explorer alongside a blank new VSCode window.
-     2. Drag the folder (that you wish to have this repository put into) inside of the VSCode window OR do File > Open Folder in VSCode.
-     3. Now, inside VSCode open the terminal (In the Top Menu Bar press 'View' > 'Terminal'). You can now run the below command.
-   - cloning via https:
+4. Open your browser and go to [localhost:3000](http://localhost:3000) to view the website. You can make changes to the code and see them reflected in real-time.
 
-     `git clone https://github.com/stevensblueprint/blueprint_website.git`
+5. After editing the code, run the following command to format the code:
 
-3. We can run the project using the following command:
+   ```bash
+   npm run format:write
+   ```
 
-   `deno task serve`
-
-4. You did it! You should see the project running on `http://localhost:3000`
-
-5. After editing the code, run prettier write in the terminal to make the code formatted correctly.
-
-`npm run format:write`
-
-Note: make sure npm is installed on your machine. The reason we are using npm for prettier as opposed to `deno fmt` is because of the `prettier-plugin-tailwindcss` npm pacakge. This helps us format our tailwindcss classes correctly, and currently, there is no deno equivalent.
-
-## For Project Teams Updating their Project Page
-
-The content of the project description is all contained within a markdown file
-
-**To update the content:**
-
-- Create a branch called projectUpdate/{REPLACE_WITH_PROJECT_NAME}
-- In your branch, access your project's respective markdown file in `src/projects` and make your respective edits
-- Submit a pull request for review
-
-**To add a new project:**
-
-- Create a branch called newProject/{REPLACE_WITH_PROJECT_NAME}
-- In `src/projects` create a new markdown file with the non-profit's name. Make the file name all lowercase and use hyphens "-" instead of spaces or underscores
-- Add the following fields to your project: (title, layout, url, project_title, project_logo_url, github_repository_url)
-- Fill in the above fields (refer to current projects for help)
-
-# Resources
-
-- [Lume Search and Pagination Plugin](https://lume.land/docs/core/searching/#searching-pages)
-- [Lume Blog Example](https://lume.land/blog/)
+   **Note:** Make sure npm is installed on your machine. The reason we are using npm for prettier as opposed to `deno fmt` is because of the `prettier-plugin-tailwindcss` npm package. This helps us format our tailwindcss classes correctly, and currently, there is no deno equivalent.
