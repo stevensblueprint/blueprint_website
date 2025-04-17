@@ -1,25 +1,27 @@
 # Table of Contents
-  - [Repository Structure](#repository-structure)
-  - [Maintenance + Making Changes](#maintenance--making-changes)
-    - [Writing Issues](#writing-issues)
-    - [Blog Updates](#blog-changes)
-    - [Changing the Featured Blog Post](#changing-the-featured-blog-post)
-    - [Adding and Updating Project Page](#adding-and-updating-project-page)
-  - [Contributing](#contributing)
-  - [Resources](#resources)
+
+- [Repository Structure](#repository-structure)
+- [Maintenance + Making Changes](#maintenance--making-changes)
+  - [Writing Issues](#writing-issues)
+  - [Blog Updates](#blog-changes)
+  - [Changing the Featured Blog Post](#changing-the-featured-blog-post)
+  - [Adding and Updating Project Page](#adding-and-updating-project-page)
+- [Contributing](#contributing)
+- [Resources](#resources)
 
 ## Repository Structure
 
-**_configt.ts**: Configuration file for Lume plugins, settings, assets, and other options.
+**\_configt.ts**: Configuration file for Lume plugins, settings, assets, and other options.
 
 Most of your changes will be in the `src` directory. This is where all the content for the website is stored.
+
 - **src/assets**: Contains all the images, logos, and other assets used in the website.
 - **src/blog**: Contains all the blog posts. Each post is a markdown file with metadata at the top.
 - **src/projects**: Contains all the project pages. Each project is a markdown file with metadata at the top.
-- **src/_includes_layouts**: Contains all the layout files for the website. These are used to define the structure of the pages.
+- **src/\_includes_layouts**: Contains all the layout files for the website. These are used to define the structure of the pages.
 - **src/components**: Contains all the components used in the website. These are reusable pieces of code that can be used in multiple places. Each page has its own directory of unique components, while the shared components are in the root of the directory.
 
-There are several markdown (.md) files at the root of the `src` directory. These files are used to define the content of the website. We have abstracted most of the written content into these files to make it easier to make content updates (as opposed to going through the .jsx components). ***Adhere to this pattern if creating new pages.***
+There are several markdown (.md) files at the root of the `src` directory. These files are used to define the content of the website. We have abstracted most of the written content into these files to make it easier to make content updates (as opposed to going through the .jsx components). **_Adhere to this pattern if creating new pages._**
 
 # Maintenance + Making Changes
 

@@ -2,7 +2,7 @@
 
 ![Blueprint](/src/assets/logos/logo_banner.png)
 
-Stevens Blueprint is a student organization that develops pro bono technical solutions for non-profit organizations. The site is now in maintenance mode, and any major changes to it will be at the discretion of the Website team. 
+Stevens Blueprint is a student organization that develops pro bono technical solutions for non-profit organizations. The site is now in maintenance mode, and any major changes to it will be at the discretion of the Website team.
 
 The website is built using Lume, a static site generator (SSG) that uses Deno, a runtime for JavaScript and TypeScript. We use TailwindCSS for styling. The website is hosted on GitHub Pages.
 
@@ -20,28 +20,28 @@ Before making changes, please read our [documentation](DOCS.md) to understand ou
 
 1. Clone the repository:
 
-    ```bash
-    git clone git@github.com:stevensblueprint/blueprint_website.git
-    ```
+   ```bash
+   git clone git@github.com:stevensblueprint/blueprint_website.git
+   ```
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd blueprint_website
-    ```
+   ```bash
+   cd blueprint_website
+   ```
 
 3. Run the website + install dependencies:
 
-    ```bash
-    deno task serve
-    ```
+   ```bash
+   deno task serve
+   ```
 
 4. Open your browser and go to [localhost:3000](http://localhost:3000) to view the website. You can make changes to the code and see them reflected in real-time.
 
 5. After editing the code, run the following command to format the code:
 
-    ```bash
-    npm run format:write
-    ```
+   ```bash
+   npm run format:write
+   ```
 
-    **Note:** Make sure npm is installed on your machine. The reason we are using npm for prettier as opposed to `deno fmt` is because of the `prettier-plugin-tailwindcss` npm package. This helps us format our tailwindcss classes correctly, and currently, there is no deno equivalent.
+   **Note:** Make sure npm is installed on your machine. The reason we are using npm for prettier as opposed to `deno fmt` is because of the `prettier-plugin-tailwindcss` npm package. This helps us format our tailwindcss classes correctly, and currently, there is no deno equivalent.
