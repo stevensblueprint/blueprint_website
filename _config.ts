@@ -59,7 +59,7 @@ site
   .copy("assets/fonts")
   .copy("assets/docs")
   .loadAssets([".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".pdf"])
-  .ignore("README.md", "CHANGELOG.md", "node_modules")
+  .ignore("README.md", "CHANGELOG.md", "DOCS.md", "node_modules")
   .use(jsx())
   .use(
     sitemap({
