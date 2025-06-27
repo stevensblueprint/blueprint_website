@@ -6,6 +6,7 @@ export default ({
   npoDescription,
   npoWebsite,
   projectDescription,
+  projectLink,
   tools,
   members,
 }) => (
@@ -41,6 +42,14 @@ export default ({
 
             <h2 className="">Project</h2>
             <p>{projectDescription}</p>
+            {projectLink && (
+              <a
+                href={projectLink}
+                className="text-primary hover:text-secondary underline hover:no-underline"
+              >
+                View Project →
+              </a>
+            )}
 
             <h2>Tools</h2>
             <p className="line-clamp-6">{tools}</p>
