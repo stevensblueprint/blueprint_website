@@ -15,11 +15,11 @@ tools: |
   Deno, Lume, JavaScript, TailwindCSS, Google Analytics
 members:
   - name: Christian Apostol
-    role: Technical Lead
+    role: Co-Technical Lead
+  - name: Johan Nguyen
+    role: Co-Technical Lead
   - name: Eliyah Sarowar
     role: Designer
-  - name: Johan Nguyen
-    role: Developer
   - name: Alexis Emerson
     role: Developer
   - name: Zidanni Clerigo
