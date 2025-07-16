@@ -59,7 +59,7 @@ team:
     linkedin: https://www.linkedin.com/in/~ezri/
   - name: Audrey Yoo
     role: Senior Designer
-    image_url: "../assets/eboard/senior_designer.png"
+    image_url: "../assets/eboard/senior_designer.jpg"
     linkedin: https://www.linkedin.com/in/audrey-june-yoo/
   - name: Terrence Zhang
     role: Technical Lead
