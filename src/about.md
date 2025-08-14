@@ -15,43 +15,43 @@ values:
 team:
   - name: Miguel Merlin
     role: President
-    image_url: "../assets/eboard/fa25-sp26/president.jpg"
+    image_url: "../assets/eboard/fa25-sp26/president.webp"
     linkedin: https://www.linkedin.com/in/miguel-angel-merlin-arriola/
   - name: Lucas Ha
     role: VP Operations
-    image_url: "../assets/eboard/fa25-sp26/vp_operations.jpg"
+    image_url: "../assets/eboard/fa25-sp26/vp_operations.webp"
     linkedin: https://www.linkedin.com/in/lucas-ha/
   - name: Brandon Yen
     role: VP Projects
-    image_url: "../assets/eboard/fa25-sp26/vp_projects.jpg"
+    image_url: "../assets/eboard/fa25-sp26/vp_projects.webp"
     linkedin: https://www.linkedin.com/in/brandonyen2026/
   - name: Dominic Magats
     role: VP Technology
-    image_url: "../assets/eboard/fa25-sp26/vp_tech_1.jpg"
+    image_url: "../assets/eboard/fa25-sp26/vp_tech_1.webp"
     linkedin: https://www.linkedin.com/in/dominic-magats-6bb914230/
   - name: Emilio Cardillo
     role: VP Technology
-    image_url: "../assets/eboard/fa25-sp26/vp_tech_2.jpg"
+    image_url: "../assets/eboard/fa25-sp26/vp_tech_2.webp"
     linkedin: https://www.linkedin.com/in/emilio-cardillo-schrader-6594b7308/
   - name: Ivan Farfan Diaz
     role: VP Design
-    image_url: "../assets/eboard/fa25-sp26/vp_design.jpg"
+    image_url: "../assets/eboard/fa25-sp26/vp_design.webp"
     linkedin: https://www.linkedin.com/in/ifdiaz/
   - name: Sahana Ali
     role: VP Finance
-    image_url: "../assets/eboard/fa25-sp26/vp_finance.jpg"
+    image_url: "../assets/eboard/fa25-sp26/vp_finance.webp"
     linkedin: https://www.linkedin.com/in/sahanaali/
   - name: Harris Hamid
     role: VP Recruitment
-    image_url: "../assets/eboard/fa25-sp26/vp_recruitment.jpg"
+    image_url: "../assets/eboard/fa25-sp26/vp_recruitment.webp"
     linkedin: https://www.linkedin.com/in/hhamid26/
   - name: Ananya Shrivastava
     role: VP Marketing
-    image_url: "../assets/eboard/fa25-sp26/vp_marketing.jpg"
+    image_url: "../assets/eboard/fa25-sp26/vp_marketing.webp"
     linkedin: https://www.linkedin.com/in/anshri/
   - name: Sutej Upadhyaya
     role: VP Events
-    image_url: "../assets/eboard/fa25-sp26/vp_events.jpg"
+    image_url: "../assets/eboard/fa25-sp26/vp_events.webp"
     linkedin: https://www.linkedin.com/in/sutej-upadhyaya-525843278/
   - name: Ezri Zhu
     role: Head of Infrastructure
@@ -108,7 +108,7 @@ team:
 alumni:
   - name: Christian Apostol
     role: President
-    image_url: "../assets/eboard/fa24-sp25/president.png"
+    image_url: "../assets/eboard/fa25-sp26/ex_president.webp"
     linkedin: https://www.linkedin.com/in/capostol/
   - name: Justin Ferber
     role: VP Projects
