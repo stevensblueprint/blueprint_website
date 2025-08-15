@@ -15,43 +15,43 @@ values:
 team:
   - name: Miguel Merlin
     role: President
-    image_url: "../assets/eboard/fa25-sp26/president.webp"
+    image_url: "../assets/eboard/president.webp"
     linkedin: https://www.linkedin.com/in/miguel-angel-merlin-arriola/
   - name: Lucas Ha
     role: VP Operations
-    image_url: "../assets/eboard/fa25-sp26/vp_operations.webp"
+    image_url: "../assets/eboard/vp_operations.webp"
     linkedin: https://www.linkedin.com/in/lucas-ha/
   - name: Brandon Yen
     role: VP Projects
-    image_url: "../assets/eboard/fa25-sp26/vp_projects.webp"
+    image_url: "../assets/eboard/vp_projects.webp"
     linkedin: https://www.linkedin.com/in/brandonyen2026/
   - name: Dominic Magats
     role: VP Technology
-    image_url: "../assets/eboard/fa25-sp26/vp_tech_1.webp"
+    image_url: "../assets/eboard/vp_tech_1.webp"
     linkedin: https://www.linkedin.com/in/dominic-magats-6bb914230/
   - name: Emilio Cardillo
     role: VP Technology
-    image_url: "../assets/eboard/fa25-sp26/vp_tech_2.webp"
+    image_url: "../assets/eboard/vp_tech_2.webp"
     linkedin: https://www.linkedin.com/in/emilio-cardillo-schrader-6594b7308/
   - name: Ivan Farfan Diaz
     role: VP Design
-    image_url: "../assets/eboard/fa25-sp26/vp_design.webp"
+    image_url: "../assets/eboard/vp_design.webp"
     linkedin: https://www.linkedin.com/in/ifdiaz/
   - name: Sahana Ali
     role: VP Finance
-    image_url: "../assets/eboard/fa25-sp26/vp_finance.webp"
+    image_url: "../assets/eboard/vp_finance.webp"
     linkedin: https://www.linkedin.com/in/sahanaali/
   - name: Harris Hamid
     role: VP Recruitment
-    image_url: "../assets/eboard/fa25-sp26/vp_recruitment.webp"
+    image_url: "../assets/eboard/vp_recruitment.webp"
     linkedin: https://www.linkedin.com/in/hhamid26/
   - name: Ananya Shrivastava
     role: VP Marketing
-    image_url: "../assets/eboard/fa25-sp26/vp_marketing.webp"
+    image_url: "../assets/eboard/vp_marketing.webp"
     linkedin: https://www.linkedin.com/in/anshri/
   - name: Sutej Upadhyaya
     role: VP Events
-    image_url: "../assets/eboard/fa25-sp26/vp_events.webp"
+    image_url: "../assets/eboard/vp_events.webp"
     linkedin: https://www.linkedin.com/in/sutej-upadhyaya-525843278/
   - name: Ezri Zhu
     role: Head of Infrastructure
@@ -108,39 +108,39 @@ team:
 alumni:
   - name: Christian Apostol
     role: President
-    image_url: "../assets/eboard/fa25-sp26/ex_president.webp"
+    image_url: "../assets/members/alumni/christian_apostol.webp"
     linkedin: https://www.linkedin.com/in/capostol/
   - name: Justin Ferber
     role: VP Projects
-    image_url: "../assets/eboard/fa24-sp25/vp_projects.png"
+    image_url: "../assets/members/alumni/justin_ferber.png"
     linkedin: https://www.linkedin.com/in/j-ferber/
   - name: Chinli Ong
     role: Freshman Rep
-    image_url: "../assets/eboard/fa24-sp25/freshman_rep_1.png"
+    image_url: "../assets/members/alumni/chinli_ong.png"
     linkedin: https://www.linkedin.com/in/chinli-o-2aaa68317/
   - name: Massimo Spina
     role: VP Finance
-    image_url: "../assets/eboard/fa24-sp25/vp_finance.png"
+    image_url: "../assets/members/alumni/massimo_spina.png"
     linkedin: "https://www.linkedin.com/in/massimo-spina-b47b12284/"
   - name: Shawn Aviles
     role: Alumni Chair
-    image_url: "../assets/eboard/fa24-sp25/alumni_chair.png"
+    image_url: "../assets/members/alumni/shawn_aviles.png"
     linkedin: https://www.linkedin.com/in/shawn-aviles/
   - name: Katie Ng
     role: President
-    image_url: "../assets/eboard/fa23-sp24/president.jpg"
+    image_url: "../assets/members/alumni/katie_ng.jpg"
     linkedin: https://www.linkedin.com/in/katiexng/
   - name: Andrew Krasinki
     role: VP External
-    image_url: "../assets/eboard/fa23-sp24/vp_external.jpg"
+    image_url: "../assets/members/alumni/andrew_krasinski.jpg"
     linkedin: https://www.linkedin.com/in/andrew-krasinski-407a43224/
   - name: Christa Ruiz
     role: VP Internal
-    image_url: "../assets/eboard/fa23-sp24/vp_internal.jpg"
+    image_url: "../assets/members/alumni/christa_ruiz.jpg"
     linkedin: https://www.linkedin.com/in/christaruiz/
   - name: Daniel Kim
     role: VP Recruitment
-    image_url: "../assets/eboard/fa23-sp24/vp_recruitment.jpg"
+    image_url: "../assets/members/alumni/daniel_kim.jpg"
     linkedin: https://www.linkedin.com/in/daniel-kim-a8b525200/
   - name: Richard Kirk
     role: Technical Lead
