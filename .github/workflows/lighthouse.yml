@@ -1,5 +1,7 @@
 name: Lighthouse CI
 on: push
+permissions:
+  content: read
 jobs:
   lighthouse:
     runs-on: ubuntu-latest
