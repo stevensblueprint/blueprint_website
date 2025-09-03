@@ -6,7 +6,7 @@ export default function InternalTeams({ comp }) {
       <div className="flex flex-col lg:flex-row items-start justify-center align-center pt-12 px-8 lg:px-40 gap-4 lg:gap-14">
         <img
           className="object-cover"
-          src={"../../assets/clip_art/internal_teams.svg"}
+          src="../../assets/clip_art/internal_teams.svg"
           alt="Internal Teams"
         />
         <div className="flex lg:w-7/12 flex-col gap-6">

@@ -12,7 +12,7 @@ export default ({ comp, featured_post, posts }) => (
       <title>Stevens Blueprint Blog</title>
     </head>
     <body>
-      <comp.Navbar alternate={true} />
+      <comp.Navbar alternate />
       <comp.Blog.Hero featured_post={featured_post} />
       <comp.Blog.Gallery posts={posts} />
       <comp.Footer />

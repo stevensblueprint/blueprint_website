@@ -10,7 +10,7 @@ export default function ({ text }) {
           blueprint@stevens.edu
           <img
             className="object-cover inline h-8 w-8 ml-2"
-            src={"../../assets/clip_art/AiOutlineMail.svg"}
+            src="../../assets/clip_art/AiOutlineMail.svg"
             alt="Email"
           />
         </a>

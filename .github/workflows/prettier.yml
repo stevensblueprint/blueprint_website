@@ -1,4 +1,4 @@
-name: prettier
+name: deno-format
 
 on:
   push:
@@ -12,7 +12,9 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
 
-      - name: Run prettier -check
-        run: |
-          npm ci
-          npm run format:check
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - name: Check formatting
+        run: deno fmt --check

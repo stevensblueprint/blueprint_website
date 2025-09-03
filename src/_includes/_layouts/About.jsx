@@ -34,8 +34,8 @@ export default ({ comp, values, team, alumni }) => (
         <comp.About.Mission />
         <comp.About.Values values={values} />
         <comp.About.Sponsors />
-        <comp.About.Team team={team} teamName={"Our Team"} />
-        <comp.About.Team team={alumni} teamName={"Alumni"} />
+        <comp.About.Team team={team} teamName="Our Team" />
+        <comp.About.Team team={alumni} teamName="Alumni" />
         <comp.Footer />
       </div>
     </body>
