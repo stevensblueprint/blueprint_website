@@ -8,7 +8,7 @@ export default function Impact() {
       </h1>
       <div className="flex lg:flex-row flex-col gap-10 lg:gap-20 lg:items-center justify-evenly">
         <div className="flex flex-col lg:items-center justify-center">
-          <h2 className="text-8xl lg:text-9xl text-secondary font-bold">5</h2>
+          <h2 className="text-8xl lg:text-9xl text-secondary font-bold">7</h2>
           <span className="lg:text-center text-2xl lg:text-3xl font-bold">
             <span className="block">NON-PROFIT</span>
             <span className="block">PROJECTS</span>
