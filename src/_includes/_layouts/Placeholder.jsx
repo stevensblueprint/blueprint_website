@@ -1,5 +1,5 @@
 export default ({ comp, headline, description }) => {
-  const logo = "/assets/logos/logo_banner.png";
+  const logo = "/assets/logos/logo_banner.webp";
   return (
     <html>
       <head>

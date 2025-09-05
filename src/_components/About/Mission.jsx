@@ -14,13 +14,13 @@ export default function Mission({ comp }) {
       </section>
       <comp.Carousel
         array_of_images={[
-          "../assets/photos/elections.jpg",
-          "../assets/photos/perplexity_teaching.jpg",
-          "../assets/photos/eboard_merch.jpg",
-          "../assets/photos/google_event.jpg",
-          "../assets/photos/google_event_1.jpg",
-          "../assets/photos/cs_carnival.jpg",
-          "../assets/photos/perplexity_group.jpg",
+          "../assets/photos/elections.webp",
+          "../assets/photos/perplexity_teaching.webp",
+          "../assets/photos/eboard_merch.webp",
+          "../assets/photos/google_event.webp",
+          "../assets/photos/google_event_1.webp",
+          "../assets/photos/cs_carnival.webp",
+          "../assets/photos/perplexity_group.webp",
         ]}
       />
     </section>

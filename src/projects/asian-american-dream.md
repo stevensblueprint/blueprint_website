@@ -3,7 +3,7 @@ title: Asian American Dream
 layout: /_layouts/ProjectPage.jsx
 indexable: true
 npoName: Asian American Dream
-npoLogo: ../../assets/logos/aad_logo.png
+npoLogo: ../../assets/logos/aad_logo.webp
 npoWebsite: https://www.asianamericandream.org/
 githubRepository: https://github.com/stevensblueprint/aad-matching-service
 npoDescription: |

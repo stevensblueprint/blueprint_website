@@ -9,8 +9,8 @@ const navigationLinks = [
   { href: "/blog", text: "Blog" },
 ];
 
-const logoNegative = "/assets/logos/logo_banner_negative.png";
-const logoPrimary = "/assets/logos/logo_banner.png";
+const logoNegative = "/assets/logos/logo_banner_negative.webp";
+const logoPrimary = "/assets/logos/logo_banner.webp";
 
 export default function NavigationBar({ alternate }) {
   return (

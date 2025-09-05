@@ -15,7 +15,7 @@ export default function OurProjects({ comp }) {
       <div className="flex flex-col md:flex-row md:max-w-[1440px] md:mx-auto gap-6 md:gap-x-6 lg:gap-x-12 flex-nowrap lg:gap-y-6">
         <comp.ProjectCard
           name_organization={"Sarapis"}
-          image_url={"../assets/logos/sarapis_logo.png"}
+          image_url={"../assets/logos/sarapis_logo.webp"}
           description={
             "Sarapis is nonprofit organization advancing the free/libre/open source movement by helping NGOs, community groups and governments solve problems managing human services information."
           }
@@ -25,7 +25,7 @@ export default function OurProjects({ comp }) {
         />
         <comp.ProjectCard
           name_organization={"Asian American Dream"}
-          image_url={"../assets/logos/aad_logo.png"}
+          image_url={"../assets/logos/aad_logo.webp"}
           description={
             "Asian American Dream empowers underserved Asian American and Pacific Islander undergraduates through career-centric mentorship and professional development opportunities."
           }
@@ -35,7 +35,7 @@ export default function OurProjects({ comp }) {
         />
         <comp.ProjectCard
           name_organization={"InReach"}
-          image_url={"../assets/logos/inreach_logo.png"}
+          image_url={"../assets/logos/inreach_logo.webp"}
           description={
             "InReach provides verified services for LGBTQ+ asylum seekers, immigrants, refugees, BIPOC communities, TGNC individuals, LGBTQ+ youth, caregivers, and more."
           }

@@ -3,7 +3,7 @@ title: Sarapis
 layout: /_layouts/ProjectPage.jsx
 indexable: true
 npoName: Sarapis
-npoLogo: ../../assets/logos/sarapis_logo.png
+npoLogo: ../../assets/logos/sarapis_logo.webp
 npoWebsite: https://sarapis.org/
 githubRepository: https://github.com/stevensblueprint/orservice
 npoDescription: |

@@ -3,7 +3,7 @@ title: NJ Appleseed
 layout: /_layouts/ProjectPage.jsx
 indexable: true
 npoName: NJ Appleseed
-npoLogo: ../../assets/logos/nj_appleseed_logo.png
+npoLogo: ../../assets/logos/nj_appleseed_logo.webp
 npoWebsite: https://njappleseed.org/
 githubRepository: https://github.com/stevensblueprint/nj-appleseed
 projectLink: https://endmeddebtnj.org/

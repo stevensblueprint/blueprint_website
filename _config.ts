@@ -23,8 +23,8 @@ const site = lume({
 site
   .use(
     favicon({
-      input: "assets/logos/logo.png",
-    }),
+      input: "assets/logos/logo.webp",
+    })
   )
   .use(
     tailwindcss({
@@ -48,7 +48,7 @@ site
         },
         plugins: [typography],
       },
-    }),
+    })
   )
   .use(postcss())
   .copy("assets/logos")
@@ -58,7 +58,7 @@ site
   .copy("assets/vector")
   .copy("assets/fonts")
   .copy("assets/docs")
-  .loadAssets([".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".pdf"])
+  .loadAssets([".css", ".js", ".webp", ".gif", ".svg", ".pdf"])
   .ignore("README.md", "CHANGELOG.md", "DOCS.md", "node_modules")
   .use(jsx())
   .use(
@@ -66,7 +66,7 @@ site
       filename: "sitemap.xml",
       query: "indexable=true",
       sort: "date=desc",
-    }),
+    })
   );
 
 export default site;

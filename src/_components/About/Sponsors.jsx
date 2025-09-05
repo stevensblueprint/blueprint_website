@@ -18,17 +18,17 @@ export default function Sponsors({ comp }) {
         />
         <div className="flex flex-row py-12 gap-5 mb-16 mx-auto">
           <img
-            src="../assets/logos/notion.png"
+            src="../assets/logos/notion.webp"
             alt="notion"
             className="object-cover h-20 max-w-none"
           />
           <img
-            src="../assets/logos/github.png"
+            src="../assets/logos/github.webp"
             alt="github"
             className="object-cover h-20 max-w-none"
           />
           <img
-            src="../assets/logos/perplexity.png"
+            src="../assets/logos/perplexity.webp"
             alt="perplexity"
             className="object-cover h-20 max-w-none"
           />
