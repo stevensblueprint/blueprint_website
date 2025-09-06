@@ -5,7 +5,7 @@ indexable: true
 featured_post:
   title: The Founding of Stevens Blueprint
   date_posted: March 6, 2025
-  image_url: ../assets/photos/blueprint_blog.jpg
+  image_url: ../assets/photos/blueprint_blog.webp
   tags:
     - General
   preview: |

@@ -3,7 +3,7 @@ title: Open Referral
 layout: /_layouts/ProjectPage.jsx
 indexable: true
 npoName: Open Referral
-npoLogo: ../../assets/logos/open_referral_logo.png
+npoLogo: ../../assets/logos/open_referral_logo.webp
 npoWebsite: https://openreferral.org/
 githubRepository: https://github.com/stevensblueprint/hsds-validator
 npoDescription: |

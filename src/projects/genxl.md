@@ -3,7 +3,7 @@ title: GenXL
 layout: /_layouts/ProjectPage.jsx
 indexable: true
 npoName: GenXL
-npoLogo: ../../assets/logos/genxl_logo.png
+npoLogo: ../../assets/logos/genxl_logo.webp
 npoWebsite: https://www.gnxl.org/
 githubRepository: https://github.com/stevensblueprint/genxl_cms
 npoDescription: |

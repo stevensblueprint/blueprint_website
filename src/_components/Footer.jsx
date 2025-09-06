@@ -1,5 +1,3 @@
-import React from "react";
-
 const FOOTER_LINKS = {
   urls: {
     blueprint: "/",
@@ -122,7 +120,7 @@ export default function Footer() {
             <div className="mb-6 md:mb-0">
               <a href={urls.blueprint} className="flex items-center">
                 <img
-                  src="/assets/logos/logo_banner_negative.png"
+                  src="/assets/logos/logo_banner_negative.webp"
                   className="h-8 mr-2"
                   alt="blueprint Logo"
                 />

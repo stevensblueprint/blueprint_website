@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function MemberCard({ name, role, image_url, linkedin }) {
-  const defaultImage = "../assets/logos/logo.png";
+  const defaultImage = "../assets/logos/logo.webp";
   return (
     <figure className="flex flex-col items-center lg:p-4 w-40 lg:w-40 mx-2 mb-8">
       <img
@@ -19,7 +19,7 @@ export default function MemberCard({ name, role, image_url, linkedin }) {
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
           <img
             className="mb-4 mt-1 object-cover object-center w-8 h-8"
-            src="../assets/logos/linkedin.png"
+            src="../assets/logos/linkedin.webp"
             alt="LinkedIn Logo"
           />
         </a>

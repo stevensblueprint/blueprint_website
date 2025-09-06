@@ -3,7 +3,7 @@ title: InReach
 layout: /_layouts/ProjectPage.jsx
 indexable: true
 npoName: InReach
-npoLogo: ../../assets/logos/inreach_logo.png
+npoLogo: ../../assets/logos/inreach_logo.webp
 npoWebsite: https://inreach.org/about-us/
 githubRepository: https://github.com/stevensblueprint/inreach-website
 npoDescription: |

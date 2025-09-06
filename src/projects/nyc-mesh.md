@@ -3,7 +3,7 @@ title: NYC Mesh
 layout: /_layouts/ProjectPage.jsx
 indexable: true
 npoName: NYC Mesh
-npoLogo: ../../assets/logos/nycmesh_logo.png
+npoLogo: ../../assets/logos/nycmesh_logo.webp
 npoWebsite: https://www.nycmesh.net/
 githubRepository: https://github.com/stevensblueprint/nycmesh-node-visualizer
 npoDescription: |

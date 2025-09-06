@@ -23,7 +23,7 @@ const site = lume({
 site
   .use(
     favicon({
-      input: "assets/logos/logo.png",
+      input: "assets/logos/logo.webp",
     }),
   )
   .use(
@@ -58,7 +58,7 @@ site
   .copy("assets/vector")
   .copy("assets/fonts")
   .copy("assets/docs")
-  .loadAssets([".css", ".js", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".pdf"])
+  .loadAssets([".css", ".js", ".webp", ".gif", ".svg", ".pdf"])
   .ignore("README.md", "CHANGELOG.md", "DOCS.md", "node_modules")
   .use(jsx())
   .use(

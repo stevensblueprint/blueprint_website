@@ -6,7 +6,7 @@ export default function OpenGraphCommon() {
       <meta property="og:type" content="website" />
       <meta
         property="og:image"
-        content="https://sitblueprint.com/assets/logos/logo.png"
+        content="https://sitblueprint.com/assets/logos/logo.webp"
       />
     </head>
   );
