@@ -55,11 +55,11 @@ team:
     linkedin: https://www.linkedin.com/in/sutej-upadhyaya-525843278/
   - name: Alexis Emerson
     role: Technical Lead
-    image_url: "../assets/members/alexis_emerson.jpg"
+    image_url: "../assets/members/alexis_emerson.webp"
     linkedin: https://www.linkedin.com/in/alexis-emerson-a87216353
   - name: Zidanni Clerigo
     role: Technical Lead
-    image_url: "../assets/members/zidanni_clerigo.jpeg"
+    image_url: "../assets/members/zidanni_clerigo.webp"
     linkedin: https://www.linkedin.com/in/zidanni-clerigo/
   - name: Ezri Zhu
     role: Head of Infrastructure
@@ -160,7 +160,7 @@ alumni:
     linkedin: https://www.linkedin.com/in/jonathan-m-memoli/
   - name: Johan Nguyen
     role: Technical Lead
-    image_url: "../assets/members/johan_nguyen.png"
+    image_url: "../assets/members/johan_nguyen.webp"
     linkedin: https://www.linkedin.com/in/johan-nguyen-seven/
   - name: Christopher Engelbart
     role: Developer
@@ -200,11 +200,11 @@ alumni:
     linkedin: https://www.linkedin.com/in/ryancamburn/
   - name: Sneha Banda
     role: Developer
-    image_url: "../assets/members/sneha_banda.jpg"
+    image_url: "../assets/members/sneha_banda.webp"
     linkedin: https://www.linkedin.com/in/sneha-banda-301393218/
   - name: Max Green
     role: Developer
-    image_url: "../assets/members/max_green.jpg"
+    image_url: "../assets/members/max_green.webp"
     linkedin: https://www.linkedin.com/in/maxgreen01/
   - name: Rumi Loghmani
     role: Designer
@@ -212,7 +212,7 @@ alumni:
     linkedin: https://www.linkedin.com/in/rumilog/
   - name: Heta Patel
     role: Designer
-    image_url: "../assets/members/heta_patel.jpg"
+    image_url: "../assets/members/heta_patel.webp"
     linkedin: https://www.linkedin.com/in/hpatel61005/
   - name: Avanish Arif
     role: Designer
