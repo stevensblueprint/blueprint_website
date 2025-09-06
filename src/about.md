@@ -53,6 +53,14 @@ team:
     role: VP Events
     image_url: "../assets/eboard/fa25-sp26/vp_events.webp"
     linkedin: https://www.linkedin.com/in/sutej-upadhyaya-525843278/
+  - name: Alexis Emerson
+    role: Technical Lead
+    image_url: "../assets/members/alexis_emerson.jpg"
+    linkedin: https://www.linkedin.com/in/alexis-emerson-a87216353
+  - name: Zidanni Clerigo
+    role: Technical Lead
+    image_url: "../assets/members/zidanni_clerigo.jpeg"
+    linkedin: https://www.linkedin.com/in/zidanni-clerigo/
   - name: Ezri Zhu
     role: Head of Infrastructure
     image_url: "../assets/eboard/head_of_infrastructure.webp"
@@ -62,7 +70,7 @@ team:
     image_url: "../assets/eboard/senior_designer.webp"
     linkedin: https://www.linkedin.com/in/audrey-june-yoo/
   - name: Terrence Zhang
-    role: Technical Lead
+    role: Senior Developer
     image_url: "../assets/members/terrence_zhang.webp"
     linkedin: https://www.linkedin.com/in/zhangterrence/
   - name: Johan Nguyen
@@ -150,6 +158,10 @@ alumni:
     role: Technical Lead
     image_url: "../assets/members/jonathan_memoli.webp"
     linkedin: https://www.linkedin.com/in/jonathan-m-memoli/
+  - name: Johan Nguyen
+    role: Technical Lead
+    image_url: "../assets/members/johan_nguyen.png"
+    linkedin: https://www.linkedin.com/in/johan-nguyen-seven/
   - name: Christopher Engelbart
     role: Developer
     image_url: "../assets/members/christopher_engelbart.webp"
@@ -186,8 +198,24 @@ alumni:
     role: Developer
     image_url: "../assets/members/alumni/ryan_camburn.webp"
     linkedin: https://www.linkedin.com/in/ryancamburn/
+  - name: Sneha Banda
+    role: Developer
+    image_url: "../assets/members/sneha_banda.jpg"
+    linkedin: https://www.linkedin.com/in/sneha-banda-301393218/
+  - name: Max Green
+    role: Developer
+    image_url: "../assets/members/max_green.jpg"
+    linkedin: https://www.linkedin.com/in/maxgreen01/
   - name: Rumi Loghmani
     role: Designer
     image_url: "../assets/members/alumni/rumi_loghmani.webp"
     linkedin: https://www.linkedin.com/in/rumilog/
+  - name: Heta Patel
+    role: Designer
+    image_url: "../assets/members/heta_patel.jpg"
+    linkedin: https://www.linkedin.com/in/hpatel61005/
+  - name: Avanish Arif
+    role: Designer
+    image_url: ""
+    linkedin: https://www.linkedin.com/in/avanish-arif/
 ---

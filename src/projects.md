@@ -3,8 +3,22 @@ title: Stevens Blueprint
 layout: _layouts/Projects.jsx
 indexable: true
 projects:
-  - name_organization: Sarapis
+  - name_organization: GenXL
     status: In Progress
+    description: Our project focuses on rebuilding GenXL’s website into a modern, responsive, and scalable platform with a backend dashboard for real-time SEO management, analytics tracking, and easy content updates. By integrating tools like Google Analytics, Search Console, and a custom CMS, we aim to expand GenXL’s digital reach and make educational resources more accessible to students, educators, and partners worldwide.
+    image_url: "../assets/logos/genxl_logo.png"
+    redirect_url: /projects/genxl
+    project_tag: Content Management System
+    year: 2025
+  - name_organization: Open Referral
+    status: In Progress
+    description: Our project with Open Referral is centered on creating an HSDS Transformer that converts non-standard service directory data into the Human Service Data Specification (HSDS) format. This tool will streamline adoption by supporting both technical users who need schema mapping and non-technical users who want a simple interface for standardized, interoperable data sharing.
+    image_url: "../assets/logos/open_referral_logo.png"
+    redirect_url: /projects/open-referral
+    project_tag: Data Standarization
+    year: 2025
+  - name_organization: Sarapis
+    status: Completed
     description: We are building a modern, open-source data management interface for Human Services Data Standard (HSDS) datasets. Unlike ORServices, this tool adopts a modular, service-based architecture, allowing seamless integration with other HSDS applications like Connect211. It streamlines resource data creation, validation, and interoperability for social service directories
     image_url: "../assets/logos/sarapis_logo.webp"
     redirect_url: /projects/sarapis
