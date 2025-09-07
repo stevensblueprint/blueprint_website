@@ -65,18 +65,18 @@ team:
     role: Head of Infrastructure
     image_url: "../assets/eboard/head_of_infrastructure.webp"
     linkedin: https://www.linkedin.com/in/~ezri/
-  - name: Audrey Yoo
-    role: Senior Designer
-    image_url: "../assets/eboard/senior_designer.webp"
-    linkedin: https://www.linkedin.com/in/audrey-june-yoo/
   - name: Terrence Zhang
     role: Senior Developer
     image_url: "../assets/members/terrence_zhang.webp"
     linkedin: https://www.linkedin.com/in/zhangterrence/
-  - name: Johan Nguyen
-    role: Technical Lead
-    image_url: "../assets/members/johan_nguyen.webp"
-    linkedin: https://www.linkedin.com/in/johan-nguyen-seven/
+  - name: Nathaniel Andre Escaro
+    role: Senior Developer
+    image_url: "../assets/members/nathaniel_andre_escaro.webp"
+    linkedin: https://www.linkedin.com/in/nathaniel-andre-escaro-745099251/
+  - name: Audrey Yoo
+    role: Senior Designer
+    image_url: "../assets/eboard/senior_designer.webp"
+    linkedin: https://www.linkedin.com/in/audrey-june-yoo/
   - name: Eiliyah Sarowar
     role: Designer
     image_url: "../assets/members/eiliyah_sarowar.webp"
@@ -89,30 +89,10 @@ team:
     role: Designer
     image_url: ""
     linkedin: https://www.linkedin.com/in/avanish-arif/
-  - name: Nathaniel Andre Escaro
-    role: Developer
-    image_url: "../assets/members/nathaniel_andre_escaro.webp"
-    linkedin: https://www.linkedin.com/in/nathaniel-andre-escaro-745099251/
-  - name: Max Green
-    role: Developer
-    image_url: "../assets/members/max_green.webp"
-    linkedin: https://www.linkedin.com/in/maxgreen01/
   - name: Vinayak Ranjan
     role: Developer
     image_url: "../assets/members/vinayak_ranjan.webp"
     linkedin: https://www.linkedin.com/in/vinrran/
-  - name: Sneha Banda
-    role: Developer
-    image_url: "../assets/members/sneha_banda.webp"
-    linkedin: https://www.linkedin.com/in/sneha-banda-301393218/
-  - name: Alexis Emerson
-    role: Developer
-    image_url: "../assets/members/alexis_emerson.webp"
-    linkedin: https://www.linkedin.com/in/alexis-emerson-a87216353
-  - name: Zidanni Clerigo
-    role: Developer
-    image_url: "../assets/members/zidanni_clerigo.webp"
-    linkedin: https://www.linkedin.com/in/zidanni-clerigo/
 alumni:
   - name: Christian Apostol
     role: President
