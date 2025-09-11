@@ -2,6 +2,13 @@ export default ({ comp, faqs, timelineContent }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
+      <link
+        rel="preload"
+        href="/assets/fonts/BPText-Regular.woff2"
+        as="font"
+        type="font/woff2"
+        crossOrigin
+      />
       <link rel="stylesheet" href="/styles.css" />
       <title>Students</title>
       <meta property="og:title" content="Students" />
