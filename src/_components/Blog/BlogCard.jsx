@@ -5,6 +5,8 @@ export default function BlogCard({ name_post, image_url, date, project_tag }) {
 				<img
 					src={image_url}
 					alt={`${name_post} Image`}
+					loading="lazy"
+					decoding="async"
 					className="h-full rounded-lg"
 				/>
 			</div>
@@ -20,6 +22,8 @@ export default function BlogCard({ name_post, image_url, date, project_tag }) {
 				<img
 					src="../assets/vector/clock.svg"
 					alt="clock"
+					loading="lazy"
+					decoding="async"
 					className="h-4 w-4 my-1"
 				/>
 				<p className="mb-1">{date}</p>

@@ -24,6 +24,8 @@ export default function Hero({
 				<img
 					src={image.src}
 					alt={image.alt}
+					fetchpriority="high"
+					decoding="async"
 					className={image.className ?? ""}
 				/>
 			</div>
