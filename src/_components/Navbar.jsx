@@ -19,6 +19,8 @@ export default function NavigationBar({ alternate }) {
 				<img
 					src={alternate ? logoPrimary : logoNegative}
 					alt="Blueprint Logo"
+					fetchpriority="high"
+					decoding="async"
 					className="h-8 lg:h-11"
 				/>
 			</a>
