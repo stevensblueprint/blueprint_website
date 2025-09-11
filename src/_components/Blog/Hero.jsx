@@ -45,10 +45,12 @@ export default function Hero({ comp, featured_post }) {
         </div>
       </div>
       <div className="flex grow w-full lg:w-1/2 justify-center">
-        <image
+        <img
           src={featured_post.image_url}
           alt={`${featured_post.title} Image`}
           className="rounded-2xl w-full object-cover"
+          loading="lazy"
+          sizes="(max-width: 1024px) 100vw, 50vw"
         />
       </div>
     </section>

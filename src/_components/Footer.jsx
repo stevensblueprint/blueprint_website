@@ -123,6 +123,8 @@ export default function Footer() {
                   src="/assets/logos/logo_banner_negative.webp"
                   className="h-8 mr-2"
                   alt="blueprint Logo"
+                  loading="lazy"
+                  sizes="32px"
                 />
               </a>
               <h3 className="my-5 text-white font-medium font-poppins">

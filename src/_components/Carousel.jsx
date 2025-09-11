@@ -12,7 +12,13 @@ export default function Carousel({ array_of_images }) {
               key={i}
               className="flex justify-center shrink-0 lg:w-[35rem] w-[55rem] h-auto max-sm:w-full"
             >
-              <img className="rounded-lg" src={image} alt="carousel image" />
+              <img
+                className="rounded-lg"
+                src={image}
+                alt="carousel image"
+                loading="lazy"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 55rem, 35rem"
+              />
             </div>
           );
         })}

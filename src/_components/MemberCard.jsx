@@ -8,6 +8,8 @@ export default function MemberCard({ name, role, image_url, linkedin }) {
         className="rounded-lg mb-4 object-cover object-center lg:w-32 lg:h-32 w-40 h-40"
         src={image_url ? image_url : defaultImage}
         alt="member image"
+        loading="lazy"
+        sizes="(max-width: 1024px) 160px, 128px"
       />
       <figcaption className="text-center w-full">
         <div className="font-semibold lg:text-base text-xl overflow-hidden">
@@ -21,6 +23,8 @@ export default function MemberCard({ name, role, image_url, linkedin }) {
             className="mb-4 mt-1 object-cover object-center w-8 h-8"
             src="../assets/logos/linkedin.webp"
             alt="LinkedIn Logo"
+            loading="lazy"
+            sizes="32px"
           />
         </a>
       )}

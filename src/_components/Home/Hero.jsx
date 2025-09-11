@@ -10,7 +10,13 @@ export default function Hero({ comp }) {
   return (
     <section className="flex flex-col grow md:min-h-[600px] md:flex-row items-center justify-between bg-primary text-white py-8 px-6 md:p-0 overflow-hidden">
       <div className="hidden w-full md:flex md:items-center md:justify-start">
-        <img src="../../assets/vector/gear.svg" alt="gear" className="pt-24" />
+        <img
+          src="../../assets/vector/gear.svg"
+          alt="gear"
+          className="pt-24"
+          loading="lazy"
+          sizes="(max-width: 768px) 100vw, 50vw"
+        />
       </div>
       <div className="flex flex-col w-full lg:items-center justify-center lg:text-center">
         <h1 className="font-bold w-full text-3xl md:text-4xl lg:text-5xl leading-snug md:leading-[1.3] tracking-wide mb-6 lg:mb-16">

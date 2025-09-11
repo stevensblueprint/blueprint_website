@@ -21,16 +21,22 @@ export default function Sponsors({ comp }) {
             src="../assets/logos/notion.webp"
             alt="notion"
             className="object-cover h-20 max-w-none"
+            loading="lazy"
+            sizes="80px"
           />
           <img
             src="../assets/logos/github.webp"
             alt="github"
             className="object-cover h-20 max-w-none"
+            loading="lazy"
+            sizes="80px"
           />
           <img
             src="../assets/logos/perplexity.webp"
             alt="perplexity"
             className="object-cover h-20 max-w-none"
+            loading="lazy"
+            sizes="80px"
           />
         </div>
       </div>

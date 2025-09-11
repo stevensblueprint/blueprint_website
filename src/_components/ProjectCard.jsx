@@ -26,6 +26,8 @@ export default function ProjectCard({
           src={image_url}
           alt={`${name_organization} Image`}
           className="h-24 w-auto object-contain lg:max-w-[315px]"
+          loading="lazy"
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 315px"
         />
       </div>
       <figcaption className="flex flex-col justify-between h-full">

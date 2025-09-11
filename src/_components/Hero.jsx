@@ -27,6 +27,8 @@ export default function Hero({
           src={image.src}
           alt={image.alt}
           className={image.className ?? ""}
+          loading="lazy"
+          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
         />
       </div>
     </section>
