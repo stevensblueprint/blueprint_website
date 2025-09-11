@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ProjectCard({
   name_organization,
   image_url,
@@ -25,6 +23,8 @@ export default function ProjectCard({
         <img
           src={image_url}
           alt={`${name_organization} Image`}
+          loading="lazy"
+          decoding="async"
           className="h-24 w-auto object-contain lg:max-w-[315px]"
         />
       </div>

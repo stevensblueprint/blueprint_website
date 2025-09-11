@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ApplyCard({
   card_title,
   image_url,

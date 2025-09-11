@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Hero({
   comp,
   title,
@@ -26,6 +24,8 @@ export default function Hero({
         <img
           src={image.src}
           alt={image.alt}
+          fetchpriority="high"
+          decoding="async"
           className={image.className ?? ""}
         />
       </div>

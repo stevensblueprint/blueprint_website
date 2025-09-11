@@ -1,5 +1,3 @@
-import React from "https://esm.sh/react@19.0.0";
-
 const years = ["2025", "2024", "2023"];
 const statuses = ["In Progress", "Completed"];
 

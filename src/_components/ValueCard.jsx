@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ValueCard({ value }) {
   return (
     <article className="w-full flex gap-5 flex-col lg:text-center text-pretty lg:w-1/2 sm:w-3/4">
