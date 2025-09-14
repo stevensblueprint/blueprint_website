@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Carousel({ array_of_images }) {
   return (
     <div className="w-full lg:max-h-[40rem] overflow-y-scroll relative">

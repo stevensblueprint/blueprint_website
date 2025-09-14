@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ApplicationProcess({ comp, timelineContent }) {
   return (
     <section className="flex flex-col items-center px-12 pb-12 max-lg:px-12 max-md:w-full max-md:px-4">

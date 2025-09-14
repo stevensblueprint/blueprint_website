@@ -1,5 +1,3 @@
-import React from "https://esm.sh/react@19.0.0";
-
 const navigationLinks = [
   { href: "/about", text: "About" },
   { href: "/projects", text: "Projects" },
@@ -21,6 +19,8 @@ export default function NavigationBar({ alternate }) {
         <img
           src={alternate ? logoPrimary : logoNegative}
           alt="Blueprint Logo"
+          fetchpriority="high"
+          decoding="async"
           className="h-8 lg:h-11"
         />
       </a>
@@ -49,9 +49,8 @@ export default function NavigationBar({ alternate }) {
 
 function renderDesktopNavigationLinks(alternate) {
   return navigationLinks.map((link, index) => (
-    <span className="text-center">
+    <span key={index} className="text-center">
       <a
-        key={index}
         href={link.href}
         className={`${alternate ? "text-primary" : "text-white"} text-2xl relative group transition-all duration-300 ease-in-out`}
       >

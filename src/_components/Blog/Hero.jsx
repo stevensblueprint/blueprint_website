@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Hero({ comp, featured_post }) {
   return (
     <section className="grow flex flex-col min-h-[600px] lg:flex-row lg:items-center overflow-hidden px-6 md:px-12 lg:px-32">

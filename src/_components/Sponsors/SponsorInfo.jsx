@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
   return (
     <section className="flex flex-col lg:items-center justify-center px-8 lg:gap-y-6 lg:px-36 py-4 sm:py-8">

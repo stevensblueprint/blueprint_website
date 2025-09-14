@@ -1,5 +1,3 @@
-import React from "https://esm.sh/react";
-
 export default function AboutUs({ comp, about }) {
   return (
     <section className="relative">
@@ -8,6 +6,8 @@ export default function AboutUs({ comp, about }) {
           src="../../assets/vector/bulb_art.svg"
           alt="about"
           className="w-full"
+          loading="lazy"
+          decoding="async"
         />
       </div>
       <div className="absolute right-[15%] top-[15%] w-[25%]">

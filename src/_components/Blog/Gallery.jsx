@@ -15,9 +15,10 @@ export default function Gallery({ search }) {
   return (
     <section className="flex flex-col lg:items-center justify-center px-8 md:px-12 lg:px-32 py-16 lg:pt-24 bg-gray-100">
       <h1 className="text-4xl lg:text-5xl font-bold pb-12">Posts</h1>
-      {posts.map((post) => {
+      {posts.map((post, index) => {
         return (
           <a
+            key={index}
             href={post.url}
             className="flex flex-col bg-white p-4 my-4 rounded-md shadow-lg w-full"
           >

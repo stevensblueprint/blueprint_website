@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function MemberCard({ name, role, image_url, linkedin }) {
   const defaultImage = "../assets/logos/logo.webp";
   return (

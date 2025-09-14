@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Hero({ comp }) {
   const heroButtons = [
     { text: "Work with us", url: "/non-profits" },
@@ -10,7 +8,13 @@ export default function Hero({ comp }) {
   return (
     <section className="flex flex-col grow md:min-h-[600px] md:flex-row items-center justify-between bg-primary text-white py-8 px-6 md:p-0 overflow-hidden">
       <div className="hidden w-full md:flex md:items-center md:justify-start">
-        <img src="../../assets/vector/gear.svg" alt="gear" className="pt-24" />
+        <img
+          src="../../assets/vector/gear.svg"
+          alt="gear"
+          className="pt-24"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
       <div className="flex flex-col w-full lg:items-center justify-center lg:text-center">
         <h1 className="font-bold w-full text-3xl md:text-4xl lg:text-5xl leading-snug md:leading-[1.3] tracking-wide mb-6 lg:mb-16">
@@ -21,9 +25,13 @@ export default function Hero({ comp }) {
           develop pro bono technical solutions for non-profit organizations.
         </p>
         <div className="flex flex-col justify-center md:flex-row space-y-4 md:space-y-0 md:space-x-6 w-full">
-          {heroButtons.map((button) => {
+          {heroButtons.map((button, index) => {
             return (
-              <comp.HeroButton text={button.text} redirect_url={button.url} />
+              <comp.HeroButton
+                key={index}
+                text={button.text}
+                redirect_url={button.url}
+              />
             );
           })}
         </div>
@@ -33,6 +41,8 @@ export default function Hero({ comp }) {
           src="../../assets/vector/gear.svg"
           alt="gear"
           className="rotate-180 md:pt-72"
+          loading="lazy"
+          decoding="async"
         />
       </div>
     </section>

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Impact() {
   return (
     <section className="flex flex-col lg:items-center justify-center pt-16 pb-4 lg:pt-24 lg:py-32 gap-y-6 bg-gray-50 px-8">
