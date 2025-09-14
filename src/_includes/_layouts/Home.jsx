@@ -9,6 +9,13 @@ export default ({ comp, title, about }) => {
         ></meta>
         <meta property="og:title" content="Stevens Blueprint" />
         <meta property="og:url" content="https://sitblueprint.com/" />
+        <link
+          rel="preload"
+          href="/assets/fonts/BPText-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin
+        />
         <link rel="stylesheet" href="styles.css" />
         <link rel="icon" href="assets/logos/logo.webp" type="image/png"></link>
         <title>{title}</title>
