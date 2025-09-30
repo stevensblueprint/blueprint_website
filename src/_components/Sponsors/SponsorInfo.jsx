@@ -7,6 +7,33 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
         various Cloud Services and APIs, enhancing the development experience
         for our members and non-profit partners.
       </p>
+
+      
+      <p className="lg:text-center text-xl lg:text-2xl lg:px-14 max-w-2xl mx-auto mt-8">
+        We are grateful to our sponsors who provide us with resources and support!
+      </p>
+      <div className="flex flex-row py-12 gap-5 mb-16 mx-auto mt-4">
+        <img
+          src={"../../assets/logos/notion.webp"}
+          alt="notion"
+          className="object-cover h-20 max-w-none"
+        />
+        <img
+          src={"../../assets/logos/github.webp"}
+          alt="github"
+          className="object-cover h-20 max-w-none"
+        />
+        <img
+          src={"../../assets/logos/perplexity.webp"}
+          alt="perplexity"
+          className="object-cover h-20 max-w-none"
+        />
+        <img
+          src={"../../assets/logos/mongo_logo.png"}
+          alt="mongodb"
+          className="object-cover h-20 max-w-none"
+        />
+      </div>
       <div className="flex flex-col w-full sm:pt-8 lg:pl-24">
         <div className="flex flex-col xl:flex-row w-full">
           <comp.Testimonial
