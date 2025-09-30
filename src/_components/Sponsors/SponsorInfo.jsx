@@ -13,9 +13,9 @@ export default function Sponsors({
         for our members and non-profit partners.
       </p>
 
-      
       <p className="lg:text-center text-xl lg:text-2xl lg:px-14 max-w-2xl mx-auto mt-8">
-        We are grateful to our sponsors who provide us with resources and support!
+        We are grateful to our sponsors who provide us with resources and
+        support!
       </p>
       <div className="flex flex-row py-12 gap-5 mb-16 mx-auto mt-4">
         <img
