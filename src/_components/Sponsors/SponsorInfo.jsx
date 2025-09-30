@@ -1,4 +1,4 @@
-import PricingTiers from './PricingTiers.jsx';
+import PricingTiers from "./PricingTiers.jsx";
 
 export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
   return (
