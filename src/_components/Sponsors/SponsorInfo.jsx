@@ -1,3 +1,5 @@
+import PricingTiers from './PricingTiers.jsx';
+
 export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
   return (
     <section className="flex flex-col lg:items-center justify-center px-8 lg:gap-y-6 lg:px-36 py-4 sm:py-8">
@@ -74,6 +76,9 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
             alt="Email"
           />
         </a>
+      </div>
+      <div className="flex justify-center w-full mt-12">
+        <PricingTiers />
       </div>
     </section>
   );
