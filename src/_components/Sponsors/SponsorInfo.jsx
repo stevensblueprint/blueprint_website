@@ -1,4 +1,9 @@
-export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
+export default function Sponsors({
+  comp,
+  testimonial_1,
+  testimonial_2,
+  pricing_tiers,
+}) {
   return (
     <section className="flex flex-col lg:items-center justify-center px-8 lg:gap-y-6 lg:px-36 py-4 sm:py-8">
       <p className="text-xl lg:text-2xl lg:text-center w-full lg:w-3/5">
@@ -74,6 +79,21 @@ export default function Sponsors({ comp, testimonial_1, testimonial_2 }) {
             alt="Email"
           />
         </a>
+      </div>
+      <div className="flex justify-center w-full mt-12 mb-16">
+        <div className="flex flex-col lg:flex-row justify-center items-stretch gap-6 w-full max-w-[1154px] px-4 py-4">
+          {pricing_tiers &&
+            pricing_tiers.map((tier, index) => (
+              <comp.Sponsors.PricingTier
+                key={index}
+                name={tier.name}
+                price={tier.price}
+                description={tier.description}
+                features={tier.features}
+                isHighlighted={tier.isHighlighted}
+              />
+            ))}
+        </div>
       </div>
     </section>
   );
