@@ -33,7 +33,7 @@ export default function Sponsors({ comp }) {
             className="object-cover h-20 max-w-none"
           />
           <img
-            src="../assets/logos/mongo_logo.png"
+            src="../assets/logos/mongoDB_logo.png"
             alt="mongodb"
             className="object-cover h-20 max-w-none"
           />
