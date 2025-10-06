@@ -1,4 +1,10 @@
-export default function PricingTier({ name, price, description, features, isHighlighted }) {
+export default function PricingTier({
+  name,
+  price,
+  description,
+  features,
+  isHighlighted,
+}) {
   return (
     <div
       className={`flex flex-col p-8 rounded-lg w-full max-w-[350px] h-full ${
@@ -8,9 +14,7 @@ export default function PricingTier({ name, price, description, features, isHigh
       }`}
     >
       <h3 className="text-2xl font-bold mb-4">{name}</h3>
-      <p className="text-sm mb-6 opacity-80 leading-relaxed">
-        {description}
-      </p>
+      <p className="text-sm mb-6 opacity-80 leading-relaxed">{description}</p>
       <div className="mb-6">
         <span className="text-4xl font-bold">
           <span className="text-2xl">$</span>
@@ -41,4 +45,3 @@ export default function PricingTier({ name, price, description, features, isHigh
     </div>
   );
 }
-
