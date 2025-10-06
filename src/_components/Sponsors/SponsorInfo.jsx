@@ -64,6 +64,24 @@ export default function Sponsors({
           />
         </div>
       </div>
+      <h1 className="text-2xl lg:text-4xl text-center font-bold px-8">
+        Our Sponsorship Tiers
+      </h1>
+      <div className="flex justify-center w-full mt-12 mb-16">
+        <div className="flex flex-col lg:flex-row justify-center items-stretch gap-6 w-full max-w-[1154px] px-4 py-4">
+          {pricing_tiers &&
+            pricing_tiers.map((tier, index) => (
+              <comp.Sponsors.PricingTier
+                key={index}
+                name={tier.name}
+                price={tier.price}
+                description={tier.description}
+                features={tier.features}
+                isHighlighted={tier.isHighlighted}
+              />
+            ))}
+        </div>
+      </div>
       <div className="flex flex-col items-center p-12 w-full max-w-full px-4">
         <h1 className="text-2xl lg:text-4xl text-center text-primary font-bold px-8">
           Join Us in Making a Difference - Become a Sponsor Today!
@@ -79,21 +97,6 @@ export default function Sponsors({
             alt="Email"
           />
         </a>
-      </div>
-      <div className="flex justify-center w-full mt-12 mb-16">
-        <div className="flex flex-col lg:flex-row justify-center items-stretch gap-6 w-full max-w-[1154px] px-4 py-4">
-          {pricing_tiers &&
-            pricing_tiers.map((tier, index) => (
-              <comp.Sponsors.PricingTier
-                key={index}
-                name={tier.name}
-                price={tier.price}
-                description={tier.description}
-                features={tier.features}
-                isHighlighted={tier.isHighlighted}
-              />
-            ))}
-        </div>
       </div>
     </section>
   );
