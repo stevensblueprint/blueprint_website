@@ -11,6 +11,15 @@ testimonial_aad:
     "My experience working with the Blueprint team at Stevens was phenomenal. The task at hand was to develop a matching algorithm that would streamline the matching process for our signature, Kin Mentorship Program. Blueprint was able to develop a tailored algorithm that effectively matched our 200 mentees and 200 mentors based on ranking, industry, and mentorship style preferences. Our previous matching process was completely manual, taking days to complete. Blueprint revolutionized our matching process to create exceptional mentor-mentee matches, nearly instantaneously."
   npo: Kevin Ha, Executive Director of Asian American Dream
 pricing_tiers:
+  - name: Bronze
+    price: 2,500
+    description: >
+      Get recognized as a supporter of student innovation at Stevens. 
+      Perfect for organizations looking to build early visibility and connect with top tech talent.
+    features:
+      - Mention on Instagram / LinkedIn
+      - Access to student resumes
+    isHighlighted: false
   - name: Silver
     price: 1,000
     description: >
@@ -35,15 +44,6 @@ pricing_tiers:
       - Name / Logo on Merchandise
       - Host Recruiting Event
     isHighlighted: true
-  - name: Bronze
-    price: 2,500
-    description: >
-      Get recognized as a supporter of student innovation at Stevens. 
-      Perfect for organizations looking to build early visibility and connect with top tech talent.
-    features:
-      - Mention on Instagram / LinkedIn
-      - Access to student resumes
-    isHighlighted: false
 ---
 
 # Stevens Blueprint Website
