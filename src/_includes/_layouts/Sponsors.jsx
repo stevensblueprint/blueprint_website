@@ -1,4 +1,4 @@
-export default ({ comp, testimonial_inreach, testimonial_aad }) => (
+export default ({ comp, testimonial_inreach, testimonial_aad, pricing_tiers }) => (
   <html>
     <head>
       <comp.OpenGraphCommon />
@@ -35,6 +35,7 @@ export default ({ comp, testimonial_inreach, testimonial_aad }) => (
         <comp.Sponsors.SponsorInfo
           testimonial_1={testimonial_aad}
           testimonial_2={testimonial_inreach}
+          pricing_tiers={pricing_tiers}
         />
         <comp.Footer />
       </div>
