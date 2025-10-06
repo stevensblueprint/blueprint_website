@@ -24,7 +24,7 @@ export default function Sponsors({
 
   const podiumTransforms = {
     silver: "lg:translate-y-6",
-    gold: "lg:-translate-y-6 lg:scale-105",
+    gold: "lg:-translate-y-6",
     bronze: "lg:translate-y-10",
   };
 
