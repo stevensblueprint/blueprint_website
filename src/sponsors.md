@@ -11,27 +11,38 @@ testimonial_aad:
     "My experience working with the Blueprint team at Stevens was phenomenal. The task at hand was to develop a matching algorithm that would streamline the matching process for our signature, Kin Mentorship Program. Blueprint was able to develop a tailored algorithm that effectively matched our 200 mentees and 200 mentors based on ranking, industry, and mentorship style preferences. Our previous matching process was completely manual, taking days to complete. Blueprint revolutionized our matching process to create exceptional mentor-mentee matches, nearly instantaneously."
   npo: Kevin Ha, Executive Director of Asian American Dream
 pricing_tiers:
-  - name: Monthly
-    price: 500
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
+  - name: Silver
+    price: 1,000
+    description: >
+      Deepen your engagement with the Blueprint community by hosting technical events 
+      and showcasing your brand on our merchandise. Includes all Bronze benefits.
     features:
-      - Mention on LinkedIn / Instagram
-      - Access to Student Resumes
+      - Mention on Instagram / LinkedIn
+      - Access to student resumes
+      - Host Workshops / Tech Talks
+      - Name / Logo on Merchandise
     isHighlighted: false
   - name: Gold
-    price: 1500
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
+    price: 5,000
+    description: >
+      Join as a premier partner and gain direct recruiting access to our student network.
+      Perfect for companies seeking to inspire, recruit, and collaborate with future tech leaders.
+      Includes all Silver benefits.
     features:
-      - Everything in Standard
-      - Host Recruiting Events
-    isHighlighted: true
-  - name: Standard
-    price: 1000
-    description: Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.
-    features:
-      - Everything in Basic
-      - Host Workshops / Tech Talk
+      - Mention on Instagram / LinkedIn
+      - Access to student resumes
+      - Host Workshops / Tech Talks
       - Name / Logo on Merchandise
+      - Host Recruiting Event
+    isHighlighted: true
+  - name: Bronze
+    price: 2,500
+    description: >
+      Get recognized as a supporter of student innovation at Stevens. 
+      Perfect for organizations looking to build early visibility and connect with top tech talent.
+    features:
+      - Mention on Instagram / LinkedIn
+      - Access to student resumes
     isHighlighted: false
 ---
 

@@ -4,6 +4,30 @@ export default function Sponsors({
   testimonial_2,
   pricing_tiers,
 }) {
+  const podiumOrder = ["Silver", "Gold", "Bronze"];
+  const hasAllPodiumTiers =
+    Array.isArray(pricing_tiers) &&
+    pricing_tiers.length === podiumOrder.length &&
+    podiumOrder.every((tierName) =>
+      pricing_tiers.some(
+        (tier) => tier.name?.toLowerCase() === tierName.toLowerCase(),
+      ),
+    );
+
+  const orderedPricingTiers = hasAllPodiumTiers
+    ? podiumOrder.map((tierName) =>
+        pricing_tiers.find(
+          (tier) => tier.name?.toLowerCase() === tierName.toLowerCase(),
+        ),
+      )
+    : (pricing_tiers ?? []);
+
+  const podiumTransforms = {
+    silver: "lg:translate-y-6",
+    gold: "lg:-translate-y-6 lg:scale-105",
+    bronze: "lg:translate-y-10",
+  };
+
   return (
     <section className="flex flex-col lg:items-center justify-center px-8 lg:gap-y-6 lg:px-36 py-4 sm:py-8">
       <p className="text-xl lg:text-2xl lg:text-center w-full lg:w-3/5">
@@ -64,6 +88,33 @@ export default function Sponsors({
           />
         </div>
       </div>
+      <h1 className="text-2xl lg:text-4xl text-center font-bold px-8">
+        Our Sponsorship Tiers
+      </h1>
+      <div className="flex justify-center w-full mt-12 mb-16">
+        <div className="flex flex-col lg:flex-row justify-center lg:items-end gap-6 w-full max-w-[1154px] px-4 py-4">
+          {orderedPricingTiers.map((tier) => {
+            const normalizedName = tier?.name?.toLowerCase();
+            const podiumClass =
+              (normalizedName && podiumTransforms[normalizedName]) || "";
+
+            return (
+              <div
+                key={tier?.name}
+                className={`flex w-full justify-center transform transition-transform duration-300 lg:flex-1 ${podiumClass}`}
+              >
+                <comp.Sponsors.PricingTier
+                  name={tier?.name}
+                  price={tier?.price}
+                  description={tier?.description}
+                  features={tier?.features}
+                  isHighlighted={tier?.isHighlighted}
+                />
+              </div>
+            );
+          })}
+        </div>
+      </div>
       <div className="flex flex-col items-center p-12 w-full max-w-full px-4">
         <h1 className="text-2xl lg:text-4xl text-center text-primary font-bold px-8">
           Join Us in Making a Difference - Become a Sponsor Today!
@@ -79,21 +130,6 @@ export default function Sponsors({
             alt="Email"
           />
         </a>
-      </div>
-      <div className="flex justify-center w-full mt-12 mb-16">
-        <div className="flex flex-col lg:flex-row justify-center items-stretch gap-6 w-full max-w-[1154px] px-4 py-4">
-          {pricing_tiers &&
-            pricing_tiers.map((tier, index) => (
-              <comp.Sponsors.PricingTier
-                key={index}
-                name={tier.name}
-                price={tier.price}
-                description={tier.description}
-                features={tier.features}
-                isHighlighted={tier.isHighlighted}
-              />
-            ))}
-        </div>
       </div>
     </section>
   );
