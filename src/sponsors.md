@@ -12,7 +12,7 @@ testimonial_aad:
   npo: Kevin Ha, Executive Director of Asian American Dream
 pricing_tiers:
   - name: Bronze
-    price: 2,500
+    price: 1,000
     description: >
       Get recognized as a supporter of student innovation at Stevens. 
       Perfect for organizations looking to build early visibility and connect with top tech talent.
@@ -21,7 +21,7 @@ pricing_tiers:
       - Access to student resumes
     isHighlighted: false
   - name: Silver
-    price: 1,000
+    price: 2,500
     description: >
       Deepen your engagement with the Blueprint community by hosting technical events 
       and showcasing your brand on our merchandise. Includes all Bronze benefits.
