@@ -24,7 +24,7 @@ pricing_tiers:
   - name: Silver
     price: 2,000
     description: >
-      Deepen your engagement with the Blueprint community by showcasing your brand on our social media and attending our annual project showcase. Includes all bronze benefits.
+      Deepen your engagement with the Blueprint community by highlighting your brand on our social media and attending our annual project showcase. Includes all bronze benefits.
     features:
       - All bronze benefits
       - Invitation to project team showcase
