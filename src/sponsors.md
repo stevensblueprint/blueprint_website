@@ -17,31 +17,27 @@ pricing_tiers:
       Get recognized as a supporter of student innovation at Stevens. 
       Perfect for organizations looking to build early visibility and connect with top tech talent.
     features:
-      - Mention on Instagram / LinkedIn
-      - Access to student resumes
+      - Logo placement (Social media, recruitment materials, etc.)
+      - Recognition at all events
+
     isHighlighted: false
   - name: Silver
-    price: 2,500
+    price: 2,000
     description: >
-      Deepen your engagement with the Blueprint community by hosting technical events 
-      and showcasing your brand on our merchandise. Includes all Bronze benefits.
+      Deepen your engagement with the Blueprint community by showcasing your brand on our social media and attending our annual project showcase. Includes all bronze benefits.
     features:
-      - Mention on Instagram / LinkedIn
-      - Access to student resumes
-      - Host Workshops / Tech Talks
-      - Name / Logo on Merchandise
+      - All bronze benefits
+      - Invitation to project team showcase
+      - Sponsor spotlight posts on LinkedIn/Instagram
     isHighlighted: false
   - name: Gold
     price: 5,000
     description: >
       Join as a premier partner and gain direct recruiting access to our student network.
       Perfect for companies seeking to inspire, recruit, and collaborate with future tech leaders.
-      Includes all Silver benefits.
     features:
-      - Mention on Instagram / LinkedIn
-      - Access to student resumes
-      - Host Workshops / Tech Talks
-      - Name / Logo on Merchandise
+      - All silver benefits
+      - Exclusive Access to student resumes
       - Host Recruiting Event
     isHighlighted: true
 ---
