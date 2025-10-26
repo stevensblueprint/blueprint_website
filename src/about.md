@@ -65,6 +65,10 @@ team:
     role: Head of Infrastructure
     image_url: "../assets/eboard/head_of_infrastructure.webp"
     linkedin: https://www.linkedin.com/in/~ezri/
+  - name: Derrick Sual
+    role: Head of Talent
+    image_url: "../assets/eboard/head_of_talent.webp"
+    linkedin: https://www.linkedin.com/in/derrick-sual/
   - name: Terrence Zhang
     role: Senior Developer
     image_url: "../assets/members/terrence_zhang.webp"
