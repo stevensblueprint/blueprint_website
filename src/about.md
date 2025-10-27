@@ -61,22 +61,10 @@ team:
     role: Technical Lead
     image_url: "../assets/members/tech_lead/zidanni_clerigo.webp"
     linkedin: https://www.linkedin.com/in/zidanni-clerigo/
-  - name: Ezri Zhu
-    role: Head of Infrastructure
-    image_url: "../assets/eboard/head_of_infrastructure.webp"
-    linkedin: https://www.linkedin.com/in/~ezri/
   - name: Derrick Sual
     role: Head of Talent
     image_url: "../assets/eboard/head_of_talent.webp"
     linkedin: https://www.linkedin.com/in/derrick-sual/
-  - name: Terrence Zhang
-    role: Senior Developer
-    image_url: "../assets/members/developer/terrence_zhang.webp"
-    linkedin: https://www.linkedin.com/in/zhangterrence/
-  - name: Nathaniel Andre Escaro
-    role: Senior Developer
-    image_url: "../assets/members/developer/nathaniel_andre_escaro.webp"
-    linkedin: https://www.linkedin.com/in/nathaniel-andre-escaro-745099251/
   - name: Audrey Yoo
     role: Senior Designer
     image_url: "../assets/eboard/senior_designer.webp"
@@ -113,18 +101,6 @@ team:
     role: Developer
     image_url: "../assets/members/developer/shiven_pandya.webp"
     linkedin: https://www.linkedin.com/in/shivenpandya06/
-  - name: Raj Rana
-    role: Developer
-    image_url: "../assets/members/developer/raj_rana.webp"
-    linkedin: https://www.linkedin.com/in/raj2005/
-  - name: Vinayak Ranjan
-    role: Developer
-    image_url: "../assets/members/developer/vinayak_ranjan.webp"
-    linkedin: https://www.linkedin.com/in/vinrran/
-  - name: Sneha Shyam
-    role: Designer
-    image_url: "../assets/members/designer/sneha_shyam.webp"
-    linkedin: https://www.linkedin.com/in/snehashyamm/
   - name: Maya Patel
     role: Designer
     image_url: "../assets/members/designer/maya_patel.webp"
@@ -133,14 +109,6 @@ team:
     role: Designer
     image_url: "../assets/members/designer/samantha_cardo.webp"
     linkedin: https://www.linkedin.com/in/samantha-cardo/
-  - name: Eiliyah Sarowar
-    role: Designer
-    image_url: "../assets/members/designer/eiliyah_sarowar.webp"
-    linkedin: https://www.linkedin.com/in/eiliyah/
-  - name: Heta Patel
-    role: Designer
-    image_url: "../assets/members/designer/heta_patel.webp"
-    linkedin: https://www.linkedin.com/in/hpatel61005/
   - name: Amaro da Luz
     role: Designer
     image_url: ""
@@ -161,19 +129,24 @@ team:
     role: Product Manager
     image_url: ""
     linkedin:
+
 alumni:
   - name: Christian Apostol
     role: President
     image_url: "../assets/eboard/fa25-sp26/ex_president.webp"
     linkedin: https://www.linkedin.com/in/capostol/
+  - name: Katie Ng
+    role: President
+    image_url: "../assets/eboard/fa23-sp24/president.webp"
+    linkedin: https://www.linkedin.com/in/katiexng/
   - name: Justin Ferber
     role: VP Projects
     image_url: "../assets/eboard/fa24-sp25/vp_projects.webp"
     linkedin: https://www.linkedin.com/in/j-ferber/
-  - name: Chinli Ong
-    role: Freshman Rep
-    image_url: "../assets/eboard/fa24-sp25/freshman_rep_1.webp"
-    linkedin: https://www.linkedin.com/in/chinli-o-2aaa68317/
+  - name: Ezri Zhu
+    role: VP Technology
+    image_url: "../assets/members/alumni/ezri_zhu.webp"
+    linkedin: https://www.linkedin.com/in/~ezri/
   - name: Massimo Spina
     role: VP Finance
     image_url: "../assets/eboard/fa24-sp25/vp_finance.webp"
@@ -182,10 +155,10 @@ alumni:
     role: Alumni Chair
     image_url: "../assets/eboard/fa24-sp25/alumni_chair.webp"
     linkedin: https://www.linkedin.com/in/shawn-aviles/
-  - name: Katie Ng
-    role: President
-    image_url: "../assets/eboard/fa23-sp24/president.webp"
-    linkedin: https://www.linkedin.com/in/katiexng/
+  - name: Chinli Ong
+    role: Freshman Rep
+    image_url: "../assets/eboard/fa24-sp25/freshman_rep_1.webp"
+    linkedin: https://www.linkedin.com/in/chinli-o-2aaa68317/
   - name: Andrew Krasinki
     role: VP External
     image_url: "../assets/eboard/fa23-sp24/vp_external.webp"
@@ -210,14 +183,34 @@ alumni:
     role: Technical Lead
     image_url: "../assets/members/alumni/johan_nguyen.webp"
     linkedin: https://www.linkedin.com/in/johan-nguyen-seven/
+  - name: Terrence Zhang
+    role: Developer
+    image_url: "../assets/members/alumni/terrence_zhang.webp"
+    linkedin: https://www.linkedin.com/in/zhangterrence/
+  - name: Nathaniel Andre Escaro
+    role: Developer
+    image_url: "../assets/members/alumni/nathaniel_andre_escaro.webp"
+    linkedin: https://www.linkedin.com/in/nathaniel-andre-escaro-745099251/
+  - name: Sneha Banda
+    role: Developer
+    image_url: "../assets/members/alumni/sneha_banda.webp"
+    linkedin: https://www.linkedin.com/in/sneha-banda-301393218/
+  - name: Max Green
+    role: Developer
+    image_url: "../assets/members/alumni/max_green.webp"
+    linkedin: https://www.linkedin.com/in/maxgreen01/
+  - name: Raj Rana
+    role: Developer
+    image_url: "../assets/members/alumni/raj_rana.webp"
+    linkedin: https://www.linkedin.com/in/raj2005/
+  - name: Vinayak Ranjan
+    role: Developer
+    image_url: "../assets/members/alumni/vinayak_ranjan.webp"
+    linkedin: https://www.linkedin.com/in/vinrran/
   - name: Christopher Engelbart
     role: Developer
     image_url: "../assets/members/alumni/christopher_engelbart.webp"
     linkedin: https://www.linkedin.com/in/christopherengelbart/
-  - name: Bao-Chau Nguyen
-    role: Product Manager
-    image_url: "../assets/members/alumni/bao_chau_nguyen.webp"
-    linkedin: https://www.linkedin.com/in/bao-chaunguyen071/
   - name: Harris Pyo
     role: Developer
     image_url: "../assets/members/alumni/harris_pyo.webp"
@@ -246,14 +239,6 @@ alumni:
     role: Developer
     image_url: "../assets/members/alumni/ryan_camburn.webp"
     linkedin: https://www.linkedin.com/in/ryancamburn/
-  - name: Sneha Banda
-    role: Developer
-    image_url: "../assets/members/alumni/sneha_banda.webp"
-    linkedin: https://www.linkedin.com/in/sneha-banda-301393218/
-  - name: Max Green
-    role: Developer
-    image_url: "../assets/members/alumni/max_green.webp"
-    linkedin: https://www.linkedin.com/in/maxgreen01/
   - name: Rumi Loghmani
     role: Designer
     image_url: "../assets/members/alumni/rumi_loghmani.webp"
@@ -262,4 +247,20 @@ alumni:
     role: Designer
     image_url: ""
     linkedin: https://www.linkedin.com/in/avanish-arif/
+  - name: Eiliyah Sarowar
+    role: Designer
+    image_url: "../assets/members/alumni/eiliyah_sarowar.webp"
+    linkedin: https://www.linkedin.com/in/eiliyah/
+  - name: Heta Patel
+    role: Designer
+    image_url: "../assets/members/alumni/heta_patel.webp"
+    linkedin: https://www.linkedin.com/in/hpatel61005/
+  - name: Sneha Shyam
+    role: Designer
+    image_url: "../assets/members/designer/sneha_shyam.webp"
+    linkedin: https://www.linkedin.com/in/snehashyamm/
+  - name: Bao-Chau Nguyen
+    role: Product Manager
+    image_url: "../assets/members/alumni/bao_chau_nguyen.webp"
+    linkedin: https://www.linkedin.com/in/bao-chaunguyen071/
 ---
