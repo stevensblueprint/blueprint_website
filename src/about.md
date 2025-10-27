@@ -89,10 +89,6 @@ team:
     role: Designer
     image_url: "../assets/members/heta_patel.webp"
     linkedin: https://www.linkedin.com/in/hpatel61005/
-  - name: Avanish Arif
-    role: Designer
-    image_url: ""
-    linkedin: https://www.linkedin.com/in/avanish-arif/
   - name: Vinayak Ranjan
     role: Developer
     image_url: "../assets/members/vinayak_ranjan.webp"
