@@ -53,6 +53,14 @@ team:
     role: VP Events
     image_url: "../assets/eboard/fa25-sp26/vp_events.webp"
     linkedin: https://www.linkedin.com/in/sutej-upadhyaya-525843278/
+  - name: Esther Li
+    role: Freshman Rep
+    image_url: "../assets/eboard/fa25-sp26/freshman_rep1.webp"
+    linkedin: https://www.linkedin.com/in/esther-h-li/
+  - name: Nishit Sharma
+    role: Freshman Rep
+    image_url: "../assets/eboard/fa25-sp26/freshman_rep2.webp"
+    linkedin: https://www.linkedin.com/in/nishit-sharma13/
   - name: Alexis Emerson
     role: Technical Lead
     image_url: "../assets/members/tech_lead/alexis_emerson.webp"
@@ -62,13 +70,29 @@ team:
     image_url: "../assets/members/tech_lead/zidanni_clerigo.webp"
     linkedin: https://www.linkedin.com/in/zidanni-clerigo/
   - name: Derrick Sual
-    role: Head of Talent
-    image_url: "../assets/eboard/head_of_talent.webp"
+    role: Techinal Mentor
+    image_url: "../assets/eboard/fa25-sp26/head_of_talent.webp"
     linkedin: https://www.linkedin.com/in/derrick-sual/
   - name: Audrey Yoo
     role: Senior Designer
-    image_url: "../assets/eboard/senior_designer.webp"
+    image_url: "../assets/eboard/fa25-sp26/senior_designer.webp"
     linkedin: https://www.linkedin.com/in/audrey-june-yoo/
+  - name: Ananya Iyer
+    role: Product Manager
+    image_url: "../assets/members/pm/ananya_iyer.webp"
+    linkedin: https://www.linkedin.com/in/ananya-iyer-612361234/
+  - name: Jessica Militello
+    role: Product Manager
+    image_url: "../assets/members/pm/jessica_millitello.webp"
+    linkedin: https://www.linkedin.com/in/jessicamilitello/
+  - name: Sabrina Trestin
+    role: Product Manager
+    image_url: ""
+    linkedin: https://www.linkedin.com/in/sabrina-trestin-765942247/
+  - name: Sotirios Ploumpis
+    role: Product Manager
+    image_url: ""
+    linkedin:
   - name: Ethan Jinks
     role: Developer
     image_url: "../assets/members/developer/ethan_jinks.webp"
@@ -111,22 +135,6 @@ team:
     linkedin: https://www.linkedin.com/in/samantha-cardo/
   - name: Amaro da Luz
     role: Designer
-    image_url: ""
-    linkedin:
-  - name: Ananya Iyer
-    role: Product Manager
-    image_url: "../assets/members/pm/ananya_iyer.webp"
-    linkedin: https://www.linkedin.com/in/ananya-iyer-612361234/
-  - name: Jessica Militello
-    role: Product Manager
-    image_url: "../assets/members/pm/jessica_millitello.webp"
-    linkedin: https://www.linkedin.com/in/jessicamilitello/
-  - name: Sabrina Trestin
-    role: Product Manager
-    image_url: ""
-    linkedin: https://www.linkedin.com/in/sabrina-trestin-765942247/
-  - name: Sotirios Ploumpis
-    role: Product Manager
     image_url: ""
     linkedin:
 
@@ -183,6 +191,10 @@ alumni:
     role: Technical Lead
     image_url: "../assets/members/alumni/johan_nguyen.webp"
     linkedin: https://www.linkedin.com/in/johan-nguyen-seven/
+  - name: Bao-Chau Nguyen
+    role: Product Manager
+    image_url: "../assets/members/alumni/bao_chau_nguyen.webp"
+    linkedin: https://www.linkedin.com/in/bao-chaunguyen071/
   - name: Terrence Zhang
     role: Developer
     image_url: "../assets/members/alumni/terrence_zhang.webp"
@@ -259,8 +271,4 @@ alumni:
     role: Designer
     image_url: "../assets/members/designer/sneha_shyam.webp"
     linkedin: https://www.linkedin.com/in/snehashyamm/
-  - name: Bao-Chau Nguyen
-    role: Product Manager
-    image_url: "../assets/members/alumni/bao_chau_nguyen.webp"
-    linkedin: https://www.linkedin.com/in/bao-chaunguyen071/
 ---
