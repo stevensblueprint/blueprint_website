@@ -11,14 +11,15 @@ testimonial_aad:
     "My experience working with the Blueprint team at Stevens was phenomenal. The task at hand was to develop a matching algorithm that would streamline the matching process for our signature, Kin Mentorship Program. Blueprint was able to develop a tailored algorithm that effectively matched our 200 mentees and 200 mentors based on ranking, industry, and mentorship style preferences. Our previous matching process was completely manual, taking days to complete. Blueprint revolutionized our matching process to create exceptional mentor-mentee matches, nearly instantaneously."
   npo: Kevin Ha, Executive Director of Asian American Dream
 pricing_tiers:
-  - name: Bronze
-    price: 1,000
+  - name: Marketing
+    price: 2,000
     description: >
-      Get recognized as a supporter of student innovation at Stevens. 
-      Perfect for organizations looking to build early visibility and connect with top tech talent.
+      Boost your brand visibility among top tech talent at Stevens. This tier is designed for organizations looking to increase their presence, drive engagement, and integrate their products into real student projects.
     features:
-      - Logo placement (Social media, recruitment materials, etc.)
-      - Recognition at all events
+      - Prominent logo placement across Blueprint’s social media, recruitment materials, and event signage
+      - Product placement opportunities — Blueprint members actively use and promote your products/tools in their projects
+      - Sponsor spotlight posts on LinkedIn & Instagram
+      - Recognition at all Blueprint events
 
     isHighlighted: false
   - name: Silver
