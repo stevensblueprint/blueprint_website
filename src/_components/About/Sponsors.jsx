@@ -32,6 +32,11 @@ export default function Sponsors({ comp }) {
             alt="perplexity"
             className="object-cover h-20 max-w-none"
           />
+          <img
+            src="../assets/logos/mongoDB_logo.png"
+            alt="mongodb"
+            className="object-cover h-20 max-w-none"
+          />
         </div>
       </div>
     </section>

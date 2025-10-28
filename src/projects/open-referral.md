@@ -21,20 +21,12 @@ members:
     role: Product Manager
   - name: Maya Patel
     role: Designer
-  - name: Sneha Shyam
-    role: Designer
   - name: Owen Ungaro
     role: Developer
   - name: Sofia Martinez
     role: Developer
   - name: Daniel Llonch
     role: Developer
-  - name: Terrence Zhang
-    role: Developer
-  - name: Nathaniel Escaro
-    role: Developer
   - name: Shiven Pandya
-    role: Developer
-  - name: Raj Rana
     role: Developer
 ---
