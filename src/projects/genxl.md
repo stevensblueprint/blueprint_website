@@ -27,8 +27,6 @@ members:
     role: Developer
   - name: Ioannis Magkaniotis
     role: Developer
-  - name: Vinayak Ranjan
-    role: Developer
   - name: Shubham Bhayana
     role: Developer
 ---
