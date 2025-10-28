@@ -18,28 +18,26 @@ pricing_tiers:
     features:
       - Prominent logo placement across Blueprint’s social media, recruitment materials, and event signage
       - Product placement opportunities — Blueprint members actively use and promote your products/tools in their projects
-      - Sponsor spotlight posts on LinkedIn & Instagram
-      - Recognition at all Blueprint events
 
     isHighlighted: false
-  - name: Silver
-    price: 2,000
+  - name: Recruitment
+    price: 2,500
     description: >
-      Deepen your engagement with the Blueprint community by highlighting your brand on our social media and attending our annual project showcase. Includes all bronze benefits.
+      Connect directly with top student innovators and future tech leaders. This tier is ideal for companies seeking to recruit, mentor, or collaborate with highly skilled students through Blueprint’s network.
     features:
-      - All bronze benefits
-      - Invitation to project team showcase
-      - Sponsor spotlight posts on LinkedIn/Instagram
+      - Exclusive access to student resumes and project team talent
+      - Host recruiting events (tech talks, info sessions, or workshops)
+      - Personalized introductions to relevant project teams
     isHighlighted: false
-  - name: Gold
-    price: 5,000
+  - name: Partner
+    price: 4,000
     description: >
-      Join as a premier partner and gain direct recruiting access to our student network.
-      Perfect for companies seeking to inspire, recruit, and collaborate with future tech leaders.
+      Position your company at the center of Blueprint’s innovation ecosystem.
+      This premier tier is tailored for organizations looking to maximize both brand impact and recruiting opportunities by fully engaging with our community of top student builders.
     features:
-      - All silver benefits
-      - Exclusive Access to student resumes
-      - Host Recruiting Event
+      - All Marketing and Recruitment Tier benefits
+      - Featured partner status at Blueprint’s annual showcase and major events
+      - Priority branding on all promotional materials
     isHighlighted: true
 ---
 
