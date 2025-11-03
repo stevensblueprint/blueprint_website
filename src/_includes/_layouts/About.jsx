@@ -32,7 +32,7 @@ export default ({ comp, values, team, alumni }) => (
           }}
           button2={{ text: "See Our Projects", url: "/projects" }}
           image={{
-            src: "/assets/photos/eboard_fa2025_sp_2026.webp",
+            src: "/assets/photos/full_eboard2.webp",
             alt: "A photo of Blueprint members hard at work",
             className:
               "rounded-2xl w-full md:w-full lg:w-full h-auto md:h-96 lg:h-128 object-cover",

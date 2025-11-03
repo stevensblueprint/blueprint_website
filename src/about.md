@@ -15,51 +15,51 @@ values:
 team:
   - name: Miguel Merlin
     role: President
-    image_url: "../assets/eboard/fa25-sp26/president.webp"
+    image_url: "../assets/eboard/fa25-sp26/miguel_merlin.webp"
     linkedin: https://www.linkedin.com/in/miguel-angel-merlin-arriola/
   - name: Lucas Ha
     role: VP Operations
-    image_url: "../assets/eboard/fa25-sp26/vp_operations.webp"
+    image_url: "../assets/eboard/fa25-sp26/lucas_ha.webp"
     linkedin: https://www.linkedin.com/in/lucas-ha/
   - name: Brandon Yen
     role: VP Projects
-    image_url: "../assets/eboard/fa25-sp26/vp_projects.webp"
+    image_url: "../assets/eboard/fa25-sp26/brandon_yen.webp"
     linkedin: https://www.linkedin.com/in/brandonyen2026/
   - name: Dominic Magats
     role: VP Technology
-    image_url: "../assets/eboard/fa25-sp26/vp_tech_1.webp"
+    image_url: "../assets/eboard/fa25-sp26/dominic_magats.webp"
     linkedin: https://www.linkedin.com/in/dominic-magats-6bb914230/
   - name: Emilio Cardillo
     role: VP Technology
-    image_url: "../assets/eboard/fa25-sp26/vp_tech_2.webp"
+    image_url: "../assets/eboard/fa25-sp26/emilio_cardillo.webp"
     linkedin: https://www.linkedin.com/in/emilio-cardillo-schrader-6594b7308/
   - name: Ivan Farfan Diaz
     role: VP Design
-    image_url: "../assets/eboard/fa25-sp26/vp_design.webp"
+    image_url: "../assets/eboard/fa25-sp26/ivan_diaz.webp"
     linkedin: https://www.linkedin.com/in/ifdiaz/
   - name: Sahana Ali
     role: VP Finance
-    image_url: "../assets/eboard/fa25-sp26/vp_finance.webp"
+    image_url: "../assets/eboard/fa25-sp26/sahana_ali.webp"
     linkedin: https://www.linkedin.com/in/sahanaali/
   - name: Harris Hamid
     role: VP Recruitment
-    image_url: "../assets/eboard/fa25-sp26/vp_recruitment.webp"
+    image_url: "../assets/eboard/fa25-sp26/harris_hamid.webp"
     linkedin: https://www.linkedin.com/in/hhamid26/
   - name: Ananya Shrivastava
     role: VP Marketing
-    image_url: "../assets/eboard/fa25-sp26/vp_marketing.webp"
+    image_url: "../assets/eboard/fa25-sp26/ananya_shrivastava.webp"
     linkedin: https://www.linkedin.com/in/anshri/
   - name: Sutej Upadhyaya
     role: VP Events
-    image_url: "../assets/eboard/fa25-sp26/vp_events.webp"
+    image_url: "../assets/eboard/fa25-sp26/sutej_upadhyaya.webp"
     linkedin: https://www.linkedin.com/in/sutej-upadhyaya-525843278/
   - name: Esther Li
     role: Freshman Rep
-    image_url: "../assets/eboard/fa25-sp26/freshman_rep1.webp"
+    image_url: "../assets/eboard/fa25-sp26/esther_li.webp"
     linkedin: https://www.linkedin.com/in/esther-h-li/
   - name: Nishit Sharma
     role: Freshman Rep
-    image_url: "../assets/eboard/fa25-sp26/freshman_rep2.webp"
+    image_url: "../assets/eboard/fa25-sp26/nishit_sharma.webp"
     linkedin: https://www.linkedin.com/in/nishit-sharma13/
   - name: Alexis Emerson
     role: Technical Lead
@@ -69,14 +69,18 @@ team:
     role: Technical Lead
     image_url: "../assets/members/tech_lead/zidanni_clerigo.webp"
     linkedin: https://www.linkedin.com/in/zidanni-clerigo/
-  - name: Derrick Sual
-    role: Techinal Mentor
-    image_url: "../assets/eboard/fa25-sp26/head_of_talent.webp"
-    linkedin: https://www.linkedin.com/in/derrick-sual/
+  - name: Maya Patel
+    role: Design Lead
+    image_url: "../assets/members/designer/maya_patel.webp"
+    linkedin: https://www.linkedin.com/in/maya-patel-81462b259/
   - name: Audrey Yoo
     role: Senior Designer
-    image_url: "../assets/eboard/fa25-sp26/senior_designer.webp"
+    image_url: "../assets/eboard/fa25-sp26/audrey_yoo.webp"
     linkedin: https://www.linkedin.com/in/audrey-june-yoo/
+  - name: Derrick Sual
+    role: Techinal Mentor
+    image_url: "../assets/eboard/fa25-sp26/derrick_sual.webp"
+    linkedin: https://www.linkedin.com/in/derrick-sual/
   - name: Ananya Iyer
     role: Product Manager
     image_url: "../assets/members/pm/ananya_iyer.webp"
@@ -125,10 +129,6 @@ team:
     role: Developer
     image_url: "../assets/members/developer/shiven_pandya.webp"
     linkedin: https://www.linkedin.com/in/shivenpandya06/
-  - name: Maya Patel
-    role: Designer
-    image_url: "../assets/members/designer/maya_patel.webp"
-    linkedin: https://www.linkedin.com/in/maya-patel-81462b259/
   - name: Samantha Cardo
     role: Designer
     image_url: "../assets/members/designer/samantha_cardo.webp"
@@ -141,7 +141,7 @@ team:
 alumni:
   - name: Christian Apostol
     role: President
-    image_url: "../assets/eboard/fa25-sp26/ex_president.webp"
+    image_url: "../assets/eboard/fa24-sp25/christian_apostol.webp"
     linkedin: https://www.linkedin.com/in/capostol/
   - name: Katie Ng
     role: President
