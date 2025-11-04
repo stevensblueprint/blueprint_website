@@ -12,13 +12,13 @@ export default function Mission({ comp }) {
       </section>
       <comp.Carousel
         array_of_images={[
-          "../assets/photos/elections.webp",
-          "../assets/photos/perplexity_teaching.webp",
+          "../assets/photos/career_night.webp",
           "../assets/photos/eboard_merch.webp",
           "../assets/photos/google_event.webp",
+          "../assets/photos/full_eboard1.webp",
+          "../assets/photos/ebm.webp",
           "../assets/photos/google_event_1.webp",
           "../assets/photos/cs_carnival.webp",
-          "../assets/photos/perplexity_group.webp",
         ]}
       />
     </section>

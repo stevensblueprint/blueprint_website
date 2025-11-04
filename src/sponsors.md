@@ -12,7 +12,7 @@ testimonial_aad:
   npo: Kevin Ha, Executive Director of Asian American Dream
 pricing_tiers:
   - name: Marketing
-    price: 2,000
+    price: 1,500/yr
     description: >
       Boost your brand visibility among top tech talent at Stevens. This tier is designed for organizations looking to increase their presence, drive engagement, and integrate their products into real student projects.
     features:
@@ -21,7 +21,7 @@ pricing_tiers:
 
     isHighlighted: false
   - name: Recruitment
-    price: 2,500
+    price: 2,500/yr
     description: >
       Connect directly with top student innovators and future tech leaders. This tier is ideal for companies seeking to recruit, mentor, or collaborate with highly skilled students through Blueprint’s network.
     features:
@@ -30,10 +30,10 @@ pricing_tiers:
       - Personalized introductions to relevant project teams
     isHighlighted: false
   - name: Partner
-    price: 4,000
+    price: 3,500/yr
     description: >
-      Position your company at the center of Blueprint’s innovation ecosystem.
-      This premier tier is tailored for organizations looking to maximize both brand impact and recruiting opportunities by fully engaging with our community of top student builders.
+      Position yourself at the center of Blueprint’s innovation ecosystem.
+      This premier tier is for organizations looking to maximize brand impact and recruiting opportunities by fully engaging with our community of student builders.
     features:
       - All Marketing and Recruitment Tier benefits
       - Featured partner status at Blueprint’s annual showcase and major events
