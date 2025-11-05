@@ -93,10 +93,6 @@ team:
     role: Product Manager
     image_url: ""
     linkedin: https://www.linkedin.com/in/sabrina-trestin-765942247/
-  - name: Sotirios Ploumpis
-    role: Product Manager
-    image_url: ""
-    linkedin:
   - name: Ethan Jinks
     role: Developer
     image_url: "../assets/members/developer/ethan_jinks.webp"
