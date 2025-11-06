@@ -17,8 +17,6 @@ members:
     role: Technical Lead
   - name: Ananya Iyer
     role: Product Manager
-  - name: Sotiris Ploumpis
-    role: Product Manager
   - name: Maya Patel
     role: Designer
   - name: Owen Ungaro
