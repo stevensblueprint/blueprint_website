@@ -9,13 +9,14 @@ export default function Sponsors({ comp }) {
           We are grateful to our sponsors who provide us with resources and
           support!
         </p>
-        <comp.Button
-          style={
-            "mx-auto px-16 py-2 rounded-xl border-2 border-black text-black font-bold w-fit lg:text-xl hover:bg-primary hover:text-white transition-all"
-          }
-          text={"Become a sponsor"}
-          redirect_url={"/sponsors"}
-        />
+        <a
+          href="../assets/documents/Blueprint-Corporate-Sponsorship-Package.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-auto px-16 py-2 rounded-xl border-2 border-black text-black font-bold w-fit lg:text-xl hover:bg-primary hover:text-white transition-all text-center"
+        >
+          Become a sponsor
+        </a>
         <div className="flex flex-row py-12 gap-5 mb-16 mx-auto">
           <img
             src="../assets/logos/notion.webp"

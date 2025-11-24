@@ -26,7 +26,8 @@ export default ({
             Reach out to us today!"
           button1={{
             text: "Become A Sponsor",
-            url: "mailto:blueprint@stevens.edu",
+            url: "/assets/documents/Blueprint-Corporate-Sponsorship-Package.pdf",
+            openInNewTab: true,
           }}
           button2={{ text: "See Our Projects", url: "/projects" }}
           image={{
