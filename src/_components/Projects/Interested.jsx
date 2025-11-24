@@ -7,7 +7,7 @@ export default function Interested() {
       <p className="lg:text-center text-xl lg:text-3xl lg:mb-4 max-w-4xl py-8">
         Interested in collaborating with other peers at Stevens on a project?{" "}
         <br /> Check out our{" "}
-        <a href="/students" className="underline">
+        <a href="/students" className="underline text-primary">
           student opportunities
         </a>
         !

@@ -11,7 +11,7 @@ export default function Sponsors({ comp }) {
         </p>
         <comp.Button
           style={
-            "mx-auto px-16 py-2 rounded-xl border-2 border-black text-black font-bold w-fit lg:text-xl hover:bg-primary hover:text-white transition-all"
+            "mx-auto px-16 py-2 rounded-xl bg-primary text-white font-bold w-fit lg:text-xl hover:opacity-90 transition-all"
           }
           text={"Become a sponsor"}
           redirect_url={"/sponsors"}
