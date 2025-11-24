@@ -1,8 +1,8 @@
 export default function ContactUs({ comp }) {
   return (
     <section>
-      <comp.MailToAction 
-        text="Want to get in touch with us? Reach out at" 
+      <comp.MailToAction
+        text="Want to get in touch with us? Reach out at"
         email="sit.blueprint@gmail.com"
       />
       <div className="flex justify-center pb-12">
