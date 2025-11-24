@@ -36,7 +36,7 @@ export default function Hero({ comp, featured_post }) {
         visual gltich with the clamped lines */}
         <div className="pt-4">
           <comp.Button
-            style="text-xs sm:min-w-[191px] md:text-base text-center py-1 md:py-2 px-3 md:px-4 rounded-md border bg-primary text-white font-semibold inline-flex items-center justify-center hover:bg-white hover:text-primary transition-all"
+            style="text-xs sm:min-w-[191px] md:text-base text-center py-1 md:py-2 px-3 md:px-4 rounded-md border bg-white text-primary font-semibold inline-flex items-center justify-center hover:bg-primary hover:text-white hover:border-transparent transition-all"
             text={"Read More"}
             redirect_url={featured_post.redirect_url}
           />
