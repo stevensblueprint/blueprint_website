@@ -1,9 +1,9 @@
 # See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners for more information
 
 # Defines the owner of the whole code repository
-* team-cappuccino
+* @team-cappuccino
 # Design Team Owns Visual Changes
-src/ team-design
+src/ @team-design
 # Marketing Team Owns Blog Changes
-src/blog/ team-marketing
-src/blog.md team-marketing
+src/blog/ @team-marketing
+src/blog.md @team-marketing
