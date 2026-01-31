@@ -1,4 +1,3 @@
-
 export default function GoogleAnalytics() {
   const GA_ID = Deno.env.get("GA_ID") || "";
   const isProd = Deno.env.get("ENV") === "prod";
