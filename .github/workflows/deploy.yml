@@ -27,6 +27,10 @@ jobs:
         with:
           deno-version: v2.x
       - name: Build site
+        env:
+          ENV: prod
+          GA_ID: ${{ secrets.GA_ID }}
+
         run: deno task build
       - name: Configure AWS credentials (OIDC)
         uses: aws-actions/configure-aws-credentials@v4
