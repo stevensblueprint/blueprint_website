@@ -9,3 +9,6 @@ src/assets/.DS_Store
 
 # Ignore cache files
 _cache
+
+# Ignore environment variable files
+.env
