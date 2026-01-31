@@ -1,6 +1,7 @@
 export default ({ title, author, date, tags, comp, children }) => (
   <html lang="en">
     <head>
+      <comp.GoogleAnalytics />
       <link rel="stylesheet" href="/styles.css" />
       <title>{title}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
