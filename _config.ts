@@ -14,7 +14,7 @@ const site = lume({
     open: true,
     page404: "./404.html",
   },
-  location: new URL("https://sitblueprint.com"),
+  location: new URL("https://www.sitblueprint.com"),
   watcher: {
     debounce: 10,
   },
@@ -23,7 +23,7 @@ const site = lume({
 site
   .use(
     favicon({
-      input: "assets/logos/logo.webp",
+      input: "assets/logos/bp_logo.png",
     }),
   )
   .use(
