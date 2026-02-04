@@ -110,20 +110,9 @@ export default function Sponsors({
         </div>
       </div>
       <div className="flex flex-col items-center p-12 w-full max-w-full px-4">
-        <h1 className="text-2xl lg:text-4xl text-center text-primary font-bold px-8">
+        <h1 className="text-2xl lg:text-4xl text-center text-black font-bold px-8">
           Join Us in Making a Difference - Become a Sponsor Today!
         </h1>
-        <a
-          href="mailto:blueprint@stevens.edu"
-          className="inline-block text-md lg:text-xl text-primary py-4 hover:text-secondary"
-        >
-          Email us at blueprint@stevens.edu
-          <img
-            className="inline h-8 w-8 ml-2"
-            src={"../../assets/clip_art/AiOutlineMail.svg"}
-            alt="Email"
-          />
-        </a>
       </div>
     </section>
   );

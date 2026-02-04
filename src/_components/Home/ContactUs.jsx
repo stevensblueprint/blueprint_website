@@ -8,18 +8,18 @@ export default ({ comp, title }) => {
       <div className="flex flex-col md:flex-row items-center gap-x-6 gap-y-2">
         <comp.Button
           text="Email"
-          style="w-full lg:w-auto px-16 min-w-[200px] py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] text-center font-semibold text-2xl lg:text-lg inline-block hover:bg-primary hover:text-white transition-all"
+          style="w-full lg:w-auto px-16 min-w-[200px] py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] text-center font-semibold text-2xl lg:text-lg inline-block hover:bg-primary hover:text-white hover:border-transparent transition-all"
           redirect_url="mailto:blueprint@stevens.edu"
         />
         <comp.Button
           text="LinkedIn"
-          style="w-full lg:w-auto px-16 min-w-[200px] py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] text-center font-semibold text-2xl lg:text-lg inline-block hover:bg-primary hover:text-white transition-all"
+          style="w-full lg:w-auto px-16 min-w-[200px] py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] text-center font-semibold text-2xl lg:text-lg inline-block hover:bg-primary hover:text-white hover:border-transparent transition-all"
           redirect_url="https://www.linkedin.com/company/stevens-blueprint/"
           openInNewTab
         />
         <comp.Button
           text="Instagram"
-          style="w-full lg:w-auto px-16 min-w-[200px] py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] text-center font-semibold text-2xl lg:text-lg inline-block hover:bg-primary hover:text-white transition-all"
+          style="w-full lg:w-auto px-16 min-w-[200px] py-2 rounded-lg bg-transparent border-[1px] border-[#00070E] text-[#00070E] text-center font-semibold text-2xl lg:text-lg inline-block hover:bg-primary hover:text-white hover:border-transparent transition-all"
           redirect_url="https://www.instagram.com/stevensblueprint/"
           openInNewTab
         />
