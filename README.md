@@ -1,6 +1,15 @@
-# Stevens Blueprint Website
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://sitblueprint.com/assets/logos/logo_banner_negative.webp"
+  />
+  <img
+    alt="Blueprint"
+    src="https://sitblueprint.com/assets/logos/logo_banner.webp"
+  />
+</picture>
 
-![Blueprint](/src/assets/logos/logo_banner.webp)
+# Stevens Blueprint Website
 
 Stevens Blueprint is a student organization that develops pro bono technical solutions for non-profit organizations. The site is now in maintenance mode, and any major changes to it will be at the discretion of the Website team.
 
