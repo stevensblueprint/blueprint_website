@@ -1,32 +1,32 @@
 name: preview
 on:
-    pull_request:
-        types: [opened, reopened, synchronize, closed]
+  pull_request:
+    types: [opened, reopened, synchronize, closed]
 
 jobs:
-    preview:
-        runs-on: ubuntu-latest
-        concurrency: preview-${{ github.event.pull_request.number }}
-        steps:
-            - uses: actions/checkout@v4
-            - if: github.event.action != 'closed'
-              run: npm ci && npm run build
-            - name: Claim or release slot
-              env:
-                  REPO: ${{ github.repository }}
-                  PR: ${{ github.event.pull_request.number }}
-                  SHA: ${{ github.sha }}
-                  CLAIM_URL: ${{ secrets.PREVIEW_CLAIM_ENDPOINT }}
-                  RELEASE_URL: ${{ secrets.PREVIEW_RELEASE_ENDPOINT }}
-              run: |
-                  if [ "${{ github.event.action }}" = "closed" ]; then
-                    curl -sS -X POST "$RELEASE_URL" -H "content-type: application/json" -d "{\"repo\":\"$REPO\",\"prNumber\":$PR}"
-                    exit 0
-                  fi
+  preview:
+    runs-on: ubuntu-latest
+    concurrency: preview-${{ github.event.pull_request.number }}
+    steps:
+      - uses: actions/checkout@v4
+      - if: github.event.action != 'closed'
+        run: npm ci && npm run build
+      - name: Claim or release slot
+        env:
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+          SHA: ${{ github.sha }}
+          CLAIM_URL: ${{ secrets.PREVIEW_CLAIM_ENDPOINT }}
+          RELEASE_URL: ${{ secrets.PREVIEW_RELEASE_ENDPOINT }}
+        run: |
+          if [ "${{ github.event.action }}" = "closed" ]; then
+            curl -sS -X POST "$RELEASE_URL" -H "content-type: application/json" -d "{\"repo\":\"$REPO\",\"prNumber\":$PR}"
+            exit 0
+          fi
 
-                  RESPONSE=$(curl -sS -X POST "$CLAIM_URL" -H "content-type: application/json" -d "{\"repo\":\"$REPO\",\"prNumber\":$PR,\"commitSha\":\"$SHA\"}")
-                  echo "$RESPONSE" > preview-slot.json
-                  BUCKET=$(jq -r '.bucketName' preview-slot.json)
-                  URL=$(jq -r '.previewUrl' preview-slot.json)
-                  aws s3 sync ./dist "s3://$BUCKET" --delete
-                  echo "Preview URL: $URL"
+          RESPONSE=$(curl -sS -X POST "$CLAIM_URL" -H "content-type: application/json" -d "{\"repo\":\"$REPO\",\"prNumber\":$PR,\"commitSha\":\"$SHA\"}")
+          echo "$RESPONSE" > preview-slot.json
+          BUCKET=$(jq -r '.bucketName' preview-slot.json)
+          URL=$(jq -r '.previewUrl' preview-slot.json)
+          aws s3 sync ./dist "s3://$BUCKET" --delete
+          echo "Preview URL: $URL"
