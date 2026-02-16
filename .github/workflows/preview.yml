@@ -6,6 +6,7 @@ on:
 permissions:
   id-token: write
   contents: read
+  pull-requests: write
 env:
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
   AWS_REGION: ${{ secrets.AWS_REGION }}
@@ -54,7 +55,6 @@ jobs:
           role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT_ID }}:role/github-deployer-blueprint_website
           role-session-name: gh-deploy-static
 
-      # --- RELEASE (separate step) ---
       - name: Release slot (on PR close)
         if: github.event.action == 'closed'
         env:
@@ -107,3 +107,37 @@ jobs:
         run: |
           set -euo pipefail
           aws s3 sync ./output "s3://$BUCKET" --delete
+      - name: Comment preview URL on PR
+        if: github.event.action != 'closed'
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_URL: ${{ steps.slot.outputs.url }}
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.payload.pull_request.number;
+
+            const marker = "<!-- preview-url -->";
+            const body = `${marker}\n Preview deployed: ${process.env.PREVIEW_URL}`;
+
+            // Find existing comment (so we update instead of spamming)
+            const comments = await github.paginate(
+              github.rest.issues.listComments,
+              { owner, repo, issue_number, per_page: 100 }
+            );
+
+            const existing = comments.find(c => c.body && c.body.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner, repo,
+                comment_id: existing.id,
+                body
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner, repo,
+                issue_number,
+                body
+              });
+            }
