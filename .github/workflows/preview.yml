@@ -3,6 +3,13 @@ on:
   pull_request:
     types: [opened, reopened, synchronize, closed]
 
+permissions:
+  id-token: write
+  contents: read
+env:
+  AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+  AWS_REGION: ${{ secrets.AWS_REGION }}
+  BUILD_DIR: output
 jobs:
   preview:
     runs-on: ubuntu-latest
