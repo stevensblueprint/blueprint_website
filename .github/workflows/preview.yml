@@ -7,10 +7,26 @@ jobs:
   preview:
     runs-on: ubuntu-latest
     concurrency: preview-${{ github.event.pull_request.number }}
+
     steps:
       - uses: actions/checkout@v4
-      - if: github.event.action != 'closed'
-        run: npm ci && npm run build
+      - name: Setup Deno
+        if: github.event.action != 'closed'
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Build site (Deno)
+        if: github.event.action != 'closed'
+        run: deno task build
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: ${{ env.AWS_REGION }}
+          role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT_ID }}:role/github-deployer-blueprint_website
+          role-session-name: gh-deploy-static
+
       - name: Claim or release slot
         env:
           REPO: ${{ github.repository }}
@@ -19,14 +35,22 @@ jobs:
           CLAIM_URL: ${{ secrets.PREVIEW_CLAIM_ENDPOINT }}
           RELEASE_URL: ${{ secrets.PREVIEW_RELEASE_ENDPOINT }}
         run: |
+          set -euo pipefail
+
           if [ "${{ github.event.action }}" = "closed" ]; then
-            curl -sS -X POST "$RELEASE_URL" -H "content-type: application/json" -d "{\"repo\":\"$REPO\",\"prNumber\":$PR}"
+            curl -sS -X POST "$RELEASE_URL" \
+              -H "content-type: application/json" \
+              -d "{\"repo\":\"$REPO\",\"prNumber\":$PR}"
             exit 0
           fi
 
-          RESPONSE=$(curl -sS -X POST "$CLAIM_URL" -H "content-type: application/json" -d "{\"repo\":\"$REPO\",\"prNumber\":$PR,\"commitSha\":\"$SHA\"}")
+          RESPONSE=$(curl -sS -X POST "$CLAIM_URL" \
+            -H "content-type: application/json" \
+            -d "{\"repo\":\"$REPO\",\"prNumber\":$PR,\"commitSha\":\"$SHA\"}")
+
           echo "$RESPONSE" > preview-slot.json
           BUCKET=$(jq -r '.bucketName' preview-slot.json)
           URL=$(jq -r '.previewUrl' preview-slot.json)
-          aws s3 sync ./dist "s3://$BUCKET" --delete
+
+          aws s3 sync ./output "s3://$BUCKET" --delete
           echo "Preview URL: $URL"
