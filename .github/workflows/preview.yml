@@ -10,6 +10,7 @@ env:
   AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
   AWS_REGION: ${{ secrets.AWS_REGION }}
   BUILD_DIR: output
+
 jobs:
   preview:
     runs-on: ubuntu-latest
@@ -17,6 +18,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
       - name: Setup Deno
         if: github.event.action != 'closed'
         uses: denoland/setup-deno@v2
@@ -34,30 +36,56 @@ jobs:
           role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT_ID }}:role/github-deployer-blueprint_website
           role-session-name: gh-deploy-static
 
-      - name: Claim or release slot
+      # --- RELEASE (separate step) ---
+      - name: Release slot (on PR close)
+        if: github.event.action == 'closed'
+        env:
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.pull_request.number }}
+          RELEASE_URL: ${{ secrets.PREVIEW_RELEASE_ENDPOINT }}
+        run: |
+          set -euo pipefail
+          curl -fSs -X POST "$RELEASE_URL" \
+            -H "content-type: application/json" \
+            -d "{\"repo\":\"$REPO\",\"prNumber\":$PR}"
+
+      - name: Claim preview slot
+        if: github.event.action != 'closed'
         env:
           REPO: ${{ github.repository }}
           PR: ${{ github.event.pull_request.number }}
           SHA: ${{ github.sha }}
           CLAIM_URL: ${{ secrets.PREVIEW_CLAIM_ENDPOINT }}
-          RELEASE_URL: ${{ secrets.PREVIEW_RELEASE_ENDPOINT }}
         run: |
           set -euo pipefail
 
-          if [ "${{ github.event.action }}" = "closed" ]; then
-            curl -sS -X POST "$RELEASE_URL" \
-              -H "content-type: application/json" \
-              -d "{\"repo\":\"$REPO\",\"prNumber\":$PR}"
-            exit 0
-          fi
-
-          RESPONSE=$(curl -sS -X POST "$CLAIM_URL" \
+          # -f makes curl fail non-2xx; -S prints errors; -s keeps it quiet otherwise
+          curl -fSs -X POST "$CLAIM_URL" \
             -H "content-type: application/json" \
-            -d "{\"repo\":\"$REPO\",\"prNumber\":$PR,\"commitSha\":\"$SHA\"}")
+            -d "{\"repo\":\"$REPO\",\"prNumber\":$PR,\"commitSha\":\"$SHA\"}" \
+            -o preview-slot.json
 
-          echo "$RESPONSE" > preview-slot.json
-          BUCKET=$(jq -r '.bucketName' preview-slot.json)
-          URL=$(jq -r '.previewUrl' preview-slot.json)
+          echo "Claim response saved to preview-slot.json"
+          cat preview-slot.json
 
+      - name: Parse preview slot response
+        if: github.event.action != 'closed'
+        id: slot
+        run: |
+          set -euo pipefail
+          BUCKET="$(jq -er '.bucketName' preview-slot.json)"
+          URL="$(jq -er '.previewUrl' preview-slot.json)"
+
+          echo "bucket=$BUCKET" >> "$GITHUB_OUTPUT"
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+          echo "Bucket: $BUCKET"
+          echo "URL: $URL"
+
+      - name: Deploy to S3
+        if: github.event.action != 'closed'
+        env:
+          BUCKET: ${{ steps.slot.outputs.bucket }}
+        run: |
+          set -euo pipefail
           aws s3 sync ./output "s3://$BUCKET" --delete
-          echo "Preview URL: $URL"
