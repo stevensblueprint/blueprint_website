@@ -1,6 +1,7 @@
 export default ({ comp, faqs, timelineContent }) => (
   <html>
     <head>
+      <comp.GoogleAnalytics />
       <comp.OpenGraphCommon />
       <link
         rel="preload"

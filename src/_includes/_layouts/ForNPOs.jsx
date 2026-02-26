@@ -7,6 +7,7 @@ export default ({
 }) => (
   <html>
     <head>
+      <comp.GoogleAnalytics />
       <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
       <title>For Non-Profits</title>

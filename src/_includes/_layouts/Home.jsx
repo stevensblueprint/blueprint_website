@@ -2,6 +2,7 @@ export default ({ comp, title, about }) => {
   return (
     <html>
       <head>
+        <comp.GoogleAnalytics />
         <comp.OpenGraphCommon />
         <meta
           name="viewport"
