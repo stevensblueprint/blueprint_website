@@ -26,21 +26,14 @@ export default function Hero({ comp, title, description, image }) {
           })}
         </div>
       </div>
-      <div className="flex w-full md:w-1/2 items-center justify-center md:justify-center mt-8 md:mt-0">
-        <div className="relative inline-flex items-end justify-center isolate">
-          <div
-            className="absolute left-2 -translate-x-1 -bottom-5 md:-bottom-5 w-[260px] h-[40px] md:w-[380px] md:h-[58px] bg-black rounded-full opacity-80 z-0"
-            style={{ filter: "blur(60px)" }}
-            aria-hidden="true"
-          />
-          <img
-            src={image}
-            alt="hero image"
-            className="relative z-10 max-w-[300px] md:max-w-full h-auto"
-            loading="lazy"
-            decoding="async"
-          />
-        </div>
+      <div className="flex w-full md:w-1/2 items-center justify-center md:justify-end mt-8 md:mt-0">
+        <img
+          src={image}
+          alt="blueprint stevens duck"
+          className="relative z-10 max-w-[300px] md:max-w-full h-auto"
+          fetchpriority="high"
+          decoding="async"
+        />
       </div>
     </section>
   );
