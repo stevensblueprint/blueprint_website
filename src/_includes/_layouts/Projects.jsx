@@ -1,6 +1,7 @@
 export default ({ comp, projects }) => (
   <html>
     <head>
+      <comp.GoogleAnalytics />
       <comp.OpenGraphCommon />
       <meta property="og:title" content="Stevens Blueprint Projects" />
       <meta property="og:url" content="https://sitblueprint.com/projects/" />

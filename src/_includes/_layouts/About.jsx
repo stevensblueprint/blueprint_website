@@ -1,6 +1,7 @@
 export default ({ comp, values, team, alumni }) => (
   <html>
     <head>
+      <comp.GoogleAnalytics />
       <comp.OpenGraphCommon />
       <link
         rel="preload"
