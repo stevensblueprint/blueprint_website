@@ -8,7 +8,7 @@ export default function Hero({
 }) {
   return (
     <section className="grow flex space-between flex-col min-h-[600px] lg:flex-row lg:items-center relative overflow-hidden bg-primary text-white px-6 md:px-12 lg:px-32">
-      <div className="py-8 md:py-16 lg:py-0 w-full lg:pr-16">
+      <div className="py-8 md:py-16 lg:py-0 w-full lg:pr-16 pl-4 md:pl-8 lg:pl-12">
         <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl leading-snug md:leading-[1.3] tracking-wide mb-4 md:mb-6 lg:mb-16">
           {title}
         </h1>
@@ -20,13 +20,13 @@ export default function Hero({
           <comp.HeroButton text={button2.text} redirect_url={button2.url} />
         </div>
       </div>
-      <div className="flex sm:w-full lg:w-3/4 justify-center p-2 sm:p-16 lg:max-w-[600px] lg:max-h-[550px] mb-8">
+      <div className="flex sm:w-full lg:w-3/4 justify-center p-2 sm:p-16 pr-4 md:pr-8 lg:pr-12 lg:max-w-[600px] lg:max-h-[550px] mb-8">
         <img
           src={image.src}
           alt={image.alt}
           fetchpriority="high"
           decoding="async"
-          className={image.className ?? ""}
+          className={`${image.className ?? ""} drop-shadow-[0_18px_30px_rgba(0,0,0,0.35)]`}
         />
       </div>
     </section>
