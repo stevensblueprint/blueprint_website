@@ -1,4 +1,13 @@
-export default ({ comp, title, about }) => {
+export default ({
+  comp,
+  title,
+  about,
+  hero,
+  impact,
+  ourProjects,
+  getInvolved,
+  contactUs,
+}) => {
   return (
     <html>
       <head>
@@ -23,12 +32,12 @@ export default ({ comp, title, about }) => {
       </head>
       <body>
         <comp.Navbar />
-        <comp.Home.Hero />
+        <comp.Home.Hero hero={hero} />
         <comp.Home.AboutUs about={about} />
-        <comp.Home.Impact />
-        <comp.Home.OurProjects />
-        <comp.Home.GetInvolved />
-        <comp.Home.ContactUs />
+        <comp.Home.Impact impact={impact} />
+        <comp.Home.OurProjects ourProjects={ourProjects} />
+        <comp.Home.GetInvolved getInvolved={getInvolved} />
+        <comp.Home.ContactUs contactUs={contactUs} />
         <comp.Footer />
       </body>
     </html>

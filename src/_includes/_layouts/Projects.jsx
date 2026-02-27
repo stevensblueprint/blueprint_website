@@ -1,4 +1,4 @@
-export default ({ comp, projects }) => (
+export default ({ comp, projects, hero, interested }) => (
   <html>
     <head>
       <comp.GoogleAnalytics />
@@ -16,21 +16,13 @@ export default ({ comp, projects }) => (
       <div>
         <comp.Navbar />
         <comp.Hero
-          title="Projects"
-          description="All of our work is open source to maintain transparency and
-          accessiblity. We believe in the importance of building technology that
-          connects and gives back to the community."
-          button1={{
-            text: "View Our Github",
-            url: "https://github.com/stevensblueprint/",
-          }}
-          button2={{ text: "Work With Us", url: "/students" }}
-          image={{
-            src: "/assets/clip_art/ProjectHeroIcon.svg",
-            alt: "projects-banner-image",
-          }}
+          title={hero.title}
+          description={hero.description}
+          button1={hero.button1}
+          button2={hero.button2}
+          image={hero.image}
         />
-        <comp.Projects.Interested />
+        <comp.Projects.Interested interested={interested} />
         <comp.Projects.Gallery projects={projects} />
         <comp.Footer />
       </div>

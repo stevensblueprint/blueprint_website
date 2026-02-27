@@ -2,6 +2,48 @@
 title: About
 layout: _layouts/About.jsx
 indexable: true
+hero:
+  title: About Us
+  description: >
+    We are the Stevens Institute of Technology chapter of Blueprint that
+    develops pro-bono software for non-profit organizations and promotes
+    tech for social good.
+  button1:
+    text: Follow our Instagram
+    url: https://instagram.com/stevensblueprint
+  button2:
+    text: See Our Projects
+    url: /projects
+  image:
+    src: /assets/photos/full_eboard2.webp
+    alt: A photo of Blueprint members hard at work
+    className: rounded-2xl w-full md:w-full lg:w-full h-auto md:h-96 lg:h-128 object-cover
+mission:
+  title: Our Mission
+  description: At Blueprint, we strive to make technology accessible and useful for those who create communities and promote public welfare.
+  images:
+    - ../assets/photos/career_night.webp
+    - ../assets/photos/eboard_merch.webp
+    - ../assets/photos/google_event.webp
+    - ../assets/photos/full_eboard1.webp
+    - ../assets/photos/ebm.webp
+    - ../assets/photos/google_event_1.webp
+    - ../assets/photos/cs_carnival.webp
+sponsors:
+  title: Our Sponsors
+  description: We are grateful to our sponsors who provide us with resources and support!
+  button:
+    text: Become a sponsor
+    url: /sponsors
+  logos:
+    - src: ../assets/logos/notion.webp
+      alt: notion
+    - src: ../assets/logos/github.webp
+      alt: github
+    - src: ../assets/logos/perplexity.webp
+      alt: perplexity
+    - src: ../assets/logos/mongoDB_logo.webp
+      alt: mongodb
 values:
   - header: Empowering Communities Through Technology
     icon: ../assets/vector/world_icon.svg

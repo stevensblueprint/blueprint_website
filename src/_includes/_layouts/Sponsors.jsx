@@ -3,6 +3,8 @@ export default ({
   testimonial_inreach,
   testimonial_aad,
   pricing_tiers,
+  hero,
+  sponsorInfo,
 }) => (
   <html>
     <head>
@@ -21,27 +23,20 @@ export default ({
       <div>
         <comp.Navbar />
         <comp.Hero
-          title="Sponsors"
-          description="Whether through sponsorships, recruiting events, or mentorship opportunities, 
-            partnering with us means investing in the next generation of leaders. 
-            Reach out to us today!"
-          button1={{
-            text: "Become A Sponsor",
-            url: "mailto:blueprint@stevens.edu",
-          }}
-          button2={{ text: "See Our Projects", url: "/projects" }}
-          image={{
-            src: "/assets/vector/partnership_handshake.svg",
-            alt: "A graphic showing a handshake between two people",
-          }}
+          title={hero.title}
+          description={hero.description}
+          button1={hero.button1}
+          button2={hero.button2}
+          image={hero.image}
         />
         <h1 className="font-bold text-4xl lg:text-5xl flex flex-col lg:items-center justify-center px-8 pt-16 lg:pt-24 gap-y-6">
-          Support Our Mission
+          {sponsorInfo.supportMissionTitle}
         </h1>
         <comp.Sponsors.SponsorInfo
           testimonial_1={testimonial_aad}
           testimonial_2={testimonial_inreach}
           pricing_tiers={pricing_tiers}
+          sponsorInfo={sponsorInfo}
         />
         <comp.Footer />
       </div>
