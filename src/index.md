@@ -12,6 +12,7 @@ hero:
       url: /students
     - text: Support our mission
       url: /sponsors
+  image: /assets/clip_art/duck.webp
 impact:
   title: Our Impact
   stats:

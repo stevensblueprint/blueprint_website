@@ -8,7 +8,6 @@ export default ({ comp, values, team, alumni, hero, mission, sponsors }) => (
         href="/assets/fonts/BPText-Regular.woff2"
         as="font"
         type="font/woff2"
-        crossOrigin
       />
       <link rel="stylesheet" href="/styles.css" />
       <title>Stevens Blueprint Mission</title>

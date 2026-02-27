@@ -15,7 +15,6 @@ export default ({
         href="/assets/fonts/BPText-Regular.woff2"
         as="font"
         type="font/woff2"
-        crossOrigin
       />
       <link rel="stylesheet" href="/styles.css" />
       <title>Students</title>
