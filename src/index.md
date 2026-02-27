@@ -82,6 +82,7 @@ contactUs:
     - text: Instagram
       url: https://www.instagram.com/stevensblueprint/
       openInNewTab: true
+  image: /assets/clip_art/duck.webp
 about:
   title: About Us
   description: Blueprint strives to make technology accessible and useful for those who create communities and promote public welfare.

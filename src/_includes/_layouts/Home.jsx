@@ -32,7 +32,7 @@ export default ({
       </head>
       <body>
         <comp.Navbar />
-        <comp.Home.Hero hero={hero} />
+        <comp.Home.Hero {...hero} />
         <comp.Home.AboutUs about={about} />
         <comp.Home.Impact impact={impact} />
         <comp.Home.OurProjects ourProjects={ourProjects} />

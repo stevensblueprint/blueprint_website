@@ -1,24 +1,15 @@
-export default function Hero({ comp, hero }) {
+export default function Hero({ comp, title, description, image, buttons }) {
   return (
-    <section className="flex flex-col grow md:min-h-[600px] md:flex-row items-center justify-between bg-primary text-white py-8 px-6 md:p-0 overflow-hidden">
-      <div className="hidden w-full md:flex md:items-center md:justify-start">
-        <img
-          src="../../assets/vector/gear.svg"
-          alt="gear"
-          className="pt-24"
-          loading="lazy"
-          decoding="async"
-        />
-      </div>
-      <div className="flex flex-col w-full lg:items-center justify-center lg:text-center">
-        <h1 className="font-bold w-full text-3xl md:text-4xl lg:text-5xl leading-snug md:leading-[1.3] tracking-wide mb-6 lg:mb-16">
-          {hero.title}
+    <section className="flex flex-col grow md:min-h-[600px] md:flex-row items-center justify-between bg-primary text-white py-8 px-6 md:px-12 lg:px-24 overflow-hidden">
+      <div className="flex flex-col w-full md:w-1/2 items-start justify-center text-left pl-2 md:pl-8 lg:pl-12">
+        <h1 className="font-bold w-full text-4xl md:text-7xl lg:text-8xl leading-snug md:leading-[1.2] tracking-wide mb-3 lg:mb-5">
+          {title}
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-4 md:mb-14">
-          {hero.description}
+          {description}
         </p>
-        <div className="flex flex-col justify-center md:flex-row space-y-4 md:space-y-0 md:space-x-6 w-full">
-          {hero.buttons.map((button, index) => {
+        <div className="flex flex-col justify-start md:flex-row space-y-4 md:space-y-0 md:space-x-6 w-full">
+          {buttons.map((button, index) => {
             return (
               <comp.HeroButton
                 key={index}
@@ -29,12 +20,12 @@ export default function Hero({ comp, hero }) {
           })}
         </div>
       </div>
-      <div className="hidden w-full md:flex md:items-center md:justify-end">
+      <div className="flex w-full md:w-1/2 items-center justify-center md:justify-end mt-8 md:mt-0">
         <img
-          src="../../assets/vector/gear.svg"
-          alt="gear"
-          className="rotate-180 md:pt-72"
-          loading="lazy"
+          src={image}
+          alt="blueprint stevens duck"
+          className="relative z-10 max-w-[300px] md:max-w-full h-auto"
+          fetchpriority="high"
           decoding="async"
         />
       </div>

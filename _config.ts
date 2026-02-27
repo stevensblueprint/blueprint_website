@@ -58,6 +58,7 @@ site
   .copy("assets/vector")
   .copy("assets/fonts")
   .copy("assets/docs")
+  .copy("assets/clip_art")
   .loadAssets([".css", ".js", ".webp", ".gif", ".svg", ".pdf"])
   .ignore("README.md", "CHANGELOG.md", "DOCS.md", "node_modules")
   .use(jsx())
