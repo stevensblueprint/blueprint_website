@@ -16,6 +16,7 @@ hero:
     url: /projects
   image:
     src: /assets/vector/partnership_handshake.svg
+    fetchpriority: high
     alt: A graphic showing a handshake between two people
 sponsorInfo:
   supportMissionTitle: Support Our Mission

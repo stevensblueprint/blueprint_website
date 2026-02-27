@@ -16,6 +16,7 @@ hero:
     url: /projects
   image:
     src: /assets/vector/student_hero.svg
+    fetchpriority: high
     alt: student
 projectTeams:
   title: Project Teams

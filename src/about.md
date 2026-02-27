@@ -17,6 +17,7 @@ hero:
   image:
     src: /assets/photos/full_eboard2.webp
     alt: A photo of Blueprint members hard at work
+    fetchpriority: high
     className: rounded-2xl w-full md:w-full lg:w-full h-auto md:h-96 lg:h-128 object-cover
 mission:
   title: Our Mission

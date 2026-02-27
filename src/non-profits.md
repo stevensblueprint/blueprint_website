@@ -16,6 +16,7 @@ hero:
     url: /projects
   image:
     src: /assets/vector/hands.svg
+    fetchpriority: high
     alt: hands
 contactUs:
   mailToAction: Want to get in touch with us? Email us at

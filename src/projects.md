@@ -16,6 +16,7 @@ hero:
     url: /students
   image:
     src: /assets/clip_art/ProjectHeroIcon.svg
+    fetchpriority: high
     alt: projects-banner-image
 interested:
   title: Project Gallery

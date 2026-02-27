@@ -13,6 +13,7 @@ hero:
     - text: Support our mission
       url: /sponsors
   image: /assets/clip_art/duck.webp
+  imageFetchpriority: high
 impact:
   title: Our Impact
   stats:
