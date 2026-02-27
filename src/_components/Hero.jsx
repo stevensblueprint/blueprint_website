@@ -24,7 +24,7 @@ export default function Hero({
         <img
           src={image.src}
           alt={image.alt}
-          fetchpriority="high"
+          fetchpriority={image.fetchpriority || "auto"}
           decoding="async"
           className={`${image.className ?? ""} drop-shadow-[0_18px_30px_rgba(0,0,0,0.35)]`}
         />

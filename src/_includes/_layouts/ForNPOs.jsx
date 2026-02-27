@@ -4,6 +4,10 @@ export default ({
   testimonial,
   projectCriteria,
   projectTimeline,
+  hero,
+  contactUs,
+  projectCriteriaTitle,
+  projectTimelineTitle,
 }) => (
   <html>
     <head>
@@ -18,26 +22,22 @@ export default ({
     <body>
       <comp.Navbar />
       <comp.Hero
-        title="Non-Profit Organizations"
-        description="We are passionate about leveraging our technical and consulting skills
-          to support your organization’s mission, free of charge! Reach out to see how we can
-          help!"
-        button1={{
-          text: "Email Us",
-          url: "mailto:blueprint@stevens.edu",
-        }}
-        button2={{ text: "See Our Projects", url: "/projects" }}
-        image={{
-          src: "/assets/vector/hands.svg",
-          alt: "hands",
-        }}
+        title={hero.title}
+        description={hero.description}
+        button1={hero.button1}
+        button2={hero.button2}
+        image={hero.image}
       />
-      <comp.ForNPOs.ProjectTimeline projectTimeline={projectTimeline} />
+      <comp.ForNPOs.ProjectTimeline
+        projectTimeline={projectTimeline}
+        title={projectTimelineTitle}
+      />
       <comp.ForNPOs.ProjectCriteria
         projectCriteria={projectCriteria}
         testimonial={testimonial}
+        title={projectCriteriaTitle}
       />
-      <comp.ForNPOs.ContactUs />
+      <comp.ForNPOs.ContactUs contactUs={contactUs} />
       <section className="flex flex-col justify-center mb-16 px-8 lg:px-40">
         <h1 className="text-4xl font-bold py-3">FAQs</h1>
         <div className="w-full flex flex-col">

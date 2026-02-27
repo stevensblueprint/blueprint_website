@@ -2,6 +2,30 @@
 title: Community - Organizations
 layout: _layouts/ForNPOs.jsx
 indexable: true
+hero:
+  title: Non-Profit Organizations
+  description: >
+    We are passionate about leveraging our technical and consulting skills
+    to support your organization’s mission, free of charge! Reach out to see how we can
+    help!
+  button1:
+    text: Email Us
+    url: mailto:blueprint@stevens.edu
+  button2:
+    text: See Our Projects
+    url: /projects
+  image:
+    src: /assets/vector/hands.svg
+    fetchpriority: high
+    alt: hands
+contactUs:
+  mailToAction: Want to get in touch with us? Email us at
+  button:
+    text: Download our proposal template
+    url: ../../assets/docs/NPO_Project_Proposal.pdf
+    download: NPO_Project_Proposal.pdf
+projectCriteriaTitle: What We're Looking For
+projectTimelineTitle: Our Project Timeline
 testimonial:
   text: |
     "Partnering with the Stevens Blueprint team to transform our organization's homesite from WordPress to Next.js was a great experience. Their expertise and dedication resulted in a modern, user-friendly website with a streamlined backend CMS. This upgrade will empower our staff and volunteers to easily manage updates, ensuring our homesite stays relevant and impactful for years to come."

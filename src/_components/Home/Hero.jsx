@@ -1,10 +1,11 @@
-export default function Hero({ comp, title, description, image }) {
-  const heroButtons = [
-    { text: "Work with us", url: "/non-profits" },
-    { text: "Join our team", url: "/students" },
-    { text: "Support our mission", url: "/sponsors" },
-  ];
-
+export default function Hero({
+  comp,
+  title,
+  description,
+  image,
+  buttons,
+  imageFetchpriority,
+}) {
   return (
     <section className="flex flex-col grow md:min-h-[600px] md:flex-row items-center justify-between bg-primary text-white py-8 px-6 md:px-12 lg:px-24 overflow-hidden">
       <div className="flex flex-col w-full md:w-1/2 items-start justify-center text-left pl-2 md:pl-8 lg:pl-12">
@@ -15,7 +16,7 @@ export default function Hero({ comp, title, description, image }) {
           {description}
         </p>
         <div className="flex flex-col justify-start md:flex-row space-y-4 md:space-y-0 md:space-x-6 w-full">
-          {heroButtons.map((button, index) => {
+          {buttons.map((button, index) => {
             return (
               <comp.HeroButton
                 key={index}
@@ -31,7 +32,7 @@ export default function Hero({ comp, title, description, image }) {
           src={image}
           alt="blueprint stevens duck"
           className="relative z-10 max-w-[300px] md:max-w-full h-auto"
-          fetchpriority="high"
+          fetchpriority={imageFetchpriority || "auto"}
           decoding="async"
         />
       </div>

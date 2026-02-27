@@ -1,13 +1,11 @@
-export default function ProjectTimeline({ projectTimeline }) {
+export default function ProjectTimeline({ projectTimeline, title }) {
   return (
     <section
       id="project-timeline"
       className="grow bg-neg text-black px-8 lg:px-40 pt-16 lg:pt-24 pb-8"
     >
       <div className="">
-        <h1 className="text-3xl lg:text-4xl font-bold pb-4 lg:pb-8">
-          Our Project Timeline
-        </h1>
+        <h1 className="text-3xl lg:text-4xl font-bold pb-4 lg:pb-8">{title}</h1>
       </div>
       <div className="grid lg:grid-cols-3 lg:gap-x-24">
         {projectTimeline.map((phase, index) => {

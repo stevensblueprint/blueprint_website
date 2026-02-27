@@ -2,6 +2,25 @@
 title: Stevens Blueprint
 layout: _layouts/Projects.jsx
 indexable: true
+hero:
+  title: Projects
+  description: >
+    All of our work is open source to maintain transparency and accessibility.
+    We believe in the importance of building technology that connects and gives 
+    back to the community.
+  button1:
+    text: View Our Github
+    url: https://github.com/stevensblueprint/
+  button2:
+    text: Work With Us
+    url: /students
+  image:
+    src: /assets/clip_art/ProjectHeroIcon.svg
+    fetchpriority: high
+    alt: projects-banner-image
+interested:
+  title: Project Gallery
+  description: "Interested in collaborating with other peers at Stevens on a project? <br /> Check out our <a href='/students' class='underline'>student opportunities</a>!"
 projects:
   - name_organization: GenXL
     status: In Progress

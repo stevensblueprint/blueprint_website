@@ -2,6 +2,48 @@
 title: Community - Students
 layout: _layouts/ForStudents.jsx
 indexable: true
+hero:
+  title: Student Opportunities
+  description: >
+    We're proud of the diverse membership here at Blueprint. Join us and
+    make an impact with our opportunities in product design, project management, or
+    software development!
+  button1:
+    text: Email Us
+    url: mailto:blueprint@stevens.edu
+  button2:
+    text: See Our Projects
+    url: /projects
+  image:
+    src: /assets/vector/student_hero.svg
+    fetchpriority: high
+    alt: student
+projectTeams:
+  title: Project Teams
+  tag: APPLICATION REQUIRED
+  purpose: Work directly on projects with non-profit organizations (NPOs)!
+  goal: Help deliver requested software solutions to NPOs and contribute to our mission of creating tech for social good!
+  requirements: >
+    Project teams are year long commitments depending on the scope of the project. We are looking for 
+    <span class="font-bold text-maroon">technical leads, project managers, developers, and designers</span> 
+    who can engage and collaborate within this time frame while also meeting deadlines.
+  image:
+    src: ../../assets/vector/project_team_clipart.svg
+    alt: Clipart of three people working on a project
+internalTeams:
+  title: Internal Teams
+  tag: NO APPLICATION
+  image:
+    src: ../../assets/clip_art/internal_teams.svg
+    alt: Internal Teams
+  teams:
+    - title: Tech Team
+      purpose: Apply your coding skills and support internal development projects!
+      goal: Help run Blueprint as an organization while also learning/improving programming skills!
+    - title: Design Team
+      purpose: Support the design process in the tech team and project teams!
+      goal: Help strengthen collaboration between designers and developers while also learning/improving design skills!
+  mailToAction: Have any questions? Email us at
 timelineContent:
   - title: "Written Application"
     description: "Our written application will open in a short and anonymized format where we can get a sense of what brings you to Blueprint!"

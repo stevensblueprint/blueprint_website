@@ -2,6 +2,59 @@
 title: Stevens Blueprint
 layout: _layouts/Sponsors.jsx
 indexable: true
+hero:
+  title: Sponsors
+  description: >
+    Whether through sponsorships, recruiting events, or mentorship opportunities, 
+    partnering with us means investing in the next generation of leaders. 
+    Reach out to us today!
+  button1:
+    text: Become A Sponsor
+    url: mailto:blueprint@stevens.edu
+  button2:
+    text: See Our Projects
+    url: /projects
+  image:
+    src: /assets/vector/partnership_handshake.svg
+    fetchpriority: high
+    alt: A graphic showing a handshake between two people
+sponsorInfo:
+  supportMissionTitle: Support Our Mission
+  supportMissionDescription: >
+    We use free platforms like GitHub, BookStack, and Authelia to manage our
+    operations and development. Your sponsorship can help us expand into
+    various Cloud Services and APIs, enhancing the development experience
+    for our members and non-profit partners.
+  currentSponsorsTitle: We are grateful to our sponsors who provide us with resources and support!
+  logos:
+    - src: ../../assets/logos/notion.webp
+      alt: notion
+    - src: ../../assets/logos/github.webp
+      alt: github
+    - src: ../../assets/logos/perplexity.webp
+      alt: perplexity
+    - src: ../../assets/logos/mongoDB_logo.webp
+      alt: mongodb
+  sponsorBenefitsTitle: Sponsor Benefits
+  sponsorBenefitsList:
+    - item: Recognition on our website and project repositories
+      iconPath: ../../assets/vector/medal.svg
+    - item: Access to our student developers for recruitment
+      iconPath: ../../assets/vector/group.svg
+    - item: Brand visibility at our events and in our community
+      iconPath: ../../assets/vector/globe.svg
+  howUseDonationsTitle: How We'll Use Donations
+  howUseDonationsList:
+    - item: Cloud infrastructure and hosting services for development
+      iconPath: ../../assets/vector/codepen.svg
+    - item: Premium development tools to enhance our capabilities
+      iconPath: ../../assets/vector/code.svg
+    - item: Educational workshops and training for our student developers
+      iconPath: ../../assets/vector/brightness-window.svg
+  pricingTiersTitle: Our Sponsorship Tiers
+  joinUsTitle: Join Us in Making a Difference - Become a Sponsor Today!
+  joinUsEmailText: Email us at blueprint@stevens.edu
+  joinUsEmailLink: mailto:blueprint@stevens.edu
 testimonial_inreach:
   text: |
     "Partnering with the Stevens Blueprint team to transform our organization's homesite from WordPress to Next.js was a great experience. Their expertise and dedication resulted in a modern, user-friendly website with a streamlined backend CMS. This upgrade will empower our staff and volunteers to easily manage updates, ensuring our homesite stays relevant and impactful for years to come."

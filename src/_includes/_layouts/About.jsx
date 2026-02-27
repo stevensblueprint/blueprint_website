@@ -1,4 +1,4 @@
-export default ({ comp, values, team, alumni }) => (
+export default ({ comp, values, team, alumni, hero, mission, sponsors }) => (
   <html>
     <head>
       <comp.GoogleAnalytics />
@@ -8,7 +8,6 @@ export default ({ comp, values, team, alumni }) => (
         href="/assets/fonts/BPText-Regular.woff2"
         as="font"
         type="font/woff2"
-        crossOrigin
       />
       <link rel="stylesheet" href="/styles.css" />
       <title>Stevens Blueprint Mission</title>
@@ -23,25 +22,15 @@ export default ({ comp, values, team, alumni }) => (
       <div>
         <comp.Navbar />
         <comp.Hero
-          title="About Us"
-          description="We are the Stevens Institute of Technology chapter of Blueprint that
-          develops pro-bono software for non-profit organizations and promotes
-          tech for social good."
-          button1={{
-            text: "Follow our Instagram",
-            url: "https://instagram.com/stevensblueprint",
-          }}
-          button2={{ text: "See Our Projects", url: "/projects" }}
-          image={{
-            src: "/assets/photos/full_eboard2.webp",
-            alt: "A photo of Blueprint members hard at work",
-            className:
-              "rounded-2xl w-full md:w-full lg:w-full h-auto md:h-96 lg:h-128 object-cover",
-          }}
+          title={hero.title}
+          description={hero.description}
+          button1={hero.button1}
+          button2={hero.button2}
+          image={hero.image}
         />
-        <comp.About.Mission />
+        <comp.About.Mission mission={mission} />
         <comp.About.Values values={values} />
-        <comp.About.Sponsors />
+        <comp.About.Sponsors sponsors={sponsors} />
         <comp.About.Team team={team} teamName={"Our Team"} />
         <comp.About.Team team={alumni} teamName={"Alumni"} />
         <comp.Footer />
