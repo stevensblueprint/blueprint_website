@@ -1,4 +1,4 @@
-export default ({ comp, projects, hero, interested }) => (
+export default ({ comp, projects, hero, interested, title }) => (
   <html>
     <head>
       <comp.GoogleAnalytics />
@@ -6,7 +6,7 @@ export default ({ comp, projects, hero, interested }) => (
       <meta property="og:title" content="Stevens Blueprint Projects" />
       <meta property="og:url" content="https://sitblueprint.com/projects/" />
       <link rel="stylesheet" href="/styles.css" />
-      <title>Stevens Blueprint</title>
+      <title>{title}</title>
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"

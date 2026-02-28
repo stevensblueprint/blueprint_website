@@ -3,7 +3,7 @@ export default function AboutUs({ comp, about }) {
     <section className="relative">
       <div>
         <img
-          src="../../assets/vector/bulb_art.svg"
+          src="../../assets/vector/hero_section.png"
           alt="about"
           className="w-full"
           loading="lazy"

@@ -1,5 +1,5 @@
 ---
-title: About
+title: About | Blueprint
 layout: _layouts/About.jsx
 indexable: true
 hero:
@@ -28,7 +28,6 @@ mission:
     - ../assets/photos/google_event.webp
     - ../assets/photos/eboard_merch.webp
     - ../assets/photos/google_event_1.webp
-    - ../assets/photos/career_night.webp
 sponsors:
   title: Our Sponsors
   description: We are grateful to our sponsors who provide us with resources and support!

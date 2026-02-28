@@ -1,4 +1,4 @@
-export default ({ comp, alumni, hero }) => (
+export default ({ comp, alumni, hero, title }) => (
   <html lang="en">
     <head>
       <comp.GoogleAnalytics />
@@ -8,9 +8,10 @@ export default ({ comp, alumni, hero }) => (
         href="/assets/fonts/BPText-Regular.woff2"
         as="font"
         type="font/woff2"
+        crossOrigin="anonymous"
       />
       <link rel="stylesheet" href="/styles.css" />
-      <title>Stevens Blueprint Alumni</title>
+      <title>{title}</title>
       <meta property="og:title" content="Alumni" />
       <meta property="og:url" content="https://sitblueprint.com/alumni/" />
       <meta

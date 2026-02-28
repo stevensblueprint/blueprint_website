@@ -1,4 +1,4 @@
-export default ({ comp, featured_post, posts }) => (
+export default ({ comp, featured_post, posts, title }) => (
   <html>
     <head>
       <comp.GoogleAnalytics />
@@ -10,7 +10,7 @@ export default ({ comp, featured_post, posts }) => (
         name="viewport"
         content="width=device-width, initial-scale=1.0"
       ></meta>
-      <title>Stevens Blueprint Blog</title>
+      <title>{title}</title>
     </head>
     <body>
       <comp.Navbar alternate={true} />

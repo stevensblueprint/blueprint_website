@@ -7,7 +7,7 @@ export default function Hero({
   imageFetchpriority,
 }) {
   return (
-    <section className="flex flex-col grow md:min-h-[600px] md:flex-row items-center justify-between bg-primary text-white py-8 px-6 md:px-12 lg:px-24 overflow-hidden">
+    <section className="flex flex-col-reverse grow md:min-h-[600px] md:flex-row items-center justify-between bg-primary text-white py-8 px-6 md:px-12 lg:px-24 overflow-hidden">
       <div className="flex flex-col w-full md:w-1/2 items-start justify-center text-left pl-2 md:pl-8 lg:pl-12">
         <h1 className="font-bold w-full text-4xl md:text-7xl lg:text-8xl leading-snug md:leading-[1.2] tracking-wide mb-3 lg:mb-5">
           {title}

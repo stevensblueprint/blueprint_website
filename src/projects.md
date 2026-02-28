@@ -1,5 +1,5 @@
 ---
-title: Stevens Blueprint
+title: Projects | Blueprint
 layout: _layouts/Projects.jsx
 indexable: true
 hero:

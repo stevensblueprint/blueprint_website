@@ -5,6 +5,7 @@ export default ({
   hero,
   projectTeams,
   internalTeams,
+  title,
 }) => (
   <html>
     <head>
@@ -15,9 +16,10 @@ export default ({
         href="/assets/fonts/BPText-Regular.woff2"
         as="font"
         type="font/woff2"
+        crossOrigin="anonymous"
       />
       <link rel="stylesheet" href="/styles.css" />
-      <title>Students</title>
+      <title>{title}</title>
       <meta property="og:title" content="Students" />
       <meta property="og:url" content="https://sitblueprint.com/students/" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

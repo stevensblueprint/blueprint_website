@@ -1,13 +1,4 @@
-export default ({
-  comp,
-  title,
-  about,
-  hero,
-  impact,
-  ourProjects,
-  getInvolved,
-  contactUs,
-}) => {
+export default ({ comp, title, hero, ourProjects, getInvolved, contactUs }) => {
   return (
     <html>
       <head>
@@ -24,6 +15,7 @@ export default ({
           href="/assets/fonts/BPText-Regular.woff2"
           as="font"
           type="font/woff2"
+          crossOrigin="anonymous"
         />
         <link rel="stylesheet" href="styles.css" />
         <link rel="icon" href="assets/logos/logo.webp" type="image/png"></link>
@@ -32,10 +24,8 @@ export default ({
       <body>
         <comp.Navbar />
         <comp.Home.Hero {...hero} />
-        <comp.Home.AboutUs about={about} />
-        <comp.Home.Impact impact={impact} />
-        <comp.Home.OurProjects ourProjects={ourProjects} />
         <comp.Home.GetInvolved getInvolved={getInvolved} />
+        <comp.Home.OurProjects ourProjects={ourProjects} />
         <comp.Home.ContactUs contactUs={contactUs} />
         <comp.Footer />
       </body>

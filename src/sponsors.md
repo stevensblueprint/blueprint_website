@@ -1,5 +1,5 @@
 ---
-title: Stevens Blueprint
+title: Sponsors | Blueprint
 layout: _layouts/Sponsors.jsx
 indexable: true
 hero:
@@ -21,10 +21,7 @@ hero:
 sponsorInfo:
   supportMissionTitle: Support Our Mission
   supportMissionDescription: >
-    We use free platforms like GitHub, BookStack, and Authelia to manage our
-    operations and development. Your sponsorship can help us expand into
-    various Cloud Services and APIs, enhancing the development experience
-    for our members and non-profit partners.
+    Your sponsorship directly funds our use of cloud services for the hosting and deployment of our non-profit projects. This vital upgrade elevates the scalability of the solutions we build for our partners and gives our developers crucial, hands-on experience managing industry-standard cloud infrastructure.
   currentSponsorsTitle: We are grateful to our sponsors who provide us with resources and support!
   logos:
     - src: ../../assets/logos/notion.webp
@@ -89,7 +86,7 @@ pricing_tiers:
       This premier tier is for organizations looking to maximize brand impact and recruiting opportunities by fully engaging with our community of student builders.
     features:
       - All Marketing and Recruitment Tier benefits
-      - Featured partner status at Blueprint’s annual showcase and major events
+      - Featured partner status our annual showcase and major events
       - Priority branding on all promotional materials
     isHighlighted: true
 ---

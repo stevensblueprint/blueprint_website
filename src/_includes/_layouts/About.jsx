@@ -1,4 +1,13 @@
-export default ({ comp, values, team, alumni, hero, mission, sponsors }) => (
+export default ({
+  comp,
+  values,
+  team,
+  alumni,
+  hero,
+  mission,
+  sponsors,
+  title,
+}) => (
   <html>
     <head>
       <comp.GoogleAnalytics />
@@ -8,9 +17,10 @@ export default ({ comp, values, team, alumni, hero, mission, sponsors }) => (
         href="/assets/fonts/BPText-Regular.woff2"
         as="font"
         type="font/woff2"
+        crossOrigin="anonymous"
       />
       <link rel="stylesheet" href="/styles.css" />
-      <title>Stevens Blueprint Mission</title>
+      <title>{title}</title>
       <meta property="og:title" content="About Us" />
       <meta property="og:url" content="https://sitblueprint.com/about/" />
       <meta

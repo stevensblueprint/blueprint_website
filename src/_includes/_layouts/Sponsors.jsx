@@ -5,13 +5,14 @@ export default ({
   pricing_tiers,
   hero,
   sponsorInfo,
+  title,
 }) => (
   <html>
     <head>
       <comp.GoogleAnalytics />
       <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
-      <title>Sponsors</title>
+      <title>{title}</title>
       <meta property="og:title" content="Sponsors" />
       <meta property="og:url" content="https://sitblueprint.com/sponsors/" />
       <meta

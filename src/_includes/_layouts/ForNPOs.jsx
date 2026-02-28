@@ -8,13 +8,14 @@ export default ({
   contactUs,
   projectCriteriaTitle,
   projectTimelineTitle,
+  title,
 }) => (
   <html>
     <head>
       <comp.GoogleAnalytics />
       <comp.OpenGraphCommon />
       <link rel="stylesheet" href="/styles.css" />
-      <title>For Non-Profits</title>
+      <title>{title}</title>
       <meta property="og:title" content="Non-Profits" />
       <meta property="og:url" content="https://sitblueprint.com/non-profits/" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
