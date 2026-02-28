@@ -1,5 +1,5 @@
 ---
-title: Community - Students
+title: Students | Blueprint
 layout: _layouts/ForStudents.jsx
 indexable: true
 hero:

@@ -1,5 +1,5 @@
 ---
-title: Community - Organizations
+title: Non-Profits | Blueprint
 layout: _layouts/ForNPOs.jsx
 indexable: true
 hero:

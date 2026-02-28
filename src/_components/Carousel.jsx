@@ -1,16 +1,20 @@
 export default function Carousel({ array_of_images }) {
   return (
-    <div className="w-full lg:max-h-[40rem] overflow-y-scroll relative">
-      <div className="flex gap-6 overflow-scroll lg:px-32 px-12 py-4 max-md:px-16 max-sm:flex-col max-sm:px-4">
+    <div className="w-full overflow-y-scroll relative">
+      <div className="flex gap-6 overflow-x-scroll lg:px-32 px-12 py-4 max-md:px-16 max-sm:flex-col max-sm:px-4">
         <div className="absolute top-0 left-0 w-36 h-full bg-gradient-to-l from-transparent to-white max-sm:hidden"></div>
 
         {array_of_images.map((image, i) => {
           return (
             <div
               key={i}
-              className="flex justify-center shrink-0 lg:w-[35rem] w-[55rem] h-auto max-sm:w-full"
+              className="shrink-0 lg:w-[35rem] w-[55rem] max-sm:w-full aspect-[4/3] overflow-hidden rounded-lg"
             >
-              <img className="rounded-lg" src={image} alt="carousel image" />
+              <img
+                className="w-full h-full object-cover object-center"
+                src={image}
+                alt="carousel image"
+              />
             </div>
           );
         })}

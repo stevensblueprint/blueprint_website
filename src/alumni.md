@@ -1,5 +1,5 @@
 ---
-title: Alumni
+title: Alumni | Blueprint
 layout: _layouts/Alumni.jsx
 indexable: true
 hero:

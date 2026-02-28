@@ -144,7 +144,7 @@ export default function Footer() {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-300 lg:my-5" />
           <span className="block text-sm text-gray-300 sm:text-center">
-            © 2025
+            © 2026
             <a href={urls.blueprint} className="hover:underline font-poppins">
               {" "}
               Stevens Blueprint
