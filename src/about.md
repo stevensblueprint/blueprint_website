@@ -15,7 +15,7 @@ hero:
     text: See Our Projects
     url: /projects
   image:
-    src: /assets/photos/full_eboard2.webp
+    src: /assets/photos/full_eboard1.webp
     alt: A photo of Blueprint members hard at work
     fetchpriority: high
     className: rounded-2xl w-full md:w-full lg:w-full h-auto md:h-96 lg:h-128 object-cover
@@ -24,10 +24,10 @@ mission:
   description: At Blueprint, we strive to make technology accessible and useful for those who create communities and promote public welfare.
   images:
     - ../assets/photos/ebm.webp
-    - ../assets/photos/google_event_1.webp
+    - ../assets/photos/grow_present.webp
     - ../assets/photos/google_event.webp
     - ../assets/photos/eboard_merch.webp
-    - ../assets/photos/full_eboard1.webp
+    - ../assets/photos/google_event_1.webp
     - ../assets/photos/career_night.webp
 sponsors:
   title: Our Sponsors
