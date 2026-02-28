@@ -86,7 +86,7 @@ pricing_tiers:
       This premier tier is for organizations looking to maximize brand impact and recruiting opportunities by fully engaging with our community of student builders.
     features:
       - All Marketing and Recruitment Tier benefits
-      - Featured partner status our annual showcase and major events
+      - Featured partner status at our annual showcase and major events
       - Priority branding on all promotional materials
     isHighlighted: true
 ---
