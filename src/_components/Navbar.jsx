@@ -10,10 +10,12 @@ const navigationLinks = [
 const logoNegative = "/assets/logos/logo_banner_negative.webp";
 const logoPrimary = "/assets/logos/logo_banner.webp";
 
-export default function NavigationBar({ alternate }) {
+export default function NavigationBar({ alternate, transparent }) {
   return (
     <nav
-      className={`relative flex items-center justify-between px-6 py-2 lg:p-10 bg-primary z-50 border-b ${alternate ? "bg-white border-primary" : "bg-primary border-white"}`}
+      className={`relative flex items-center justify-between px-6 py-2 lg:px-10 lg:py-4 z-50 ${
+        transparent ? "bg-transparent" : alternate ? "bg-white" : "bg-primary"
+      }`}
     >
       <a href="/">
         <img
