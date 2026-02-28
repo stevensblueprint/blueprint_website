@@ -16,8 +16,12 @@ export default function Hero({
           {description}
         </p>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
-          <comp.HeroButton text={button1.text} redirect_url={button1.url} />
-          <comp.HeroButton text={button2.text} redirect_url={button2.url} />
+          {button1 && (
+            <comp.HeroButton text={button1.text} redirect_url={button1.url} />
+          )}
+          {button2 && (
+            <comp.HeroButton text={button2.text} redirect_url={button2.url} />
+          )}
         </div>
       </div>
       <div className="flex sm:w-full lg:w-3/4 justify-center p-2 sm:p-16 pr-4 md:pr-8 lg:pr-12 lg:max-w-[600px] lg:max-h-[550px] mb-8">

@@ -15,10 +15,18 @@ tools: |
 members:
   - name: Christian Apostol
     role: Technical Lead
+    image_url: "../../assets/eboard/fa24-sp25/christian_apostol.webp"
+    linkedin: https://www.linkedin.com/in/capostol/
   - name: Brandon Yen
     role: Developer
+    image_url: "../../assets/eboard/fa25-sp26/brandon_yen.webp"
+    linkedin: https://www.linkedin.com/in/brandonyen2026/
   - name: Ananya Shrivastava
     role: Developer
+    image_url: "../../assets/eboard/fa25-sp26/ananya_shrivastava.webp"
+    linkedin: https://www.linkedin.com/in/anshri/
   - name: Avanish Arif
     role: Designer
+    image_url: ""
+    linkedin: https://www.linkedin.com/in/avanish-arif/
 ---

@@ -15,10 +15,18 @@ tools: |
 members:
   - name: Miguel Merlin
     role: Technical Lead
+    image_url: "../../assets/eboard/fa25-sp26/miguel_merlin.webp"
+    linkedin: https://www.linkedin.com/in/miguel-angel-merlin-arriola/
   - name: Owen Truong
     role: Developer
+    image_url: "../../assets/members/alumni/owen_truong.webp"
+    linkedin: https://www.linkedin.com/in/owen-truong/
   - name: Joshua Gorman
     role: Developer
+    image_url: "../../assets/members/alumni/joshua_gorman.webp"
+    linkedin: https://www.linkedin.com/in/joshua-gorman/
   - name: Jonathan Memoli
     role: Developer
+    image_url: "../../assets/members/alumni/jonathan_memoli.webp"
+    linkedin: https://www.linkedin.com/in/jonathan-m-memoli/
 ---

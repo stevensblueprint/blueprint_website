@@ -15,16 +15,30 @@ tools: |
 members:
   - name: Justin Ferber
     role: Technical Lead
+    image_url: "../../assets/eboard/fa24-sp25/vp_projects.webp"
+    linkedin: https://www.linkedin.com/in/j-ferber/
   - name: Lucas Ha
     role: Product Manager
+    image_url: "../../assets/eboard/fa25-sp26/lucas_ha.webp"
+    linkedin: https://www.linkedin.com/in/lucas-ha/
   - name: Sahana Ali
     role: Designer
+    image_url: "../../assets/eboard/fa25-sp26/sahana_ali.webp"
+    linkedin: https://www.linkedin.com/in/sahanaali/
   - name: Shawn Aviles
     role: Developer
+    image_url: "../../assets/eboard/fa24-sp25/alumni_chair.webp"
+    linkedin: https://www.linkedin.com/in/shawn-aviles/
   - name: Miguel Merlin
     role: Developer
+    image_url: "../../assets/eboard/fa25-sp26/miguel_merlin.webp"
+    linkedin: https://www.linkedin.com/in/miguel-angel-merlin-arriola/
   - name: Johan Nguyen
     role: Developer
+    image_url: "../../assets/members/alumni/johan_nguyen.webp"
+    linkedin: https://www.linkedin.com/in/johan-nguyen-seven/
   - name: Sneha Banda
     role: Developer
+    image_url: "../../assets/members/alumni/sneha_banda.webp"
+    linkedin: https://www.linkedin.com/in/sneha-banda-301393218/
 ---

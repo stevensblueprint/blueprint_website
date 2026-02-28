@@ -15,18 +15,34 @@ tools: |
 members:
   - name: Zidanni Clerigo
     role: Technical Lead
+    image_url: "../../assets/members/tech_lead/zidanni_clerigo.webp"
+    linkedin: https://www.linkedin.com/in/zidanni-clerigo/
   - name: Jessica Militello
     role: Product Manager
+    image_url: "../../assets/members/pm/jessica_millitello.webp"
+    linkedin: https://www.linkedin.com/in/jessicamilitello/
   - name: Sabrina Trestin
     role: Product Manager
+    image_url: ""
+    linkedin: https://www.linkedin.com/in/sabrina-trestin-765942247/
   - name: Samantha Cardo
     role: Designer
+    image_url: "../../assets/members/designer/samantha_cardo.webp"
+    linkedin: https://www.linkedin.com/in/samantha-cardo/
   - name: Ethan Jinks
     role: Developer
+    image_url: "../../assets/members/developer/ethan_jinks.webp"
+    linkedin: https://www.linkedin.com/in/ethan-jinks/
   - name: Nikunj Patel
     role: Developer
+    image_url: "../../assets/members/developer/nikunj_patel.webp"
+    linkedin: https://www.linkedin.com/in/nikunjpatel5136/
   - name: Ioannis Magkaniotis
     role: Developer
+    image_url: "../../assets/members/developer/iaonnis_magkaniotis.webp"
+    linkedin: https://www.linkedin.com/in/ioannismagkaniotis/
   - name: Shubham Bhayana
     role: Developer
+    image_url: "../../assets/members/developer/shubham_bhayana.webp"
+    linkedin: https://www.linkedin.com/in/shubham-bhayana/
 ---

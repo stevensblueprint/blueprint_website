@@ -15,16 +15,30 @@ tools: |
 members:
   - name: Alexis Emerson
     role: Technical Lead
+    image_url: "../../assets/members/tech_lead/alexis_emerson.webp"
+    linkedin: https://www.linkedin.com/in/alexis-emerson-a87216353
   - name: Ananya Iyer
     role: Product Manager
+    image_url: "../../assets/members/pm/ananya_iyer.webp"
+    linkedin: https://www.linkedin.com/in/ananya-iyer-612361234/
   - name: Maya Patel
     role: Designer
+    image_url: "../../assets/members/designer/maya_patel.webp"
+    linkedin: https://www.linkedin.com/in/maya-patel-81462b259/
   - name: Owen Ungaro
     role: Developer
+    image_url: "../../assets/members/developer/owen_ungaro.webp"
+    linkedin: https://www.linkedin.com/in/owen-ungaro/
   - name: Sofia Martinez
     role: Developer
+    image_url: "../../assets/members/developer/sofia_martinez.webp"
+    linkedin: https://www.linkedin.com/in/sofia-m12/
   - name: Daniel Llonch
     role: Developer
+    image_url: "../../assets/members/developer/daniel_llonch.webp"
+    linkedin: https://www.linkedin.com/in/daniel-llonch/
   - name: Shiven Pandya
     role: Developer
+    image_url: "../../assets/members/developer/shiven_pandya.webp"
+    linkedin: https://www.linkedin.com/in/shivenpandya06/
 ---

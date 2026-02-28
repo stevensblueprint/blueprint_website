@@ -16,14 +16,26 @@ tools: |
 members:
   - name: Christian Apostol
     role: Co-Technical Lead
+    image_url: "../../assets/eboard/fa24-sp25/christian_apostol.webp"
+    linkedin: https://www.linkedin.com/in/capostol/
   - name: Johan Nguyen
     role: Co-Technical Lead
-  - name: Eliyah Sarowar
+    image_url: "../../assets/members/alumni/johan_nguyen.webp"
+    linkedin: https://www.linkedin.com/in/johan-nguyen-seven/
+  - name: Eiliyah Sarowar
     role: Designer
+    image_url: "../../assets/members/alumni/eiliyah_sarowar.webp"
+    linkedin: https://www.linkedin.com/in/eiliyah/
   - name: Alexis Emerson
     role: Developer
+    image_url: "../../assets/members/tech_lead/alexis_emerson.webp"
+    linkedin: https://www.linkedin.com/in/alexis-emerson-a87216353
   - name: Zidanni Clerigo
     role: Developer
+    image_url: "../../assets/members/tech_lead/zidanni_clerigo.webp"
+    linkedin: https://www.linkedin.com/in/zidanni-clerigo/
   - name: Ananya Shrivastava
     role: Developer
+    image_url: "../../assets/eboard/fa25-sp26/ananya_shrivastava.webp"
+    linkedin: https://www.linkedin.com/in/anshri/
 ---

@@ -6,7 +6,7 @@ export default function Team({ comp, team, teamName }) {
           <strong>{teamName}</strong>
         </h1>
         <div className="flex flex-wrap gap-x-6 my-8 px-4 lg:px-24 lg:max-w-7xl justify-center">
-          {team.map((member, index) => (
+          {team?.map((member, index) => (
             <comp.MemberCard
               key={index}
               name={member.name}
