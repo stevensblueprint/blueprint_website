@@ -50,7 +50,7 @@ projects:
     redirect_url: /projects/nj-appleseed
     project_tag: Community Resources
     year: 2025
-  - name_organization: Asian American Dream"
+  - name_organization: Asian American Dream
     status: Completed
     image_url: "../assets/logos/aad_logo.webp"
     description: We automated the matching process for AAD’s KIN Mentorship Program, replacing a 48-hour manual workflow with an efficient Gale-Shapley algorithm. Our solution improves mentor-mentee pairings and includes a directory where participants can browse profiles, fostering stronger connections within the AAPI professional network.

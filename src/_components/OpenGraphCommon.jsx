@@ -3,6 +3,7 @@ import GoogleAnalytics from "./GoogleAnalytics.jsx";
 export default function OpenGraphCommon() {
   return (
     <head>
+      <meta charset="UTF-8" />
       <GoogleAnalytics />
       <meta property="og:type" content="website" />
       <meta
