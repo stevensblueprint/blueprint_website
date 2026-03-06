@@ -12,6 +12,7 @@ export default ({
 }) => (
   <html>
     <head>
+      <meta charset="UTF-8" />
       <comp.GoogleAnalytics />
       <link rel="stylesheet" href="/styles.css" />
       <title>{npoName}</title>

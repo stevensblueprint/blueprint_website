@@ -3,6 +3,7 @@ export default ({ comp, headline, description }) => {
   return (
     <html>
       <head>
+        <meta charset="UTF-8" />
         <comp.GoogleAnalytics />
         <link rel="stylesheet" href="/styles.css" />
         <title>Stevens Blueprint</title>
