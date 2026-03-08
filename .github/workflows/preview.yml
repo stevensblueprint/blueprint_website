@@ -2,6 +2,8 @@ name: preview
 on:
   pull_request:
     types: [opened, reopened, synchronize, closed]
+    paths:
+      - "src/**"
 
 permissions:
   id-token: write
@@ -55,35 +57,28 @@ jobs:
           role-to-assume: arn:aws:iam::${{ env.AWS_ACCOUNT_ID }}:role/github-deployer-blueprint_website
           role-session-name: gh-deploy-static
 
-      - name: Release slot (on PR close)
-        if: github.event.action == 'closed'
-        env:
-          REPO: ${{ github.repository }}
-          PR: ${{ github.event.pull_request.number }}
-          RELEASE_URL: ${{ secrets.PREVIEW_RELEASE_ENDPOINT }}
-        run: |
-          set -euo pipefail
-          curl -fSs -X POST "$RELEASE_URL" \
-            -H "content-type: application/json" \
-            -d "{\"repo\":\"$REPO\",\"prNumber\":$PR}"
-
-      - name: Claim preview slot
-        if: github.event.action != 'closed'
+      - name: Claim or release slot
         env:
           REPO: ${{ github.repository }}
           PR: ${{ github.event.pull_request.number }}
           SHA: ${{ github.sha }}
           CLAIM_URL: ${{ secrets.PREVIEW_CLAIM_ENDPOINT }}
+          RELEASE_URL: ${{ secrets.PREVIEW_RELEASE_ENDPOINT }}
         run: |
           set -euo pipefail
+          if [ "${{ github.event.action }}" = "closed" ]; then
+            curl -fSs -X POST "$RELEASE_URL" \
+              -H "content-type: application/json" \
+              -d "{\"repo\":\"$REPO\",\"prNumber\":$PR}"
+            exit 0
+          fi
 
-          # -f makes curl fail non-2xx; -S prints errors; -s keeps it quiet otherwise
           curl -fSs -X POST "$CLAIM_URL" \
             -H "content-type: application/json" \
             -d "{\"repo\":\"$REPO\",\"prNumber\":$PR,\"commitSha\":\"$SHA\"}" \
             -o preview-slot.json
 
-          echo "Claim response saved to preview-slot.json"
+          echo "Claim response:"
           cat preview-slot.json
 
       - name: Parse preview slot response
@@ -92,12 +87,15 @@ jobs:
         run: |
           set -euo pipefail
           BUCKET="$(jq -er '.bucketName' preview-slot.json)"
+          DIST_ID="$(jq -r '.distributionId // empty' preview-slot.json)"
           URL="$(jq -er '.previewUrl' preview-slot.json)"
 
           echo "bucket=$BUCKET" >> "$GITHUB_OUTPUT"
+          echo "dist_id=$DIST_ID" >> "$GITHUB_OUTPUT"
           echo "url=$URL" >> "$GITHUB_OUTPUT"
 
           echo "Bucket: $BUCKET"
+          echo "Distribution ID: $DIST_ID"
           echo "URL: $URL"
 
       - name: Deploy to S3
@@ -107,6 +105,14 @@ jobs:
         run: |
           set -euo pipefail
           aws s3 sync ./output "s3://$BUCKET" --delete
+
+      - name: Invalidate CloudFront
+        if: github.event.action != 'closed' && steps.slot.outputs.dist_id != ''
+        env:
+          DIST_ID: ${{ steps.slot.outputs.dist_id }}
+        run: |
+          set -euo pipefail
+          aws cloudfront create-invalidation --distribution-id "$DIST_ID" --paths "/*"
       - name: Comment preview URL on PR
         if: github.event.action != 'closed'
         uses: actions/github-script@v7
