@@ -76,7 +76,7 @@ contactUs:
   description: Feel free to reach out to us via...
   buttons:
     - text: Email
-      url: mailto:blueprint@stevens.edu
+      url: mailto:hello@sitblueprint.com
       openInNewTab: false
     - text: LinkedIn
       url: https://www.linkedin.com/company/stevens-blueprint/

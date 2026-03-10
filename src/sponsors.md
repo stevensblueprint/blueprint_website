@@ -10,7 +10,7 @@ hero:
     Reach out to us today!
   button1:
     text: Become A Sponsor
-    url: mailto:blueprint@stevens.edu
+    url: mailto:sponsor@sitblueprint.com
   button2:
     text: See Our Projects
     url: /projects
@@ -50,8 +50,8 @@ sponsorInfo:
       iconPath: ../../assets/vector/brightness-window.svg
   pricingTiersTitle: Our Sponsorship Tiers
   joinUsTitle: Join Us in Making a Difference - Become a Sponsor Today!
-  joinUsEmailText: Email us at blueprint@stevens.edu
-  joinUsEmailLink: mailto:blueprint@stevens.edu
+  joinUsEmailText: Email us at sponsor@sitblueprint.com
+  joinUsEmailLink: mailto:sponsor@sitblueprint.com
 testimonial_inreach:
   text: |
     "Partnering with the Stevens Blueprint team to transform our organization's homesite from WordPress to Next.js was a great experience. Their expertise and dedication resulted in a modern, user-friendly website with a streamlined backend CMS. This upgrade will empower our staff and volunteers to easily manage updates, ensuring our homesite stays relevant and impactful for years to come."
