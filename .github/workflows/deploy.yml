@@ -75,15 +75,16 @@ jobs:
 
       - name: Cache build output
         if: github.event.action != 'closed'
+        id: build-cache
         uses: actions/cache@v4
         with:
           path: ${{ env.BUILD_DIR }}
-          key: ${{ runner.os }}-build-${{ github.sha }}
+          key: ${{ runner.os }}-build-${{ hashFiles('src/**') }}
           restore-keys: |
             ${{ runner.os }}-build-
 
       - name: Build site (Deno)
-        if: github.event.action != 'closed'
+        if: github.event.action != 'closed' && steps.build-cache.outputs.cache-hit != 'true' # ← skip if cached
         run: deno task build
       - name: Configure AWS credentials (OIDC)
         uses: aws-actions/configure-aws-credentials@v4
