@@ -10,7 +10,7 @@ hero:
     help!
   button1:
     text: Email Us
-    url: mailto:blueprint@stevens.edu
+    url: mailto:npo@sitblueprint.com
   button2:
     text: See Our Projects
     url: /projects

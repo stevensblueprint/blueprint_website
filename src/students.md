@@ -10,7 +10,7 @@ hero:
     software development!
   button1:
     text: Email Us
-    url: mailto:blueprint@stevens.edu
+    url: mailto:hello@sitblueprint.com
   button2:
     text: See Our Projects
     url: /projects
@@ -77,7 +77,7 @@ faqs:
       Project team applications occur during the Spring Semester and typically span the whole month of March. Students who complete the application process and are selected will join projects starting in the following Fall Semester.
   - question: "How do I join the Tech or Design Team?"
     answer: |
-      Reach out to blueprint@stevens.edu and we’ll get back to you so you can join the Discord server! The Tech and Design Team are open year-round, and the goal of these teams is to allow students to learn at their own pace while contributing to Blueprint.
+      Reach out to hello@sitblueprint.com and we’ll get back to you so you can join the Discord server! The Tech and Design Team are open year-round, and the goal of these teams is to allow students to learn at their own pace while contributing to Blueprint.
   - question: "Can I join project teams as a freshman?"
     answer: |
       Since the applications for project teams occur in the Spring, freshmen are typically unable to join their first year. **However,** there are often a couple of members who drop from the project teams, and if you are active on the Internal Teams and express an interest to join, we may reach out to help fill the gaps!
