@@ -12,6 +12,62 @@ hero:
     fetchpriority: high
     className: rounded-2xl w-full md:w-full lg:w-full h-auto md:h-96 lg:h-128 object-cover
 alumni:
+  - name: Miguel Merlin
+    role: President
+    image_url: "../assets/eboard/fa25-sp26/miguel_merlin.webp"
+    linkedin: https://www.linkedin.com/in/miguel-angel-merlin-arriola/
+  - name: Brandon Yen
+    role: VP Projects
+    image_url: "../assets/eboard/fa25-sp26/brandon_yen.webp"
+    linkedin: https://www.linkedin.com/in/brandonyen2026/
+  - name: Ivan Farfan Diaz
+    role: VP Design
+    image_url: "../assets/eboard/fa25-sp26/ivan_diaz.webp"
+    linkedin: https://www.linkedin.com/in/ifdiaz/
+  - name: Lucas Ha
+    role: VP Operations
+    image_url: "../assets/eboard/fa25-sp26/lucas_ha.webp"
+    linkedin: https://www.linkedin.com/in/lucas-ha/
+  - name: Dominic Magats
+    role: VP Technology
+    image_url: "../assets/eboard/fa25-sp26/dominic_magats.webp"
+    linkedin: https://www.linkedin.com/in/dominic-magats-6bb914230/
+  - name: Harris Hamid
+    role: VP Recruitment
+    image_url: "../assets/eboard/fa25-sp26/harris_hamid.webp"
+    linkedin: https://www.linkedin.com/in/hhamid26/
+  - name: Ananya Shrivastava
+    role: VP Marketing
+    image_url: "../assets/eboard/fa25-sp26/ananya_shrivastava.webp"
+    linkedin: https://www.linkedin.com/in/anshri/
+  - name: Sutej Upadhyaya
+    role: VP Events
+    image_url: "../assets/eboard/fa25-sp26/sutej_upadhyaya.webp"
+    linkedin: https://www.linkedin.com/in/sutej-upadhyaya-525843278/
+  - name: Zidanni Clerigo
+    role: Technical Lead
+    image_url: "../assets/members/tech_lead/zidanni_clerigo.webp"
+    linkedin: https://www.linkedin.com/in/zidanni-clerigo/
+  - name: Audrey Yoo
+    role: Senior Designer
+    image_url: "../assets/eboard/fa25-sp26/audrey_yoo.webp"
+    linkedin: https://www.linkedin.com/in/audrey-june-yoo/
+  - name: Ethan Jinks
+    role: Developer
+    image_url: "../assets/members/developer/ethan_jinks.webp"
+    linkedin: https://www.linkedin.com/in/ethan-jinks/
+  - name: Ioannis Magkaniotis
+    role: Developer
+    image_url: "../assets/members/developer/iaonnis_magkaniotis.webp"
+    linkedin: https://www.linkedin.com/in/ioannismagkaniotis/
+  - name: Shubham Bhayana
+    role: Developer
+    image_url: "../assets/members/developer/shubham_bhayana.webp"
+    linkedin: https://www.linkedin.com/in/shubham-bhayana/
+  - name: Owen Ungaro
+    role: Developer
+    image_url: "../assets/members/developer/owen_ungaro.webp"
+    linkedin: https://www.linkedin.com/in/owen-ungaro/
   - name: Christian Apostol
     role: President
     image_url: "../assets/eboard/fa24-sp25/christian_apostol.webp"
